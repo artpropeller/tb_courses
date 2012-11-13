@@ -132,7 +132,7 @@ $(function () {
 
 
         checkSelect();
-
+        tooltip();
         return false;
     });
 
@@ -150,6 +150,7 @@ $(function () {
             $('.all-mail').removeClass('active');
         }
         showcor();
+        tooltip();
         return false;
     });
 
@@ -176,6 +177,7 @@ $(function () {
         }
         showcor();
         rpAddNew();
+        tooltip();
         return false;
     });
 
@@ -191,6 +193,7 @@ $(function () {
         $('#course_assign .users .scroll').jScrollPane();
         showcor();
         rpAddNew();
+        tooltip();
         return false;
     });
 
@@ -205,6 +208,7 @@ $(function () {
         $('#course_assign .users .scroll').jScrollPane();
         showcor();
         checkSelect();
+        tooltip();
         return false;
     });
 
@@ -446,8 +450,8 @@ $(function () {
     $(".select-group-list .edit-label").live("focusout", function () {
         var parent = $(this).parent();
         setTimeout(function () {
-            parent.parents('li').find('.del').hide();
-        }, 150);
+            parent.parents('li').find('.del').fadeOut(150);
+        }, 50);
         parent.parents('li').removeClass('active');
 
         if ($(this).val() != "") {
@@ -560,4 +564,37 @@ function checkSelect() {
         }
     });
 }
+
+
+this.tooltip = function(){
+    /* CONFIG */
+    xOffset = -23;
+    yOffset = 13;
+    // these 2 variable determine popup's distance from the cursor
+    // you might want to adjust to get the right result
+    /* END CONFIG */
+    $(".tooltip").hover(function(e){
+            this.t = $(this).text();
+            $("body").append("<p id='tooltip'>"+ this.t +"</p>");
+            $("#tooltip")
+                .css("top",(e.pageY - xOffset) + "px")
+                .css("left",(e.pageX + yOffset) + "px")
+                .fadeIn("fast");
+        },
+        function(){
+            $("#tooltip").remove();
+        });
+    $(".tooltip").mousemove(function(e){
+        $("#tooltip")
+            .css("top",(e.pageY - xOffset) + "px")
+            .css("left",(e.pageX + yOffset) + "px");
+    });
+};
+
+
+
+// starting the script on page load
+$(document).ready(function(){
+    tooltip();
+});
 
