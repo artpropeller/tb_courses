@@ -409,29 +409,37 @@
     height: 360px;
 }
 
-.parameters h3 {
+#course_assign .parameters.as h3 {
     font-size: 16px;
     font-weight: bold;
     padding-bottom: 17px;
+    background: none;
 }
 
-.parameters {
-    width: 360px;
+#course_assign .parameters.as {
+    width: 425px;
     float: left;
-    height: 447px;
+    height: 265px;
+    background: none;
+    color: #000;
+    font-size: 14px;
+    margin-left: 15px;
+
 }
 
-.parameters li {
+#course_assign .parameters.as li {
     background: url("images/bg/dashed.png") repeat-x top;
-    padding: 15px 0;
+    padding: 10px 0;
     margin: 0;
-    font-size: 16px;
+    font-size: 14px;
     color: #000;
     overflow: auto;
     position: relative;
+    font-family: 'arial', sans-serif;
+
 }
 
-.parameters a.faq {
+#course_assign .parameters.as a.faq {
     width: 17px;
     height: 17px;
     background: url("images/ico_faq.png");
@@ -441,11 +449,11 @@
     top: 0;
 }
 
-.parameters li a.faq {
-    top: 17px;
+#course_assign .parameters.as li a.faq {
+    top: 12px;
 }
 
-.parameters .radio {
+#course_assign .parameters.as .radio {
     float: left;
     width: auto;
     height: auto;
@@ -455,8 +463,8 @@
     display: block;
 }
 
-.parameters label {
-    font-size: 16px;
+#course_assign .parameters.as label {
+    font-size: 14px;
     color: #000;
     cursor: pointer;
     float: left;
@@ -464,48 +472,74 @@
     margin: 0 45px 0 0;
     display: block;
     line-height: 20px;
+    width: auto;
+    text-align: left;
+    font-family: 'arial', sans-serif;
 }
 
-.parameters ul {
+#course_assign .parameters.as ul {
     background: url("images/bg/dashed.png") repeat-x bottom;
 }
 
-.parameters .radio label {
+#course_assign .parameters.as .radio label {
     background: url("images/radio.jpg") no-repeat 0 3px;
 }
 
-.parameters .radio label.active {
+#course_assign .parameters.as .radio label.active {
     background: url("images/radio_active.jpg") no-repeat 0 3px;
 }
 
-.parameters .radio input, .parameters .option input {
+#course_assign .parameters.as .radio input, #course_assign .parameters.as .option input {
     visibility: hidden;
     background: none;
+    position: absolute;
+    right: 0;
 }
 
-.parameters .option {
-    overflow: auto;
+#course_assign .parameters.as .option {
+    overflow: visible;
+
 }
 
-.parameters .option label {
+#course_assign  .parameters.post.as .option{
+    color: #686868;
+    font-size: 13px;
+}
+
+#course_assign  .parameters.post.as .option label{
+    color: #686868;
+    font-size: 13px;
+}
+
+#course_assign .parameters.as .option label {
     background: url("images/checkbox_par.jpg") no-repeat 0 3px;
+    margin-right: 5px;
+
 }
 
-.parameters .option label.active {
+#course_assign .parameters.as .sbHolder{
+    margin-right: 5px;
+}
+
+#course_assign .parameters.as .option label.active {
     background: url("images/checkbox_par_active.jpg") no-repeat 0 3px;
 }
 
 #date-deadline, #time-deadline {
     overflow: auto;
-    padding-left: 25px;
+    padding-left: 0;
     display: none;
-    margin-top: 8px;
+    margin-top: -5px;
+    margin-bottom: -6px;
+    position: relative;
+    float: left;
+    margin-left: 15px;
 }
 
 #date-deadline input, #time-deadline input {
     background: #fff;
     border: 1px solid #bcbcbc;
-    padding: 10px 10px 9px;
+    padding: 6px 10px 6px;
     width: 70px;
     text-align: center;
     display: block;
@@ -516,7 +550,7 @@
 
 #date-deadline input.small, #time-deadline input.small {
     width: 16px;
-    padding: 10px 7px 9px;
+    padding: 6px 7px 6px;
 }
 
 #date-deadline a.calendar {
@@ -525,13 +559,13 @@
     background: url("images/ico_calendar.jpg") no-repeat;
     width: 31px;
     height: 31px;
-    margin: 3px 24px 0 9px;
+    margin: 0 18px 0 8px;
     opacity: 0.6;
 }
 
 #date-deadline span, #time-deadline span {
     display: block;
-    margin: 10px 6px 0;
+    margin: 4px 6px 0;
     font-size: 16px;
     color: #000;
     float: left;
@@ -541,17 +575,22 @@
     opacity: 1;
 }
 
-.parameters.post {
-    width: 450px;
-    margin-left: 50px;
+#course_assign .parameters.post.as {
+    width: 425px;
+    margin-left: 35px;
     position: relative;
+    height: 400px;
+}
+
+#course_assign .parameters.post.as li{
+    overflow: visible;
 }
 
 .parameters li .edit-letter {
     position: absolute;
     right: 0;
     display: none;
-    top: 15px;
+    top: 10px;
     padding-right: 15px;
     background: url("images/drop-edit.jpg") no-repeat right;
 }
@@ -580,7 +619,8 @@
 }
 
 .parameters .letter .text p {
-    margin-bottom: 13px;
+    margin-bottom: 10px;
+    line-height: 14px;
 }
 
 .parameters .letter textarea {
@@ -592,6 +632,12 @@
     overflow: hidden;
     resize: none;
 }
+
+.parameters.as .letter textarea{
+    width: 383px;
+}
+
+
 
 .parameters li .subletter {
     background: #f9f9f9;
@@ -678,17 +724,17 @@
     border-top: none;
 }
 
-.parameters .parameters .sbOptions {
+#course_assign .parameters.as .sbOptions {
     background: #e2e2e2;
 }
 
-.parameters .sbOptions li {
+#course_assign .parameters.as .sbOptions li {
     background: #e2e2e2;
     padding: 3px 5px 0 10px;
     font-size: 12px;
 }
 
-.parameters .sbOptions li a {
+#course_assign .parameters.as .sbOptions li a {
     color: #000;
 }
 
@@ -724,12 +770,13 @@
 
 .parameters .action a.save {
     background: url("images/save_button_bg.jpg") repeat-x top;
-    height: 14px;
-    line-height: 13px;
-    font-size: 12px;
-    padding: 4px 15px;
+    height: 10px;
+    line-height: 11px;
+    font-size: 11px;
+    padding: 5px 9px;
     border: 1px solid #b7b7b7;
     box-shadow: 0 1px 1px #bcbcbc;
+    font-weight: bold;
 }
 
 .table-add a.save {
@@ -753,7 +800,7 @@
     float: left;
     color: #0e67d2;
     display: block;
-    margin-top: 30px;
+    margin-top: 10px;
     font-size: 13px;
     line-height: 13px;
 }
@@ -2464,4 +2511,39 @@
 
 #course_assign .users h3.oth{
     border: 0;
+}
+
+#course_assign .users.as{
+    width: 315px;
+}
+
+#course_assign .users.as h3{
+    border:0;
+}
+
+#course_assign .groups.as{
+    height: 330px;
+}
+
+#course_assign .groups.as .group-menu .scroll{
+    height: 310px;
+    width: 317px;
+}
+
+#course_assign .users.as .scroll{
+    height: 280px;
+    width: 317px;
+}
+
+.send.as{
+    float: left;
+}
+
+#get_link.as{
+    padding: 93px 0;
+}
+#get_link.as p{
+    background: url("images/bg/dashed.png") repeat-x bottom;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
