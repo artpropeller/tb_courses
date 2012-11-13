@@ -1509,7 +1509,7 @@
     right: 10px;
     border: none;
     display: none;
-    z-index: 1;
+    z-index: 99999999;
 }
 
 .table-add .select-group label {

@@ -450,8 +450,8 @@ $(function () {
     $(".select-group-list .edit-label").live("focusout", function () {
         var parent = $(this).parent();
         setTimeout(function () {
-            parent.parents('li').find('.del').hide();
-        }, 150);
+            parent.parents('li').find('.del').fadeOut(150);
+        }, 50);
         parent.parents('li').removeClass('active');
 
         if ($(this).val() != "") {
