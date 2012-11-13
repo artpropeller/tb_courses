@@ -1,0 +1,50 @@
+body{
+    background: #fff;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.bug{
+    display: block;
+    width: 38px;
+    height: 34px;
+    background: url("images/bugbutton_sprite.png") no-repeat 0 top;
+    margin-bottom: 30px;
+}
+.bug:hover{
+    background: url("images/bugbutton_sprite.png") no-repeat 0 -71px;
+}
+
+.bug:active{
+    background: url("images/bugbutton_sprite.png") no-repeat 0 -142px;
+}
+
+.big_bug{
+    display: block;
+    width: 210px;
+    height: 34px;
+    background: url("images/bugbutton_sprite.png") no-repeat 0 top;
+    margin-bottom: 30px;
+}
+.big_bug:hover{
+    background: url("images/bugbutton_sprite.png") no-repeat 0 -71px;
+}
+
+.big_bug:active{
+    background: url("images/bugbutton_sprite.png") no-repeat 0 -142px;
+}
+
+.middle_bug{
+    display: block;
+    width: 141px;
+    height: 34px;
+    background: url("images/bugbutton_sprite.png") no-repeat right top;
+}
+.middle_bug:hover{
+    background: url("images/bugbutton_sprite.png") no-repeat right -71px;
+}
+
+.middle_bug:active{
+    background: url("images/bugbutton_sprite.png") no-repeat right -142px;
+}
+

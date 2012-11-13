@@ -1,0 +1,148 @@
+body {
+    background: #fafafa;
+}
+
+.window {
+    background: #fafafa;
+    width: 744px;
+    padding: 13px 11px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    overflow: visible;
+    color: #000;
+
+}
+
+.mes {
+    background: url("images/gray_dash.png") repeat-x bottom;
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+
+
+}
+
+.mes img {
+    margin-left: 3px;
+    float: left;
+    margin-right: 12px;
+}
+
+.dash {
+    background: url("images/gray_dash.png") repeat-x;
+    height: 1px;
+    margin-bottom: 12px;
+}
+
+.inf {
+    width: 488px;
+    font-size: 15px;
+    float: left;
+}
+
+.inf span {
+    display: block;
+}
+
+.inf em {
+    display: block;
+    font-size: 12px;
+    font-style: normal;
+    padding: 5px 0;
+
+}
+
+.inf em span {
+    font-size: 11px;
+    color: #9e9e9e;
+    display: inline;
+}
+
+.inf .ball {
+    font-size: 12px;
+    color: #666666;
+}
+
+.menu_ico {
+    float: right;
+    margin-top: 10px;
+    display: none;
+
+}
+
+.mes:hover .menu_ico{
+    display: block;
+}
+
+.menu_ico li {
+    float: left;
+    padding-right: 4px;
+
+}
+
+.menu_ico li.last {
+    padding-right: 0;
+}
+
+.menu_ico li a {
+    width: 25px;
+    height: 24px;
+    background: url("images/gray_bg_ico.jpg") repeat-x;
+    border: 1px solid #d5d5d5;
+    border-radius: 3px;
+    display: block;
+    text-align: center;
+    position: relative;
+}
+
+.menu_ico li a:hover {
+    background: #ebebeb;
+}
+
+.mes .menu_ico li a img {
+    text-align: center;
+    float: none;
+    margin-right: 0;
+    margin-left: 0;
+    padding-top: 3px;
+}
+
+.menu_ico li.green a {
+    background: #76c823;
+    border: 1px solid #959f2a;
+}
+
+.menu_ico li.green a:hover {
+    background: #94d354;
+}
+
+.menu_ico li.blue a {
+    background: #6799d0;
+    border: 1px solid #4a527e;
+
+}
+
+.mes .menu_ico li.blue a img {
+    padding-top: 4px;
+}
+
+.menu_ico li.blue a:hover {
+    background: #92adcb;
+}
+
+.box{
+    position: absolute;
+    top: 30px;
+    left: -38px;
+    background: url("images/box_arrow_bg.png") no-repeat;
+    width: 102px;
+    height: 19px;
+    color: #000;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 10px;
+    display: none;
+}
+
+.menu_ico li a:hover .box{
+    display: block;
+}

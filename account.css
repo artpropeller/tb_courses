@@ -1,0 +1,447 @@
+#course-view.profile {
+    padding:0;
+}
+
+.account {
+    padding-left: 15px;
+}
+
+#course-view.profile h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #505050;
+    font-family: Helvetica, arial, sans-serif;
+    line-height: 24px;
+    padding-bottom: 14px;
+}
+
+#course-view.profile .dash-bottom {
+    padding: 37px;
+    /*overflow: auto;*/
+}
+
+.account .avatar {
+    width: 90px;
+    height: 90px;
+    float: left;
+    margin-right: 46px;
+    position: relative;
+}
+
+.account .avatar:hover .actions {
+    visibility: visible;
+}
+
+.avatar .actions {
+    position: absolute;
+    width: 90px;
+    left: 0;
+    visibility: hidden;
+    top:0;
+    height: 90px;
+    background: rgba(0, 0, 0, 0.65);
+}
+
+.avatar .actions a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    position: absolute;
+}
+
+.avatar .actions a.change {
+    top: 34px;
+    font-size: 12px;
+    line-height: 12px;
+    border-bottom: 1px dotted #fff;
+    left: 20px;
+}
+
+.avatar .actions a.change:hover {
+    border:none;
+}
+
+.avatar .actions a.remove {
+    background: url("images/del_ava.png") no-repeat;
+    width: 11px;
+    height: 14px;
+    top:62px;
+    left: 40px;
+    opacity: 0.7;
+}
+
+.avatar .actions a.remove:hover {
+    opacity: 1;
+}
+
+.account .user-info {
+    float: left;
+    width: 360px;
+    padding-right: 46px;
+}
+
+#course-view.profile h2 {
+    font-size: 18px;
+    line-height: 18px;
+    color: #000;
+    font-weight: normal;
+    font-family: Helvetica, Arial, sans-serif;
+    padding-bottom: 8px;
+    background: url("images/bg/dashed.png") repeat-x bottom;
+    margin-bottom: 14px;
+}
+
+#course-view.profile .notify h2 {
+    background: none;
+    margin-bottom: 0;
+}
+
+.account .set {
+
+}
+
+.account .set .label {
+    font-size: 12px;
+    color: #646464;
+    padding-bottom: 4px;
+    line-height: 12px;
+}
+
+.account .set input[type=text] {
+    display: block;
+    width: 344px;
+    height: 31px;
+    padding: 0 6px;
+    font-size: 14px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #000;
+    border-radius: 2px;
+    border:1px solid #c8c8c8;
+    box-shadow: inset 0 1px 1px 0 #f5f5f5;
+    display: block;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.account .set .val {
+    font-size: 14px;
+    color: #000;
+    line-height: 14px;
+    margin-bottom: 16px;
+}
+
+.account .action {
+    margin-bottom: 37px;
+}
+
+.account .action.org {
+    margin-bottom: 0px;
+}
+
+.account .action a {
+    color: #0e67d2;
+    background: url("images/dot_settings.jpg") repeat-x bottom;
+    font-size: 14px;
+}
+
+.account .action a:hover {
+    background: none;
+}
+
+.account .action span {
+    padding: 0 10px;
+    color: #ccc;
+}
+
+.account .choice ul {
+    padding: 0;
+    margin: 0;
+}
+
+.account .choice li {
+    padding: 9px 0 0 6px;
+    margin: 0;
+    background: none;
+    line-height: 13px;
+}
+
+.account .choice span {
+    width: 47px;
+    display: inline-block;
+}
+
+.account .choice {
+    padding: 4px 6px 6px 6px;
+    position: relative;
+    font-size: 13px;
+    line-height: 13px;
+    font-family: Helvetica, Arial, sans-serif;
+    background: #e3e3e3;
+    border-radius: 2px;
+    border:1px solid #d8d8d8;
+    border-top-color: #c4c4c4;
+    box-shadow: inset 0 1px 1px 0 #ddd, 0 1px 1px 0 #fff;
+    height: 9px;
+    margin-bottom: 8px;
+}
+
+.account .choice ul {
+    display: none;
+    position: absolute;
+    background: #e3e3e3;
+    width: 100%;
+    left: -1px;
+    top: 15px;
+    border-radius: 2px;
+    border:1px solid #d8d8d8;
+    border-top:none;
+    box-shadow: 0 1px 1px 0 #fff;
+    padding:0 0 10px 0;
+    z-index: 1000;
+}
+
+.account .choice li {
+    cursor: pointer;
+}
+
+.account .choice li:hover {
+    color: #000;
+}
+
+.account .choice .toggle {
+    background: url("images/arr_open.png") no-repeat;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    right: 2px;
+    top:8px
+}
+.account .choice .selector {
+    display: block;
+}
+
+.clr {
+    clear: both;
+
+}
+
+.account .choice.timezone ul {
+    height: 180px;
+    margin-top: 12px;
+    top: 6px;
+}
+
+.account .set.timezone {
+    width: 205px;
+    padding-right: 32px;
+    float: left;
+}
+
+.account .set.lang {
+    width: 120px;
+    float: left;
+}
+
+.account .set .check {
+    font-size: 14px;
+    color: #000;
+    background: url("images/checkbox_par.png") no-repeat left 2px;
+    padding-left: 19px;
+    padding-top: 1px;
+    cursor: pointer;
+    margin-bottom: 13px;
+}
+
+.account .set.timezone .check {
+    margin-bottom: 20px;
+}
+
+.account .set .check label {
+    font-size: 14px;
+    color: #000;
+}
+
+.account .set .check.active {
+    background: url("images/checkbox_par_active.png") no-repeat left 2px;
+}
+
+.account .notify {
+    width: 365px;
+    float: left;
+}
+
+.account .notify .gray {
+    background: #ececec url("images/corner_settings_course.jpg") no-repeat top right;
+    padding: 22px 20px 13px;
+}
+
+.account .notify .check {
+    line-height: 20px;
+    position: relative;
+    padding-left: 0;
+    background: none;
+}
+
+.account .notify .check.active {
+    background: none;
+}
+
+.account .notify .set .check label {
+    line-height: 20px;
+    cursor: pointer;
+    padding-left: 24px;
+    display: block;
+    background: url("images/checkbox_par.png") no-repeat left 4px;
+}
+
+.account .notify .check.active label {
+    background: url("images/checkbox_par_active.png") no-repeat left 4px;
+}
+
+.account .notify .choice {
+    position: absolute;
+    width: 90px;
+    left: 142px;
+    top:22px;
+}
+
+.account .notify .set.course .choice {
+    left: 87px;
+}
+
+.account .phone {
+    border-top: 1px solid #fff;
+    padding: 24px 0 10px 23px;
+    margin-top: 25px;
+    background: url("images/iphone.png") no-repeat left 22px;
+}
+
+.account .phone a {
+    color: #0e67d2;
+    background: url("images/dot_settings.jpg") repeat-x bottom;
+    font-size: 14px;
+}
+
+.account .phone a:hover {
+    background: none;
+}
+
+.account .buttons {
+    text-align: right;
+    padding-top: 42px;
+}
+
+#course-view .account .buttons a.button-blue {
+    padding-left: 36px;
+    padding-right: 36px;
+}
+
+#change-mail {
+    width: 330px;
+    height: 375px;
+}
+
+#change-mail.popup h4, #phone-default.popup h4, #phone-send.popup h4 {
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    background: none;
+}
+
+#change-mail.popup span, #phone-default.popup span, #phone-send.popup span {
+    padding-bottom:20px;
+    margin-top: 0;
+    font-size: 13px;
+    color: #808080;
+    line-height: 18px;
+    margin-bottom: 20px;
+    background: url("images/bg/dashed.png") repeat-x bottom;
+}
+
+#change-mail.popup .pass, #change-pass .pass, #phone-default.popup .pass, #phone-send.popup .pass {
+    margin-bottom: 18px;
+}
+
+#change-mail.popup .pass input, #change-pass .pass input, #phone-default.popup .pass input, #phone-send.popup .pass input {
+    width: 310px;
+}
+
+#change-mail.popup .pass .show-pass, #change-pass .pass .show-pass {
+    top:24px;
+}
+
+.popup .pass label {
+    color: #616161;
+    font-size: 12px;
+    line-height: 12px;
+    display: block;
+    padding-bottom: 4px;
+}
+
+#change-mail.popup .buttons, #change-pass .buttons, #phone-default.popup .buttons, #phone-send.popup .buttons {
+    padding-top: 16px;
+    text-align: right;
+}
+
+#change-pass {
+    width: 330px;
+    height: 260px;
+}
+
+#change-pass a.forgot {
+    display: block;
+    float: right;
+    color: #0e67d2;
+    text-decoration: underline;
+    margin-top: -3px;
+}
+
+#change-pass a.forgot:hover {
+    text-decoration: none;
+}
+
+
+#phone-default, #phone-send {
+    width: 330px;
+    height: 310px;
+}
+
+#phone-default.popup .pass.phone input {
+    width:  200px;
+    float: left;
+    font-size: 16px;
+    color: #000;
+}
+
+.popup .pass input[readonly=readonly] {
+    background: #f2f2f2;
+}
+
+#phone-default.popup a.but-send {
+    height: 22px;
+    padding-top: 6px;
+    text-align: center;
+    width: 95px;
+    color: #727272;
+    font-size: 12px;
+    font-weight: bold;
+    display: block;
+    background: url("images/send_phone.png") repeat-x;
+    border-radius: 2px;
+    border: solid 1px #d0d0d0;
+    float: right;
+}
+
+#phone-send.popup .pass input {
+    font-size: 16px;
+    color: #000;
+    height: 32px;
+}
+
+#phone-send.popup .buttons a.button-red {
+    padding: 6px 49px 10px;
+}
+
+#course-view .account .menu {
+    margin-bottom: 10px;
+    margin-top: -4px;
+}

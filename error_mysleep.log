@@ -1,0 +1,361 @@
+[Thu Aug 23 08:17:03 2012] [warn] mod_wsgi: Compiled for Python/2.7.1.
+[Thu Aug 23 08:17:03 2012] [warn] mod_wsgi: Runtime using Python/2.7.3.
+[Thu Aug 23 08:17:03 2012] [notice] Apache/2.2.17 (Unix) mod_wsgi/3.3 Python/2.7.3 configured -- resuming normal operations
+[Thu Aug 23 09:59:41 2012] [notice] caught SIGTERM, shutting down
+[Thu Aug 23 09:59:46 2012] [warn] mod_wsgi: Compiled for Python/2.7.1.
+[Thu Aug 23 09:59:46 2012] [warn] mod_wsgi: Runtime using Python/2.7.3.
+[Thu Aug 23 09:59:46 2012] [notice] Apache/2.2.17 (Unix) mod_wsgi/3.3 Python/2.7.3 configured -- resuming normal operations
+[Thu Aug 23 12:00:18 2012] [error] [client 127.0.0.1] mod_wsgi (pid=28925): Exception occurred processing WSGI script '/home/luza111/webapps/mysleep/mysleep.wsgi'.
+[Thu Aug 23 12:00:18 2012] [error] [client 127.0.0.1] Traceback (most recent call last):
+[Thu Aug 23 12:00:18 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/core/handlers/wsgi.py", line 250, in __call__
+[Thu Aug 23 12:00:18 2012] [error] [client 127.0.0.1]     self.load_middleware()
+[Thu Aug 23 12:00:18 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/core/handlers/base.py", line 45, in load_middleware
+[Thu Aug 23 12:00:18 2012] [error] [client 127.0.0.1]     mod = import_module(mw_module)
+[Thu Aug 23 12:00:18 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/utils/importlib.py", line 35, in import_module
+[Thu Aug 23 12:00:18 2012] [error] [client 127.0.0.1]     __import__(name)
+[Thu Aug 23 12:00:18 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/env/lib/python2.7/site-packages/cms/__init__.py", line 9, in <module>
+[Thu Aug 23 12:00:18 2012] [error] [client 127.0.0.1]     patch_settings()
+[Thu Aug 23 12:00:18 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/env/lib/python2.7/site-packages/cms/conf/__init__.py", line 32, in patch_settings
+[Thu Aug 23 12:00:18 2012] [error] [client 127.0.0.1]     post_patch_check()
+[Thu Aug 23 12:00:18 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/env/lib/python2.7/site-packages/cms/conf/patch.py", line 50, in post_patch_check
+[Thu Aug 23 12:00:18 2012] [error] [client 127.0.0.1]     from django.template.loaders.app_directories import Loader
+[Thu Aug 23 12:00:18 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/template/loaders/app_directories.py", line 23, in <module>
+[Thu Aug 23 12:00:18 2012] [error] [client 127.0.0.1]     raise ImproperlyConfigured('ImportError %s: %s' % (app, e.args[0]))
+[Thu Aug 23 12:00:18 2012] [error] [client 127.0.0.1] ImproperlyConfigured: ImportError polymorphic: No module named polymorphic
+[Thu Aug 23 12:00:18 2012] [error] [client 127.0.0.1] mod_wsgi (pid=28924): Exception occurred processing WSGI script '/home/luza111/webapps/mysleep/mysleep.wsgi'.
+[Thu Aug 23 12:00:18 2012] [error] [client 127.0.0.1] Traceback (most recent call last):
+[Thu Aug 23 12:00:18 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/core/handlers/wsgi.py", line 250, in __call__
+[Thu Aug 23 12:00:18 2012] [error] [client 127.0.0.1]     self.load_middleware()
+[Thu Aug 23 12:00:18 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/core/handlers/base.py", line 45, in load_middleware
+[Thu Aug 23 12:00:18 2012] [error] [client 127.0.0.1]     mod = import_module(mw_module)
+[Thu Aug 23 12:00:18 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/utils/importlib.py", line 35, in import_module
+[Thu Aug 23 12:00:18 2012] [error] [client 127.0.0.1]     __import__(name)
+[Thu Aug 23 12:00:18 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/env/lib/python2.7/site-packages/cms/__init__.py", line 9, in <module>
+[Thu Aug 23 12:00:18 2012] [error] [client 127.0.0.1]     patch_settings()
+[Thu Aug 23 12:00:18 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/env/lib/python2.7/site-packages/cms/conf/__init__.py", line 32, in patch_settings
+[Thu Aug 23 12:00:18 2012] [error] [client 127.0.0.1]     post_patch_check()
+[Thu Aug 23 12:00:18 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/env/lib/python2.7/site-packages/cms/conf/patch.py", line 50, in post_patch_check
+[Thu Aug 23 12:00:18 2012] [error] [client 127.0.0.1]     from django.template.loaders.app_directories import Loader
+[Thu Aug 23 12:00:18 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/template/loaders/app_directories.py", line 23, in <module>
+[Thu Aug 23 12:00:18 2012] [error] [client 127.0.0.1]     raise ImproperlyConfigured('ImportError %s: %s' % (app, e.args[0]))
+[Thu Aug 23 12:00:18 2012] [error] [client 127.0.0.1] ImproperlyConfigured: ImportError polymorphic: No module named polymorphic
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1] mod_wsgi (pid=28925): Exception occurred processing WSGI script '/home/luza111/webapps/mysleep/mysleep.wsgi'.
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1] Traceback (most recent call last):
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/core/handlers/wsgi.py", line 272, in __call__
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]     response = self.get_response(request)
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/core/handlers/base.py", line 169, in get_response
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/core/handlers/base.py", line 203, in handle_uncaught_exception
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]     return debug.technical_500_response(request, *exc_info)
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/views/debug.py", line 59, in technical_500_response
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]     html = reporter.get_traceback_html()
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/views/debug.py", line 151, in get_traceback_html
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]     return t.render(c)
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/template/base.py", line 123, in render
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]     return self._render(context)
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/template/base.py", line 117, in _render
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]     return self.nodelist.render(context)
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/template/base.py", line 744, in render
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]     bits.append(self.render_node(node, context))
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/template/debug.py", line 73, in render_node
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]     result = node.render(context)
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/template/debug.py", line 90, in render
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]     output = self.filter_expression.resolve(context)
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/template/base.py", line 536, in resolve
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]     new_obj = func(obj, *arg_vals)
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/template/defaultfilters.py", line 695, in date
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]     return format(value, arg)
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/utils/dateformat.py", line 285, in format
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]     return df.format(format_string)
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/utils/dateformat.py", line 30, in format
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]     pieces.append(force_unicode(getattr(self, piece)()))
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/utils/dateformat.py", line 191, in r
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]     return self.format('D, j M Y H:i:s O')
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/utils/dateformat.py", line 30, in format
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]     pieces.append(force_unicode(getattr(self, piece)()))
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/utils/encoding.py", line 71, in force_unicode
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]     s = unicode(s)
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/utils/functional.py", line 206, in __unicode_cast
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]     return self.__func(*self.__args, **self.__kw)
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/utils/translation/__init__.py", line 81, in ugettext
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]     return _trans.ugettext(message)
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/utils/translation/trans_real.py", line 286, in ugettext
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]     return do_translate(message, 'ugettext')
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/utils/translation/trans_real.py", line 276, in do_translate
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]     _default = translation(settings.LANGUAGE_CODE)
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/utils/translation/trans_real.py", line 185, in translation
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]     default_translation = _fetch(settings.LANGUAGE_CODE)
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/utils/translation/trans_real.py", line 162, in _fetch
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]     app = import_module(appname)
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/utils/importlib.py", line 35, in import_module
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]     __import__(name)
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1] TemplateSyntaxError: Caught ImportError while rendering: No module named polymorphic
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1] mod_wsgi (pid=28924): Exception occurred processing WSGI script '/home/luza111/webapps/mysleep/mysleep.wsgi'.
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1] Traceback (most recent call last):
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/core/handlers/wsgi.py", line 272, in __call__
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]     response = self.get_response(request)
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/core/handlers/base.py", line 169, in get_response
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/core/handlers/base.py", line 203, in handle_uncaught_exception
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]     return debug.technical_500_response(request, *exc_info)
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/views/debug.py", line 59, in technical_500_response
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]     html = reporter.get_traceback_html()
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/views/debug.py", line 151, in get_traceback_html
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]     return t.render(c)
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/template/base.py", line 123, in render
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]     return self._render(context)
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/template/base.py", line 117, in _render
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]     return self.nodelist.render(context)
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/template/base.py", line 744, in render
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]     bits.append(self.render_node(node, context))
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/template/debug.py", line 73, in render_node
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]     result = node.render(context)
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/template/debug.py", line 90, in render
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]     output = self.filter_expression.resolve(context)
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/template/base.py", line 536, in resolve
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]     new_obj = func(obj, *arg_vals)
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/template/defaultfilters.py", line 695, in date
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]     return format(value, arg)
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/utils/dateformat.py", line 285, in format
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]     return df.format(format_string)
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/utils/dateformat.py", line 30, in format
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]     pieces.append(force_unicode(getattr(self, piece)()))
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/utils/dateformat.py", line 191, in r
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]     return self.format('D, j M Y H:i:s O')
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/utils/dateformat.py", line 30, in format
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]     pieces.append(force_unicode(getattr(self, piece)()))
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/utils/encoding.py", line 71, in force_unicode
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]     s = unicode(s)
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/utils/functional.py", line 206, in __unicode_cast
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]     return self.__func(*self.__args, **self.__kw)
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/utils/translation/__init__.py", line 81, in ugettext
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]     return _trans.ugettext(message)
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/utils/translation/trans_real.py", line 286, in ugettext
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]     return do_translate(message, 'ugettext')
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/utils/translation/trans_real.py", line 276, in do_translate
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]     _default = translation(settings.LANGUAGE_CODE)
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/utils/translation/trans_real.py", line 185, in translation
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]     default_translation = _fetch(settings.LANGUAGE_CODE)
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/utils/translation/trans_real.py", line 162, in _fetch
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]     app = import_module(appname)
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/utils/importlib.py", line 35, in import_module
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1]     __import__(name)
+[Thu Aug 23 12:00:26 2012] [error] [client 127.0.0.1] TemplateSyntaxError: Caught ImportError while rendering: No module named polymorphic
+[Thu Aug 23 10:03:24 2012] [notice] caught SIGTERM, shutting down
+[Thu Aug 23 10:03:29 2012] [warn] mod_wsgi: Compiled for Python/2.7.1.
+[Thu Aug 23 10:03:29 2012] [warn] mod_wsgi: Runtime using Python/2.7.3.
+[Thu Aug 23 10:03:29 2012] [notice] Apache/2.2.17 (Unix) mod_wsgi/3.3 Python/2.7.3 configured -- resuming normal operations
+[Thu Aug 23 10:15:28 2012] [notice] caught SIGTERM, shutting down
+[Thu Aug 23 10:15:33 2012] [warn] mod_wsgi: Compiled for Python/2.7.1.
+[Thu Aug 23 10:15:33 2012] [warn] mod_wsgi: Runtime using Python/2.7.3.
+[Thu Aug 23 10:15:33 2012] [notice] Apache/2.2.17 (Unix) mod_wsgi/3.3 Python/2.7.3 configured -- resuming normal operations
+sendmail: recipient address  not accepted by the server
+sendmail: server message: 501 5.1.3 Bad recipient address syntax
+sendmail: could not send mail (account default from dummy)
+[Thu Aug 23 12:43:44 2012] [error] [client 127.0.0.1] mod_wsgi (pid=11482): Exception occurred processing WSGI script '/home/luza111/webapps/mysleep/mysleep.wsgi'.
+[Thu Aug 23 12:43:44 2012] [error] [client 127.0.0.1] IOError: failed to write data
+[Thu Aug 23 10:53:34 2012] [error] server reached MaxClients setting, consider raising the MaxClients setting
+[Thu Aug 23 13:10:15 2012] [error] [client 127.0.0.1] mod_wsgi (pid=11481): Exception occurred processing WSGI script '/home/luza111/webapps/mysleep/mysleep.wsgi'.
+[Thu Aug 23 13:10:15 2012] [error] [client 127.0.0.1] IOError: failed to write data
+[Thu Aug 23 13:51:10 2012] [error] [client 127.0.0.1] mod_wsgi (pid=11482): Exception occurred processing WSGI script '/home/luza111/webapps/mysleep/mysleep.wsgi'.
+[Thu Aug 23 13:51:10 2012] [error] [client 127.0.0.1] IOError: failed to write data
+[Thu Aug 23 13:51:10 2012] [error] [client 127.0.0.1] mod_wsgi (pid=11481): Exception occurred processing WSGI script '/home/luza111/webapps/mysleep/mysleep.wsgi'.
+[Thu Aug 23 13:51:10 2012] [error] [client 127.0.0.1] IOError: failed to write data
+[Thu Aug 23 14:14:50 2012] [error] [client 127.0.0.1] mod_wsgi (pid=11482): Exception occurred processing WSGI script '/home/luza111/webapps/mysleep/mysleep.wsgi'.
+[Thu Aug 23 14:14:50 2012] [error] [client 127.0.0.1] IOError: failed to write data
+[Thu Aug 23 14:14:51 2012] [error] [client 127.0.0.1] mod_wsgi (pid=11481): Exception occurred processing WSGI script '/home/luza111/webapps/mysleep/mysleep.wsgi'.
+[Thu Aug 23 14:14:51 2012] [error] [client 127.0.0.1] IOError: failed to write data
+sendmail: recipient address  not accepted by the server
+sendmail: server message: 501 5.1.3 Bad recipient address syntax
+sendmail: could not send mail (account default from dummy)
+[Thu Aug 23 14:26:03 2012] [error] [client 127.0.0.1] mod_wsgi (pid=11482): Exception occurred processing WSGI script '/home/luza111/webapps/mysleep/mysleep.wsgi'.
+[Thu Aug 23 14:26:03 2012] [error] [client 127.0.0.1] IOError: failed to write data
+[Thu Aug 23 12:26:03 2012] [notice] caught SIGTERM, shutting down
+[Thu Aug 23 12:31:34 2012] [warn] mod_wsgi: Compiled for Python/2.7.1.
+[Thu Aug 23 12:31:34 2012] [warn] mod_wsgi: Runtime using Python/2.7.3.
+[Thu Aug 23 12:31:34 2012] [notice] Apache/2.2.17 (Unix) mod_wsgi/3.3 Python/2.7.3 configured -- resuming normal operations
+[Thu Aug 23 14:31:37 2012] [error] [client 127.0.0.1] mod_wsgi (pid=27520): Exception occurred processing WSGI script '/home/luza111/webapps/mysleep/mysleep.wsgi'.
+[Thu Aug 23 14:31:37 2012] [error] [client 127.0.0.1] Traceback (most recent call last):
+[Thu Aug 23 14:31:37 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/core/handlers/wsgi.py", line 272, in __call__
+[Thu Aug 23 14:31:37 2012] [error] [client 127.0.0.1]     response = self.get_response(request)
+[Thu Aug 23 14:31:37 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/core/handlers/base.py", line 153, in get_response
+[Thu Aug 23 14:31:37 2012] [error] [client 127.0.0.1]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+[Thu Aug 23 14:31:37 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/core/handlers/base.py", line 218, in handle_uncaught_exception
+[Thu Aug 23 14:31:37 2012] [error] [client 127.0.0.1]     return callback(request, **param_dict)
+[Thu Aug 23 14:31:37 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/utils/decorators.py", line 93, in _wrapped_view
+[Thu Aug 23 14:31:37 2012] [error] [client 127.0.0.1]     response = view_func(request, *args, **kwargs)
+[Thu Aug 23 14:31:37 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/views/defaults.py", line 30, in server_error
+[Thu Aug 23 14:31:37 2012] [error] [client 127.0.0.1]     t = loader.get_template(template_name) # You need to create a 500.html template.
+[Thu Aug 23 14:31:37 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/template/loader.py", line 157, in get_template
+[Thu Aug 23 14:31:37 2012] [error] [client 127.0.0.1]     template, origin = find_template(template_name)
+[Thu Aug 23 14:31:37 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/template/loader.py", line 138, in find_template
+[Thu Aug 23 14:31:37 2012] [error] [client 127.0.0.1]     raise TemplateDoesNotExist(name)
+[Thu Aug 23 14:31:37 2012] [error] [client 127.0.0.1] TemplateDoesNotExist: 500.html
+sendmail: recipient address v not accepted by the server
+sendmail: server message: 504 5.5.2 <v>: Recipient address rejected: need fully-qualified address
+sendmail: could not send mail (account default from dummy)
+[Thu Aug 23 14:31:42 2012] [error] Exception AttributeError: AttributeError("'_DummyThread' object has no attribute '_Thread__block'",) in <module 'threading' from '/usr/local/lib/python2.7/threading.pyc'> ignored
+[Thu Aug 23 14:31:42 2012] [error] [client 127.0.0.1] mod_wsgi (pid=27520): Exception occurred processing WSGI script '/home/luza111/webapps/mysleep/mysleep.wsgi'.
+[Thu Aug 23 14:31:42 2012] [error] [client 127.0.0.1] Traceback (most recent call last):
+[Thu Aug 23 14:31:42 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/core/handlers/wsgi.py", line 272, in __call__
+[Thu Aug 23 14:31:42 2012] [error] [client 127.0.0.1]     response = self.get_response(request)
+[Thu Aug 23 14:31:42 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/core/handlers/base.py", line 153, in get_response
+[Thu Aug 23 14:31:42 2012] [error] [client 127.0.0.1]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+[Thu Aug 23 14:31:42 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/core/handlers/base.py", line 218, in handle_uncaught_exception
+[Thu Aug 23 14:31:42 2012] [error] [client 127.0.0.1]     return callback(request, **param_dict)
+[Thu Aug 23 14:31:42 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/utils/decorators.py", line 93, in _wrapped_view
+[Thu Aug 23 14:31:42 2012] [error] [client 127.0.0.1]     response = view_func(request, *args, **kwargs)
+[Thu Aug 23 14:31:42 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/views/defaults.py", line 30, in server_error
+[Thu Aug 23 14:31:42 2012] [error] [client 127.0.0.1]     t = loader.get_template(template_name) # You need to create a 500.html template.
+[Thu Aug 23 14:31:42 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/template/loader.py", line 157, in get_template
+[Thu Aug 23 14:31:42 2012] [error] [client 127.0.0.1]     template, origin = find_template(template_name)
+[Thu Aug 23 14:31:42 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/template/loader.py", line 138, in find_template
+[Thu Aug 23 14:31:42 2012] [error] [client 127.0.0.1]     raise TemplateDoesNotExist(name)
+[Thu Aug 23 14:31:42 2012] [error] [client 127.0.0.1] TemplateDoesNotExist: 500.html
+[Thu Aug 23 14:31:43 2012] [error] [client 127.0.0.1] mod_wsgi (pid=27521): Exception occurred processing WSGI script '/home/luza111/webapps/mysleep/mysleep.wsgi'.
+[Thu Aug 23 14:31:43 2012] [error] [client 127.0.0.1] Traceback (most recent call last):
+[Thu Aug 23 14:31:43 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/core/handlers/wsgi.py", line 272, in __call__
+[Thu Aug 23 14:31:43 2012] [error] [client 127.0.0.1]     response = self.get_response(request)
+[Thu Aug 23 14:31:43 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/core/handlers/base.py", line 153, in get_response
+[Thu Aug 23 14:31:43 2012] [error] [client 127.0.0.1]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+[Thu Aug 23 14:31:43 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/core/handlers/base.py", line 218, in handle_uncaught_exception
+[Thu Aug 23 14:31:43 2012] [error] [client 127.0.0.1]     return callback(request, **param_dict)
+[Thu Aug 23 14:31:43 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/utils/decorators.py", line 93, in _wrapped_view
+[Thu Aug 23 14:31:43 2012] [error] [client 127.0.0.1]     response = view_func(request, *args, **kwargs)
+[Thu Aug 23 14:31:43 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/views/defaults.py", line 30, in server_error
+[Thu Aug 23 14:31:43 2012] [error] [client 127.0.0.1]     t = loader.get_template(template_name) # You need to create a 500.html template.
+[Thu Aug 23 14:31:43 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/template/loader.py", line 157, in get_template
+[Thu Aug 23 14:31:43 2012] [error] [client 127.0.0.1]     template, origin = find_template(template_name)
+[Thu Aug 23 14:31:43 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/template/loader.py", line 138, in find_template
+[Thu Aug 23 14:31:43 2012] [error] [client 127.0.0.1]     raise TemplateDoesNotExist(name)
+[Thu Aug 23 14:31:43 2012] [error] [client 127.0.0.1] TemplateDoesNotExist: 500.html
+sendmail: recipient address v not accepted by the server
+sendmail: server message: 504 5.5.2 <v>: Recipient address rejected: need fully-qualified address
+sendmail: could not send mail (account default from dummy)
+sendmail: recipient address v not accepted by the server
+sendmail: server message: 504 5.5.2 <v>: Recipient address rejected: need fully-qualified address
+sendmail: could not send mail (account default from dummy)
+[Thu Aug 23 14:32:02 2012] [error] [client 127.0.0.1] mod_wsgi (pid=27521): Exception occurred processing WSGI script '/home/luza111/webapps/mysleep/mysleep.wsgi'.
+[Thu Aug 23 14:32:02 2012] [error] [client 127.0.0.1] Traceback (most recent call last):
+[Thu Aug 23 14:32:02 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/core/handlers/wsgi.py", line 272, in __call__
+[Thu Aug 23 14:32:02 2012] [error] [client 127.0.0.1]     response = self.get_response(request)
+[Thu Aug 23 14:32:02 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/core/handlers/base.py", line 153, in get_response
+[Thu Aug 23 14:32:02 2012] [error] [client 127.0.0.1]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+[Thu Aug 23 14:32:02 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/core/handlers/base.py", line 218, in handle_uncaught_exception
+[Thu Aug 23 14:32:02 2012] [error] [client 127.0.0.1]     return callback(request, **param_dict)
+[Thu Aug 23 14:32:02 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/utils/decorators.py", line 93, in _wrapped_view
+[Thu Aug 23 14:32:02 2012] [error] [client 127.0.0.1]     response = view_func(request, *args, **kwargs)
+[Thu Aug 23 14:32:02 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/views/defaults.py", line 30, in server_error
+[Thu Aug 23 14:32:02 2012] [error] [client 127.0.0.1]     t = loader.get_template(template_name) # You need to create a 500.html template.
+[Thu Aug 23 14:32:02 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/template/loader.py", line 157, in get_template
+[Thu Aug 23 14:32:02 2012] [error] [client 127.0.0.1]     template, origin = find_template(template_name)
+[Thu Aug 23 14:32:02 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/template/loader.py", line 138, in find_template
+[Thu Aug 23 14:32:02 2012] [error] [client 127.0.0.1]     raise TemplateDoesNotExist(name)
+[Thu Aug 23 14:32:02 2012] [error] [client 127.0.0.1] TemplateDoesNotExist: 500.html
+sendmail: recipient address v not accepted by the server
+sendmail: server message: 504 5.5.2 <v>: Recipient address rejected: need fully-qualified address
+sendmail: could not send mail (account default from dummy)
+[Thu Aug 23 14:32:24 2012] [error] [client 127.0.0.1] mod_wsgi (pid=27521): Exception occurred processing WSGI script '/home/luza111/webapps/mysleep/mysleep.wsgi'.
+[Thu Aug 23 14:32:24 2012] [error] [client 127.0.0.1] Traceback (most recent call last):
+[Thu Aug 23 14:32:24 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/core/handlers/wsgi.py", line 272, in __call__
+[Thu Aug 23 14:32:24 2012] [error] [client 127.0.0.1]     response = self.get_response(request)
+[Thu Aug 23 14:32:24 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/core/handlers/base.py", line 153, in get_response
+[Thu Aug 23 14:32:24 2012] [error] [client 127.0.0.1]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+[Thu Aug 23 14:32:24 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/core/handlers/base.py", line 218, in handle_uncaught_exception
+[Thu Aug 23 14:32:24 2012] [error] [client 127.0.0.1]     return callback(request, **param_dict)
+[Thu Aug 23 14:32:24 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/utils/decorators.py", line 93, in _wrapped_view
+[Thu Aug 23 14:32:24 2012] [error] [client 127.0.0.1]     response = view_func(request, *args, **kwargs)
+[Thu Aug 23 14:32:24 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/views/defaults.py", line 30, in server_error
+[Thu Aug 23 14:32:24 2012] [error] [client 127.0.0.1]     t = loader.get_template(template_name) # You need to create a 500.html template.
+[Thu Aug 23 14:32:24 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/template/loader.py", line 157, in get_template
+[Thu Aug 23 14:32:24 2012] [error] [client 127.0.0.1]     template, origin = find_template(template_name)
+[Thu Aug 23 14:32:24 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/template/loader.py", line 138, in find_template
+[Thu Aug 23 14:32:24 2012] [error] [client 127.0.0.1]     raise TemplateDoesNotExist(name)
+[Thu Aug 23 14:32:24 2012] [error] [client 127.0.0.1] TemplateDoesNotExist: 500.html
+sendmail: recipient address v not accepted by the server
+sendmail: server message: 504 5.5.2 <v>: Recipient address rejected: need fully-qualified address
+sendmail: could not send mail (account default from dummy)
+[Thu Aug 23 14:32:36 2012] [error] Exception AttributeError: AttributeError("'_DummyThread' object has no attribute '_Thread__block'",) in <module 'threading' from '/usr/local/lib/python2.7/threading.pyc'> ignored
+[Thu Aug 23 14:32:36 2012] [error] [client 127.0.0.1] mod_wsgi (pid=27520): Exception occurred processing WSGI script '/home/luza111/webapps/mysleep/mysleep.wsgi'.
+[Thu Aug 23 14:32:36 2012] [error] [client 127.0.0.1] Traceback (most recent call last):
+[Thu Aug 23 14:32:36 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/core/handlers/wsgi.py", line 272, in __call__
+[Thu Aug 23 14:32:36 2012] [error] [client 127.0.0.1]     response = self.get_response(request)
+[Thu Aug 23 14:32:36 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/core/handlers/base.py", line 153, in get_response
+[Thu Aug 23 14:32:36 2012] [error] [client 127.0.0.1]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+[Thu Aug 23 14:32:36 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/core/handlers/base.py", line 218, in handle_uncaught_exception
+[Thu Aug 23 14:32:36 2012] [error] [client 127.0.0.1]     return callback(request, **param_dict)
+[Thu Aug 23 14:32:36 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/utils/decorators.py", line 93, in _wrapped_view
+[Thu Aug 23 14:32:36 2012] [error] [client 127.0.0.1]     response = view_func(request, *args, **kwargs)
+[Thu Aug 23 14:32:36 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/views/defaults.py", line 30, in server_error
+[Thu Aug 23 14:32:36 2012] [error] [client 127.0.0.1]     t = loader.get_template(template_name) # You need to create a 500.html template.
+[Thu Aug 23 14:32:36 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/template/loader.py", line 157, in get_template
+[Thu Aug 23 14:32:36 2012] [error] [client 127.0.0.1]     template, origin = find_template(template_name)
+[Thu Aug 23 14:32:36 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/template/loader.py", line 138, in find_template
+[Thu Aug 23 14:32:36 2012] [error] [client 127.0.0.1]     raise TemplateDoesNotExist(name)
+[Thu Aug 23 14:32:36 2012] [error] [client 127.0.0.1] TemplateDoesNotExist: 500.html
+sendmail: recipient address v not accepted by the server
+sendmail: server message: 504 5.5.2 <v>: Recipient address rejected: need fully-qualified address
+sendmail: could not send mail (account default from dummy)
+[Thu Aug 23 14:33:17 2012] [error] [client 127.0.0.1] mod_wsgi (pid=27521): Exception occurred processing WSGI script '/home/luza111/webapps/mysleep/mysleep.wsgi'.
+[Thu Aug 23 14:33:17 2012] [error] [client 127.0.0.1] Traceback (most recent call last):
+[Thu Aug 23 14:33:17 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/core/handlers/wsgi.py", line 272, in __call__
+[Thu Aug 23 14:33:17 2012] [error] [client 127.0.0.1]     response = self.get_response(request)
+[Thu Aug 23 14:33:17 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/core/handlers/base.py", line 153, in get_response
+[Thu Aug 23 14:33:17 2012] [error] [client 127.0.0.1]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+[Thu Aug 23 14:33:17 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/core/handlers/base.py", line 218, in handle_uncaught_exception
+[Thu Aug 23 14:33:17 2012] [error] [client 127.0.0.1]     return callback(request, **param_dict)
+[Thu Aug 23 14:33:17 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/utils/decorators.py", line 93, in _wrapped_view
+[Thu Aug 23 14:33:17 2012] [error] [client 127.0.0.1]     response = view_func(request, *args, **kwargs)
+[Thu Aug 23 14:33:17 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/views/defaults.py", line 30, in server_error
+[Thu Aug 23 14:33:17 2012] [error] [client 127.0.0.1]     t = loader.get_template(template_name) # You need to create a 500.html template.
+[Thu Aug 23 14:33:17 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/template/loader.py", line 157, in get_template
+[Thu Aug 23 14:33:17 2012] [error] [client 127.0.0.1]     template, origin = find_template(template_name)
+[Thu Aug 23 14:33:17 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/template/loader.py", line 138, in find_template
+[Thu Aug 23 14:33:17 2012] [error] [client 127.0.0.1]     raise TemplateDoesNotExist(name)
+[Thu Aug 23 14:33:17 2012] [error] [client 127.0.0.1] TemplateDoesNotExist: 500.html
+sendmail: recipient address v not accepted by the server
+sendmail: server message: 504 5.5.2 <v>: Recipient address rejected: need fully-qualified address
+sendmail: could not send mail (account default from dummy)
+[Thu Aug 23 14:33:29 2012] [error] Exception AttributeError: AttributeError("'_DummyThread' object has no attribute '_Thread__block'",) in <module 'threading' from '/usr/local/lib/python2.7/threading.pyc'> ignored
+[Thu Aug 23 14:33:29 2012] [error] [client 127.0.0.1] mod_wsgi (pid=27520): Exception occurred processing WSGI script '/home/luza111/webapps/mysleep/mysleep.wsgi'.
+[Thu Aug 23 14:33:29 2012] [error] [client 127.0.0.1] Traceback (most recent call last):
+[Thu Aug 23 14:33:29 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/core/handlers/wsgi.py", line 272, in __call__
+[Thu Aug 23 14:33:29 2012] [error] [client 127.0.0.1]     response = self.get_response(request)
+[Thu Aug 23 14:33:29 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/core/handlers/base.py", line 153, in get_response
+[Thu Aug 23 14:33:29 2012] [error] [client 127.0.0.1]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+[Thu Aug 23 14:33:29 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/core/handlers/base.py", line 218, in handle_uncaught_exception
+[Thu Aug 23 14:33:29 2012] [error] [client 127.0.0.1]     return callback(request, **param_dict)
+[Thu Aug 23 14:33:29 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/utils/decorators.py", line 93, in _wrapped_view
+[Thu Aug 23 14:33:29 2012] [error] [client 127.0.0.1]     response = view_func(request, *args, **kwargs)
+[Thu Aug 23 14:33:29 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/views/defaults.py", line 30, in server_error
+[Thu Aug 23 14:33:29 2012] [error] [client 127.0.0.1]     t = loader.get_template(template_name) # You need to create a 500.html template.
+[Thu Aug 23 14:33:29 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/template/loader.py", line 157, in get_template
+[Thu Aug 23 14:33:29 2012] [error] [client 127.0.0.1]     template, origin = find_template(template_name)
+[Thu Aug 23 14:33:29 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/template/loader.py", line 138, in find_template
+[Thu Aug 23 14:33:29 2012] [error] [client 127.0.0.1]     raise TemplateDoesNotExist(name)
+[Thu Aug 23 14:33:29 2012] [error] [client 127.0.0.1] TemplateDoesNotExist: 500.html
+sendmail: recipient address v not accepted by the server
+sendmail: server message: 504 5.5.2 <v>: Recipient address rejected: need fully-qualified address
+sendmail: could not send mail (account default from dummy)
+[Thu Aug 23 14:33:44 2012] [error] Exception AttributeError: AttributeError("'_DummyThread' object has no attribute '_Thread__block'",) in <module 'threading' from '/usr/local/lib/python2.7/threading.pyc'> ignored
+[Thu Aug 23 14:33:44 2012] [error] [client 127.0.0.1] mod_wsgi (pid=27520): Exception occurred processing WSGI script '/home/luza111/webapps/mysleep/mysleep.wsgi'.
+[Thu Aug 23 14:33:44 2012] [error] [client 127.0.0.1] Traceback (most recent call last):
+[Thu Aug 23 14:33:44 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/core/handlers/wsgi.py", line 272, in __call__
+[Thu Aug 23 14:33:44 2012] [error] [client 127.0.0.1]     response = self.get_response(request)
+[Thu Aug 23 14:33:44 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/core/handlers/base.py", line 153, in get_response
+[Thu Aug 23 14:33:44 2012] [error] [client 127.0.0.1]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+[Thu Aug 23 14:33:44 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/core/handlers/base.py", line 218, in handle_uncaught_exception
+[Thu Aug 23 14:33:44 2012] [error] [client 127.0.0.1]     return callback(request, **param_dict)
+[Thu Aug 23 14:33:44 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/utils/decorators.py", line 93, in _wrapped_view
+[Thu Aug 23 14:33:44 2012] [error] [client 127.0.0.1]     response = view_func(request, *args, **kwargs)
+[Thu Aug 23 14:33:44 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/views/defaults.py", line 30, in server_error
+[Thu Aug 23 14:33:44 2012] [error] [client 127.0.0.1]     t = loader.get_template(template_name) # You need to create a 500.html template.
+[Thu Aug 23 14:33:44 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/template/loader.py", line 157, in get_template
+[Thu Aug 23 14:33:44 2012] [error] [client 127.0.0.1]     template, origin = find_template(template_name)
+[Thu Aug 23 14:33:44 2012] [error] [client 127.0.0.1]   File "/home/luza111/webapps/mysleep/lib/python2.7/django/template/loader.py", line 138, in find_template
+[Thu Aug 23 14:33:44 2012] [error] [client 127.0.0.1]     raise TemplateDoesNotExist(name)
+[Thu Aug 23 14:33:44 2012] [error] [client 127.0.0.1] TemplateDoesNotExist: 500.html
+sendmail: recipient address v not accepted by the server
+sendmail: server message: 504 5.5.2 <v>: Recipient address rejected: need fully-qualified address
+sendmail: could not send mail (account default from dummy)
+[Thu Aug 23 12:34:04 2012] [notice] caught SIGTERM, shutting down

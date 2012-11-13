@@ -1,0 +1,397 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="en" />
+<link rel="icon" type="image/x-icon" href="favicon.ico" />
+<link rel="shortcut icon"  href="favicon.ico" type="image/x-icon"  />
+<title>Logotype - Видеовстречи</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="robots" content="index,follow" />
+<meta name="copyright" content="" />
+<link type="text/css" rel="stylesheet" href="style.css" />
+
+<!-- fancy -->
+<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.mousewheel-3.0.6.pack.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+<link type="text/css" rel="stylesheet" href="js/jquery.fancybox/jquery.fancybox.css" />
+<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+<link type="text/css" href="js/jquery.jscrollpane/jquery.jscrollpane.css" rel="stylesheet" media="all" />
+<script type="text/javascript" src="js/jquery-ui-1.8.20.custom.min.js" ></script>
+<link type="text/css" rel="stylesheet" href="js/jquery.ui/jquery-ui-1.8.20.custom.css" />
+<script type="text/javascript" src="js/custom-form-elements.js"></script>
+<script type="text/javascript" src="js/jquery.functions.js"></script>
+<script type="text/javascript">
+	$(function() {
+		var events = [
+			{Title: "Название", Date: new Date("05/04/2012") },
+			{Title: "Если их 15)", Date: new Date("05/15/2012") },
+			{Title: "Название", Date: new Date("05/25/2012") }
+		];
+		$( "#datepicker" ).datepicker({
+			inline: true,
+			showOtherMonths: true,
+			currentText:"Сегодня",
+			monthNames:["Январь","Февраль","Март","Апрель","Май","Июнь","Июль","Август","Сентябрь","Октябрь","Ноябрь","Декабрь"],
+			dayNamesMin:["Вс","Пн","Вт","Ср","Чт","Пт","Сб"],
+			weekHeader:"Нед",
+			firstDay:1,
+			beforeShowDay: function(date) {
+				var result = [true, '', null];
+				var matching = $.grep(events, function(event) {
+					return event.Date.valueOf() === date.valueOf();
+				});
+				
+				if (matching.length) {
+					result = [true, 'highlight', null];
+				}
+				return result;
+			},
+			onSelect: function(dateText) {
+				var date,
+					selectedDate = new Date(dateText),
+					i = 0,
+					event = null;
+				while (i < events.length && !event) {
+					date = events[i].Date;
+					if (selectedDate.valueOf() === date.valueOf()) {
+						event = events[i];
+					}
+					i++;
+				}
+				if (event) {
+					alert(event.Title)
+					
+				}
+		}
+		});
+		
+	});
+</script>
+</head>
+<body>
+<div class="header-bg"></div>
+<!-- PAGE -->
+<div id="main"> 
+	
+	<!-- ____ HEADER ____ -->
+	<div id="header">
+		<div class="h-logo"> <a href="/"><img src="images/bg/logo.png" alt="" /></a> </div>
+		<div class="h-menu"> <a href="#" class="plus">Plus</a> <a href="#">Курсы</a> <a href="#">Видеовстречи</a> <a href="#">Тесты</a> <a href="#">Библиотека</a> <a href="#">Отчеты</a> <a href="#">Пользователи</a> </div>
+		<div class="h-personal"> <a href="#"><span><img src="images/content-im/ico.jpg" alt="" /></span></a> </div>
+		<div class="header-search search-animate">
+			<form action="" method="post">
+				<input type="submit" value="" />
+				<input type="text" value="Поиск по сайту..." onfocus="if(this.value=='Поиск по сайту...')this.value='';" onblur="if(this.value=='')this.value='Поиск по сайту...';" />
+			</form>
+		</div>
+	</div>
+	<!-- ____ /HEADER ____ --> 
+	<!-- ____ CONTENT ____ -->
+	<div class="inner-content">
+		<div class="sidebar">
+			<div class="top-part">
+				<h2>Видеовстречи</h2>
+				<a href="#" class="btn-red btn-create"><span>Создать встречу</span></a>
+				<div class="open-events"><a href="#">Открытые встречи</a></div>
+				<div id="datepicker"></div>
+			</div>
+		</div>
+		<div class="content-part">
+			<div class="navi-left"> <a href="#" class="active">Созданные мной</a> <a href="#">Все курсы</a> </div>
+			<div class="clear"></div>
+			<div class="dashed-container">
+				<div class="blue-title"> В будущем запланировано <a href="#" class="blue-meet">2 встречи</a> <a href="#" class="blue-more">Посмотреть</a> </div>
+				<div class="events-list">
+					<ul class="no_mark event-list-inner">
+						<li>
+							<div class="one-event">
+								<div class="video-time"> июнь <strong>30</strong> </div>
+								<div class="float_left">
+									<h3><a href="#">Дизайн интерьеров в имперском стиле</a></h3>
+									<span class="begining">Начало:</span> 13.00 <span class="author">Александр Константинов</span> </div>
+								<a href="#" class="float_left"><img src="images/bg/play.png" alt="" /> <span class="tip" style="left:-54px;"><b>посмотреть запись</b></span></a>
+								<div class="clear"></div>
+								<div class="event-navi">
+									<ul>
+										<li><a href="#"><img src="images/bg/edit.png" alt="" /></a> <span class="tip" style="left:-40px;"><b>редактировать</b></span></li>
+										<li><a href="#"><img src="images/bg/unlock.png" alt="" /></a> <span class="tip" style="left:-36px;"><b>опубликовать</b></span></li>
+										<li><a href="#"><img src="images/bg/link.png" alt="" /></a> <span class="tip" style="left:-58px;"><b>дать ссылку на видео</b></span></li>
+										<li><a href="#"><img src="images/bg/del3.png" alt="" /></a> <span class="tip" style="left:-20px;"><b>удалить</b></span></li>
+										<li><a href="#"><img src="images/bg/share.png" alt="" /></a> <span class="tip" style="left:-48px;"><b>расшарить видео</b></span></li>
+										<li><a href="#" class="blue-bg"><img src="images/bg/white-send.png" alt="" /></a> <span class="tip" style="left:-29px;"><b>назначить</b></span></li>
+										<li><a href="#"><img src="images/bg/download.png" alt="" /></a> <span class="tip" style="left:-23px;"><b>скачать</b></span></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li class="current-event">
+							<div class="one-event">
+								<h3><a href="#">Обсуждаем экологию с Михаилом Тодоровским</a></h3>
+								<span class="author">Иван Конинов </span>
+								<div class="event-now">уже<br />
+									идет</div>
+								<a href="#" class="login">Войти</a>
+								<div class="event-navi">
+									<ul>
+										<li><a href="#"><img src="images/bg/edit.png" alt="" /></a> <span class="tip" style="left:-40px;"><b>редактировать</b></span></li>
+										<li><a href="#"><img src="images/bg/unlock.png" alt="" /></a> <span class="tip" style="left:-36px;"><b>опубликовать</b></span></li>
+										<li><a href="#"><img src="images/bg/link.png" alt="" /></a> <span class="tip" style="left:-58px;"><b>дать ссылку на видео</b></span></li>
+										<li><a href="#"><img src="images/bg/del3.png" alt="" /></a> <span class="tip" style="left:-20px;"><b>удалить</b></span></li>
+										<li><a href="#"><img src="images/bg/share.png" alt="" /></a> <span class="tip" style="left:-48px;"><b>расшарить видео</b></span></li>
+										<li><a href="#" class="blue-bg"><img src="images/bg/white-send.png" alt="" /></a> <span class="tip" style="left:-29px;"><b>назначить</b></span></li>
+										<li><a href="#"><img src="images/bg/download.png" alt="" /></a> <span class="tip" style="left:-23px;"><b>скачать</b></span></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li class="current-event scrollTo">
+							<div class="one-event">
+								<h3><a href="#">Частушки про интернет</a></h3>
+								<span class="begining">Начало:</span> 22.30 <span class="author">Иван Конинов </span>
+								<div class="event-now-going">Осталось <strong>24</strong> <b>минуты</b></div>
+								<a href="#" class="login">Войти</a>
+								
+								<div class="event-navi">
+									<ul>
+										<li><a href="#"><img src="images/bg/edit.png" alt="" /></a> <span class="tip" style="left:-40px;"><b>редактировать</b></span></li>
+										<li><a href="#"><img src="images/bg/unlock.png" alt="" /></a> <span class="tip" style="left:-36px;"><b>опубликовать</b></span></li>
+										<li><a href="#"><img src="images/bg/link.png" alt="" /></a> <span class="tip" style="left:-58px;"><b>дать ссылку на видео</b></span></li>
+										<li><a href="#"><img src="images/bg/del3.png" alt="" /></a> <span class="tip" style="left:-20px;"><b>удалить</b></span></li>
+										<li><a href="#"><img src="images/bg/share.png" alt="" /></a> <span class="tip" style="left:-48px;"><b>расшарить видео</b></span></li>
+										<li><a href="#" class="blue-bg"><img src="images/bg/white-send.png" alt="" /></a> <span class="tip" style="left:-29px;"><b>назначить</b></span></li>
+										<li><a href="#"><img src="images/bg/download.png" alt="" /></a> <span class="tip" style="left:-23px;"><b>скачать</b></span></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="one-event">
+								<h3><a href="#">Жидкость, как того требуют законы термодинамики, доступна</a></h3>
+									<span class="begining">Начало:</span> 18.35 <span class="author">Иван Конинов </span>
+								<div class="event-navi">
+									<ul>
+										<li><a href="#"><img src="images/bg/edit.png" alt="" /></a> <span class="tip" style="left:-40px;"><b>редактировать</b></span></li>
+										<li><a href="#"><img src="images/bg/unlock.png" alt="" /></a> <span class="tip" style="left:-36px;"><b>опубликовать</b></span></li>
+										<li><a href="#"><img src="images/bg/link.png" alt="" /></a> <span class="tip" style="left:-58px;"><b>дать ссылку на видео</b></span></li>
+										<li><a href="#"><img src="images/bg/del3.png" alt="" /></a> <span class="tip" style="left:-20px;"><b>удалить</b></span></li>
+										<li><a href="#"><img src="images/bg/share.png" alt="" /></a> <span class="tip" style="left:-48px;"><b>расшарить видео</b></span></li>
+										<li><a href="#" class="blue-bg"><img src="images/bg/white-send.png" alt="" /></a> <span class="tip" style="left:-29px;"><b>назначить</b></span></li>
+										<li><a href="#"><img src="images/bg/download.png" alt="" /></a> <span class="tip" style="left:-23px;"><b>скачать</b></span></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li class="disabled-event">
+							<div class="one-event">
+								<div class="video-time"> июнь <strong>30</strong> </div>
+								<h3><a href="#">Сингулярность квазипериодично отклоняет лазер</a></h3>
+									<span class="begining">Начало:</span> 10.30 <span class="author">Иван Конинов</span>
+								<div class="event-navi">
+									<ul>
+										<li><a href="#"><img src="images/bg/edit.png" alt="" /></a> <span class="tip" style="left:-40px;"><b>редактировать</b></span></li>
+										<li><a href="#"><img src="images/bg/unlock.png" alt="" /></a> <span class="tip" style="left:-36px;"><b>опубликовать</b></span></li>
+										<li><a href="#"><img src="images/bg/link.png" alt="" /></a> <span class="tip" style="left:-58px;"><b>дать ссылку на видео</b></span></li>
+										<li><a href="#"><img src="images/bg/del3.png" alt="" /></a> <span class="tip" style="left:-20px;"><b>удалить</b></span></li>
+										<li><a href="#"><img src="images/bg/share.png" alt="" /></a> <span class="tip" style="left:-48px;"><b>расшарить видео</b></span></li>
+										<li><a href="#" class="blue-bg"><img src="images/bg/white-send.png" alt="" /></a> <span class="tip" style="left:-29px;"><b>назначить</b></span></li>
+										<li><a href="#"><img src="images/bg/download.png" alt="" /></a> <span class="tip" style="left:-23px;"><b>скачать</b></span></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li class="disabled-event">
+							<div class="one-event">
+								<h3><a href="#">Обсуждаем экологию с Михаилом</a></h3>
+									<span class="begining">Начало:</span> 15.35 <span class="author">Иван Конинов </span>
+								<div class="event-navi">
+									<ul>
+										<li><a href="#"><img src="images/bg/edit.png" alt="" /></a> <span class="tip" style="left:-40px;"><b>редактировать</b></span></li>
+										<li><a href="#"><img src="images/bg/unlock.png" alt="" /></a> <span class="tip" style="left:-36px;"><b>опубликовать</b></span></li>
+										<li><a href="#"><img src="images/bg/link.png" alt="" /></a> <span class="tip" style="left:-58px;"><b>дать ссылку на видео</b></span></li>
+										<li><a href="#"><img src="images/bg/del3.png" alt="" /></a> <span class="tip" style="left:-20px;"><b>удалить</b></span></li>
+										<li><a href="#"><img src="images/bg/share.png" alt="" /></a> <span class="tip" style="left:-48px;"><b>расшарить видео</b></span></li>
+										<li><a href="#" class="blue-bg"><img src="images/bg/white-send.png" alt="" /></a> <span class="tip" style="left:-29px;"><b>назначить</b></span></li>
+										<li><a href="#"><img src="images/bg/download.png" alt="" /></a> <span class="tip" style="left:-23px;"><b>скачать</b></span></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li class="disabled-event">
+							<div class="one-event">
+								<h3><a href="#">Частушки про интернет</a></h3>
+									<span class="begining">Начало:</span> 21.10 <span class="author">Иван Конинов</span>
+								<div class="event-navi">
+									<ul>
+										<li><a href="#"><img src="images/bg/edit.png" alt="" /></a> <span class="tip" style="left:-40px;"><b>редактировать</b></span></li>
+										<li><a href="#"><img src="images/bg/unlock.png" alt="" /></a> <span class="tip" style="left:-36px;"><b>опубликовать</b></span></li>
+										<li><a href="#"><img src="images/bg/link.png" alt="" /></a> <span class="tip" style="left:-58px;"><b>дать ссылку на видео</b></span></li>
+										<li><a href="#"><img src="images/bg/del3.png" alt="" /></a> <span class="tip" style="left:-20px;"><b>удалить</b></span></li>
+										<li><a href="#"><img src="images/bg/share.png" alt="" /></a> <span class="tip" style="left:-48px;"><b>расшарить видео</b></span></li>
+										<li><a href="#" class="blue-bg"><img src="images/bg/white-send.png" alt="" /></a> <span class="tip" style="left:-29px;"><b>назначить</b></span></li>
+										<li><a href="#"><img src="images/bg/download.png" alt="" /></a> <span class="tip" style="left:-23px;"><b>скачать</b></span></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li class="disabled-event">
+							<div class="one-event">
+								<div class="video-time"> сент <strong>16</strong> </div>
+								<h3><a href="#">Обсуждаем экологию с Михаилом</a></h3>
+									<span class="begining">Начало:</span> 18.35 <span class="author">Иван Конинов </span>
+								<div class="event-navi">
+									<ul>
+										<li><a href="#"><img src="images/bg/edit.png" alt="" /></a> <span class="tip" style="left:-40px;"><b>редактировать</b></span></li>
+										<li><a href="#"><img src="images/bg/unlock.png" alt="" /></a> <span class="tip" style="left:-36px;"><b>опубликовать</b></span></li>
+										<li><a href="#"><img src="images/bg/link.png" alt="" /></a> <span class="tip" style="left:-58px;"><b>дать ссылку на видео</b></span></li>
+										<li><a href="#"><img src="images/bg/del3.png" alt="" /></a> <span class="tip" style="left:-20px;"><b>удалить</b></span></li>
+										<li><a href="#"><img src="images/bg/share.png" alt="" /></a> <span class="tip" style="left:-48px;"><b>расшарить видео</b></span></li>
+										<li><a href="#" class="blue-bg"><img src="images/bg/white-send.png" alt="" /></a> <span class="tip" style="left:-29px;"><b>назначить</b></span></li>
+										<li><a href="#"><img src="images/bg/download.png" alt="" /></a> <span class="tip" style="left:-23px;"><b>скачать</b></span></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li class="disabled-event">
+							<div class="one-event">
+								<div class="video-time"> июнь <strong>30</strong> </div>
+								<div class="float_left">
+									<h3><a href="#">Дизайн интерьеров в имперском стиле</a></h3>
+									<span class="begining">Начало:</span> 13.00 <span class="author">Александр Константинов</span> </div>
+								<a href="#" class="float_left"><img src="images/bg/play.png" alt="" /></a>
+								<div class="clear"></div>
+								<div class="event-navi">
+									<ul>
+										<li><a href="#"><img src="images/bg/edit.png" alt="" /></a> <span class="tip" style="left:-40px;"><b>редактировать</b></span></li>
+										<li><a href="#"><img src="images/bg/unlock.png" alt="" /></a> <span class="tip" style="left:-36px;"><b>опубликовать</b></span></li>
+										<li><a href="#"><img src="images/bg/link.png" alt="" /></a> <span class="tip" style="left:-58px;"><b>дать ссылку на видео</b></span></li>
+										<li><a href="#"><img src="images/bg/del3.png" alt="" /></a> <span class="tip" style="left:-20px;"><b>удалить</b></span></li>
+										<li><a href="#"><img src="images/bg/share.png" alt="" /></a> <span class="tip" style="left:-48px;"><b>расшарить видео</b></span></li>
+										<li><a href="#" class="blue-bg"><img src="images/bg/white-send.png" alt="" /></a> <span class="tip" style="left:-29px;"><b>назначить</b></span></li>
+										<li><a href="#"><img src="images/bg/download.png" alt="" /></a> <span class="tip" style="left:-23px;"><b>скачать</b></span></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li class="disabled-event">
+							<div class="one-event">
+								<h3><a href="#">Частушки про интернет</a></h3>
+									<span class="begining">Начало:</span> 22.30 <span class="author">Иван Конинов </span>
+								<div class="event-navi">
+									<ul>
+										<li><a href="#"><img src="images/bg/edit.png" alt="" /></a> <span class="tip" style="left:-40px;"><b>редактировать</b></span></li>
+										<li><a href="#"><img src="images/bg/unlock.png" alt="" /></a> <span class="tip" style="left:-36px;"><b>опубликовать</b></span></li>
+										<li><a href="#"><img src="images/bg/link.png" alt="" /></a> <span class="tip" style="left:-58px;"><b>дать ссылку на видео</b></span></li>
+										<li><a href="#"><img src="images/bg/del3.png" alt="" /></a> <span class="tip" style="left:-20px;"><b>удалить</b></span></li>
+										<li><a href="#"><img src="images/bg/share.png" alt="" /></a> <span class="tip" style="left:-48px;"><b>расшарить видео</b></span></li>
+										<li><a href="#" class="blue-bg"><img src="images/bg/white-send.png" alt="" /></a> <span class="tip" style="left:-29px;"><b>назначить</b></span></li>
+										<li><a href="#"><img src="images/bg/download.png" alt="" /></a> <span class="tip" style="left:-23px;"><b>скачать</b></span></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li class="disabled-event">
+							<div class="one-event">
+								<h3><a href="#">Жидкость, как того требуют законы термодинамики, доступна</a></h3>
+									<span class="begining">Начало:</span> 18.35 <span class="author">Иван Конинов </span>
+								<div class="event-navi">
+									<ul>
+										<li><a href="#"><img src="images/bg/edit.png" alt="" /></a> <span class="tip" style="left:-40px;"><b>редактировать</b></span></li>
+										<li><a href="#"><img src="images/bg/unlock.png" alt="" /></a> <span class="tip" style="left:-36px;"><b>опубликовать</b></span></li>
+										<li><a href="#"><img src="images/bg/link.png" alt="" /></a> <span class="tip" style="left:-58px;"><b>дать ссылку на видео</b></span></li>
+										<li><a href="#"><img src="images/bg/del3.png" alt="" /></a> <span class="tip" style="left:-20px;"><b>удалить</b></span></li>
+										<li><a href="#"><img src="images/bg/share.png" alt="" /></a> <span class="tip" style="left:-48px;"><b>расшарить видео</b></span></li>
+										<li><a href="#" class="blue-bg"><img src="images/bg/white-send.png" alt="" /></a> <span class="tip" style="left:-29px;"><b>назначить</b></span></li>
+										<li><a href="#"><img src="images/bg/download.png" alt="" /></a> <span class="tip" style="left:-23px;"><b>скачать</b></span></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li class="disabled-event">
+							<div class="one-event">
+								<div class="video-time"> июнь <strong>30</strong> </div>
+								<h3><a href="#">Сингулярность квазипериодично отклоняет лазер</a></h3>
+									<span class="begining">Начало:</span> 10.30 <span class="author">Иван Конинов</span>
+								<div class="event-navi">
+									<ul>
+										<li><a href="#"><img src="images/bg/edit.png" alt="" /></a> <span class="tip" style="left:-40px;"><b>редактировать</b></span></li>
+										<li><a href="#"><img src="images/bg/unlock.png" alt="" /></a> <span class="tip" style="left:-36px;"><b>опубликовать</b></span></li>
+										<li><a href="#"><img src="images/bg/link.png" alt="" /></a> <span class="tip" style="left:-58px;"><b>дать ссылку на видео</b></span></li>
+										<li><a href="#"><img src="images/bg/del3.png" alt="" /></a> <span class="tip" style="left:-20px;"><b>удалить</b></span></li>
+										<li><a href="#"><img src="images/bg/share.png" alt="" /></a> <span class="tip" style="left:-48px;"><b>расшарить видео</b></span></li>
+										<li><a href="#" class="blue-bg"><img src="images/bg/white-send.png" alt="" /></a> <span class="tip" style="left:-29px;"><b>назначить</b></span></li>
+										<li><a href="#"><img src="images/bg/download.png" alt="" /></a> <span class="tip" style="left:-23px;"><b>скачать</b></span></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li class="disabled-event">
+							<div class="one-event">
+								<h3><a href="#">Обсуждаем экологию с Михаилом</a></h3>
+									<span class="begining">Начало:</span> 15.35 <span class="author">Иван Конинов </span>
+								<div class="event-navi">
+									<ul>
+										<li><a href="#"><img src="images/bg/edit.png" alt="" /></a> <span class="tip" style="left:-40px;"><b>редактировать</b></span></li>
+										<li><a href="#"><img src="images/bg/unlock.png" alt="" /></a> <span class="tip" style="left:-36px;"><b>опубликовать</b></span></li>
+										<li><a href="#"><img src="images/bg/link.png" alt="" /></a> <span class="tip" style="left:-58px;"><b>дать ссылку на видео</b></span></li>
+										<li><a href="#"><img src="images/bg/del3.png" alt="" /></a> <span class="tip" style="left:-20px;"><b>удалить</b></span></li>
+										<li><a href="#"><img src="images/bg/share.png" alt="" /></a> <span class="tip" style="left:-48px;"><b>расшарить видео</b></span></li>
+										<li><a href="#" class="blue-bg"><img src="images/bg/white-send.png" alt="" /></a> <span class="tip" style="left:-29px;"><b>назначить</b></span></li>
+										<li><a href="#"><img src="images/bg/download.png" alt="" /></a> <span class="tip" style="left:-23px;"><b>скачать</b></span></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li class="disabled-event">
+							<div class="one-event">
+								<h3><a href="#">Частушки про интернет</a></h3>
+									<span class="begining">Начало:</span> 21.10 <span class="author">Иван Конинов</span>
+								<div class="event-navi">
+									<ul>
+										<li><a href="#"><img src="images/bg/edit.png" alt="" /></a> <span class="tip" style="left:-40px;"><b>редактировать</b></span></li>
+										<li><a href="#"><img src="images/bg/unlock.png" alt="" /></a> <span class="tip" style="left:-36px;"><b>опубликовать</b></span></li>
+										<li><a href="#"><img src="images/bg/link.png" alt="" /></a> <span class="tip" style="left:-58px;"><b>дать ссылку на видео</b></span></li>
+										<li><a href="#"><img src="images/bg/del3.png" alt="" /></a> <span class="tip" style="left:-20px;"><b>удалить</b></span></li>
+										<li><a href="#"><img src="images/bg/share.png" alt="" /></a> <span class="tip" style="left:-48px;"><b>расшарить видео</b></span></li>
+										<li><a href="#" class="blue-bg"><img src="images/bg/white-send.png" alt="" /></a> <span class="tip" style="left:-29px;"><b>назначить</b></span></li>
+										<li><a href="#"><img src="images/bg/download.png" alt="" /></a> <span class="tip" style="left:-23px;"><b>скачать</b></span></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li class="disabled-event">
+							<div class="one-event">
+								<div class="video-time"> сент <strong>16</strong> </div>
+								<h3><a href="#">Обсуждаем экологию с Михаилом</a></h3>
+									<span class="begining">Начало:</span> 18.35 <span class="author">Иван Конинов </span>
+								<div class="event-navi">
+									<ul>
+										<li><a href="#"><img src="images/bg/edit.png" alt="" /></a> <span class="tip" style="left:-40px;"><b>редактировать</b></span></li>
+										<li><a href="#"><img src="images/bg/unlock.png" alt="" /></a> <span class="tip" style="left:-36px;"><b>опубликовать</b></span></li>
+										<li><a href="#"><img src="images/bg/link.png" alt="" /></a> <span class="tip" style="left:-58px;"><b>дать ссылку на видео</b></span></li>
+										<li><a href="#"><img src="images/bg/del3.png" alt="" /></a> <span class="tip" style="left:-20px;"><b>удалить</b></span></li>
+										<li><a href="#"><img src="images/bg/share.png" alt="" /></a> <span class="tip" style="left:-48px;"><b>расшарить видео</b></span></li>
+										<li><a href="#" class="blue-bg"><img src="images/bg/white-send.png" alt="" /></a> <span class="tip" style="left:-29px;"><b>назначить</b></span></li>
+										<li><a href="#"><img src="images/bg/download.png" alt="" /></a> <span class="tip" style="left:-23px;"><b>скачать</b></span></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<!-- ____ /CONTENT ____ --> 
+	<!-- ____ FOOTER ____ -->
+	<div id="footer">
+		<p>© Name, 2012. All right reserved.</p>
+	</div>
+	<!-- ____ /FOOTER ____ --> 
+</div>
+<!-- /PAGE -->
+</body>
+</html>

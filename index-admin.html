@@ -1,0 +1,352 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="en" />
+<link rel="icon" type="image/x-icon" href="favicon.ico" />
+<link rel="shortcut icon"  href="favicon.ico" type="image/x-icon"  />
+<title>Logotype - home</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="robots" content="index,follow" />
+<meta name="copyright" content="" />
+<link type="text/css" rel="stylesheet" href="style.css" />
+
+<!-- fancy -->
+<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.mousewheel-3.0.6.pack.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+<link type="text/css" rel="stylesheet" href="js/jquery.fancybox/jquery.fancybox.css" />
+<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+<link type="text/css" href="js/jquery.jscrollpane/jquery.jscrollpane.css" rel="stylesheet" media="all" />
+<script type="text/javascript" src="js/jquery-ui-1.8.20.custom.min.js" ></script>
+<script type="text/javascript" src="js/jquery.functions.js"></script>
+<script type="text/javascript" >
+$(function(){
+	$('.inner-block').each(function(){
+			$(this).jScrollPane();
+			var api = $(this).data('jsp');
+			var throttleTimeout;
+			$(window).bind(
+				'resize',function(){
+					if ($.browser.msie) {
+						if (!throttleTimeout) {throttleTimeout = setTimeout(function(){api.reinitialise();throttleTimeout = null;},50);}
+					}
+					else {api.reinitialise();}
+				}
+			);
+			
+		}
+	)	
+	
+	$('.content-wrapper-column').sortable({
+		connectWith: '.content-wrapper-column',
+		handle: '.inner-block-header',
+		cursor: 'move',
+		placeholder:'placeholder',
+		forcePlaceholderSize:false,
+		opacity: 0.4,
+		activate: function(event, ui) {
+			$(ui.item).addClass('ui-cur').parent('.content-wrapper-column').addClass('ui-prevent');
+		},
+		beforeStop: function(event, ui) {	
+			$('.placeholder').parent().find('.content-block:not(.ui-cur)').appendTo($('.ui-prevent').removeClass('ui-prevent'))
+			$('.ui-cur').removeClass('ui-cur');
+		},
+		stop: function(event, ui) {	
+			$('.inner-block').each(function(){
+				var api = $(this).data('jsp');
+				api.reinitialise();
+			});			
+		}		
+	})/*.disableSelection();*/
+
+});
+</script>
+</head>
+<body>
+<div class="header-bg"></div>
+<!-- PAGE -->
+<div id="main" class="admin-page"> 
+	
+	<!-- ____ HEADER ____ -->
+	<div id="header">
+		<div class="h-logo"> <a href="/"><img src="images/bg/logo.png" alt="" /></a> </div>
+		<div class="h-menu"> 
+			<div class="plus-ico">
+				<a href="#" class="plus">Plus</a>
+				
+				<div class="plus-submenu">
+					<div class="plus-submenu-top"></div>
+					<ul class="no_mark">
+						<li class="drop-courses"><a href="#">Курс</a></li>
+						<li class="drop-test"><a href="#">Тест/опрос</a></li>
+						<li class="drop-video"><a href="#">Видеовстреча</a></li>
+					</ul>
+				</div>
+			</div>
+			
+			<a href="#">Курсы</a> <a href="#">Видеовстречи</a> <a href="#">Тесты</a> <a href="#">Библиотека</a> <a href="#">Отчеты</a> <a href="#">Пользователи</a> </div>
+		<div class="h-personal"> <a href="#"><span><img src="images/content-im/ico.jpg" alt="" /></span></a> </div>
+		<div class="header-search search-animate">
+			<form action="" method="post">
+				<input type="submit" value="" />
+				<input type="text" value="Поиск по сайту..." onfocus="if(this.value=='Поиск по сайту...')this.value='';" onblur="if(this.value=='')this.value='Поиск по сайту...';" />
+			</form>
+		</div>
+	</div>
+	<!-- ____ /HEADER ____ --> 
+	<!-- ____ CONTENT ____ -->
+	<div class="content-wrapper-column first-column">
+		<div class="content-block">
+			<div class="inner-block-header">
+				<h3><img src="images/bg/current.png" alt="" /> Текущие курсы</h3>
+			</div>
+			<div class="inner-search search-animate">
+				<form action="" method="post">
+					<input type="submit" value="" />
+					<input type="text" value="Поиск по сайту..." onfocus="if(this.value=='Поиск по сайту...')this.value='';" onblur="if(this.value=='')this.value='Поиск по сайту...';" />
+				</form>
+			</div>
+			<div class="inner-block">
+				<ul class="course-list">
+					<li>
+						<a href="#" class="img-box"> <span class="corner-ico"><b><img src="images/content-im/html.jpg" alt="" /></b><i></i></span> <em>курс</em> Основы HTML и CSS верстки </a>
+						<a href="#" class="listener">8</a>
+						<p>Александр Константинов,</p>
+						<div class="time-block red-time"><span>3 часа</span></div>
+						<div class="progress-block-admin">
+							<span class="progress-unbegin">15</span>
+							<span class="progress-begin">69</span>
+							<span class="progress-end">15</span>
+							<b class="progress-total">99</b>
+							
+						</div>
+					</li>
+					<li class="disabled-li"> <a href="#" class="img-box"> <span class="corner-ico"><b><img src="images/content-im/psh.jpg" alt="" /></b><i></i></span> <em>курс</em> Фотошоп для фотографов и дизайнеров </a>
+						<a href="#" class="listener">4</a>
+						<p>Александр Константинов</p>
+						<div class="time-block"><span>1 день</span></div>
+						<div class="progress-block-admin">
+							<span class="progress-unbegin">5</span>
+							<span class="progress-begin">9</span>
+							<span class="progress-end">5</span>
+							<b class="progress-total">19</b>
+						</div>
+					</li>
+					<li class="test-li"> <a href="#" class="img-box"> <span><img src="images/content-im/test.png" alt="" /></span> <em>тест</em> Был Энштейн гением или он был 
+талантливым шарлатаном? </a>
+						<p>Александр Константинов</p>
+						<div class="time-block"><span>7 дней</span></div>
+						<div class="progress-block-admin">
+							<span class="progress-unbegin">40</span>
+							<span class="progress-begin">30</span>
+							<span class="progress-end">20</span>
+							<b class="progress-total">90</b>
+						</div>
+					</li>
+					<li> <a href="#" class="img-box"> <span class="corner-ico"><b><img src="images/content-im/test.jpg" alt="" /></b><i></i></span> <em>курс</em> Новый тест Люшера-Ковальского </a>
+						<a href="#" class="listener">21</a>
+						<p>Александр Константинов</p>
+						<div class="time-block"><span>12 дней</span></div>
+						<div class="progress-block-admin">
+							<span class="progress-unbegin">15</span>
+							<span class="progress-begin">46</span>
+							<span class="progress-end">4</span>
+							<b class="progress-total">65</b>
+						</div>
+					</li>
+					<li class="poll-li"> <a href="#" class="img-box"> <span><img src="images/content-im/poll.png" alt="" /></span> <em>опрос</em> Быстрый опрос для дизайнеров </a>
+						<p>Александр Константинов</p>
+						<div class="time-block"><span>бессрочно</span></div>
+						<div class="progress-block-admin">
+							<span class="progress-unbegin">15</span>
+							<span class="progress-begin">9</span>
+							<span class="progress-end">51</span>
+							<b class="progress-total">75</b>
+						</div>
+					</li>
+					<li> <a href="#" class="img-box"> <span class="corner-ico"><b><img src="images/content-im/html.jpg" alt="" /></b><i></i></span> <em>курс</em> Основы HTML и CSS верстки </a>
+						<p>Александр Константинов,</p>
+						<div class="time-block red-time"><span>3 часа</span></div>
+						<div class="progress-block-admin">
+							<span class="progress-unbegin">15</span>
+							<span class="progress-begin">46</span>
+							<span class="progress-end">4</span>
+							<b class="progress-total">65</b>
+						</div>
+					</li>
+					<li> <a href="#" class="img-box"> <span class="corner-ico"><b><img src="images/content-im/psh.jpg" alt="" /></b><i></i></span> <em>курс</em> Фотошоп для фотографов и дизайнеров </a>
+						<p>Александр Константинов</p>
+						<div class="time-block"><span>1 день</span></div>
+						<div class="progress-block-admin">
+							<span class="progress-unbegin">15</span>
+							<span class="progress-begin">46</span>
+							<span class="progress-end">4</span>
+							<b class="progress-total">65</b>
+						</div>
+					</li>
+					<li class="test-li"> <a href="#" class="img-box"> <span><img src="images/content-im/test.png" alt="" /></span> <em>тест</em> Был Энштейн гением или шарлатаном? </a>
+						<p>Александр Константинов</p>
+						<div class="time-block"><span>7 дней</span></div>
+						<div class="progress-block-admin">
+							<span class="progress-unbegin">15</span>
+							<span class="progress-begin">46</span>
+							<span class="progress-end">4</span>
+							<b class="progress-total">65</b>
+						</div>
+					</li>
+					<li> <a href="#" class="img-box"> <span class="corner-ico"><b><img src="images/content-im/test.jpg" alt="" /></b><i></i></span> <em>курс</em> Новый тест Люшера-Ковальского </a>
+						<p>Александр Константинов</p>
+						<div class="time-block"><span>12 дней</span></div>
+						<div class="progress-block-admin">
+							<span class="progress-unbegin">15</span>
+							<span class="progress-begin">46</span>
+							<span class="progress-end">4</span>
+							<b class="progress-total">65</b>
+						</div>
+					</li>
+					<li class="poll-li"> <a href="#" class="img-box"> <span><img src="images/content-im/poll.png" alt="" /></span> <em>опрос</em> Быстрый опрос для дизайнеров </a>
+						<p>Александр Константинов</p>
+						<div class="time-block"><span>бессрочно</span></div>
+						<div class="progress-block-admin">
+							<span class="progress-unbegin">15</span>
+							<span class="progress-begin">46</span>
+							<span class="progress-end">4</span>
+							<b class="progress-total">65</b>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="content-wrapper-column">
+		<div class="content-block">
+			<div class="inner-block-header">
+				<h3><img src="images/bg/video.png" alt="" /> Видеовстречи</h3>
+				<div class="inner-search search-animate">
+					<form action="" method="post">
+						<input type="submit" value="" />
+						<input type="text" value="Поиск по сайту..." onfocus="if(this.value=='Поиск по сайту...')this.value='';" onblur="if(this.value=='')this.value='Поиск по сайту...';" />
+					</form>
+				</div>
+			</div>
+			<div class="inner-block">
+				<ul class="video-list">
+					<li class="now">
+						<div class="video-time">уже<br />
+							идет</div>
+						<a href="#" class="login">Войти</a>
+						<h3><a href="#">Английский язык за два дня</a></h3>
+						<p><a href="#" class="author">Александр Константинов</a></p>
+					</li>
+					<li class="soon">
+						<div class="video-time"> <small>Осталось</small> <strong>24</strong> минуты </div>
+						<a href="#" class="login">Войти</a>
+						<h3><a href="#">Дизайн интерьеров в имперском стиле</a></h3>
+						<p><a href="#" class="author">Александр Константинов</a></p>
+					</li>
+					<li>
+						<div class="video-time"> июнь <strong>30</strong> </div>
+						<h3><a href="#">Обсуждаем экологию с Михаилом Зеленским</a></h3>
+						<p><strong>Ожидается подтверждение</strong> <a href="#" class="author">Иван Конинов</a></p>
+					</li>
+					<li>
+						<div class="video-time"> август <strong>5</strong> </div>
+						<h3><a href="#">Дизайн интерьеров в имперском стиле</a></h3>
+						<p><span class="begining">Начало:</span> 13.00 <a href="#" class="author">Александр Константинов</a></p>
+					</li>
+					<li>
+						<div class="video-time"> август <strong>5</strong> </div>
+						<h3><a href="#">Дизайн интерьеров в имперском стиле</a></h3>
+						<p><span class="begining">Начало:</span> 13.00 <a href="#" class="author">Александр Константинов</a></p>
+					</li>
+					<li>
+						<div class="video-time"> июнь <strong>30</strong> </div>
+						<h3><a href="#">Обсуждаем экологию с Михаилом Зеленским</a></h3>
+						<p><strong>Ожидается подтверждение</strong> <a href="#" class="author">Иван Конинов</a></p>
+					</li>
+					<li>
+						<div class="video-time"> август <strong>5</strong> </div>
+						<h3><a href="#">Дизайн интерьеров в имперском стиле</a></h3>
+						<p><span class="begining">Начало:</span> 13.00 <a href="#" class="author">Александр Константинов</a></p>
+					</li>
+					<li>
+						<div class="video-time"> август <strong>5</strong> </div>
+						<h3><a href="#">Дизайн интерьеров в имперском стиле</a></h3>
+						<p><span class="begining">Начало:</span> 13.00 <a href="#" class="author">Александр Константинов</a></p>
+					</li>
+					<li>
+						<div class="video-time"> июнь <strong>30</strong> </div>
+						<h3><a href="#">Обсуждаем экологию с Михаилом Зеленским</a></h3>
+						<p><strong>Ожидается подтверждение</strong> <a href="#" class="author">Иван Конинов</a></p>
+					</li>
+					<li>
+						<div class="video-time"> август <strong>5</strong> </div>
+						<h3><a href="#">Дизайн интерьеров в имперском стиле</a></h3>
+						<p><span class="begining">Начало:</span> 13.00 <a href="#" class="author">Александр Константинов</a></p>
+					</li>
+					<li>
+						<div class="video-time"> август <strong>5</strong> </div>
+						<h3><a href="#">Дизайн интерьеров в имперском стиле</a></h3>
+						<p><span class="begining">Начало:</span> 13.00 <a href="#" class="author">Александр Константинов</a></p>
+					</li>
+					<li>
+						<div class="video-time"> июнь <strong>30</strong> </div>
+						<h3><a href="#">Обсуждаем экологию с Михаилом Зеленским</a></h3>
+						<p><strong>Ожидается подтверждение</strong> <a href="#" class="author">Иван Конинов</a></p>
+					</li>
+					<li>
+						<div class="video-time"> август <strong>5</strong> </div>
+						<h3><a href="#">Дизайн интерьеров в имперском стиле</a></h3>
+						<p><span class="begining">Начало:</span> 13.00 <a href="#" class="author">Александр Константинов</a></p>
+					</li>
+					<li>
+						<div class="video-time"> август <strong>5</strong> </div>
+						<h3><a href="#">Дизайн интерьеров в имперском стиле</a></h3>
+						<p><span class="begining">Начало:</span> 13.00 <a href="#" class="author">Александр Константинов</a></p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="content-wrapper-column last">
+		<div class="content-block">
+			<div class="inner-block-header">
+				<h3><img src="images/bg/news.png" alt="" /> Лента информации</h3>
+				<div class="inner-search search-animate">
+					<form action="" method="post">
+						<input type="submit" value="" />
+						<input type="text" value="Поиск по сайту..." onfocus="if(this.value=='Поиск по сайту...')this.value='';" onblur="if(this.value=='')this.value='Поиск по сайту...';" />
+					</form>
+				</div>
+			</div>
+			<div class="inner-block">
+				<ul class="feed">
+					<li> <img src="images/bg/start.png" alt="" /> <a href="#" class="event">Назначен курс «Креативные методики в рекламе и дизайне сыра»</a> <a href="#" class="author">Александр Константинов</a> <span class="feed-time">30 минут назад</span> </li>
+					<li> <img src="images/bg/fin.png" alt="" /> <a href="#" class="event">Закончен курс «Как делать курсы в системе Webils»</a> <a href="#" class="author">Александр Константинов</a> <span class="feed-time">30 минут назад</span> </li>
+					<li> <img src="images/content-im/im.png" alt="" /> <a href="#" class="event">Добавлена новая фотография в вашу в папку «Новые курсы»</a> <a href="#" class="author">Александр Константинов</a> <span class="feed-time">30 минут назад</span> </li>
+					<li> <img src="images/bg/del.png" alt="" /> <a href="#" class="event">Удален опрос «Сколько пальцев на ноге слона»</a> <a href="#" class="author">Александр Константинов</a> <span class="feed-time">30 минут назад</span> </li>
+					<li> <img src="images/bg/start.png" alt="" /> <a href="#" class="event">Назначен курс «Креативные методики в рекламе и дизайне сыра»</a> <a href="#" class="author">Александр Константинов</a> <span class="feed-time">30 минут назад</span> </li>
+					<li> <img src="images/bg/fin.png" alt="" /> <a href="#" class="event">Закончен курс «Как делать курсы в системе Webils»</a> <a href="#" class="author">Александр Константинов</a> <span class="feed-time">30 минут назад</span> </li>
+					<li> <img src="images/content-im/im.png" alt="" /> <a href="#" class="event">Добавлена новая фотография в вашу в папку «Новые курсы»</a> <a href="#" class="author">Александр Константинов</a> <span class="feed-time">30 минут назад</span> </li>
+					<li> <img src="images/bg/del.png" alt="" /> <a href="#" class="event">Удален опрос «Сколько пальцев на ноге слона»</a> <a href="#" class="author">Александр Константинов</a> <span class="feed-time">30 минут назад</span> </li>
+					<li> <img src="images/bg/start.png" alt="" /> <a href="#" class="event">Назначен курс «Креативные методики в рекламе и дизайне сыра»</a> <a href="#" class="author">Александр Константинов</a> <span class="feed-time">30 минут назад</span> </li>
+					<li> <img src="images/bg/fin.png" alt="" /> <a href="#" class="event">Закончен курс «Как делать курсы в системе Webils»</a> <a href="#" class="author">Александр Константинов</a> <span class="feed-time">30 минут назад</span> </li>
+					<li> <img src="images/content-im/im.png" alt="" /> <a href="#" class="event">Добавлена новая фотография в вашу в папку «Новые курсы»</a> <a href="#" class="author">Александр Константинов</a> <span class="feed-time">30 минут назад</span> </li>
+					<li> <img src="images/bg/del.png" alt="" /> <a href="#" class="event">Удален опрос «Сколько пальцев на ноге слона»</a> <a href="#" class="author">Александр Константинов</a> <span class="feed-time">30 минут назад</span> </li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="clear"></div>
+	<!-- ____ /CONTENT ____ --> 
+	<!-- ____ FOOTER ____ -->
+	<div id="footer">
+		<p>© Name, 2012. All right reserved.</p>
+	</div>
+	<!-- ____ /FOOTER ____ --> 
+</div>
+<!-- /PAGE -->
+</body>
+</html>
