@@ -2195,3 +2195,16 @@
     color: #000;
     margin-top: 3px;
 }
+
+#tooltip{
+    position:absolute;
+    border:1px solid #ccc68a;
+    background:#f5f1c5;
+    padding:3px 4px;
+    display:none;
+    z-index: 999999999999;
+    color: #5e5923;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12.5px;
+    box-shadow: 0 0 13px #a9a9a9;
+}
