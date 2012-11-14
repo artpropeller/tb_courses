@@ -522,7 +522,7 @@
 }
 
 #course_assign .parameters.as .option label.active {
-    background: url("images/checkbox_par_active.jpg") no-repeat 0 3px;
+    background: url("images/checkbox_par_active.jpg") no-repeat 0 3px !important;
 }
 
 #date-deadline, #time-deadline {
@@ -883,6 +883,7 @@
     position: relative;
     margin-top: -4px;
     margin-bottom: -5px;
+    margin-left: 7px;
 }
 
 .parameters .inparr span {
@@ -2546,4 +2547,32 @@
     background: url("images/bg/dashed.png") repeat-x bottom;
     padding-bottom: 20px;
     margin-bottom: 20px;
+}
+
+#course_assign .parameters.as li.hide-settings{
+
+}
+
+#course_assign .parameters.as ul.nobg{
+    background: none;
+}
+
+#course_assign .parameters.as .hide-settings ul{
+    padding: 0 0 13px 11px;
+}
+
+#course_assign .parameters.as .hide-settings .option label{
+    background: url("images/checkbox_par.jpg") no-repeat left;
+    padding-top: 1px;
+    padding-left: 21px;
+}
+
+#course_assign .parameters.as #time-deadline{
+    margin-top: -5px;
+    margin-bottom: -7px;
+    margin-left: 7px;
+}
+
+#course_assign .parameters.as .hide-settings a{
+    color: #0e67d2;
 }
