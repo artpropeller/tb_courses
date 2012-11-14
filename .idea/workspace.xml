@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resize-test-assign-step2.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-assign.css" afterPath="$PROJECT_DIR$/course-assign.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resize-course-assign.html" afterPath="$PROJECT_DIR$/resize-course-assign.html" />
     </list>
     <ignored path="tb_courses.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,10 +32,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="course-assign.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="course-assign.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/course-assign.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="524" column="80" selection-start="10031" selection-end="10031" vertical-scroll-proportion="0.35777125">
+            <state line="535" column="22" selection-start="10239" selection-end="10239" vertical-scroll-proportion="-17.24">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="resize-course-assign.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resize-course-assign.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="0" selection-start="1754" selection-end="1754" vertical-scroll-proportion="0.33333334">
               <folding />
             </state>
           </provider>
@@ -67,11 +75,11 @@
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/js/course-assign.js" />
         <option value="$PROJECT_DIR$/course-assign.html" />
-        <option value="$PROJECT_DIR$/resize-course-assign.html" />
         <option value="$PROJECT_DIR$/resize-course-assign-step2.html" />
         <option value="$PROJECT_DIR$/resize-course-assign-link.html" />
         <option value="$PROJECT_DIR$/resize-test-assign-step2.html" />
         <option value="$PROJECT_DIR$/course-assign.css" />
+        <option value="$PROJECT_DIR$/resize-course-assign.html" />
       </list>
     </option>
   </component>
@@ -197,7 +205,11 @@
       <created>1352885701183</created>
       <updated>1352885701183</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="last change">
+      <created>1352891383481</created>
+      <updated>1352891383481</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -318,13 +330,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resize-course-assign.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="460" column="0" selection-start="15591" selection-end="15785" vertical-scroll-proportion="-4.2156863">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resize-add-user-email.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="739" column="24" selection-start="50536" selection-end="50540" vertical-scroll-proportion="-4.2352943">
@@ -376,7 +381,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/course-assign.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="524" column="80" selection-start="10031" selection-end="10031" vertical-scroll-proportion="0.35777125">
+        <state line="535" column="22" selection-start="10239" selection-end="10239" vertical-scroll-proportion="-17.24">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resize-course-assign.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="0" selection-start="1754" selection-end="1754" vertical-scroll-proportion="0.33333334">
           <folding />
         </state>
       </provider>
