@@ -490,7 +490,9 @@
 }
 
 #course_assign .parameters.as .radio input, #course_assign .parameters.as .option input {
-    visibility: hidden;
+    opacity: 0;
+    width: 0;
+    height: 0;
     background: none;
     position: absolute;
     right: 0;
@@ -522,7 +524,7 @@
 }
 
 #course_assign .parameters.as .option label.active {
-    background: url("images/checkbox_par_active.jpg") no-repeat 0 3px !important;
+    background: url("images/checkbox_par_active.jpg") no-repeat left !important;
 }
 
 #date-deadline, #time-deadline {
@@ -800,7 +802,7 @@
     float: left;
     color: #0e67d2;
     display: block;
-    margin-top: 10px;
+    margin-top: 14px;
     font-size: 13px;
     line-height: 13px;
 }
@@ -2533,7 +2535,7 @@
 
 #course_assign .users.as .scroll{
     height: 280px;
-    width: 317px;
+    width: 317px !important;
 }
 
 .send.as{
@@ -2565,6 +2567,7 @@
     background: url("images/checkbox_par.jpg") no-repeat left;
     padding-top: 1px;
     padding-left: 21px;
+    display: block;
 }
 
 #course_assign .parameters.as #time-deadline{
