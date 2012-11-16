@@ -1202,7 +1202,7 @@
     padding-bottom: 15px;
 }
 
-.table-add .scroll.ex .jspPane {
+.table-add .scroll.ex>.jspContainer>.jspPane {
     padding-bottom: 265px !important;
 }
 
@@ -2578,4 +2578,13 @@
 
 #course_assign .parameters.as .hide-settings a{
     color: #0e67d2;
+}
+
+.a-hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top:0;
+    z-index: 8000;
 }

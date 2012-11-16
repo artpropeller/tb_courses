@@ -127,7 +127,15 @@ $(function(){
         $('.course-users .head .status .choice').removeClass('active');
     });
 
-    $('.selectbox').selectbox();
+    $('.selectbox').selectbox({
+        onOpen:function (inst) {
+
+            $('#course_assign').prepend('<div class="a-hover"></div>');
+        },
+        onClose:function (inst) {
+            $('.a-hover').remove();
+        }
+    });
 
      $('#course-settings .parameters.post li li').click(function(){
         if (!$(this).is('.active')) {

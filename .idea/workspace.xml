@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/autoGrow.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-assign.css" afterPath="$PROJECT_DIR$/course-assign.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resize-course-assign-link.html" afterPath="$PROJECT_DIR$/resize-course-assign-link.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/course-assign.js" afterPath="$PROJECT_DIR$/js/course-assign.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery.functions.js" afterPath="$PROJECT_DIR$/js/jquery.functions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery.selectbox-0.1.3.min.js" afterPath="$PROJECT_DIR$/js/jquery.selectbox-0.1.3.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/menu.js" afterPath="$PROJECT_DIR$/js/menu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resize-add-user-email.html" afterPath="$PROJECT_DIR$/resize-add-user-email.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resize-add-user-exel2.html" afterPath="$PROJECT_DIR$/resize-add-user-exel2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resize-add-user-link.html" afterPath="$PROJECT_DIR$/resize-add-user-link.html" />
     </list>
     <ignored path="tb_courses.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,49 +31,80 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="resize-test-assign-step2.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resize-test-assign-step2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="128" column="44" selection-start="5615" selection-end="5615" vertical-scroll-proportion="19.490196">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="resize-add-user-link.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resize-add-user-link.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="resize-add-user-email.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resize-add-user-email.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="739" column="24" selection-start="50536" selection-end="50540" vertical-scroll-proportion="-0.65384614">
+            <state line="443" column="84" selection-start="28467" selection-end="28673" vertical-scroll-proportion="-4.1764708">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="resize-course-assign-link.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resize-course-assign-link.html">
+      <file leaf-file-name="course-assign.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/course-assign.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="141" column="40" selection-start="5989" selection-end="5989" vertical-scroll-proportion="-8.0">
+            <state line="444" column="11" selection-start="14789" selection-end="14899" vertical-scroll-proportion="-13.64">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="resize-course-assign-step2.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resize-course-assign-step2.html">
+      <file leaf-file-name="menu.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/menu.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="291" column="0" selection-start="13966" selection-end="13966" vertical-scroll-proportion="0.32">
+            <state line="133" column="10" selection-start="4013" selection-end="4013" vertical-scroll-proportion="-9.56">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.functions.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/jquery.functions.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="393" column="27" selection-start="14613" selection-end="14613" vertical-scroll-proportion="-9.56">
               <folding>
-                <element signature="tag#div#2;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+                <marker date="1353056823691" expanded="true" signature="5190:5201" placeholder="..." />
+                <marker date="1353056823691" expanded="true" signature="5241:5247" placeholder="..." />
+                <marker date="1353056823691" expanded="true" signature="5363:5369" placeholder="..." />
+                <marker date="1353056823691" expanded="true" signature="5486:5492" placeholder="..." />
+                <marker date="1353056823691" expanded="true" signature="6526:6532" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="autoGrow.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/autoGrow.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="53" column="57" selection-start="2084" selection-end="2084" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="resize-add-user-exel1.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resize-add-user-exel1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="351" column="41" selection-start="17319" selection-end="17319" vertical-scroll-proportion="-0.65384614">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="resize-add-user-exel2.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resize-add-user-exel2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="610" column="10" selection-start="40504" selection-end="40504" vertical-scroll-proportion="-4.8431373">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="resize-add-user-link.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resize-add-user-link.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="179" column="76" selection-start="7446" selection-end="7446" vertical-scroll-proportion="0.36452243">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -74,25 +112,20 @@
       <file leaf-file-name="course-assign.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/course-assign.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2569" column="19" selection-start="45243" selection-end="45243" vertical-scroll-proportion="-16.36">
+            <state line="1206" column="1" selection-start="22697" selection-end="22697" vertical-scroll-proportion="-8.2">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="resize-course-assign.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resize-course-assign.html">
+      <file leaf-file-name="jquery.selectbox-0.1.3.min.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/jquery.selectbox-0.1.3.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="0" selection-start="1754" selection-end="1754" vertical-scroll-proportion="34.653847">
-              <folding />
+            <state line="8" column="25" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="checkbox_par.jpg" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/checkbox_par.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
@@ -109,24 +142,27 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/resize-sharing-1-final.html" />
-        <option value="$PROJECT_DIR$/resize-add-user-exel2.html" />
         <option value="$PROJECT_DIR$/style.css" />
-        <option value="$PROJECT_DIR$/js/course-assign.js" />
-        <option value="$PROJECT_DIR$/course-assign.html" />
-        <option value="$PROJECT_DIR$/resize-course-assign-step2.html" />
-        <option value="$PROJECT_DIR$/resize-test-assign-step2.html" />
-        <option value="$PROJECT_DIR$/resize-course-assign.html" />
+        <option value="$PROJECT_DIR$/course-view.css" />
+        <option value="$PROJECT_DIR$/resize-sharing-1-final.html" />
+        <option value="$PROJECT_DIR$/js/jquery.selectbox-0.1.3.min.js" />
+        <option value="$PROJECT_DIR$/js/menu.js" />
         <option value="$PROJECT_DIR$/course-assign.css" />
-        <option value="$PROJECT_DIR$/resize-course-assign-link.html" />
+        <option value="$PROJECT_DIR$/js/course-assign.js" />
+        <option value="$PROJECT_DIR$/js/autoGrow.js" />
+        <option value="$PROJECT_DIR$/js/jquery.functions.js" />
+        <option value="$PROJECT_DIR$/resize-add-user-email.html" />
+        <option value="$PROJECT_DIR$/resize-add-user-exel2.html" />
+        <option value="$PROJECT_DIR$/resize-add-user-link.html" />
       </list>
     </option>
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1456" />
-    <option name="height" value="886" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -195,23 +231,10 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="last_opened_file_path" value="D:/teachbase_front" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\tb_courses" />
-    </key>
-  </component>
   <component name="RunManager">
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
-      <method />
-    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -243,37 +266,37 @@
       <created>1352802186145</created>
       <updated>1352802186145</updated>
     </task>
-    <task id="LOCAL-00002" summary="last change">
-      <created>1352885701183</created>
-      <updated>1352885701183</updated>
+    <task id="LOCAL-00002" summary="files">
+      <created>1352802227671</created>
+      <updated>1352802227671</updated>
     </task>
-    <task id="LOCAL-00003" summary="last change">
-      <created>1352891383481</created>
-      <updated>1352891383481</updated>
+    <task id="LOCAL-00003" summary="tooltips">
+      <created>1352806006726</created>
+      <updated>1352806006726</updated>
     </task>
-    <task id="LOCAL-00004" summary="last change">
-      <created>1352892144742</created>
-      <updated>1352892144742</updated>
+    <task id="LOCAL-00004" summary="del item group">
+      <created>1352806733727</created>
+      <updated>1352806733727</updated>
     </task>
     <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="886" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24911785" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26136363" sideWeight="0.6712329" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -317,7 +340,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="last change" />
+    <option name="LAST_COMMIT_MESSAGE" value="del item group" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -331,105 +354,126 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="files" />
-    <MESSAGE value="last change" />
+    <MESSAGE value="tooltips" />
+    <MESSAGE value="del item group" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Ñ_Ñ_Ñ_Ð_.html">
+    <entry file="file://$PROJECT_DIR$/resize-course-assign-mail-1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resize-sharing-1-final.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="340" column="20" selection-start="13765" selection-end="13765" vertical-scroll-proportion="-0.65384614" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/course-assign-step2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="5" column="54" selection-start="332" selection-end="332" vertical-scroll-proportion="-3.2692308" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resize-course-assign-exel2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="353" column="6" selection-start="10570" selection-end="10570" vertical-scroll-proportion="0.30697674" />
+        <state line="16" column="18" selection-start="890" selection-end="890" vertical-scroll-proportion="-10.461538" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/send-message.html">
+    <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="35" selection-start="501" selection-end="501" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resize-add-user-exel2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="687" column="43" selection-start="44459" selection-end="44459" vertical-scroll-proportion="-0.65384614" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result-test-final.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-assign-step2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="6" selection-start="204" selection-end="204" vertical-scroll-proportion="-0.65384614" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/checkbox_par.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resize-course-assign.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="1754" selection-end="1754" vertical-scroll-proportion="34.653847">
+        <state line="1461" column="17" selection-start="27212" selection-end="27212" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/course-assign.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2569" column="19" selection-start="45243" selection-end="45243" vertical-scroll-proportion="-16.36">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resize-add-user-link.html">
+    <entry file="file://$PROJECT_DIR$/course-view-admin-settings2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resize-sharing-1-final.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="277" column="35" selection-start="11710" selection-end="11710" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course-view.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2192" column="26" selection-start="41567" selection-end="41567" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/menu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="133" column="10" selection-start="4013" selection-end="4013" vertical-scroll-proportion="-9.56">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course-assign.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1206" column="1" selection-start="22697" selection-end="22697" vertical-scroll-proportion="-8.2">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/autoGrow.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="57" selection-start="2084" selection-end="2084" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/course-assign.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="444" column="11" selection-start="14789" selection-end="14899" vertical-scroll-proportion="-13.64">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.functions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="393" column="27" selection-start="14613" selection-end="14613" vertical-scroll-proportion="-9.56">
+          <folding>
+            <marker date="1353056823691" expanded="true" signature="5190:5201" placeholder="..." />
+            <marker date="1353056823691" expanded="true" signature="5241:5247" placeholder="..." />
+            <marker date="1353056823691" expanded="true" signature="5363:5369" placeholder="..." />
+            <marker date="1353056823691" expanded="true" signature="5486:5492" placeholder="..." />
+            <marker date="1353056823691" expanded="true" signature="6526:6532" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.selectbox-0.1.3.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="25" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resize-add-user-exel1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="351" column="41" selection-start="17319" selection-end="17319" vertical-scroll-proportion="-0.65384614">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resize-add-user-email.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="739" column="24" selection-start="50536" selection-end="50540" vertical-scroll-proportion="-0.65384614">
+        <state line="443" column="84" selection-start="28467" selection-end="28673" vertical-scroll-proportion="-4.1764708">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resize-course-assign-link.html">
+    <entry file="file://$PROJECT_DIR$/resize-add-user-exel2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="141" column="40" selection-start="5989" selection-end="5989" vertical-scroll-proportion="-8.0">
+        <state line="610" column="10" selection-start="40504" selection-end="40504" vertical-scroll-proportion="-4.8431373">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resize-test-assign-step2.html">
+    <entry file="file://$PROJECT_DIR$/resize-add-user-link.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="44" selection-start="5615" selection-end="5615" vertical-scroll-proportion="19.490196">
+        <state line="179" column="76" selection-start="7446" selection-end="7446" vertical-scroll-proportion="0.36452243">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resize-course-assign-step2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="291" column="0" selection-start="13966" selection-end="13966" vertical-scroll-proportion="0.32">
-          <folding>
-            <element signature="tag#div#2;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
