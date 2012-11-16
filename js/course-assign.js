@@ -124,7 +124,7 @@ $(function () {
     });
 
     $('.select-user').click(function () {
-        var select = $('.groups .user-group.active .user.active').clone();
+        var select = $('.groups .user-group.active .user.active').css('display','block').clone();
         $('.groups .user-group.active .user.active').remove();
         var parent = '#' + $('.user-group.active').attr('id');
         $('.selecting .user-group').append(select.removeClass('active').attr('parent', parent));
@@ -258,12 +258,13 @@ $(function () {
             $('.group-menu li').removeClass('active');
             $(this).parent().addClass('active');
             $('.groups .user-group').removeClass('active');
-            $('.groups .user').removeClass('active');
+//            $('.groups .user').removeClass('active');
             $($(this).attr('href')).addClass('active');
             $($(this).attr('href')).find('.user').show(0);
             $('#course_assign input.search').val('');
             $('#course_assign .users .scroll').jScrollPane();
         }
+        checkSelect();
         return false;
     });
 
@@ -274,6 +275,7 @@ $(function () {
             $('.groups').find($(this).attr('parent')).append($(this));
         });
         $('#course_assign .users .scroll').jScrollPane();
+        tooltip();
         checkSelect();
         return false;
     });
