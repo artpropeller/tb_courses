@@ -524,7 +524,7 @@
 }
 
 #course_assign .parameters.as .option label.active {
-    background: url("images/checkbox_par_active.jpg") no-repeat left !important;
+    background: url("images/checkbox_par_active.jpg") no-repeat 0 3px !important;
 }
 
 #date-deadline, #time-deadline {
@@ -802,7 +802,7 @@
     float: left;
     color: #0e67d2;
     display: block;
-    margin-top: 14px;
+    margin-top: 19px;
     font-size: 13px;
     line-height: 13px;
 }
@@ -2587,4 +2587,8 @@
     left: 0;
     top:0;
     z-index: 8000;
+}
+
+#course_assign .parameters.as .sbOptions {
+    z-index: 99999;
 }
