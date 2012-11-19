@@ -4,7 +4,7 @@
     <list default="true" id="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/course-assign.js" afterPath="$PROJECT_DIR$/js/course-assign.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resize-add-user-email.html" afterPath="$PROJECT_DIR$/resize-add-user-email.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery.functions.js" afterPath="$PROJECT_DIR$/js/jquery.functions.js" />
     </list>
     <ignored path="tb_courses.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,11 +42,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="course-assign.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="course-assign.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/course-assign.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="441" column="59" selection-start="14808" selection-end="14808" vertical-scroll-proportion="0.5233463">
+            <state line="483" column="121" selection-start="16318" selection-end="16353" vertical-scroll-proportion="-1.52">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.functions.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/jquery.functions.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="350" column="59" selection-start="13281" selection-end="13281" vertical-scroll-proportion="0.4319066">
+              <folding>
+                <marker date="1353321755530" expanded="true" signature="5190:5201" placeholder="..." />
+                <marker date="1353321755530" expanded="true" signature="5241:5247" placeholder="..." />
+                <marker date="1353321755530" expanded="true" signature="5363:5369" placeholder="..." />
+                <marker date="1353321755530" expanded="true" signature="5486:5492" placeholder="..." />
+                <marker date="1353321755530" expanded="true" signature="6526:6532" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,15 +88,6 @@
         <entry file="file://$PROJECT_DIR$/course-assign.css">
           <provider selected="true" editor-type-id="text-editor">
             <state line="402" column="34" selection-start="7569" selection-end="7572" vertical-scroll-proportion="-245.52">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="resize-add-user-exel2.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resize-add-user-exel2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="610" column="10" selection-start="40504" selection-end="40504" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -132,7 +138,6 @@
         <option value="$PROJECT_DIR$/js/jquery.selectbox-0.1.3.min.js" />
         <option value="$PROJECT_DIR$/js/menu.js" />
         <option value="$PROJECT_DIR$/js/autoGrow.js" />
-        <option value="$PROJECT_DIR$/js/jquery.functions.js" />
         <option value="$PROJECT_DIR$/resize-add-user-exel2.html" />
         <option value="$PROJECT_DIR$/resize-add-user-link.html" />
         <option value="$PROJECT_DIR$/course-assign.css" />
@@ -143,6 +148,7 @@
         <option value="$PROJECT_DIR$/resize-sharing-1-final.html" />
         <option value="$PROJECT_DIR$/resize-add-user-email.html" />
         <option value="$PROJECT_DIR$/js/course-assign.js" />
+        <option value="$PROJECT_DIR$/js/jquery.functions.js" />
       </list>
     </option>
   </component>
@@ -318,7 +324,11 @@
       <created>1353316495495</created>
       <updated>1353316495495</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="fix course add">
+      <created>1353321056347</created>
+      <updated>1353321056347</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -380,7 +390,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix course sharing" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix course add" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -399,6 +409,7 @@
     <MESSAGE value="fix add user" />
     <MESSAGE value="fix course assign" />
     <MESSAGE value="fix course sharing" />
+    <MESSAGE value="fix course add" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -419,19 +430,6 @@
     <entry file="file://$PROJECT_DIR$/js/autoGrow.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="53" column="57" selection-start="2084" selection-end="2084" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery.functions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="393" column="27" selection-start="14613" selection-end="14613" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1353056823691" expanded="true" signature="5190:5201" placeholder="..." />
-            <marker date="1353056823691" expanded="true" signature="5241:5247" placeholder="..." />
-            <marker date="1353056823691" expanded="true" signature="5363:5369" placeholder="..." />
-            <marker date="1353056823691" expanded="true" signature="5486:5492" placeholder="..." />
-            <marker date="1353056823691" expanded="true" signature="6526:6532" placeholder="..." />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/jquery.selectbox-0.1.3.min.js">
@@ -513,8 +511,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/course-assign.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="441" column="59" selection-start="14808" selection-end="14808" vertical-scroll-proportion="0.5233463">
+        <state line="483" column="121" selection-start="16318" selection-end="16353" vertical-scroll-proportion="-1.52">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.functions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="350" column="59" selection-start="13281" selection-end="13281" vertical-scroll-proportion="0.4319066">
+          <folding>
+            <marker date="1353321755530" expanded="true" signature="5190:5201" placeholder="..." />
+            <marker date="1353321755530" expanded="true" signature="5241:5247" placeholder="..." />
+            <marker date="1353321755530" expanded="true" signature="5363:5369" placeholder="..." />
+            <marker date="1353321755530" expanded="true" signature="5486:5492" placeholder="..." />
+            <marker date="1353321755530" expanded="true" signature="6526:6532" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

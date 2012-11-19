@@ -345,10 +345,10 @@ $(document).ready(function (e) {
             }
             }
         setTimeout(function () {
-            parent.find('.select-group-scroll').jScrollPane();
+            parent.find('.select-group-scroll').jScrollPane({animateScroll:true});
 
             $('.scroll').addClass('ex');
-            $('.scroll').jScrollPane();
+            $('.scroll').jScrollPane({animateScroll:true});
             scr = $('.scroll.ex').data('jsp');
 
             var pad = ($('.select-group-list:visible').parents('.user').position().top - scr.getContentPositionY() + ($('.select-group-list:visible').innerHeight() + 34)) - 285;
@@ -397,7 +397,7 @@ $(document).ready(function (e) {
             maxWidth: 240
         });
 
-        parent.find(".select-group-scroll").jScrollPane();
+        parent.find(".select-group-scroll").jScrollPane({animateScroll:true});
         api_sroll_select = parent.find(".select-group-scroll").data('jsp');
         api_sroll_select.scrollToPercentY("100");
         $(".select-group-list .new_text").focus();
@@ -414,7 +414,7 @@ $(document).ready(function (e) {
         }
         else
             parent.remove();
-        var v = $(this).parents('.select-group-list').find('.select-group-scroll').jScrollPane();
+        var v = $(this).parents('.select-group-list').find('.select-group-scroll').jScrollPane({animateScroll:true});
         v1 = v.data('jsp');
         v1.scrollToPercentY("100");
     });
@@ -432,7 +432,7 @@ $(document).ready(function (e) {
             else
                 parent.remove();
 
-            var v = $(this).parents('.select-group-list').find('.select-group-scroll').jScrollPane();
+            var v = $(this).parents('.select-group-list').find('.select-group-scroll').jScrollPane({animateScroll:true});
             v1 = v.data('jsp');
             v1.scrollToPercentY("100");
 

@@ -8,7 +8,7 @@
 seti = '';
 $(function () {
 
-    $('.scroll').jScrollPane();
+    $('.scroll').jScrollPane({animateScroll:true});
 
     $('#course_assign .option label').click(function () {
 
@@ -128,7 +128,7 @@ $(function () {
         $('.groups .user-group.active .user.active').remove();
         var parent = '#' + $('.user-group.active').attr('id');
         $('.selecting .user-group').append(select.removeClass('active').attr('parent', parent));
-        $('#course_assign .users .scroll').jScrollPane();
+        $('#course_assign .users .scroll').jScrollPane({animateScroll:true});
 
 
         checkSelect();
@@ -145,7 +145,7 @@ $(function () {
             $(this).find('.info').before('<img class="avatar" src="images/new_ava.jpg" alt="">');
         });
         $('#selecto .user-group').append(select.removeClass('active'));
-        $('#course_assign .users .scroll').jScrollPane();
+        $('#course_assign .users .scroll').jScrollPane({animateScroll:true});
         if ($('#selecting .scroll .user:not(.addnew,.empty)').size() == 0) {
             $('.all-mail').removeClass('active');
         }
@@ -170,7 +170,7 @@ $(function () {
         });
         $('#selecto .user-group').append(select.removeClass('active'));
         $('#selecto .user.empty').remove();
-        $('#course_assign .users .scroll').jScrollPane();
+        $('#course_assign .users .scroll').jScrollPane({animateScroll:true});
         if ($('#selecting .scroll .user:not(.addnew,.empty)').size() < 1) {
 
             $('.all-mail').removeClass('active');
@@ -190,7 +190,7 @@ $(function () {
             $(this).find('.avatar').remove();
         });
         $('#selecting .user-group .addnew').before(select.removeClass('active'));
-        $('#course_assign .users .scroll').jScrollPane();
+        $('#course_assign .users .scroll').jScrollPane({animateScroll:true});
         showcor();
         rpAddNew();
         tooltip();
@@ -205,7 +205,7 @@ $(function () {
             $(this).find('.avatar').remove();
         });
         $('#selecting .user-group').prepend(select.removeClass('active'));
-        $('#course_assign .users .scroll').jScrollPane();
+        $('#course_assign .users .scroll').jScrollPane({animateScroll:true});
         showcor();
         checkSelect();
         tooltip();
@@ -262,7 +262,7 @@ $(function () {
             $($(this).attr('href')).addClass('active');
             $($(this).attr('href')).find('.user').show(0);
             $('#course_assign input.search').val('');
-            $('#course_assign .users .scroll').jScrollPane();
+            $('#course_assign .users .scroll').jScrollPane({animateScroll:true});
         }
         checkSelect();
         return false;
@@ -274,7 +274,7 @@ $(function () {
         select.removeClass('active').each(function () {
             $('.groups').find($(this).attr('parent')).append($(this));
         });
-        $('#course_assign .users .scroll').jScrollPane();
+        $('#course_assign .users .scroll').jScrollPane({animateScroll:true});
         tooltip();
         checkSelect();
         return false;
@@ -313,10 +313,10 @@ $(function () {
         }, 50);
     });
 
-    $('#course_assign .group-menu .scroll').jScrollPane();
+    $('#course_assign .group-menu .scroll').jScrollPane({animateScroll:true});
 
 
-    $('#course_assign.messages .scroll').jScrollPane();
+    $('#course_assign.messages .scroll').jScrollPane({animateScroll:true});
 
 
     $('#course_assign .parameters .radio label').click(function () {
@@ -388,9 +388,9 @@ $(function () {
             }
         });
         $('.clear .selectbox').selectbox("detach");
-        nu.find('.select-group-scroll').jScrollPane();
+        nu.find('.select-group-scroll').jScrollPane({animateScroll:true});
 
-        $('.scroll').jScrollPane();
+        $('.scroll').jScrollPane({animateScroll:true});
         return false;
     });
 
@@ -481,7 +481,7 @@ $(function () {
         }
         else {
             parent.remove();
-            var v = $(this).parents('.select-group-list').find('.select-group-scroll').jScrollPane();
+            var v = $(this).parents('.select-group-list').find('.select-group-scroll').jScrollPane({animateScroll:true});
             v1 = v.data('jsp');
             v1.scrollToPercentY("100");
         }
@@ -500,7 +500,7 @@ $(function () {
             }
             else {
                 parent.remove();
-                var v = $(this).parents('.select-group-list').find('.select-group-scroll').jScrollPane();
+                var v = $(this).parents('.select-group-list').find('.select-group-scroll').jScrollPane({animateScroll:true});
                 v1 = v.data('jsp');
                 v1.scrollToPercentY("100");
             }
@@ -509,7 +509,7 @@ $(function () {
         }
     });
 
-    $('.selecting.exel .users .scroll').jScrollPane();
+    $('.selecting.exel .users .scroll').jScrollPane({animateScroll:true});
 
     $('.addnew').click(function () {
         $(this).removeClass('active');
@@ -520,7 +520,7 @@ $(function () {
             $('.addnew.out').show(0);
         }
         $('#selecting .user-group .addnew').before(n);
-        $('#selecting .scroll').jScrollPane();
+        $('#selecting .scroll').jScrollPane({animateScroll:true});
         var vv = $('#selecting .scroll').data('jsp');
         vv.scrollToPercentY("100");
     });
@@ -548,7 +548,7 @@ function rpAddNew() {
         $('.spin').removeClass('fix');
         $('.addnew.out').hide(0);
     }
-    $('#selecting .scroll').jScrollPane();
+    $('#selecting .scroll').jScrollPane({animateScroll:true});
     var vv = $('#selecting .scroll').data('jsp');
     vv.scrollToPercentY("100");
 }
