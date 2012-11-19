@@ -617,6 +617,14 @@ this.tooltip = function(){
 
 // starting the script on page load
 $(document).ready(function(){
+
+    addTooltipClass('.group-menu ul li a', 14);
+    addTooltipClass('.user .name', 19);
+    addTooltipClass('.user .mail', 19);
+
+
+
+
     tooltip();
 });
 
@@ -632,3 +640,11 @@ $(function(){
         $(".selectbox").selectbox('close');
     });
 });
+
+function addTooltipClass(elements, length){
+    $(elements).each(function(){
+        if ($(this).text().length > length) {
+            $(this).addClass('tooltip');
+        }
+    });
+}
