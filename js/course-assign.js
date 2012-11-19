@@ -439,7 +439,7 @@ $(function () {
         $(this).parent().find('.del').show(0);
         $(this).hide(50);
         var t = label.text();
-        label.html('<input class="edit-label" type="text" value="' + t + '">');
+        label.html('<input class="edit-label" maxlength="30" type="text" value="' + t + '">');
         label.find('input').autoGrowInput({
             comfortZone: 10,
             minWidth: 130,

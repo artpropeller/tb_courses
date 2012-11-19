@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resize-sharing-1-final.html" afterPath="$PROJECT_DIR$/resize-sharing-1-final.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/course-assign.js" afterPath="$PROJECT_DIR$/js/course-assign.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resize-add-user-email.html" afterPath="$PROJECT_DIR$/resize-add-user-email.html" />
     </list>
     <ignored path="tb_courses.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,25 +27,25 @@
       <file leaf-file-name="resize-add-user-email.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resize-add-user-email.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="443" column="84" selection-start="28467" selection-end="28673" vertical-scroll-proportion="-0.65384614">
+            <state line="205" column="97" selection-start="9470" selection-end="9470" vertical-scroll-proportion="-1.8026316">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="resize-sharing-1-final.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="resize-sharing-1-final.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resize-sharing-1-final.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="160" column="49" selection-start="7034" selection-end="7034" vertical-scroll-proportion="0.36933047">
+            <state line="160" column="49" selection-start="7034" selection-end="7034" vertical-scroll-proportion="-2.0263157">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="course-assign.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="course-assign.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/course-assign.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="629" column="0" selection-start="19916" selection-end="19916" vertical-scroll-proportion="0.0">
+            <state line="441" column="59" selection-start="14808" selection-end="14808" vertical-scroll-proportion="0.5233463">
               <folding />
             </state>
           </provider>
@@ -132,7 +133,6 @@
         <option value="$PROJECT_DIR$/js/menu.js" />
         <option value="$PROJECT_DIR$/js/autoGrow.js" />
         <option value="$PROJECT_DIR$/js/jquery.functions.js" />
-        <option value="$PROJECT_DIR$/resize-add-user-email.html" />
         <option value="$PROJECT_DIR$/resize-add-user-exel2.html" />
         <option value="$PROJECT_DIR$/resize-add-user-link.html" />
         <option value="$PROJECT_DIR$/course-assign.css" />
@@ -140,8 +140,9 @@
         <option value="$PROJECT_DIR$/fabfile.py" />
         <option value="$PROJECT_DIR$/js/jquery.jscrollpane/jquery.jscrollpane.css" />
         <option value="$PROJECT_DIR$/resize-course-assign.html" />
-        <option value="$PROJECT_DIR$/js/course-assign.js" />
         <option value="$PROJECT_DIR$/resize-sharing-1-final.html" />
+        <option value="$PROJECT_DIR$/resize-add-user-email.html" />
+        <option value="$PROJECT_DIR$/js/course-assign.js" />
       </list>
     </option>
   </component>
@@ -313,7 +314,11 @@
       <created>1353316019172</created>
       <updated>1353316019172</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="fix course sharing">
+      <created>1353316495495</created>
+      <updated>1353316495495</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -375,7 +380,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix course assign" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix course sharing" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -393,6 +398,7 @@
     <MESSAGE value="del item group" />
     <MESSAGE value="fix add user" />
     <MESSAGE value="fix course assign" />
+    <MESSAGE value="fix course sharing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -491,23 +497,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/course-assign.js">
+    <entry file="file://$PROJECT_DIR$/resize-sharing-1-final.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="629" column="0" selection-start="19916" selection-end="19916" vertical-scroll-proportion="0.0">
+        <state line="160" column="49" selection-start="7034" selection-end="7034" vertical-scroll-proportion="-2.0263157">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resize-add-user-email.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="443" column="84" selection-start="28467" selection-end="28673" vertical-scroll-proportion="-0.65384614">
+        <state line="205" column="97" selection-start="9470" selection-end="9470" vertical-scroll-proportion="-1.8026316">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resize-sharing-1-final.html">
+    <entry file="file://$PROJECT_DIR$/js/course-assign.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="160" column="49" selection-start="7034" selection-end="7034" vertical-scroll-proportion="0.36933047">
+        <state line="441" column="59" selection-start="14808" selection-end="14808" vertical-scroll-proportion="0.5233463">
           <folding />
         </state>
       </provider>
