@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-assign.css" afterPath="$PROJECT_DIR$/course-assign.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resize-test-assign-step2.html" afterPath="$PROJECT_DIR$/resize-test-assign-step2.html" />
     </list>
     <ignored path="tb_courses.iws" />
@@ -56,19 +57,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="resize-test-assign-step2.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="resize-test-assign-step2.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resize-test-assign-step2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="258" column="47" selection-start="12106" selection-end="12106" vertical-scroll-proportion="0.2651072">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fabfile.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fabfile.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0">
+            <state line="130" column="26" selection-start="5787" selection-end="5787" vertical-scroll-proportion="-3.2692308">
               <folding />
             </state>
           </provider>
@@ -83,10 +75,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="course-assign.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="course-assign.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/course-assign.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="402" column="34" selection-start="7569" selection-end="7572" vertical-scroll-proportion="0.0">
+            <state line="2598" column="19" selection-start="45701" selection-end="45701" vertical-scroll-proportion="0.93385214">
               <folding />
             </state>
           </provider>
@@ -138,7 +130,6 @@
         <option value="$PROJECT_DIR$/js/autoGrow.js" />
         <option value="$PROJECT_DIR$/resize-add-user-exel2.html" />
         <option value="$PROJECT_DIR$/resize-add-user-link.html" />
-        <option value="$PROJECT_DIR$/course-assign.css" />
         <option value="$PROJECT_DIR$/resize-course-assign-step2.html" />
         <option value="$PROJECT_DIR$/fabfile.py" />
         <option value="$PROJECT_DIR$/js/jquery.jscrollpane/jquery.jscrollpane.css" />
@@ -148,6 +139,7 @@
         <option value="$PROJECT_DIR$/js/course-assign.js" />
         <option value="$PROJECT_DIR$/js/jquery.functions.js" />
         <option value="$PROJECT_DIR$/resize-test-assign-step2.html" />
+        <option value="$PROJECT_DIR$/course-assign.css" />
       </list>
     </option>
   </component>
@@ -225,8 +217,8 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -317,19 +309,22 @@
       <created>1353331437110</created>
       <updated>1353331437110</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="fix test">
+      <created>1353332239261</created>
+      <updated>1353332239261</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2840909" sideWeight="0.6712329" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28863636" sideWeight="0.6712329" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -339,6 +334,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -428,28 +424,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resize-add-user-exel2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="610" column="10" selection-start="40504" selection-end="40504" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="610" column="10" selection-start="40504" selection-end="40504" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resize-add-user-link.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="192" column="32" selection-start="8327" selection-end="8327" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="192" column="32" selection-start="8327" selection-end="8327" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resize-course-assign-step2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="188" column="26" selection-start="8731" selection-end="8731" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/course-assign.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="402" column="34" selection-start="7569" selection-end="7572" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -504,14 +489,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fabfile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="17" column="0" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resize-test-assign-step2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="258" column="47" selection-start="12106" selection-end="12106" vertical-scroll-proportion="0.2651072">
+        <state line="130" column="26" selection-start="5787" selection-end="5787" vertical-scroll-proportion="-3.2692308">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course-assign.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2598" column="19" selection-start="45701" selection-end="45701" vertical-scroll-proportion="0.93385214">
           <folding />
         </state>
       </provider>

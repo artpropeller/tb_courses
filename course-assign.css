@@ -2592,3 +2592,9 @@
 #course_assign .parameters.as .sbOptions {
     z-index: 99999;
 }
+
+#ball {
+    width: 40px;
+    text-align: center;
+    margin-left: -2px;
+}
