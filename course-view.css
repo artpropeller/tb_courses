@@ -209,7 +209,7 @@
 
 #course-view a.button-green i.play {
     background: url("images/icon_play.png") no-repeat;
-    left: 22px;
+    left: 24px;
 }
 
 #course-view a.button-blue i.edits {
@@ -2420,7 +2420,11 @@
 }
 
 #course-view a.button-green.progress {
-    padding-left: 50px;
-    padding-right: 45px;
+    padding-left: 54px;
+    padding-right: 54px;
     width: auto;
+}
+
+#course-view .panel.progress .options {
+    bottom: 23px;
 }
