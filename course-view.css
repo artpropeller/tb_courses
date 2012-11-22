@@ -198,7 +198,7 @@
     position: absolute;
     width: 17px;
     height: 17px;
-    left: 22px;
+    left: 8px;
     top: 8px;
     border: none !important;
 }
@@ -209,7 +209,7 @@
 
 #course-view a.button-green i.play {
     background: url("images/icon_play.png") no-repeat;
-    left: 9px;
+    left: 22px;
 }
 
 #course-view a.button-blue i.edits {
@@ -2421,6 +2421,6 @@
 
 #course-view a.button-green.progress {
     padding-left: 50px;
-    padding-right: 30px;
+    padding-right: 45px;
     width: auto;
 }
