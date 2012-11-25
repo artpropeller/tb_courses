@@ -1,0 +1,143 @@
+
+#test-assign .parameters .hide-settings a {
+    display: inline-block;
+    padding-left: 23px;
+    color: #0E67D2;
+    background: url("../images/ico_settings.jpg") no-repeat 0 3px;
+    padding-bottom: 14px;
+}
+
+#test-assign .parameters .hide-settings a span {
+    background: url("../images/dot_settings.jpg") repeat-x bottom;
+}
+
+#test-assign .parameters .hide-settings ul {
+    background: #dfe3e8;
+    margin: 0;
+    padding: 6px 0 25px 22px;
+    position: relative;
+    display: none;
+
+}
+
+#test-assign .parameters ul {
+    background: none;
+}
+
+#test-assign .parameters .hide-settings ul:after {
+    bottom: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+#test-assign .parameters .hide-settings ul:after {
+    border-bottom-color: #dfe3e8;
+    border-width: 10px;
+    left: 30%;
+    margin-left: -10px;
+}
+
+#test-assign .parameters .hide-settings ul li {
+    padding: 0;
+    background: none;
+    font-size: 12px;
+    line-height: 12px;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+#test-assign .parameters .hide-settings label {
+    font-size: 12px;
+    line-height: 15px;
+}
+
+#test-assign .hide-settings .option label {
+    background: url("../images/checkbox_par.png") no-repeat 0 0;
+}
+
+#test-assign .parameters .hide-settings .option label.active {
+    background: url("../images/checkbox_par_active.png") no-repeat 0 0;
+}
+
+
+.parameters .inparr {
+    width: 72px;
+    height: 27px;
+    background: url("../images/bg_arr_input.jpg") repeat-x top;
+    float: left;
+    border-radius: 2px;
+    border: 1px solid #bcbcbc;
+    box-shadow: 0 0 3px #ccc;
+    position: relative;
+    margin-top: -4px;
+    margin-bottom: -5px;
+    margin-left: 7px;
+}
+
+.parameters .inparr span {
+    display: block;
+    height: 21px;
+    border-right: 1px solid #bcbcbc;
+    width: 51px;
+    line-height: 16px;
+    text-align: center;
+    color: #313131;
+    font-size: 16px;
+    padding-top: 4px;
+}
+
+.parameters .inparr span input {
+    border: none;
+    background: none;
+    font-size: 16px;
+    line-height: 16px;
+    color: #313131;
+    width: 29px;
+    padding: 0;
+    text-align: right;
+    margin: 0 -1px 0 0;
+}
+
+.parameters .inparr .up {
+    width: 20px;
+    height: 13px;
+    border-bottom: 1px solid #bcbcbc;
+    position: absolute;
+    box-shadow: 0 1px 0 #fff;
+    top: 0;
+    right: 0;
+    background: url("../images/arr_input.png") no-repeat top left;
+}
+
+.parameters .inparr .down {
+    width: 20px;
+    height: 13px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: url("../images/arr_input.png") no-repeat top right;
+}
+
+.parameters .inparr .up:hover, .parameters .inparr .down:hover {
+    background-color: #fff;
+}
+
+.parameters .inparr .up:active, .parameters .inparr .down:active {
+    background-color: #4d4c4d;
+    box-shadow: inset 0 0 3px #000;
+    background-position: bottom left;
+}
+
+.parameters .inparr .down:active {
+    background-position: bottom right;
+}
+
+.parameters em {
+    display: block;
+    float: left;
+    padding: 0 4px;
+}

@@ -10,7 +10,7 @@ $(function () {
 
     $('.scroll').jScrollPane({animateScroll:true});
 
-    $('#course_assign .option label').click(function () {
+    $('.dialog-assign .option label').click(function () {
 
         if ($(this).find('input').attr('checked') == 'checked') {
 
@@ -261,7 +261,7 @@ $(function () {
 //            $('.groups .user').removeClass('active');
             $($(this).attr('href')).addClass('active');
             $($(this).attr('href')).find('.user').show(0);
-            $('#course_assign input.search').val('');
+            $('.dialog-assign input.search').val('');
             $('#course_assign .users .scroll').jScrollPane({animateScroll:true});
         }
         checkSelect();
@@ -280,10 +280,10 @@ $(function () {
         return false;
     });
 
-    $('#course_assign input.search').keydown(function (event) {
+    $('.dialog-assign input.search').keydown(function (event) {
         var text;
         setTimeout(function () {
-            text = $('#course_assign input.search').val();
+            text = $('.dialog-assign input.search').val();
         }, 50);
         setTimeout(function () {
             if (text.length) {
@@ -304,7 +304,7 @@ $(function () {
     });
 
 
-    $('#course_assign .letter textarea').keydown(function (event) {
+    $('.dialog-assign .letter textarea').keydown(function (event) {
         setTimeout(function () {
             var val = $('#course_assign .letter textarea').val();
             if (val.length > 700) {
@@ -313,15 +313,15 @@ $(function () {
         }, 50);
     });
 
-    $('#course_assign .group-menu .scroll').jScrollPane({animateScroll:true});
+    $('.dialog-assign .group-menu .scroll').jScrollPane({animateScroll:true});
 
 
     $('#course_assign.messages .scroll').jScrollPane({animateScroll:true});
 
 
-    $('#course_assign .parameters .radio label').click(function () {
+    $('.dialog-assign .parameters .radio label').click(function () {
         if (!$(this).is('.active')) {
-            $('#course_assign .parameters .radio label').removeClass('active');
+            $('.dialog-assign .parameters .radio label').removeClass('active');
             $(this).addClass('active');
         }
     });
@@ -336,12 +336,12 @@ $(function () {
 //        }
 //    });
 
-    $('#course_assign .parameters li .edit-letter').click(function () {
+    $('.dialog-assign .parameters li .edit-letter').click(function () {
         if (!$(this).is('.active')) {
-            $('#course_assign .parameters li .edit-letter').removeClass('active');
+            $('.dialog-assign .parameters li .edit-letter').removeClass('active');
             $(this).addClass('active');
             var link = $(this);
-            $('#course_assign .parameters li .textletter').slideUp(500, function () {
+            $('.dialog-assign .parameters li .textletter').slideUp(500, function () {
 
             });
             link.next().slideDown(500);
@@ -353,12 +353,12 @@ $(function () {
         return false;
     });
 
-    $('#course_assign .parameters li .name').click(function () {
+    $('.dialog-assign .parameters li .name').click(function () {
         if (!$(this).next().is('.active')) {
-            $('#course_assign .parameters li .edit-letter').removeClass('active');
+            $('.dialog-assign .parameters li .edit-letter').removeClass('active');
             $(this).next().addClass('active');
             var link = $(this);
-            $('#course_assign .parameters li .textletter').slideUp(500, function () {
+            $('.dialog-assign .parameters li .textletter').slideUp(500, function () {
 
             });
             link.next().next().slideDown(500);
@@ -381,7 +381,7 @@ $(function () {
         $('.selectbox').selectbox("detach");
         $('.selectbox').selectbox({
             onOpen:function (inst) {
-                $('#course_assign').prepend('<div class="a-hover"></div>');
+                $('.dialog-assign').prepend('<div class="a-hover"></div>');
             },
             onClose:function (inst) {
                 $('.a-hover').remove();

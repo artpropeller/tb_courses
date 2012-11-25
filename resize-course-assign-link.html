@@ -13,7 +13,9 @@
     <meta name="copyright" content=""/>
     <link type="text/css" rel="stylesheet" href="style.css"/>
     <link type="text/css" rel="stylesheet" href="course-view.css"/>
-    <link type="text/css" rel="stylesheet" href="course-assign.css"/>
+
+    <link type="text/css" rel="stylesheet" href="css/base.dialog.assign.css"/>
+    <link type="text/css" rel="stylesheet" href="css/course-assign.css"/>
 
     <!-- fancy -->
     <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
@@ -137,7 +139,7 @@
 <!-- ____ CONTENT ____ -->
 
 <div class="container-aasign">
-    <div id="course_assign" class="users">
+    <div id="course-assign"  class="dialog-assign">
         <div class="close"></div>
         <h2>Назначение курса. Шаг 1 из 2</h2>
 
@@ -146,7 +148,7 @@
             что несомненно приведет нас к истине
         </div>
 
-        <ul class="menu">
+        <ul class="menu fl-left">
             <li><a href="#">Пользователи</a></li>
             <li><a href="#">Пригласить по e-mail</a></li>
             <li><a href="#">Загрузка Excel файла</a></li>
@@ -154,12 +156,12 @@
         </ul>
 
         <div class="clear"></div>
-        <div class="dash-top oth">
+        <div class="dash-top linked">
             <div class="dash-left">
                 <div class="dash-right">
                     <div class="dash-bottom">
 
-                        <div id="get_link" class="as">
+                        <div id="get_link">
                             <h2>Получите ссылку на курс</h2>
 
                             <p>Перейдя по ссылке ниже, пользователи смогут зарегистрироваться
@@ -179,15 +181,16 @@
                 </div>
             </div>
         </div>
-        <div class="send as">
+        <div class="clear"></div>
+        <div class="send fl-left">
             <input type="checkbox" id="save">
-            <label for="save">Сохранить группу</label>
+            <label for="save" class="fl-left">Сохранить группу</label>
             <a href="#"><img src="images/ico_faq.png" width="17" height="17" alt=""></a>
         </div>
 
-        <div class="buttons">
-            <a class="button-blue" href="#">Отмена</a>
-            <a class="button-red" href="#">Далее</a>
+        <div class="buttons fl-right">
+            <a class="btn btn-blue" href="#">Отмена</a>
+            <a class="btn btn-red" href="#">Далее</a>
         </div>
 
 

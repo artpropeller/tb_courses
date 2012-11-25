@@ -13,7 +13,10 @@
     <meta name="copyright" content=""/>
     <link type="text/css" rel="stylesheet" href="style.css"/>
     <link type="text/css" rel="stylesheet" href="course-view.css"/>
-    <link type="text/css" rel="stylesheet" href="course-assign.css"/>
+
+    <link type="text/css" rel="stylesheet" href="css/base.dialog.assign.css"/>
+    <link type="text/css" rel="stylesheet" href="css/course-assign.css"/>
+
     <!-- fancy -->
     <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
 
@@ -108,7 +111,7 @@
 <!-- ____ CONTENT ____ -->
 
 <div class="container-aasign">
-<div id="course_assign">
+<div id="course-assign" class="dialog-assign">
 <div class="close"></div>
 <h2>Назначение курса. Шаг 1 из 2</h2>
 
@@ -117,7 +120,7 @@
     что несомненно приведет нас к истине
 </div>
 
-<ul class="menu">
+<ul class="menu fl-left">
     <li><a href="#">Пользователи</a></li>
     <li><a href="#">Пригласить по e-mail</a></li>
     <li class="active"><a href="#">Загрузка Excel файла</a></li>
@@ -125,7 +128,7 @@
 </ul>
 
 <div class="clear"></div>
-<div class="left ex2">
+<div class="left ex2 fl-left">
 
 <div class="dash-top">
 <div class="dash-left">
@@ -352,21 +355,17 @@
 </div>
 </div>
 </div>
-<div class="send">
-    <input type="checkbox" id="save">
-    <label for="save">Сохранить группу</label>
-    <a href="#"><img src="images/ico_faq.png" width="17" height="17" alt=""></a>
-</div>
+
 </div>
 
-<div class="arrows emu">
+<div class="arrows emu fl-left">
     <a class="arr select-user" href="#"><span></span></a>
     <a class="arr remove-user" href="#"><span></span></a>
 </div>
 
-<div id="selecto" class="selecting exel2">
+<div id="selecto" class="selecting exel2 fl-left">
     <div class="users">
-        <a class="select-all" href="#">Выделить всех</a>
+        <a class="select-all fl-right" href="#">Выделить всех</a>
 
         <h3>Назначить</h3>
 
@@ -381,10 +380,15 @@
 
 </div>
 
+<div class="send fl-left">
+    <input type="checkbox" id="save">
+    <label for="save" class="fl-left">Сохранить группу</label>
+    <a href="#"><img src="images/ico_faq.png" width="17" height="17" alt=""></a>
+</div>
 
-<div class="buttons">
-    <a class="button-blue" href="#">Отмена</a>
-    <a class="button-red big" href="#">Далее</a>
+<div class="buttons fl-right">
+    <a class="btn btn-blue" href="#">Отмена</a>
+    <a class="btn btn-red" href="#">Далее</a>
 </div>
 
 

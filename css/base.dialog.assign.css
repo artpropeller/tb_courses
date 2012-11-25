@@ -1,0 +1,879 @@
+.container-aasign {
+    width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.dialog-assign {
+    position: absolute;
+    top: -18px;
+    left: 1px;
+    padding: 20px;
+    border: 3px solid #34618E;
+    border-top: none;
+    width: 920px;
+    z-index: 12000;
+    background: #F2F2F2;
+    overflow: visible;
+    height: 530px;
+}
+
+.dialog-assign .fl-left {
+    float: left;
+}
+
+.dialog-assign .fl-right {
+    float: right;
+}
+
+.dialog-assign .close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+    background: url("../images/close_assign.jpg") no-repeat;
+}
+
+.dialog-assign h2 {
+    font-size: 19px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+.dialog-assign .description {
+    font-size: 13px;
+    color: gray;
+    padding-bottom: 18px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/*меню и общие списки*/
+
+.dialog-assign ul, .dialog-assign ul li {
+    padding: 0;
+    margin: 0;
+    background: none;
+}
+
+.dialog-assign .menu {
+    border-radius: 3px;
+    border: 1px solid #D7D7D7;
+    overflow: auto;
+}
+
+.dialog-assign .menu li {
+    float: left;
+    padding: 4px 19px 0;
+    background: url("../images/cv-menu.jpg") repeat-x;
+    height: 25px;
+    border-right: 1px solid #D7D7D7;
+    font-size: 14px;
+}
+
+.dialog-assign .menu li a {
+    display: block;
+    overflow: auto;
+    float: left;
+}
+
+.dialog-assign .menu li.active {
+    background: #A2ACB6;
+    color: white;
+    box-shadow: inset 0 0 5px #696F76;
+}
+
+.dialog-assign .menu li.last {
+    border: none;
+}
+
+.dialog-assign .menu li.active a {
+    color: white;
+    text-shadow: 0 1px 0 #999;
+}
+
+/*меню групп и назначение*/
+
+.dialog-assign .groups {
+    margin: 15px 0 0 0;
+    width: 498px;
+    height: 338px;
+    background: white;
+    border: 1px solid #ECECEC;
+    padding: 10px;
+    box-shadow: inset 0 1px 1px #DDD;
+}
+
+.dialog-assign .groups .group-menu {
+    width: 160px;
+    margin-right: 15px;
+}
+
+.dialog-assign h3 {
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 1;
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+.dialog-assign .groups .group-menu h3 {
+    padding:0 0 10px 8px ;
+    border-bottom: solid 1px #E5E5E5;
+}
+
+.dialog-assign .group-menu .scroll {
+    height: 315px;
+}
+
+.dialog-assign .groups .group-menu ul li {
+    font-size: 12px;
+    padding: 8px 8px 0;
+    line-height: 13px;
+    height: 22px;
+}
+
+.dialog-assign .groups .group-menu ul li.active {
+    background: #E1EBF7;
+    border: 1px solid #D6E0EB;
+    height: 20px;
+}
+
+.dialog-assign .groups .group-menu ul li a {
+    max-width: 110px;
+    overflow: hidden;
+    position: relative;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    float: left;
+}
+
+.dialog-assign .groups .group-menu ul li span {
+    color: #8A8A8A;
+    padding-left: 5px;
+}
+
+.dialog-assign .users {
+    width: 320px;
+    position: relative;
+}
+
+.dialog-assign a.select-all {
+    color: #0E67D2;
+    border-bottom: dotted 1px #0E67D2;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.dialog-assign .users h3 {
+    padding-bottom: 10px;
+}
+
+.dialog-assign input.search {
+    border: 1px solid #D2D2D2;
+    background: white;
+    display: block;
+    padding: 6px 10px;
+    margin-bottom: 2px;
+    width: 300px;
+}
+
+.dialog-assign .users .scroll {
+    height: 280px;
+}
+
+.dialog-assign .users .scroll .jspVerticalBar {
+    right: 0;
+}
+
+.dialog-assign .groups .user-group {
+    display: none;
+    width: 320px;
+}
+
+.dialog-assign .groups .user-group.active {
+    display: block;
+}
+
+.dialog-assign .users .user {
+    overflow: auto;
+    background: url("../images/bg/dashed.png") repeat-x bottom;
+    font-size: 12px;
+    cursor: pointer;
+    padding: 0 0 1px;
+    width: 320px;
+}
+
+.dialog-assign .users .user .ac_bg {
+    overflow: auto;
+    padding: 5px 0;
+}
+
+.dialog-assign .users .user.active .ac_bg {
+    background: #EBF0F5;
+}
+
+.dialog-assign .users .user .check {
+    float: left;
+    width: 16px;
+    height: 14px;
+    background: url("../images/check_user.jpg") no-repeat left;
+    margin: 3px 6px 0 0;
+}
+
+.dialog-assign .users .user.active .check {
+    background-position: right;
+}
+
+.dialog-assign .users .user .info {
+    line-height: 14px;
+    padding-top: 3px;
+}
+
+.dialog-assign .users .user .ac_bg span, .dialog-assign .users .user img.avatar {
+    float: left;
+    text-overflow: ellipsis;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+}
+
+.dialog-assign .users .user img.avatar {
+    margin-right: 5px;
+    width: 20px;
+}
+
+.dialog-assign .users .user .info .name {
+    color: black;
+    width: 145px;
+
+}
+
+.dialog-assign .users .user .info .mail {
+    color: #7F7F7F;
+    text-align: left;
+    width: 123px;
+}
+
+.dialog-assign .arrows {
+    margin: 155px 8px 0;
+    width: 35px;
+}
+
+.dialog-assign .arrows .arr {
+    background: url("../images/arr_select_bg.jpg") no-repeat top;
+    width: 35px;
+    height: 35px;
+    display: block;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.dialog-assign .arrows .arr span {
+    width: 11px;
+    height: 10px;
+    display: block;
+    position: absolute;
+    left: 12px;
+    top: 11px;
+}
+
+.dialog-assign .arrows .arr:hover {
+    background: url("../images/arr_select_bg.jpg") no-repeat 0 -35px;
+}
+
+.dialog-assign .arrows .arr:active {
+    background: url("../images/arr_select_bg.jpg") no-repeat bottom;
+}
+
+.dialog-assign .arrows .arr.select-user span {
+    background: url("../images/arr_select_user.png") no-repeat top left;
+}
+
+.dialog-assign .arrows .arr.remove-user span {
+    background: url("../images/arr_select_user.png") no-repeat top right;
+}
+
+.dialog-assign .selecting {
+    width: 325px;
+    height: 340px;
+    background: white;
+    border: 1px solid #ECECEC;
+    margin-top: 15px;
+    padding: 10px;
+    box-shadow: inset 0 1px 1px #DDD;
+}
+
+.dialog-assign .selecting .users .scroll {
+    height: 310px;
+}
+
+.dialog-assign .send input {
+    width: 0;
+    position: absolute;
+    left: -90000px;
+}
+
+.dialog-assign .send label {
+    font-size: 16px;
+    display: block;
+    background: url("../images/checkbox_par.png") no-repeat left;
+    padding-left: 26px;
+    margin-top: 16px;
+    cursor: pointer;
+    color: black;
+}
+
+.dialog-assign .send label.active {
+    background: url("../images/checkbox_par_active.png") no-repeat left;
+
+}
+
+.send img {
+    margin: 17px 0 0 8px;
+}
+
+.dialog-assign .buttons {
+    margin: 11px 3px 0 0;
+}
+
+.dialog-assign a.btn {
+    height: 12px;
+    border-radius: 3px;
+    box-shadow: 0 0 3px #AAA;
+    display: inline-block;
+    padding: 8px 0 10px;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    width: 125px;
+    margin: 0;
+    line-height: 1;
+}
+
+.dialog-assign a.btn-blue {
+    background: url("../images/blue_bg_button.jpg") repeat-x top;
+    border: 1px solid #4D5582;
+    text-shadow: 0 1px #38597C;
+    margin-right: 10px;
+}
+
+.dialog-assign a.btn-blue:hover {
+    background: url("../images/blue_bg_button.jpg") repeat-x bottom;
+}
+
+.dialog-assign a.btn-red {
+    background: url("../images/red_button_bg.jpg") repeat-x top;
+    border: 1px solid #C53D3C;
+    text-shadow: 0 1px #8B332D;
+}
+
+.dialog-assign a.btn-red:hover {
+    background: url("../images/red_button_bg.jpg") repeat-x bottom;
+}
+
+.dialog-assign a.btn-gray {
+    background: url("../images/but_gray.jpg") repeat-x top;
+    border: 1px solid #CACACA;
+    color: #9C9C9C;
+    text-shadow: none;
+    box-shadow: none;
+}
+
+
+/*параметры курса*/
+
+.dialog-assign .parameters {
+    width: 425px;
+    height: 408px;
+    background: none;
+    color: black;
+    font-size: 14px;
+    margin-left: 15px;
+    position: relative;
+}
+
+.dialog-assign .parameters h3 {
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 17px;
+    background: none;
+    position: relative;
+}
+
+.dialog-assign .parameters ul {
+    background: url("../images/bg/dashed.png") repeat-x bottom;
+}
+
+
+.dialog-assign .parameters li {
+    background: url("../images/bg/dashed.png") repeat-x top;
+    padding: 10px 0;
+    margin: 0;
+    font-size: 14px;
+    color: black;
+    overflow: auto;
+    position: relative;
+    font-family: 'arial', sans-serif;
+}
+
+.dialog-assign .parameters.post a.faq {
+    top: 0;
+}
+
+.dialog-assign .parameters a.faq {
+    width: 17px;
+    top: 11px;
+    height: 17px;
+    background: url("../images/ico_faq.png");
+    display: block;
+    position: absolute;
+    right: 0;
+}
+
+.dialog-assign .parameters label {
+    font-size: 14px;
+    color: black;
+    cursor: pointer;
+    float: left;
+    padding: 0 0 0 25px;
+    margin: 0 45px 0 0;
+    display: block;
+    line-height: 20px;
+    width: auto;
+    text-align: left;
+    font-family: 'arial', sans-serif;
+}
+
+.dialog-assign .parameters .radio {
+    float: left;
+    width: auto;
+    height: auto;
+    background: none;
+    clear: none;
+    display: block;
+}
+
+.dialog-assign .parameters .radio input, .dialog-assign .parameters .option input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    background: none;
+    position: absolute;
+    right: 0;
+}
+
+.dialog-assign .parameters .radio label.active {
+    background: url("../images/radio_active.jpg") no-repeat 0 3px;
+}
+
+.dialog-assign .parameters .radio label {
+    background: url("../images/radio.jpg") no-repeat 0 3px;
+}
+
+.dialog-assign .parameters .option label.active {
+    background: url("../images/checkbox_par_active.jpg") no-repeat 0 3px;
+}
+
+.dialog-assign .parameters .option label {
+    background: url("../images/checkbox_par.jpg") no-repeat 0 3px;
+    margin-right: 5px;
+}
+
+
+
+#date-deadline, #time-deadline {
+    overflow: auto;
+    padding-left: 0;
+    display: none;
+    margin-top: -5px;
+    margin-bottom: -6px;
+    position: relative;
+    margin-left: 15px;
+}
+
+#date-deadline input, #time-deadline input {
+    background: #fff;
+    border: 1px solid #bcbcbc;
+    padding: 6px 10px 6px;
+    width: 70px;
+    text-align: center;
+    display: block;
+    float: left;
+    box-shadow: inset 0 1px 1px #ddd;
+    float: left;
+}
+
+#date-deadline input.small, #time-deadline input.small {
+    width: 16px;
+    padding: 6px 7px 6px;
+}
+
+#date-deadline a.calendar {
+    float: left;
+    display: block;
+    background: url("../images/ico_calendar.jpg") no-repeat;
+    width: 31px;
+    height: 31px;
+    margin: 0 18px 0 8px;
+    opacity: 0.6;
+}
+
+#date-deadline span, #time-deadline span {
+    display: block;
+    margin: 4px 6px 0;
+    font-size: 16px;
+    color: #000;
+    float: left;
+}
+
+#date-deadline a.calendar:hover {
+    opacity: 1;
+}
+
+.dialog-assign .parameters.post {
+    width: 425px;
+    margin-left: 40px;
+    position: relative;
+}
+
+.dialog-assign .parameters.post li{
+    overflow: visible;
+}
+
+.dialog-assign .parameters li .edit-letter {
+    position: absolute;
+    right: 0;
+    display: none;
+    top: 10px;
+    padding-right: 15px;
+    background: url("../images/drop-edit.jpg") no-repeat right;
+}
+
+.dialog-assign .parameters li:hover .edit-letter {
+    display: block;
+}
+
+.dialog-assign .parameters .letter {
+    background: #ececec url("../images/letter_corner.jpg") no-repeat top right;
+    margin: 10px 0 0 0;
+    padding: 12px;
+    font-size: 12px;
+}
+
+.dialog-assign .parameters .letter span {
+    color: #7c7c7c;
+}
+
+.dialog-assign .parameters .letter .text a {
+    color: #0e67d2;
+}
+
+.dialog-assign .parameters .letter .text a:hover {
+    text-decoration: underline;
+}
+
+.dialog-assign .parameters .letter .text p {
+    margin-bottom: 10px;
+    line-height: 14px;
+}
+
+.dialog-assign .parameters .letter textarea {
+    display: block;
+    height: 35px;
+    padding: 8px;
+    font-size: 12px;
+    width: 385px;
+    overflow: hidden;
+    resize: none;
+}
+
+.dialog-assign .parameters.as .letter textarea{
+    width: 383px;
+}
+
+.dialog-assign .parameters li .subletter {
+    background: #f9f9f9;
+    border: 1px solid #ececec;
+    border-radius: 2px;
+    padding: 11px;
+    font-size: 13px;
+}
+
+.dialog-assign .parameters li .subletter .option {
+    overflow: visible;
+}
+
+.dialog-assign .parameters .parameters.post li .name {
+    cursor: pointer;
+}
+
+.dialog-assign .parameters li .subletter label {
+    font-size: 13px;
+    margin-right: -10px;
+}
+
+.dialog-assign .parameters li .sbHolder {
+    border: 1px solid #d5d5d5;
+    height: 22px;
+    padding: 0 10px;
+    position: relative;
+    border-radius: 2px;
+    width: 80px;
+    background: #e2e2e2;
+    float: left;
+    margin-right: 0;
+    margin-left: 17px;
+}
+
+.dialog-assign .parameters li .sbToggle {
+    background: url(../images/bg/drop.png) no-repeat 8px 5px;
+    display: block;
+    height: 17px;
+    outline: none;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    width: 17px;
+    z-index: 100;
+}
+
+.dialog-assign .parameters li .sbSelector {
+    display: block;
+    height: 20px;
+    left: 0;
+    outline: none;
+    padding-top: 1px;
+    overflow: hidden;
+    position: absolute;
+    text-indent: 10px;
+    top: 2px;
+    line-height: 14px;
+    color: #000;
+    text-decoration: none;
+    width: 70px;
+    white-space: nowrap;
+
+}
+
+.dialog-assign .parameters li .sbOptions {
+    border: 1px solid #d5d5d5;
+    /*height: 150px;*/
+    padding: 0;
+    border-radius: 2px;
+    width: 100px;
+    background: #e2e2e2;
+    list-style: none;
+    left: -1px;
+    margin: 0;
+    position: absolute;
+    top: 17px;
+    font-size: 12px;
+    z-index: 1;
+    overflow-y: auto;
+    border-top: none;
+}
+
+
+
+.dialog-assign .parameters .sbOptions li {
+    background: #e2e2e2;
+    padding: 3px 5px 0 10px;
+    font-size: 12px;
+}
+
+.dialog-assign .parameters .sbOptions li a {
+    color: #000;
+}
+
+.dialog-assign .parameters .sbOptions a {
+    color: #2d5778;
+    text-decoration: none;
+}
+
+.dialog-assign .parameters .action {
+    margin: 10px 0 -5px;
+    overflow: auto;
+    padding: 4px;
+}
+
+.dialog-assign .parameters .action a.sendme {
+    font-size: 12px;
+    color: #000;
+    margin-top: 5px;
+    border-bottom: dotted 1px #919191;
+    line-height: 12px;
+}
+
+.dialog-assign .parameters .action a.sendme:hover {
+    border: none;
+}
+
+.dialog-assign .parameters .action a {
+    display: block;
+    float: right;
+    margin-left: 15px;
+}
+
+.dialog-assign .parameters .action a.save {
+    background: url("../images/save_button_bg.jpg") repeat-x top;
+    height: 10px;
+    line-height: 11px;
+    font-size: 11px;
+    padding: 5px 9px;
+    border: 1px solid #b7b7b7;
+    box-shadow: 0 1px 1px #bcbcbc;
+    font-weight: bold;
+}
+
+
+.dialog-assign .parameters .textletter {
+    display: none;
+}
+
+.dialog-assign a.back {
+    color: #0E67D2;
+    display: block;
+    margin-top: 19px;
+    font-size: 13px;
+    line-height: 13px;
+}
+
+.dialog-assign a.back span {
+    border-bottom: dotted 1px #0E67D2;
+}
+
+
+.dash-top, .dash-right, .dash-left, .dash-bottom {
+    position: static;
+    width: auto;
+    height: auto;
+    margin: 0;
+}
+
+.dash-top {
+    background-position: top !important;
+}
+
+.dash-right {
+    background-position: right !important;
+}
+
+.dash-left {
+    background-position: left !important;
+}
+
+.dash-bottom {
+    background-position: bottom !important;
+}
+
+.dialog-assign .left #upload_exel h2 {
+    text-align: center;
+}
+
+.dialog-assign #upload_exel h2, .dialog-assign #get_link h2 {
+    font-size: 24px;
+}
+
+.dialog-assign .left #upload_exel p {
+    text-align: center;
+}
+.dialog-assign p, .dialog-assign #get_link p {
+    color: black;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: Helvetica, sans-serif;
+    margin-bottom: 30px;
+}
+
+#upload_exel .btn-download {
+    float: none;
+    margin: 0 auto 30px;
+}
+
+.dialog-assign .left #upload_exel ul {
+    margin-left: 70px;
+}
+.dialog-assign ul {
+    font-size: 12px;
+    color: #707070;
+}
+
+#upload_exel ul li {
+    background: url("../images/marker.jpg") no-repeat left 4px;
+    line-height: 14px;
+    padding-bottom: 6px;
+    padding-left: 9px;
+}
+
+#upload_exel ul li a {
+    font-weight: bold;
+    color: #0f67d1;
+}
+
+#get_link {
+    padding: 96px 0 97px;
+    width: 490px;
+    margin-left: 207px;
+}
+
+#get_link p {
+    background: url("../images/bg/dashed.png") repeat-x bottom;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+#get_link .link {
+    overflow: auto;
+    width: 490px;
+    margin: 0 auto;
+}
+
+#get_link .link span {
+    font-size: 12px;
+    color: #808080;
+    display: block;
+    padding-bottom: 3px;
+}
+
+#get_link .link .value {
+    color: #363636;
+    font-size: 14px;
+    line-height: 14px;
+    padding: 7px 14px;
+    float: left;
+    width: 355px;
+    background: #e7ecf1;
+}
+
+/*change*/
+#get_link .link a.copy {
+    display: block;
+    float: right;
+    font-size: 10px;
+    font-weight: bold;
+    background: url("../images/copy_but.jpg") repeat-x;
+    height: 18px;
+    width: 95px;
+    color: #727272;
+    border: 1px solid #c7c7c7;
+    text-align: center;
+    line-height: 10px;
+    padding-top: 8px;
+    border-radius: 2px;
+}
+
+.a-hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top:0;
+    z-index: 8000;
+}

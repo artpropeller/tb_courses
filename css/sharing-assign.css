@@ -1,0 +1,20 @@
+#sharing-assign  h2 a {
+    color: #0E67D2;
+}
+
+#sharing-assign .groups, #sharing-assign .selecting {
+    margin-top: 0;
+    height: 386px;
+}
+
+#sharing-assign .group-menu .scroll {
+    height: 360px;
+}
+
+#sharing-assign .users .scroll {
+    height: 325px;
+}
+
+#sharing-assign .selecting .users .scroll {
+    height: 355px;
+}

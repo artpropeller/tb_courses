@@ -13,7 +13,9 @@
     <meta name="copyright" content=""/>
     <link type="text/css" rel="stylesheet" href="style.css"/>
     <link type="text/css" rel="stylesheet" href="course-view.css"/>
-    <link type="text/css" rel="stylesheet" href="course-assign.css"/>
+
+    <link type="text/css" rel="stylesheet" href="css/base.dialog.assign.css"/>
+    <link type="text/css" rel="stylesheet" href="css/add-user.css"/>
 
     <!-- fancy -->
     <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
@@ -30,7 +32,9 @@
 
     <script type="text/javascript" src="js/custom-form-elements.js"></script>
 
+    <script type="text/javascript" src="js/autoGrow.js"></script>
     <script type="text/javascript" src="js/jquery.functions.js"></script>
+
     <script type="text/javascript" src="js/tiny.js"></script>
     <script type="text/javascript" src="js/menu.js"></script>
     <script type="text/javascript" src="js/jquery.selectbox-0.1.3.min.js"></script>
@@ -137,7 +141,7 @@
 <!-- ____ CONTENT ____ -->
 
 <div class="container-aasign">
-    <div id="course_assign" class="users oth">
+    <div id="add-user" class="dialog-assign">
         <div class="close"></div>
         <h2>Добавление пользователей в систему</h2>
 
@@ -146,7 +150,7 @@
             что несомненно приведет нас к истине
         </div>
 
-        <ul class="menu">
+        <ul class="menu fl-left">
             <li><a href="#">Пригласить по e-mail</a></li>
             <li class="active"><a href="#">Загрузка Excel файла</a></li>
             <li class="last"><a href="#">Получить ссылку</a></li>
@@ -156,7 +160,7 @@
 
 
 
-        <div class="dash-top">
+        <div class="dash-top exel">
             <div class="dash-left">
                 <div class="dash-right">
                     <div class="dash-bottom">
@@ -182,9 +186,9 @@
         </div>
 
 
-        <div class="buttons">
-            <a class="button-blue" href="#">Отмена</a>
-            <a class="button-gray" href="#">Добавить</a>
+        <div class="buttons fl-right">
+            <a class="btn btn-blue" href="#">Отмена</a>
+            <a class="btn btn-gray" href="#">Добавить</a>
         </div>
 
         

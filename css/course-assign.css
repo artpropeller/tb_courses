@@ -1,0 +1,179 @@
+#course-assign .left {
+    width: 518px;
+    margin-top: 15px;
+}
+
+#course-assign .left .selecting.ex2 {
+    padding: 0 12px;
+    width: 494px;
+    height: 357px;
+    background: none;
+    border: 0;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    margin-top: 2px;
+}
+
+#course-assign .selecting.ex2 .users {
+    height: 345px;
+    width: auto;
+}
+
+#course-assign .selecting.ex2 .user {
+    width: auto;
+}
+
+#course-assign .left.ex2 .users .user.pred {
+    height: 28px;
+    padding: 5px 0 3px;
+    padding-bottom: 3px;
+    background: none;
+    overflow: visible;
+    border-bottom: 1px solid #DBDBDB;
+    /*float: left;*/
+}
+
+#course-assign .left .users .user.pred .ac_bg {
+    overflow: visible;
+    background: none;
+}
+#course-assign .left .users .user .ac_bg {
+    padding-left: 10px;
+}
+
+#course-assign .left #selecting .users.change .user.pred .check {
+    margin-top: 3px;
+}
+
+#course-assign .left.ex2 .users .user.pred .mail {
+    font-weight: bold;
+    color: #000;
+}
+
+#course-assign .left.ex2 .users .mail {
+    width: auto;
+}
+
+#course-assign .left .users .user .mail input {
+    display: block;
+    height: 28px;
+    padding: 0 10px;
+    border: 1px solid #D0D0D0;
+    color: black;
+    font-size: 12px;
+    margin: 0;
+    width: 430px;
+    line-height: 1;
+}
+
+#course-assign .left .users.change .user .check {
+    margin-top: 9px;
+}
+
+.cor {
+    width: 70px;
+    right: 24px;
+    top: 7px;
+    margin-right: -20px;
+    position: absolute;
+    padding: 4px 6px 0;
+    background: url("../images/add_actions_but.jpg") repeat-x top;
+    height: 15px;
+    border: 1px solid #C9C9C9;
+    font-weight: bold;
+    color: #434343;
+    font-size: 11px;
+    line-height: 11px;
+    border-radius: 3px;
+    display: none;
+}
+
+.cor img {
+    margin-top: -2px;
+    float: left;
+    padding-right: 4px;
+}
+
+#course-assign .selecting.ex2 .users.change .scroll.spin.fix {
+    height: 270px !important;
+}
+#course-assign .left.ex2 .users .scroll.exel {
+    height: 313px;
+}
+
+
+#course-assign .selecting.ex2 .users.change .sub {
+    margin-top: -19px;
+}
+
+.sub {
+    background: url("../images/white_cover2.png") repeat-x top;
+    height: 20px;
+    margin: -15px -5px 0 -15px;
+    position: relative;
+    z-index: 100;
+}
+
+
+
+#course-assign #selecting .users .user.addnew {
+    background: none;
+}
+
+
+.addnew.out {
+    margin: 0 0 0 10px;
+    overflow: auto;
+    display: none;
+}
+
+.mail button {
+    width: 452px;
+    height: 28px;
+    padding: 0 10px;
+    border: 1px solid #D0D0D0;
+    color: #7E7E7E;
+    font-size: 12px;
+    background: #F4F4F4;
+    text-align: left;
+    cursor: pointer;
+    margin-left: 22px;
+}
+
+#course-assign .left .users .user.addnew .check {
+    display: none;
+}
+
+.pad {
+    height: 6px;
+    width: 300px;
+}
+
+.user.empty {
+    display: none;
+}
+
+.mail button:hover {
+    border: 1px solid #666;
+    background: #fbfbfb;
+}
+
+#course-assign .left .users .user .mail {
+    font-size: 12px;
+    line-height: 16px;
+    color: black;
+}
+
+#course-assign .left.exel #upload_exel {
+    padding: 66px 0 66px;
+}
+
+#course-assign .left.exel {
+    margin-top: 17px;
+}
+
+.linked {
+    margin-top: 17px;
+}
+

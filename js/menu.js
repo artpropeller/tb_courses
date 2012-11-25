@@ -145,7 +145,7 @@ $(function () {
     $('.selectbox').selectbox({
         onOpen:function (inst) {
 
-            $('#course_assign').prepend('<div class="a-hover"></div>');
+            $('.dialog-assign').prepend('<div class="a-hover"></div>');
         },
         onClose:function (inst) {
             $('.a-hover').remove();

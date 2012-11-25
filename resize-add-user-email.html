@@ -13,7 +13,9 @@
     <meta name="copyright" content=""/>
     <link type="text/css" rel="stylesheet" href="style.css"/>
     <link type="text/css" rel="stylesheet" href="course-view.css"/>
-    <link type="text/css" rel="stylesheet" href="course-assign.css"/>
+
+    <link type="text/css" rel="stylesheet" href="css/base.dialog.assign.css"/>
+    <link type="text/css" rel="stylesheet" href="css/add-user.css"/>
 
     <!-- fancy -->
     <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
@@ -138,7 +140,7 @@
 <!-- ____ CONTENT ____ -->
 
 <div class="container-aasign">
-    <div id="course_assign" class="users">
+    <div id="add-user" class="dialog-assign">
         <div class="close"></div>
         <h2>Добавление пользователей в систему</h2>
 
@@ -147,7 +149,7 @@
             что несомненно приведет нас к истине
         </div>
 
-        <ul class="menu oth">
+        <ul class="menu fl-left">
             <li class="active"><a href="#">Пригласить по e-mail</a></li>
             <li><a href="#">Загрузка Excel файла</a></li>
             <li class="last"><a href="#">Получить ссылку</a></li>
@@ -156,7 +158,7 @@
         <div class="clear"></div>
 
         <div class="actions">
-            <ul>
+            <ul class="fl-right">
                 <li><a href="#"><img src="images/add-user-ico-add.png" width="13" height="13" alt=""> добавить в группу</a>
                 </li>
                 <li><a href="#"><img src="images/add-user-ico-pro.png" width="13" height="13" alt=""> изменить
@@ -731,15 +733,18 @@
             </div>
         </div>
 
-
-        <div class="buttons">
-            <a class="button-blue" href="#">Отмена</a>
-            <a class="button-red" href="#">Добавить</a>
+        <div class="send fl-left">
+            <input type="checkbox" id="save">
+            <label for="save" class="fl-left">Отправить уведомление о регистрации в системе</label>
         </div>
 
-        <div class="sendnoti active">
-            Отправить уведомление о регистрации в системе
+
+        <div class="buttons fl-right">
+            <a class="btn btn-blue" href="#">Отмена</a>
+            <a class="btn btn-red" href="#">Добавить</a>
         </div>
+
+
 
 
     </div>

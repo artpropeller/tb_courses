@@ -13,7 +13,9 @@
     <meta name="copyright" content=""/>
     <link type="text/css" rel="stylesheet" href="style.css"/>
     <link type="text/css" rel="stylesheet" href="course-view.css"/>
-    <link type="text/css" rel="stylesheet" href="course-assign.css"/>
+
+    <link type="text/css" rel="stylesheet" href="css/base.dialog.assign.css"/>
+    <link type="text/css" rel="stylesheet" href="css/add-user.css"/>
 
     <!-- fancy -->
     <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
@@ -29,7 +31,7 @@
     <link type="text/css" rel="stylesheet" href="js/jquery.ui/jquery-ui-1.8.20.custom.css"/>
 
     <script type="text/javascript" src="js/custom-form-elements.js"></script>
-
+    <script type="text/javascript" src="js/autoGrow.js"></script>
     <script type="text/javascript" src="js/jquery.functions.js"></script>
     <script type="text/javascript" src="js/tiny.js"></script>
     <script type="text/javascript" src="js/menu.js"></script>
@@ -137,7 +139,7 @@
 <!-- ____ CONTENT ____ -->
 
 <div class="container-aasign">
-<div id="course_assign" class="users oth">
+<div id="add-user" class="dialog-assign">
 <div class="close"></div>
 <h2>Добавление пользователей в систему</h2>
 
@@ -146,14 +148,14 @@
     что несомненно приведет нас к истине
 </div>
 
-<ul class="menu">
+<ul class="menu fl-left">
     <li><a href="#">Пригласить по e-mail</a></li>
     <li><a href="#">Загрузка Excel файла</a></li>
     <li class="last active"><a href="#">Получить ссылку</a></li>
 </ul>
 
 <div class="clear"></div>
-<div class="dash-top oth">
+<div class="dash-top exel">
     <div class="dash-left">
         <div class="dash-right">
             <div class="dash-bottom">
@@ -323,9 +325,9 @@
 </div>
 
 
-<div class="buttons">
-    <a class="button-blue" href="#">Отмена</a>
-    <a class="button-red" href="#">OK</a>
+<div class="buttons fl-right">
+    <a class="btn btn-blue" href="#">Отмена</a>
+    <a class="btn btn-red" href="#">OK</a>
 </div>
 
 

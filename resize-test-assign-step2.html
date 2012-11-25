@@ -13,7 +13,10 @@
     <meta name="copyright" content=""/>
     <link type="text/css" rel="stylesheet" href="style.css"/>
     <link type="text/css" rel="stylesheet" href="course-view.css"/>
-    <link type="text/css" rel="stylesheet" href="course-assign.css"/>
+    <!--<link type="text/css" rel="stylesheet" href="course-assign.css"/>-->
+
+    <link type="text/css" rel="stylesheet" href="css/base.dialog.assign.css"/>
+    <link type="text/css" rel="stylesheet" href="css/test-assign.css"/>
 
     <!-- fancy -->
     <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
@@ -109,7 +112,7 @@
 <!-- ____ CONTENT ____ -->
 
 <div class="container-aasign">
-    <div id="course_assign">
+    <div id="test-assign" class="dialog-assign">
         <div class="close"></div>
         <h2>Назначение теста. Шаг 2 из 2</h2>
 
@@ -118,7 +121,7 @@
             что несомненно приведет нас к истине
         </div>
 
-        <div class="parameters as">
+        <div class="parameters fl-left">
             <h3>Общие параметры курса</h3>
             <ul class="nobg">
                 <li><a class="faq" href="#"></a>
@@ -126,7 +129,7 @@
                     <div class="option dead">
                         <label for="timedead">Время на выполнение<input id="timedead" type="checkbox"></label>
                     </div>
-                    <div id="time-deadline">
+                    <div id="time-deadline" class="fl-left">
                         <input type="text" class="small" value="14"><span>ч.</span><input type="text" class="small" value="00"><span>мин.</span>
                     </div>
                 </li>
@@ -173,7 +176,7 @@
                     <div class="option dead">
                         <label for="deadline">Дедлайн<input id="deadline" type="checkbox"></label>
                     </div>
-                    <div id="date-deadline">
+                    <div id="date-deadline"  class="fl-left">
                         <input type="text" value="12 августа"> <a href="#" class="calendar"></a> <input type="text"
                                                                                                         class="small"
                                                                                                         value="14"><span>:</span><input
@@ -211,7 +214,7 @@
             </ul>
         </div>
 
-        <div class="parameters as post">
+        <div class="parameters post fl-left">
             <h3>Уведомления на электронную почту</h3><a class="faq" href="#"></a>
             <ul>
                 <li><span class="name">Приглашение на курс</span> <a class="edit-letter" href="#"><img src="images/bg/edit.png" alt=""></a>
@@ -293,9 +296,9 @@ Konstantin Konstantinopolsky</textarea>
 
         <div class="clear"></div>
 
-        <div class="buttons">
-            <a class="button-blue" href="#">Отмена</a>
-            <a class="button-red" href="#">Назначить</a>
+        <div class="buttons fl-right">
+            <a class="btn btn-blue" href="#">Отмена</a>
+            <a class="btn btn-red" href="#">Назначить</a>
         </div>
 
         <a href="#" class="back">&larr; <span>на шаг назад</span></a>

@@ -13,7 +13,10 @@
     <meta name="copyright" content=""/>
     <link type="text/css" rel="stylesheet" href="style.css"/>
     <link type="text/css" rel="stylesheet" href="course-view.css"/>
-    <link type="text/css" rel="stylesheet" href="course-assign.css"/>
+
+
+    <link type="text/css" rel="stylesheet" href="css/base.dialog.assign.css"/>
+    <link type="text/css" rel="stylesheet" href="css/course-assign.css"/>
 
     <!-- fancy -->
     <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
@@ -109,7 +112,7 @@
 <!-- ____ CONTENT ____ -->
 
 <div class="container-aasign">
-<div id="course_assign">
+<div class="dialog-assign" id="course-assign">
 <div class="close"></div>
 <h2>Назначение курса. Шаг 1 из 2</h2>
 
@@ -118,7 +121,7 @@
     что несомненно приведет нас к истине
 </div>
 
-<ul class="menu">
+<ul class="menu fl-left">
     <li class="active"><a href="#">Пользователи</a></li>
     <li><a href="#">Пригласить по e-mail</a></li>
     <li><a href="#">Загрузка Excel файла</a></li>
@@ -127,30 +130,30 @@
 
 <div class="clear"></div>
 
-<div class="groups as">
-<div class="group-menu">
+<div class="groups fl-left">
+<div class="group-menu fl-left">
     <h3>Группы</h3>
 
     <div class="scroll">
         <ul>
-            <li><a href="#group-id-1">Последний курс</a></li>
-            <li><a href="#group-id-2">Идеи и драфты</a></li>
-            <li><a href="#group-id-3">Иллюстрации по теме</a></li>
-            <li><a href="#group-id-1">Полезное</a></li>
+            <li><a href="#group-id-1">Последний курс</a><span>(27)</span></li>
+            <li><a href="#group-id-2">Идеи и драфты</a><span>(27)</span></li>
+            <li><a href="#group-id-3">Иллюстрации по теме</a><span>(27)</span></li>
+            <li><a href="#group-id-1">Полезное</a><span>(27)</span></li>
+            <li><a href="#group-id-2">Новая работа</a><span>(27)</span></li>
+            <li><a href="#group-id-3">Фотографии из испании</a><span>(27)</span></li>
+            <li><a href="#group-id-1">Моя работа</a><span>(27)</span></li>
+            <li><a href="#group-id-2">Плюрализм как идея</a><span>(27)</span></li>
+            <li><a href="#group-id-1">Полезное</a><span>(27)</span></li>
             <li><a href="#group-id-2">Новая работа</a></li>
-            <li><a href="#group-id-3">Фотографии из испании</a></li>
-            <li><a href="#group-id-1">Моя работа</a></li>
-            <li><a href="#group-id-2">Плюрализм как идея</a></li>
-            <li><a href="#group-id-1">Полезное</a></li>
-            <li><a href="#group-id-2">Новая работа</a></li>
-            <li><a href="#group-id-3">Фотографии из испании</a></li>
-            <li><a href="#group-id-1">Моя работа</a></li>
-            <li><a href="#group-id-2">Плюрализм как идея</a></li>
+            <li><a href="#group-id-3">Фотографии из испании</a><span>(27)</span></li>
+            <li><a href="#group-id-1">Моя работа</a><span>(27)</span></li>
+            <li><a href="#group-id-2">Плюрализм как идея</a><span>(27)</span></li>
         </ul>
     </div>
 </div>
-<div class="users as">
-<a class="select-all" href="#">Выделить всех</a>
+<div class="users fl-left">
+<a class="select-all fl-right" href="#">Выделить всех</a>
 
 <h3>Пользователи</h3>
 <input type="text" class="search" placeholder="Поиск пользователей">
@@ -438,14 +441,14 @@
 
 </div>
 
-<div class="arrows cas">
+<div class="arrows cas fl-left">
     <a class="arr select-user" href="#"><span></span></a>
     <a class="arr remove-user" href="#"><span></span></a>
 </div>
 
-<div class="selecting exel">
+<div class="selecting fl-left">
     <div class="users">
-        <a class="select-all" href="#">Выделить всех</a>
+        <a class="select-all fl-right" href="#">Выделить всех</a>
 
         <h3>Назначить</h3>
 
@@ -458,15 +461,15 @@
 </div>
 
 <div class="clear"></div>
-<div class="send as">
+<div class="send fl-left">
     <input type="checkbox" id="save">
-    <label for="save">Сохранить группу</label>
+    <label for="save" class="fl-left">Сохранить группу</label>
     <a href="#"><img src="images/ico_faq.png" width="17" height="17" alt=""></a>
 </div>
 
-<div class="buttons">
-    <a class="button-blue" href="#">Отмена</a>
-    <a class="button-red" href="#">Далее</a>
+<div class="buttons fl-right">
+    <a class="btn btn-blue" href="#">Отмена</a>
+    <a class="btn btn-red" href="#">Далее</a>
 </div>
 
 
