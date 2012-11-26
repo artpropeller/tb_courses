@@ -14,7 +14,7 @@
 #test-assign .parameters .hide-settings ul {
     background: #dfe3e8;
     margin: 0;
-    padding: 6px 0 25px 22px;
+    padding: 12px 0 6px 22px;
     position: relative;
     display: none;
 
@@ -45,18 +45,19 @@
     padding: 0;
     background: none;
     font-size: 12px;
-    line-height: 12px;
     margin: 0;
     font-family: Helvetica, sans-serif;
+    padding-bottom: 8px;
+
 }
 
 #test-assign .parameters .hide-settings label {
     font-size: 12px;
-    line-height: 15px;
 }
 
 #test-assign .hide-settings .option label {
     background: url("../images/checkbox_par.png") no-repeat 0 0;
+    float: none;
 }
 
 #test-assign .parameters .hide-settings .option label.active {
@@ -140,4 +141,12 @@
     display: block;
     float: left;
     padding: 0 4px;
+}
+
+#test-assign .parameters .hide-settings .option {
+    padding:0;
+    margin: 0;
+    width: auto;
+    height: auto;
+    /*overflow: auto;*/
 }

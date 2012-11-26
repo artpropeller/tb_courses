@@ -388,7 +388,7 @@ $(document).ready(function (e) {
             '<li>' +
             '<a class="edit" href="#"></a><a class="del" href="#"></a>' +
             '<input type="checkbox"/>' +
-            '<label class="hidden"><input type="text" class="new_text" /></label>' +
+            '<label class="hidden"><input type="text" maxlength="30" class="new_text" /></label>' +
             '</li>';
         list.append(html);
         list.find('input').autoGrowInput({

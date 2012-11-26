@@ -177,6 +177,8 @@ $(function () {
         }
         showcor();
         rpAddNew();
+        addTooltipClass('#selecto .user .name', 19);
+        addTooltipClass('#selecto .user .mail', 19);
         tooltip();
         return false;
     });
@@ -193,7 +195,6 @@ $(function () {
         $('#course_assign .users .scroll').jScrollPane({animateScroll:true});
         showcor();
         rpAddNew();
-        tooltip();
         return false;
     });
 
@@ -390,7 +391,8 @@ $(function () {
         $('.clear .selectbox').selectbox("detach");
         nu.find('.select-group-scroll').jScrollPane({animateScroll:true});
 
-        $('.scroll').jScrollPane({animateScroll:true});
+        st = $('.scroll').jScrollPane({animateScroll:true});
+        st.data('jsp').scrollToPercentY("100");
         return false;
     });
 
@@ -618,12 +620,9 @@ this.tooltip = function(){
 // starting the script on page load
 $(document).ready(function(){
 
-    addTooltipClass('.group-menu ul li a', 14);
-    addTooltipClass('.user .name', 19);
-    addTooltipClass('.user .mail', 19);
-
-
-
+    addTooltipClass('.group-menu ul li a', 15);
+    addTooltipClass('.tooltips .user .name', 19);
+    addTooltipClass('.tooltips .user .mail', 19);
 
     tooltip();
 });

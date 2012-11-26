@@ -143,6 +143,7 @@
     color: #000;
     padding: 0 10px;
     height: 28px;
+    line-height: 28px;
 }
 
 #add-user .table-add .user .status {
@@ -469,7 +470,7 @@
 
 #add-user #get_link .table-add p {
     margin-bottom: 0;
-    padding-top: 5px;
+    padding-top: 1px;
 }
 
 #add-user #get_link .table-add {
@@ -479,10 +480,12 @@
 
 #add-user #get_link .table-add .select-group-scroll {
     height: 110px;
+    overflow: hidden;
 }
 
 #add-user #get_link .select-group-list {
-    height: 190px;
+    height: 200px;
+    overflow: hidden;
 }
 
 #add-user #get_link .table-add .user {
@@ -532,4 +535,8 @@
 
 #add-user.dialog-assign #get_link p {
     margin-bottom: 14px;
+}
+
+#add-user .table-add.use .scroll .jspVerticalBar {
+    right: 5px;
 }
