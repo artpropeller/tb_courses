@@ -71,7 +71,7 @@
     margin-top: 9px;
 }
 
-.cor {
+#course-assign .cor {
     width: 70px;
     right: 24px;
     top: 7px;
@@ -89,7 +89,7 @@
     display: none;
 }
 
-.cor img {
+#course-assign .cor img {
     margin-top: -2px;
     float: left;
     padding-right: 4px;
@@ -107,7 +107,7 @@
     margin-top: -19px;
 }
 
-.sub {
+#course-assign .sub {
     background: url("../images/white_cover2.png") repeat-x top;
     height: 20px;
     margin: -15px -5px 0 -15px;
@@ -122,13 +122,13 @@
 }
 
 
-.addnew.out {
+#course-assign .addnew.out {
     margin: 0 0 0 10px;
     overflow: auto;
     display: none;
 }
 
-.mail button {
+#course-assign .mail button {
     width: 452px;
     height: 28px;
     padding: 0 10px;
@@ -145,16 +145,16 @@
     display: none;
 }
 
-.pad {
+#course-assign .pad {
     height: 6px;
     width: 300px;
 }
 
-.user.empty {
+#course-assign .user.empty {
     display: none;
 }
 
-.mail button:hover {
+#course-assign .mail button:hover {
     border: 1px solid #666;
     background: #fbfbfb;
 }
@@ -173,7 +173,7 @@
     margin-top: 17px;
 }
 
-.linked {
+#course-assign .linked {
     margin-top: 17px;
 }
 
