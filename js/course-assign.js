@@ -8,9 +8,9 @@
 seti = '';
 $(function () {
 
-    $('.scroll').jScrollPane({animateScroll:true});
+    $('.scroll-assign').jScrollPane({animateScroll:true});
 
-    $('.dialog-assign .option label').click(function () {
+    $('.dialog-assign .option-assign label').click(function () {
 
         if ($(this).find('input').attr('checked') == 'checked') {
 
@@ -21,25 +21,25 @@ $(function () {
         }
     });
 
-    $('#deadline').change(function () {
+    $('#deadline-assign').change(function () {
         if ($(this).attr('checked') == 'checked') {
-            $('#date-deadline').slideDown(300);
+            $('#date-deadline-assign').slideDown(300);
         }
         else {
-            $('#date-deadline').slideUp(300);
+            $('#date-deadline-assign').slideUp(300);
         }
     });
 
-    $('#timedead').change(function () {
+    $('#timedead-assign').change(function () {
         if ($(this).attr('checked') == 'checked') {
-            $('#time-deadline').fadeIn(300);
+            $('#time-deadline-assign').fadeIn(300);
         }
         else {
-            $('#time-deadline').fadeOut(300);
+            $('#time-deadline-assign').fadeOut(300);
         }
     });
 
-    $('.parameters .inparr .up').click(function () {
+    $('.parameters-assign .inparr-assign .up-assign').click(function () {
         var inp = $(this).parent().find('input');
         var val = parseInt(inp.val()) + 1;
         if (val <= parseInt(inp.attr('max'))) {
@@ -53,42 +53,42 @@ $(function () {
         return false;
     });
 
-    $('.parameters .inparr input').change(function () {
+    $('.parameters-assign .inparr-assign input').change(function () {
         if (parseInt($(this).val()) > parseInt($(this).attr('max'))) {
             $(this).val($(this).attr('max'));
         }
     });
 
-    $('.parameters #percent').bind('change keyup', function () {
+    $('.parameters-assign #percent-assign').bind('change keyup', function () {
         changeBall();
     });
 
-    $('.parameters #ball').bind('change keyup', function () {
+    $('.parameters-assign #ball-assign').bind('change keyup', function () {
         changePercent();
     });
 
     function changeBall() {
-        var i = parseFloat($('#ball').attr('max')) / 100;
-        $('#ball').val(parseInt(i * parseInt($('#percent').val())));
+        var i = parseFloat($('#ball-assign').attr('max')) / 100;
+        $('#ball-assign').val(parseInt(i * parseInt($('#percent-assign').val())));
     }
 
     function changePercent() {
-        var i = parseFloat($('#ball').val() / $('#ball').attr('max')) * 100;
-        $('#percent').val(parseInt(i));
+        var i = parseFloat($('#ball-assign').val() / $('#ball-assign').attr('max')) * 100;
+        $('#percent-assign').val(parseInt(i));
     }
 
-    $('.parameters .inparr input').keyup(function (e) {
+    $('.parameters-assign .inparr-assign input').keyup(function (e) {
         if (parseInt($(this).val()) > parseInt($(this).attr('max'))) {
             $(this).val($(this).attr('max'));
         }
-        if ($(this).is('#percent')) {
+        if ($(this).is('#percent-assign')) {
             changeBall();
         } else {
             changePercent();
         }
     });
 
-    $('.parameters .inparr input').keydown(function (event) {
+    $('.parameters-assign .inparr-assign input').keydown(function (event) {
         if (event.keyCode == 46 || event.keyCode == 8 || event.keyCode == 9 || event.keyCode == 27 || event.keyCode == 13 ||
             // Allow: Ctrl+A
             (event.keyCode == 65 && event.ctrlKey === true) ||
@@ -105,9 +105,9 @@ $(function () {
         }
     });
 
-    $('.parameters .inparr .down').click(function () {
+    $('.parameters-assign .inparr-assign .down-assign').click(function () {
         $(this).parent().find('input').val(parseInt($(this).parent().find('input').val()) - 1);
-        if ($(this).parent().find('input').is('#percent')) {
+        if ($(this).parent().find('input').is('#percent-assign')) {
             changeBall();
         } else {
             changePercent();
@@ -116,19 +116,19 @@ $(function () {
 
     });
 
-    $('.user').live('click', function () {
-        if (!$(this).is('.addnew')) {
+    $('.user-assign').live('click', function () {
+        if (!$(this).is('.addnew-assign')) {
             $(this).toggleClass('active');
             showcor();
         }
     });
 
-    $('.select-user').click(function () {
-        var select = $('.groups .user-group.active .user.active').css('display','block').clone();
-        $('.groups .user-group.active .user.active').remove();
-        var parent = '#' + $('.user-group.active').attr('id');
-        $('.selecting .user-group').append(select.removeClass('active').attr('parent', parent));
-        $('#course_assign .users .scroll').jScrollPane({animateScroll:true});
+    $('.select-user-assign').click(function () {
+        var select = $('.groups-assign .user-group-assign.active .user-assign.active').css('display','block').clone();
+        $('.groups-assign .user-group-assign.active .user-assign.active').remove();
+        var parent = '#' + $('.user-group-assign.active').attr('id');
+        $('.selecting-assign .user-group-assign').append(select.removeClass('active').attr('parent', parent));
+        $('.dialog-assign .users-assign .scroll-assign').jScrollPane({animateScroll:true});
 
 
         checkSelect();
@@ -136,161 +136,162 @@ $(function () {
         return false;
     });
 
-    $('.emu .select-user').click(function () {
-        var select = $('#selecting .scroll .user.active').clone();
-        $('#selecting .scroll .user.active').remove();
-        var parent = '#' + $('.user-group.active').attr('id');
+    $('.emu-assign .select-user-assign').click(function () {
+        var select = $('#selecting-assign .scroll-assign .user-assign.active').clone();
+        $('#selecting-assign .scroll-assign .user-assign.active').remove();
+        var parent = '#' + $('.user-group-assign.active').attr('id');
         select.each(function () {
-            $(this).find('.info').prepend('<span class="name">Новый пользователь</span>');
-            $(this).find('.info').before('<img class="avatar" src="images/new_ava.jpg" alt="">');
+            $(this).find('.info').prepend('<span class="name-assign">Новый пользователь</span>');
+            $(this).find('.info').before('<img class="avatar-assign" src="images/new_ava.jpg" alt="">');
         });
-        $('#selecto .user-group').append(select.removeClass('active'));
-        $('#course_assign .users .scroll').jScrollPane({animateScroll:true});
-        if ($('#selecting .scroll .user:not(.addnew,.empty)').size() == 0) {
-            $('.all-mail').removeClass('active');
+        $('#selecto-assign .user-group-assign').append(select.removeClass('active'));
+        $('.dialog-assign .users-assign .scroll-assign').jScrollPane({animateScroll:true});
+        if ($('#selecting-assign .scroll-assign .user-assign:not(.addnew,.empty)').size() == 0) {
+            $('.all-mail-assign').removeClass('active');
         }
         showcor();
+        addTooltipClass('#selecto-assign .user-assign .mail-assign', 19);
         tooltip();
         return false;
     });
 
-    $('.emi .select-user').click(function () {
-        var select = $('#selecting .scroll .user.active').clone();
-        $('#selecting .scroll .user.active').remove();
-        var parent = '#' + $('.user-group.active').attr('id');
+    $('.emi-assign .select-user-assign').click(function () {
+        var select = $('#selecting-assign .scroll-assign .user-assign.active').clone();
+        $('#selecting-assign .scroll-assign .user-assign.active').remove();
+        var parent = '#' + $('.user-group-assign.active').attr('id');
         select.each(function () {
-            if ($(this).find('input').val() && !$(this).is('.empty')) {
-                $(this).find('.mail').html($(this).find('input').val());
-                $(this).find('.info').prepend('<span class="name">Новый пользователь</span>');
-                $(this).find('.info').before('<img class="avatar" src="images/new_ava.jpg" alt="">');
+            if ($(this).find('input').val() && !$(this).is('.empty-assign')) {
+                $(this).find('.mail-assign').html($(this).find('input').val());
+                $(this).find('.info-assign').prepend('<span class="name-assign">Новый пользователь</span>');
+                $(this).find('.info-assign').before('<img class="avatar-assign" src="images/new_ava.jpg" alt="">');
             }
             else {
                 $(this).addClass('empty');
             }
         });
-        $('#selecto .user-group').append(select.removeClass('active'));
-        $('#selecto .user.empty').remove();
-        $('#course_assign .users .scroll').jScrollPane({animateScroll:true});
-        if ($('#selecting .scroll .user:not(.addnew,.empty)').size() < 1) {
+        $('#selecto-assign .user-group-assign').append(select.removeClass('active'));
+        $('#selecto-assign .user-assign.empty-assign').remove();
+        $('#course_assign-assign .users-assign .scroll-assign').jScrollPane({animateScroll:true});
+        if ($('#selecting-assign .scroll-assign .user-assign:not(.addnew-assign,.empty-assign)').size() < 1) {
 
-            $('.all-mail').removeClass('active');
+            $('.all-mail-assign').removeClass('active');
         }
         showcor();
         rpAddNew();
-        addTooltipClass('#selecto .user .name', 19);
-        addTooltipClass('#selecto .user .mail', 19);
+        addTooltipClass('#selecto-assign .user-assign .name-assign', 19);
+        addTooltipClass('#selecto-assign .user-assign .mail-assign', 19);
         tooltip();
         return false;
     });
 
-    $('.emi .remove-user').click(function () {
-        var select = $('#selecto .user-group .user.active').clone();
-        $('#selecto .user-group .user.active').remove();
+    $('.emi-assign .remove-user-assign').click(function () {
+        var select = $('#selecto-assign .user-group-assign .user-assign.active').clone();
+        $('#selecto-assign .user-group-assign .user-assign.active').remove();
         select.each(function () {
-            $(this).find('.mail').html('<input type="text" value="' + $(this).find('.mail').html() + '">');
-            $(this).find('.name').remove();
-            $(this).find('.avatar').remove();
+            $(this).find('.mail-assign').html('<input type="text" value="' + $(this).find('.mail-assign').html() + '">');
+            $(this).find('.name-assign').remove();
+            $(this).find('.avatar-assign').remove();
         });
-        $('#selecting .user-group .addnew').before(select.removeClass('active'));
-        $('#course_assign .users .scroll').jScrollPane({animateScroll:true});
+        $('#selecting-assign .user-group-assign .addnew-assign').before(select.removeClass('active'));
+        $('#course_assign-assign .users-assign .scroll-assign').jScrollPane({animateScroll:true});
         showcor();
         rpAddNew();
         return false;
     });
 
-    $('.emu .remove-user').click(function () {
-        var select = $('#selecto .user-group .user.active').clone();
-        $('#selecto .user-group .user.active').remove();
+    $('.emu-assign .remove-user-assign').click(function () {
+        var select = $('#selecto-assign .user-group-assign .user-assign.active').clone();
+        $('#selecto-assign .user-group-assign .user-assign.active').remove();
         select.each(function () {
-            $(this).find('.name').remove();
-            $(this).find('.avatar').remove();
+            $(this).find('.name-assign').remove();
+            $(this).find('.avatar-assign').remove();
         });
-        $('#selecting .user-group').prepend(select.removeClass('active'));
-        $('#course_assign .users .scroll').jScrollPane({animateScroll:true});
+        $('#selecting-assign .user-group-assign').prepend(select.removeClass('active'));
+        $('#course_assign-assign .users-assign .scroll-assign').jScrollPane({animateScroll:true});
         showcor();
         checkSelect();
         tooltip();
         return false;
     });
 
-    $('.select-all').click(function () {
+    $('.select-all-assign').click(function () {
         if (!$(this).is('.active')) {
             $(this).addClass('active').html('Снять выделение');
-            $(this).parent().find('.user-group.active .user').removeClass('active').addClass('active');
+            $(this).parent().find('.user-group-assign.active .user-assign').removeClass('active').addClass('active');
         }
         else {
             $(this).removeClass('active').html('Выделить всех');
-            $(this).parent().find('.user-group.active .user').removeClass('active');
+            $(this).parent().find('.user-group-assign.active .user-assign').removeClass('active');
         }
 
         return false;
     });
 
-    $('.all-mail').click(function () {
+    $('.all-mail-assign').click(function () {
         if (!$(this).is('.active')) {
             $(this).addClass('active');
-            $('.cor').show(0);
-            $(this).parent().find('.scroll .user').removeClass('active').addClass('active');
-            $(this).parent().find('.scroll .user.addnew, .scroll .user.empty').removeClass('active');
+            $('.cor-assign').show(0);
+            $(this).parent().find('.scroll-assign .user-assign').removeClass('active').addClass('active');
+            $(this).parent().find('.scroll-assign .user-assign.addnew-assign, .scroll-assign .user-assign.empty-assign').removeClass('active');
         }
         else {
-            $('.cor').hide(0);
+            $('.cor-assign').hide(0);
             $(this).removeClass('active');
-            $(this).parent().find('.scroll .user').removeClass('active');
+            $(this).parent().find('.scroll-assign .user-assign').removeClass('active');
         }
         return false;
     });
 
-    $('.messages .select-all').click(function () {
+    $('.messages-assign .select-all-assign').click(function () {
         if (!$(this).is('.active')) {
             $(this).addClass('active').html('Снять выделение');
-            $(this).parent().find('.user').removeClass('active').addClass('active');
+            $(this).parent().find('.user-assign').removeClass('active').addClass('active');
         }
         else {
             $(this).removeClass('active').html('Выделить всех');
-            $(this).parent().find('.user').removeClass('active');
+            $(this).parent().find('.user-assign').removeClass('active');
         }
         return false;
     });
 
 
-    $('.group-menu a').click(function () {
+    $('.group-menu-assign a').click(function () {
         if (!$(this).parent().is('.active')) {
-            $('.group-menu li').removeClass('active');
+            $('.group-menu-assign li').removeClass('active');
             $(this).parent().addClass('active');
-            $('.groups .user-group').removeClass('active');
+            $('.groups-assign .user-group-assign').removeClass('active');
 //            $('.groups .user').removeClass('active');
             $($(this).attr('href')).addClass('active');
-            $($(this).attr('href')).find('.user').show(0);
-            $('.dialog-assign input.search').val('');
-            $('#course_assign .users .scroll').jScrollPane({animateScroll:true});
+            $($(this).attr('href')).find('.user-assign').show(0);
+            $('.dialog-assign input.search-assign').val('');
+            $('.dialog-assign .users-assign .scroll-assign').jScrollPane({animateScroll:true});
         }
         checkSelect();
         return false;
     });
 
-    $('.cas .remove-user').click(function () {
-        var select = $('.selecting .user-group .user.active').clone();
-        $('.selecting .user-group .user.active').remove();
+    $('.cas-assign .remove-user-assign').click(function () {
+        var select = $('.selecting-assign .user-group-assign .user-assign.active').clone();
+        $('.selecting-assign .user-group-assign .user-assign.active').remove();
         select.removeClass('active').each(function () {
-            $('.groups').find($(this).attr('parent')).append($(this));
+            $('.groups-assign').find($(this).attr('parent')).append($(this));
         });
-        $('#course_assign .users .scroll').jScrollPane({animateScroll:true});
+        $('.dialog-assign .users-assign .scroll-assign').jScrollPane({animateScroll:true});
         tooltip();
         checkSelect();
         return false;
     });
 
-    $('.dialog-assign input.search').keydown(function (event) {
+    $('.dialog-assign input.search-assign').keydown(function (event) {
         var text;
         setTimeout(function () {
-            text = $('.dialog-assign input.search').val();
+            text = $('.dialog-assign input.search-assign').val();
         }, 50);
         setTimeout(function () {
             if (text.length) {
-                $('.groups .user-group .user').hide(0);
-                $('.groups .user-group .user').each(function () {
-                    if ($(this).find('.name').text().toLowerCase().indexOf(text.toLowerCase()) + 1 || $(this).find('.mail').text().toLowerCase().indexOf(text.toLowerCase()) + 1) {
+                $('.groups-assign .user-group-assign .user-assign').hide(0);
+                $('.groups-assign .user-group-assign .user-assign').each(function () {
+                    if ($(this).find('.name-assign').text().toLowerCase().indexOf(text.toLowerCase()) + 1 || $(this).find('.mail-assign').text().toLowerCase().indexOf(text.toLowerCase()) + 1) {
                         $(this).show(0);
                     }
                 });
@@ -299,30 +300,30 @@ $(function () {
 //            });
             }
             else {
-                $('.groups .user-group .user').show(0);
+                $('.groups-assign .user-group-assign .user-assign').show(0);
             }
         }, 150);
     });
 
 
-    $('.dialog-assign .letter textarea').keydown(function (event) {
+    $('.dialog-assign .letter-assign textarea').keydown(function (event) {
         setTimeout(function () {
-            var val = $('#course_assign .letter textarea').val();
+            var val = $('.dialog-assign .letter-assign textarea').val();
             if (val.length > 700) {
-                $('#course_assign .letter textarea').val(val.substring(0, 700));
+                $('.dialog-assign .letter-assign textarea').val(val.substring(0, 700));
             }
         }, 50);
     });
 
-    $('.dialog-assign .group-menu .scroll').jScrollPane({animateScroll:true});
+    $('.dialog-assign .group-menu-assign .scroll-assign').jScrollPane({animateScroll:true});
 
 
-    $('#course_assign.messages .scroll').jScrollPane({animateScroll:true});
+    $('.dialog-assign.messages-assign .scroll-assign').jScrollPane({animateScroll:true});
 
 
-    $('.dialog-assign .parameters .radio label').click(function () {
+    $('.dialog-assign .parameters-assign .radio-assign label').click(function () {
         if (!$(this).is('.active')) {
-            $('.dialog-assign .parameters .radio label').removeClass('active');
+            $('.dialog-assign .parameters-assign .radio-assign label').removeClass('active');
             $(this).addClass('active');
         }
     });
@@ -337,12 +338,12 @@ $(function () {
 //        }
 //    });
 
-    $('.dialog-assign .parameters li .edit-letter').click(function () {
+    $('.dialog-assign .parameters-assign li .edit-letter-assign').click(function () {
         if (!$(this).is('.active')) {
-            $('.dialog-assign .parameters li .edit-letter').removeClass('active');
+            $('.dialog-assign .parameters-assign li .edit-letter-assign').removeClass('active');
             $(this).addClass('active');
             var link = $(this);
-            $('.dialog-assign .parameters li .textletter').slideUp(500, function () {
+            $('.dialog-assign .parameters-assign li .textletter-assign').slideUp(500, function () {
 
             });
             link.next().slideDown(500);
@@ -354,12 +355,12 @@ $(function () {
         return false;
     });
 
-    $('.dialog-assign .parameters li .name').click(function () {
+    $('.dialog-assign .parameters-assign li .name-assign').click(function () {
         if (!$(this).next().is('.active')) {
-            $('.dialog-assign .parameters li .edit-letter').removeClass('active');
+            $('.dialog-assign .parameters-assign li .edit-letter-assign').removeClass('active');
             $(this).next().addClass('active');
             var link = $(this);
-            $('.dialog-assign .parameters li .textletter').slideUp(500, function () {
+            $('.dialog-assign .parameters-assign li .textletter-assign').slideUp(500, function () {
 
             });
             link.next().next().slideDown(500);
@@ -371,60 +372,60 @@ $(function () {
         return false;
     });
 
-    $('.hide-settings a').click(function () {
+    $('.hide-settings-assign a').click(function () {
         $(this).next().slideToggle(300);
         return false;
     });
 
-    $('.table-add .add-new').click(function () {
-        var nu = $('.user.clear').clone().removeClass('clear');
+    $('.table-add-assign .add-new-assign').click(function () {
+        var nu = $('.user-assign.clear-assign').clone().removeClass('clear');
         $(this).before(nu);
-        $('.selectbox').selectbox("detach");
-        $('.selectbox').selectbox({
+        $('.selectbox-assign').selectbox("detach");
+        $('.selectbox-assign').selectbox({
             onOpen:function (inst) {
-                $('.dialog-assign').prepend('<div class="a-hover"></div>');
+                $('.dialog-assign').prepend('<div class="a-hover-assign"></div>');
             },
             onClose:function (inst) {
-                $('.a-hover').remove();
+                $('.a-hover-assign').remove();
             }
         });
-        $('.clear .selectbox').selectbox("detach");
-        nu.find('.select-group-scroll').jScrollPane({animateScroll:true});
+        $('.clear-assign .selectbox-assign').selectbox("detach");
+        nu.find('.select-group-scroll-assign').jScrollPane({animateScroll:true});
 
-        st = $('.scroll').jScrollPane({animateScroll:true});
+        st = $('.scroll-assign').jScrollPane({animateScroll:true});
         st.data('jsp').scrollToPercentY("100");
         return false;
     });
 
 
-    $('.clear .selectbox').selectbox("detach");
+    $('.clear-assign .selectbox-assign').selectbox("detach");
 
 
-    $('.table-add .check').live('click', function () {
-        $(this).parents('.ac_bg').toggleClass('active');
+    $('.table-add-assign .check-assign').live('click', function () {
+        $(this).parents('.ac_bg-assign').toggleClass('active');
         checkAddUsers();
     });
 
-    $('.sendnoti, .send label').live('click', function () {
+    $('.sendnoti-assign, .send-assign label').live('click', function () {
         $(this).toggleClass('active');
     });
 
-    $('.table-add .selectall').live('click', function () {
+    $('.table-add-assign .selectall-assign').live('click', function () {
         if ($(this).is('.active')) {
-            $('.table-add .ac_bg').removeClass('active');
+            $('.table-add-assign .ac_bg-assign').removeClass('active');
             $(this).removeClass('active');
         }
         else {
             $(this).addClass('active');
-            $('.table-add .ac_bg').removeClass('active');
-            $('.table-add .ac_bg').addClass('active');
+            $('.table-add-assign .ac_bg-assign').removeClass('active');
+            $('.table-add-assign .ac_bg-assign').addClass('active');
         }
         checkAddUsers();
 
     });
 
 
-    $('.table-add .select-group label').live('click', function () {
+    $('.table-add-assign .select-group-assign label').live('click', function () {
         $(this).toggleClass('active');
         if ($(this).is('.active')) {
             $(this).prev().attr('checked', 'checked');
@@ -435,13 +436,13 @@ $(function () {
     });
 
 
-    $('.table-add .select-group li .edit').live('click', function (e) {
+    $('.table-add-assign .select-group-assign li .edit-assign').live('click', function (e) {
         var label = $(this).parent().find('label');
         $(this).parent().addClass('active');
-        $(this).parent().find('.del').show(0);
+        $(this).parent().find('.del-assign').show(0);
         $(this).hide(50);
         var t = label.text();
-        label.html('<input class="edit-label" maxlength="30" type="text" value="' + t + '">');
+        label.html('<input class="edit-label-assign" maxlength="30" type="text" value="' + t + '">');
         label.find('input').autoGrowInput({
             comfortZone: 10,
             minWidth: 130,
@@ -459,22 +460,22 @@ $(function () {
         return false;
     });
 
-    $('.table-add .select-group li .del').live('click', function () {
+    $('.table-add-assign .select-group-assign li .del-assign').live('click', function () {
         $(this).parent().remove();
         return false;
     });
 
-    $('.table-add .select-group li').hover(function () {
+    $('.table-add-assign .select-group-assign li').hover(function () {
         if (!$(this).is('.active')) {
-        $(this).find('.edit').show(0);}
+        $(this).find('.edit-assign').show(0);}
     }, function () {
-        $(this).find('.edit').hide(0);
+        $(this).find('.edit-assign').hide(0);
     });
 
-    $(".select-group-list .edit-label").live("focusout", function () {
+    $(".select-group-list-assign .edit-label-assign").live("focusout", function () {
         var parent = $(this).parent();
         setTimeout(function () {
-            parent.parents('li').find('.del').fadeOut(150);
+            parent.parents('li').find('.del-assign').fadeOut(150);
         }, 50);
         parent.parents('li').removeClass('active');
 
@@ -483,7 +484,7 @@ $(function () {
         }
         else {
             parent.remove();
-            var v = $(this).parents('.select-group-list').find('.select-group-scroll').jScrollPane({animateScroll:true});
+            var v = $(this).parents('.select-group-list-assign').find('.select-group-scroll-assign').jScrollPane({animateScroll:true});
             v1 = v.data('jsp');
             v1.scrollToPercentY("100");
         }
@@ -491,10 +492,10 @@ $(function () {
     });
 
 
-    $(".select-group-list .edit-label").live("keypress", function (e) {
+    $(".select-group-list-assign .edit-label-assign").live("keypress", function (e) {
         if (e.which == 13) {
             $(this).parents('li').removeClass('active');
-            $(this).parents('li').find('.del').hide();
+            $(this).parents('li').find('.del-assign').hide();
             var parent = $(this).parent();
 
             if ($(this).val() != "") {
@@ -502,7 +503,7 @@ $(function () {
             }
             else {
                 parent.remove();
-                var v = $(this).parents('.select-group-list').find('.select-group-scroll').jScrollPane({animateScroll:true});
+                var v = $(this).parents('.select-group-list-assign').find('.select-group-scroll-assign').jScrollPane({animateScroll:true});
                 v1 = v.data('jsp');
                 v1.scrollToPercentY("100");
             }
@@ -511,26 +512,26 @@ $(function () {
         }
     });
 
-    $('.selecting.exel .users .scroll').jScrollPane({animateScroll:true});
+    $('.selecting-assign.exel-assign .users-assign .scroll-assign').jScrollPane({animateScroll:true});
 
-    $('.addnew').click(function () {
+    $('.addnew-assign').click(function () {
         $(this).removeClass('active');
-        var n = $('.user.empty').clone().removeClass('empty');
-        if ($('#selecting .user-group .user').size() >= 8) {
-            $('#selecting .user-group .addnew').hide();
-            $('.spin').addClass('fix');
-            $('.addnew.out').show(0);
+        var n = $('.user-assign.empty-assign').clone().removeClass('empty-assign');
+        if ($('#selecting-assign .user-group-assign .user-assign').size() >= 8) {
+            $('#selecting-assign .user-group-assign .addnew-assign').hide();
+            $('.spin-assign').addClass('fix-assign');
+            $('.addnew-assign-assign.out-assign').show(0);
         }
-        $('#selecting .user-group .addnew').before(n);
-        $('#selecting .scroll').jScrollPane({animateScroll:true});
-        var vv = $('#selecting .scroll').data('jsp');
+        $('#selecting-assign .user-group-assign .addnew-assign').before(n);
+        $('#selecting-assign .scroll-assign').jScrollPane({animateScroll:true});
+        var vv = $('#selecting-assign .scroll-assign').data('jsp');
         vv.scrollToPercentY("100");
     });
 
-    $('.cor').click(function () {
-        $('#selecting .user-group .user.active').remove();
-        if ($('#selecting .scroll .user:not(.addnew,.empty)').size() == 0) {
-            $('.all-mail').removeClass('active');
+    $('.cor-assign').click(function () {
+        $('#selecting-assign .user-group-assign .user-assign.active').remove();
+        if ($('#selecting-assign .scroll-assign .user-assign:not(.addnew-assign,.empty-assign)').size() == 0) {
+            $('.all-mail-assign').removeClass('active');
         }
         showcor();
         return false;
@@ -539,47 +540,46 @@ $(function () {
 });
 
 function rpAddNew() {
-    var s = $('#selecting .user-group .user').size();
+    var s = $('#selecting-assign .user-group-assign .user-assign').size();
     if (s >= 8) {
-        $('#selecting .user-group .addnew').hide();
-        $('.spin').removeClass('fix').addClass('fix');
-        $('.addnew.out').show(0);
+        $('#selecting-assign .user-group-assign .addnew-assign').hide();
+        $('.spin-assign').removeClass('fix-assign').addClass('fix-assign');
+        $('.addnew-assign.out-assign').show(0);
     }
     else {
-        $('#selecting .user-group .addnew').show();
-        $('.spin').removeClass('fix');
-        $('.addnew.out').hide(0);
+        $('#selecting-assign .user-group-assign .addnew-assign').show();
+        $('.spin-assign').removeClass('fix-assign');
+        $('.addnew-assign.out-assign').hide(0);
     }
-    $('#selecting .scroll').jScrollPane({animateScroll:true});
-    var vv = $('#selecting .scroll').data('jsp');
+    $('#selecting-assign .scroll-assign').jScrollPane({animateScroll:true});
+    var vv = $('#selecting-assign .scroll-assign').data('jsp');
     vv.scrollToPercentY("100");
 }
 
 
 function checkAddUsers() {
-    if ($('.table-add .ac_bg.active').size()) {
-        $('.actions ul').show(0);
+    if ($('.table-add-assign .ac_bg-assign.active').size()) {
+        $('.actions-assign ul').show(0);
     }
     else {
-        $('.actions ul').hide(0);
+        $('.actions-assign ul').hide(0);
     }
 }
-;
 
 function showcor() {
-    if ($('#selecting .scroll .user.active').size()) {
-        $('.cor').show(0);
+    if ($('#selecting-assign .scroll-assign .user-assign.active').size()) {
+        $('.cor-assign').show(0);
     }
     else {
-        $('.cor').hide(0);
+        $('.cor-assign').hide(0);
     }
 }
 
 function checkSelect() {
-    $('.user-group.active').each(function () {
+    $('.user-group-assign.active').each(function () {
 
-        var sa = $(this).find('.user.active').size();
-        var se = $(this).parents('.users').find('.select-all');
+        var sa = $(this).find('.user-assign.active').size();
+        var se = $(this).parents('.users-assign').find('.select-all-assign');
         if (sa == 0) {
             se.removeClass('active').html('Выделить всех');
         }
@@ -620,23 +620,23 @@ this.tooltip = function(){
 // starting the script on page load
 $(document).ready(function(){
 
-    addTooltipClass('.group-menu ul li a', 15);
-    addTooltipClass('.tooltips .user .name', 19);
-    addTooltipClass('.tooltips .user .mail', 19);
+    addTooltipClass('.group-menu-assign ul li a', 15);
+    addTooltipClass('.tooltips .user-assign .name-assign', 19);
+    addTooltipClass('.tooltips .user-assign .mail-assign', 19);
 
     tooltip();
 });
 
 
 $(function(){
-    $('#course_assign .removing').click(function(){
-        $('.table-add .user.active').remove();
+    $('#course_assign-assign .removing-assign').click(function(){
+        $('.table-add-assign .user-assign.active').remove();
         checkAddUsers();
         return false;
     });
 
-    $('.a-hover').live('click', function () {
-        $(".selectbox").selectbox('close');
+    $('.a-hover-assign').live('click', function () {
+        $(".selectbox-assign").selectbox('close');
     });
 });
 

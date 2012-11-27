@@ -142,13 +142,13 @@ $(function () {
         $('.course-users .head .status .choice').removeClass('active');
     });
 
-    $('.selectbox').selectbox({
+    $('.selectbox-assign').selectbox({
         onOpen:function (inst) {
 
-            $('.dialog-assign').prepend('<div class="a-hover"></div>');
+            $('.dialog-assign').prepend('<div class="a-hover-assign"></div>');
         },
         onClose:function (inst) {
-            $('.a-hover').remove();
+            $('.a-hover-assign').remove();
         }
     });
 

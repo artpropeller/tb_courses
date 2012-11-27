@@ -26,7 +26,7 @@
     float: right;
 }
 
-.dialog-assign .close {
+.dialog-assign .close-assign {
     position: absolute;
     right: 20px;
     top: 20px;
@@ -44,7 +44,7 @@
     margin-bottom: 10px;
 }
 
-.dialog-assign .description {
+.dialog-assign .description-assign {
     font-size: 13px;
     color: gray;
     padding-bottom: 18px;
@@ -59,13 +59,13 @@
     background: none;
 }
 
-.dialog-assign .menu {
+.dialog-assign .menu-assign {
     border-radius: 3px;
     border: 1px solid #D7D7D7;
     overflow: auto;
 }
 
-.dialog-assign .menu li {
+.dialog-assign .menu-assign li {
     float: left;
     padding: 4px 19px 0;
     background: url("../images/cv-menu.jpg") repeat-x;
@@ -74,30 +74,30 @@
     font-size: 14px;
 }
 
-.dialog-assign .menu li a {
+.dialog-assign .menu-assign li a {
     display: block;
     overflow: auto;
     float: left;
 }
 
-.dialog-assign .menu li.active {
+.dialog-assign .menu-assign li.active {
     background: #A2ACB6;
     color: white;
     box-shadow: inset 0 0 5px #696F76;
 }
 
-.dialog-assign .menu li.last {
+.dialog-assign .menu-assign li.last {
     border: none;
 }
 
-.dialog-assign .menu li.active a {
+.dialog-assign .menu-assign li.active a {
     color: white;
     text-shadow: 0 1px 0 #999;
 }
 
 /*меню групп и назначение*/
 
-.dialog-assign .groups {
+.dialog-assign .groups-assign {
     margin: 15px 0 0 0;
     width: 498px;
     height: 338px;
@@ -107,7 +107,7 @@
     box-shadow: inset 0 1px 1px #DDD;
 }
 
-.dialog-assign .groups .group-menu {
+.dialog-assign .groups-assign .group-menu-assign {
     width: 160px;
     margin-right: 15px;
 }
@@ -120,29 +120,29 @@
     margin: 0;
 }
 
-.dialog-assign .groups .group-menu h3 {
+.dialog-assign .groups-assign .group-menu-assign h3 {
     padding:0 0 10px 8px ;
     border-bottom: solid 1px #E5E5E5;
 }
 
-.dialog-assign .group-menu .scroll {
+.dialog-assign .group-menu-assign .scroll-assign {
     height: 315px;
 }
 
-.dialog-assign .groups .group-menu ul li {
+.dialog-assign .groups-assign .group-menu-assign ul li {
     font-size: 12px;
     padding: 8px 8px 0;
     line-height: 13px;
     height: 22px;
 }
 
-.dialog-assign .groups .group-menu ul li.active {
+.dialog-assign .groups-assign .group-menu-assign ul li.active {
     background: #E1EBF7;
     border: 1px solid #D6E0EB;
     height: 20px;
 }
 
-.dialog-assign .groups .group-menu ul li a {
+.dialog-assign .groups-assign .group-menu-assign ul li a {
     max-width: 110px;
     overflow: hidden;
     position: relative;
@@ -152,28 +152,28 @@
     float: left;
 }
 
-.dialog-assign .groups .group-menu ul li span {
+.dialog-assign .groups-assign .group-menu-assign ul li span {
     color: #8A8A8A;
     padding-left: 5px;
 }
 
-.dialog-assign .users {
-    width: 320px;
+.dialog-assign .users-assign {
+    width: 323px;
     position: relative;
 }
 
-.dialog-assign a.select-all {
+.dialog-assign a.select-all-assign {
     color: #0E67D2;
     border-bottom: dotted 1px #0E67D2;
     font-size: 12px;
     line-height: 12px;
 }
 
-.dialog-assign .users h3 {
+.dialog-assign .users-assign h3 {
     padding-bottom: 10px;
 }
 
-.dialog-assign input.search {
+.dialog-assign input.search-assign {
     border: 1px solid #D2D2D2;
     background: white;
     display: block;
@@ -182,24 +182,24 @@
     width: 300px;
 }
 
-.dialog-assign .users .scroll {
+.dialog-assign .users-assign .scroll-assign {
     height: 280px;
 }
 
-.dialog-assign .users .scroll .jspVerticalBar {
+.dialog-assign .users-assign .scroll-assign .jspVerticalBar {
     right: 0;
 }
 
-.dialog-assign .groups .user-group {
+.dialog-assign .groups-assign .user-group-assign {
     display: none;
     width: 320px;
 }
 
-.dialog-assign .groups .user-group.active {
+.dialog-assign .groups-assign .user-group-assign.active {
     display: block;
 }
 
-.dialog-assign .users .user {
+.dialog-assign .users-assign .user-assign {
     overflow: auto;
     background: url("../images/bg/dashed.png") repeat-x bottom;
     font-size: 12px;
@@ -208,16 +208,16 @@
     width: 320px;
 }
 
-.dialog-assign .users .user .ac_bg {
+.dialog-assign .users-assign .user-assign .ac_bg-assign {
     overflow: auto;
     padding: 5px 0;
 }
 
-.dialog-assign .users .user.active .ac_bg {
+.dialog-assign .users-assign .user-assign.active .ac_bg-assign {
     background: #EBF0F5;
 }
 
-.dialog-assign .users .user .check {
+.dialog-assign .users-assign .user-assign .check-assign {
     float: left;
     width: 16px;
     height: 14px;
@@ -225,16 +225,16 @@
     margin: 3px 6px 0 0;
 }
 
-.dialog-assign .users .user.active .check {
+.dialog-assign .users-assign .user-assign.active .check-assign {
     background-position: right;
 }
 
-.dialog-assign .users .user .info {
+.dialog-assign .users-assign .user-assign .info-assign {
     line-height: 14px;
     padding-top: 3px;
 }
 
-.dialog-assign .users .user .ac_bg span, .dialog-assign .users .user img.avatar {
+.dialog-assign .users-assign .user-assign .ac_bg-assign span, .dialog-assign .users-assign .user-assign img.avatar-assign {
     float: left;
     text-overflow: ellipsis;
     position: relative;
@@ -243,29 +243,29 @@
     display: block;
 }
 
-.dialog-assign .users .user img.avatar {
+.dialog-assign .users-assign .user-assign img.avatar-assign {
     margin-right: 5px;
     width: 20px;
 }
 
-.dialog-assign .users .user .info .name {
+.dialog-assign .users-assign .user-assign .info-assign .name-assign {
     color: black;
     width: 145px;
 
 }
 
-.dialog-assign .users .user .info .mail {
+.dialog-assign .users-assign .user-assign .info-assign .mail-assign {
     color: #7F7F7F;
     text-align: left;
     width: 123px;
 }
 
-.dialog-assign .arrows {
+.dialog-assign .arrows-assign {
     margin: 155px 8px 0;
     width: 35px;
 }
 
-.dialog-assign .arrows .arr {
+.dialog-assign .arrows-assign .arr-assign {
     background: url("../images/arr_select_bg.jpg") no-repeat top;
     width: 35px;
     height: 35px;
@@ -274,7 +274,7 @@
     position: relative;
 }
 
-.dialog-assign .arrows .arr span {
+.dialog-assign .arrows-assign .arr-assign span {
     width: 11px;
     height: 10px;
     display: block;
@@ -283,23 +283,23 @@
     top: 11px;
 }
 
-.dialog-assign .arrows .arr:hover {
+.dialog-assign .arrows-assign .arr-assign:hover {
     background: url("../images/arr_select_bg.jpg") no-repeat 0 -35px;
 }
 
-.dialog-assign .arrows .arr:active {
+.dialog-assign .arrows-assign .arr-assign:active {
     background: url("../images/arr_select_bg.jpg") no-repeat bottom;
 }
 
-.dialog-assign .arrows .arr.select-user span {
+.dialog-assign .arrows-assign .arr-assign.select-user-assign span {
     background: url("../images/arr_select_user.png") no-repeat top left;
 }
 
-.dialog-assign .arrows .arr.remove-user span {
+.dialog-assign .arrows-assign .arr-assign.remove-user-assign span {
     background: url("../images/arr_select_user.png") no-repeat top right;
 }
 
-.dialog-assign .selecting {
+.dialog-assign .selecting-assign {
     width: 325px;
     height: 340px;
     background: white;
@@ -309,17 +309,17 @@
     box-shadow: inset 0 1px 1px #DDD;
 }
 
-.dialog-assign .selecting .users .scroll {
+.dialog-assign .selecting-assign .users-assign .scroll-assign {
     height: 310px;
 }
 
-.dialog-assign .send input {
+.dialog-assign .send-assign input {
     width: 0;
     position: absolute;
     left: -90000px;
 }
 
-.dialog-assign .send label {
+.dialog-assign .send-assign label {
     font-size: 16px;
     display: block;
     background: url("../images/checkbox_par.png") no-repeat left;
@@ -329,20 +329,20 @@
     color: black;
 }
 
-.dialog-assign .send label.active {
+.dialog-assign .send-assign label.active {
     background: url("../images/checkbox_par_active.png") no-repeat left;
 
 }
 
-.send img {
+.send-assign img {
     margin: 17px 0 0 8px;
 }
 
-.dialog-assign .buttons {
+.dialog-assign .buttons-assign {
     margin: 11px 3px 0 0;
 }
 
-.dialog-assign a.btn {
+.dialog-assign a.btn-assign {
     height: 12px;
     border-radius: 3px;
     box-shadow: 0 0 3px #AAA;
@@ -357,28 +357,28 @@
     line-height: 1;
 }
 
-.dialog-assign a.btn-blue {
+.dialog-assign a.btn-blue-assign {
     background: url("../images/blue_bg_button.jpg") repeat-x top;
     border: 1px solid #4D5582;
     text-shadow: 0 1px #38597C;
     margin-right: 10px;
 }
 
-.dialog-assign a.btn-blue:hover {
+.dialog-assign a.btn-blue-assign:hover {
     background: url("../images/blue_bg_button.jpg") repeat-x bottom;
 }
 
-.dialog-assign a.btn-red {
+.dialog-assign a.btn-red-assign {
     background: url("../images/red_button_bg.jpg") repeat-x top;
     border: 1px solid #C53D3C;
     text-shadow: 0 1px #8B332D;
 }
 
-.dialog-assign a.btn-red:hover {
+.dialog-assign a.btn-red-assign:hover {
     background: url("../images/red_button_bg.jpg") repeat-x bottom;
 }
 
-.dialog-assign a.btn-gray {
+.dialog-assign a.btn-gray-assign {
     background: url("../images/but_gray.jpg") repeat-x top;
     border: 1px solid #CACACA;
     color: #9C9C9C;
@@ -389,7 +389,7 @@
 
 /*параметры курса*/
 
-.dialog-assign .parameters {
+.dialog-assign .parameters-assign {
     width: 425px;
     height: 408px;
     background: none;
@@ -399,7 +399,7 @@
     position: relative;
 }
 
-.dialog-assign .parameters h3 {
+.dialog-assign .parameters-assign h3 {
     font-size: 16px;
     font-weight: bold;
     padding-bottom: 17px;
@@ -407,12 +407,12 @@
     position: relative;
 }
 
-.dialog-assign .parameters ul {
+.dialog-assign .parameters-assign ul {
     background: url("../images/bg/dashed.png") repeat-x bottom;
 }
 
 
-.dialog-assign .parameters li {
+.dialog-assign .parameters-assign li {
     background: url("../images/bg/dashed.png") repeat-x top;
     padding: 10px 0;
     margin: 0;
@@ -423,11 +423,11 @@
     font-family: 'arial', sans-serif;
 }
 
-.dialog-assign .parameters.post a.faq {
+.dialog-assign .parameters-assign.post-assign a.faq-assign {
     top: 0;
 }
 
-.dialog-assign .parameters a.faq {
+.dialog-assign .parameters-assign a.faq-assign {
     width: 17px;
     top: 11px;
     height: 17px;
@@ -437,7 +437,7 @@
     right: 0;
 }
 
-.dialog-assign .parameters label {
+.dialog-assign .parameters-assign label {
     font-size: 14px;
     color: black;
     cursor: pointer;
@@ -451,7 +451,7 @@
     font-family: 'arial', sans-serif;
 }
 
-.dialog-assign .parameters .radio {
+.dialog-assign .parameters-assign .radio-assign {
     float: left;
     width: auto;
     height: auto;
@@ -460,7 +460,7 @@
     display: block;
 }
 
-.dialog-assign .parameters .radio input, .dialog-assign .parameters .option input {
+.dialog-assign .parameters-assign .radio-assign input, .dialog-assign .parameters-assign .option-assign input {
     opacity: 0;
     width: 0;
     height: 0;
@@ -469,26 +469,26 @@
     right: 0;
 }
 
-.dialog-assign .parameters .radio label.active {
+.dialog-assign .parameters-assign .radio-assign label.active {
     background: url("../images/radio_active.jpg") no-repeat 0 3px;
 }
 
-.dialog-assign .parameters .radio label {
+.dialog-assign .parameters-assign .radio-assign label {
     background: url("../images/radio.jpg") no-repeat 0 3px;
 }
 
-.dialog-assign .parameters .option label.active {
+.dialog-assign .parameters-assign .option-assign label.active {
     background: url("../images/checkbox_par_active.jpg") no-repeat 0 3px;
 }
 
-.dialog-assign .parameters .option label {
+.dialog-assign .parameters-assign .option-assign label {
     background: url("../images/checkbox_par.jpg") no-repeat 0 3px;
     margin-right: 5px;
 }
 
 
 
-#date-deadline, #time-deadline {
+#date-deadline-assign, #time-deadline-assign {
     overflow: auto;
     padding-left: 0;
     display: none;
@@ -498,7 +498,7 @@
     margin-left: 15px;
 }
 
-#date-deadline input, #time-deadline input {
+#date-deadline-assign input, #time-deadline-assign input {
     background: #fff;
     border: 1px solid #bcbcbc;
     padding: 6px 10px 6px;
@@ -510,12 +510,12 @@
     float: left;
 }
 
-#date-deadline input.small, #time-deadline input.small {
+#date-deadline-assign input.small-assign, #time-deadline-assign input.small {
     width: 16px;
     padding: 6px 7px 6px;
 }
 
-#date-deadline a.calendar {
+#date-deadline-assign a.calendar-assign {
     float: left;
     display: block;
     background: url("../images/ico_calendar.jpg") no-repeat;
@@ -525,7 +525,7 @@
     opacity: 0.6;
 }
 
-#date-deadline span, #time-deadline span {
+#date-deadline-assign span, #time-deadline-assign span {
     display: block;
     margin: 4px 6px 0;
     font-size: 16px;
@@ -533,21 +533,21 @@
     float: left;
 }
 
-#date-deadline a.calendar:hover {
+#date-deadline-assign a.calendar-assign:hover {
     opacity: 1;
 }
 
-.dialog-assign .parameters.post {
+.dialog-assign.assign .parameters-assign.post-assign {
     width: 425px;
     margin-left: 40px;
     position: relative;
 }
 
-.dialog-assign .parameters.post li{
+.dialog-assign .parameters-assign.post-assign li{
     overflow: visible;
 }
 
-.dialog-assign .parameters li .edit-letter {
+.dialog-assign .parameters-assign li .edit-letter-assign {
     position: absolute;
     right: 0;
     display: none;
@@ -556,35 +556,35 @@
     background: url("../images/drop-edit.jpg") no-repeat right;
 }
 
-.dialog-assign .parameters li:hover .edit-letter {
+.dialog-assign .parameters-assign li:hover .edit-letter-assign {
     display: block;
 }
 
-.dialog-assign .parameters .letter {
+.dialog-assign .parameters-assign .letter-assign {
     background: #ececec url("../images/letter_corner.jpg") no-repeat top right;
     margin: 10px 0 0 0;
     padding: 12px;
     font-size: 12px;
 }
 
-.dialog-assign .parameters .letter span {
+.dialog-assign .parameters-assign .letter-assign span {
     color: #7c7c7c;
 }
 
-.dialog-assign .parameters .letter .text a {
+.dialog-assign .parameters-assign .letter-assign .text-assign a {
     color: #0e67d2;
 }
 
-.dialog-assign .parameters .letter .text a:hover {
+.dialog-assign .parameters-assign .letter-assign .text-assign a:hover {
     text-decoration: underline;
 }
 
-.dialog-assign .parameters .letter .text p {
+.dialog-assign .parameters-assign .letter-assign .text-assign p {
     margin-bottom: 10px;
     line-height: 14px;
 }
 
-.dialog-assign .parameters .letter textarea {
+.dialog-assign .parameters-assign .letter-assign textarea {
     display: block;
     height: 35px;
     padding: 8px;
@@ -594,11 +594,11 @@
     resize: none;
 }
 
-.dialog-assign .parameters.as .letter textarea{
+.dialog-assign .parameters-assign.as-assign .letter-assign textarea{
     width: 383px;
 }
 
-.dialog-assign .parameters li .subletter {
+.dialog-assign .parameters-assign li .subletter-assign {
     background: #f9f9f9;
     border: 1px solid #ececec;
     border-radius: 2px;
@@ -606,20 +606,20 @@
     font-size: 13px;
 }
 
-.dialog-assign .parameters li .subletter .option {
+.dialog-assign .parameters-assign li .subletter-assign .option-assign {
     overflow: visible;
 }
 
-.dialog-assign .parameters .parameters.post li .name {
+.dialog-assign .parameters-assign .parameters-assign.post-assign li .name-assign {
     cursor: pointer;
 }
 
-.dialog-assign .parameters li .subletter label {
+.dialog-assign .parameters-assign li .subletter-assign label {
     font-size: 13px;
     margin-right: -10px;
 }
 
-.dialog-assign .parameters li .sbHolder {
+.dialog-assign .parameters-assign li .sbHolder {
     border: 1px solid #d5d5d5;
     height: 22px;
     padding: 0 10px;
@@ -632,7 +632,7 @@
     margin-left: 17px;
 }
 
-.dialog-assign .parameters li .sbToggle {
+.dialog-assign .parameters-assign li .sbToggle {
     background: url(../images/bg/drop.png) no-repeat 8px 5px;
     display: block;
     height: 17px;
@@ -644,7 +644,7 @@
     z-index: 100;
 }
 
-.dialog-assign .parameters li .sbSelector {
+.dialog-assign .parameters-assign li .sbSelector {
     display: block;
     height: 20px;
     left: 0;
@@ -662,7 +662,7 @@
 
 }
 
-.dialog-assign .parameters li .sbOptions {
+.dialog-assign .parameters-assign li .sbOptions {
     border: 1px solid #d5d5d5;
     /*height: 150px;*/
     padding: 0;
@@ -682,28 +682,28 @@
 
 
 
-.dialog-assign .parameters .sbOptions li {
+.dialog-assign .parameters-assign .sbOptions li {
     background: #e2e2e2;
     padding: 3px 5px 0 10px;
     font-size: 12px;
 }
 
-.dialog-assign .parameters .sbOptions li a {
+.dialog-assign .parameters-assign .sbOptions li a {
     color: #000;
 }
 
-.dialog-assign .parameters .sbOptions a {
+.dialog-assign .parameters-assign .sbOptions a {
     color: #2d5778;
     text-decoration: none;
 }
 
-.dialog-assign .parameters .action {
+.dialog-assign .parameters-assign .action-assign {
     margin: 10px 0 -5px;
     overflow: auto;
     padding: 4px;
 }
 
-.dialog-assign .parameters .action a.sendme {
+.dialog-assign .parameters-assign .action-assign a.sendme-assign {
     font-size: 12px;
     color: #000;
     margin-top: 5px;
@@ -711,17 +711,17 @@
     line-height: 12px;
 }
 
-.dialog-assign .parameters .action a.sendme:hover {
+.dialog-assign .parameters-assign .action-assign a.sendme-assign:hover {
     border: none;
 }
 
-.dialog-assign .parameters .action a {
+.dialog-assign .parameters-assign .action-assign a {
     display: block;
     float: right;
     margin-left: 15px;
 }
 
-.dialog-assign .parameters .action a.save {
+.dialog-assign .parameters-assign .action-assign a.save-assign {
     background: url("../images/save_button_bg.jpg") repeat-x top;
     height: 10px;
     line-height: 11px;
@@ -733,11 +733,11 @@
 }
 
 
-.dialog-assign .parameters .textletter {
+.dialog-assign .parameters-assign .textletter-assign {
     display: none;
 }
 
-.dialog-assign a.back {
+.dialog-assign a.back-assign {
     color: #0E67D2;
     display: block;
     margin-top: 19px;
@@ -745,46 +745,46 @@
     line-height: 13px;
 }
 
-.dialog-assign a.back span {
+.dialog-assign a.back-assign span {
     border-bottom: dotted 1px #0E67D2;
 }
 
 
-.dash-top, .dash-right, .dash-left, .dash-bottom {
+.dash-top-assign, .dash-right-assign, .dash-left-assign, .dash-bottom-assign {
     position: static;
     width: auto;
     height: auto;
     margin: 0;
 }
 
-.dash-top {
-    background-position: top !important;
+.dash-top-assign {
+    background: url("../images/bg/dashed.png") repeat-x top;
 }
 
-.dash-right {
-    background-position: right !important;
+.dash-right-assign {
+    background: url("../images/bg/dashed_v.png") repeat-y right;
 }
 
-.dash-left {
-    background-position: left !important;
+.dash-left-assign {
+    background: url("../images/bg/dashed_v.png") repeat-y left;
 }
 
-.dash-bottom {
-    background-position: bottom !important;
+.dash-bottom-assign {
+    background: url("../images/bg/dashed.png") repeat-x bottom;
 }
 
-.dialog-assign .left #upload_exel h2 {
+.dialog-assign .left-assign #upload_exel-assign h2 {
     text-align: center;
 }
 
-.dialog-assign #upload_exel h2, .dialog-assign #get_link h2 {
+.dialog-assign #upload_exel-assign h2, .dialog-assign #get_link-assign h2 {
     font-size: 24px;
 }
 
-.dialog-assign .left #upload_exel p {
+.dialog-assign .left-assign #upload_exel-assign p {
     text-align: center;
 }
-.dialog-assign p, .dialog-assign #get_link p {
+.dialog-assign p, .dialog-assign #get_link-assign p {
     color: black;
     font-size: 14px;
     line-height: 18px;
@@ -792,12 +792,12 @@
     margin-bottom: 30px;
 }
 
-#upload_exel .btn-download {
+#upload_exel-assign .btn-download-assign {
     float: none;
     margin: 0 auto 30px;
 }
 
-.dialog-assign .left #upload_exel ul {
+.dialog-assign .left-assign #upload_exel-assign ul {
     margin-left: 70px;
 }
 .dialog-assign ul {
@@ -805,44 +805,44 @@
     color: #707070;
 }
 
-#upload_exel ul li {
+#upload_exel-assign ul li {
     background: url("../images/marker.jpg") no-repeat left 4px;
     line-height: 14px;
     padding-bottom: 6px;
     padding-left: 9px;
 }
 
-#upload_exel ul li a {
+#upload_exel-assign ul li a {
     font-weight: bold;
     color: #0f67d1;
 }
 
-#get_link {
+#get_link-assign {
     padding: 96px 0 97px;
     width: 490px;
     margin-left: 207px;
 }
 
-#get_link p {
+#get_link-assign p {
     background: url("../images/bg/dashed.png") repeat-x bottom;
     padding-bottom: 20px;
     margin-bottom: 20px;
 }
 
-#get_link .link {
+#get_link-assign .link-assign {
     overflow: auto;
     width: 490px;
     margin: 0 auto;
 }
 
-#get_link .link span {
+#get_link-assign .link-assign span {
     font-size: 12px;
     color: #808080;
     display: block;
     padding-bottom: 3px;
 }
 
-#get_link .link .value {
+#get_link-assign .link-assign .value-assign {
     color: #363636;
     font-size: 14px;
     line-height: 14px;
@@ -853,7 +853,7 @@
 }
 
 /*change*/
-#get_link .link a.copy {
+#get_link-assign .link-assign a.copy-assign {
     display: block;
     float: right;
     font-size: 10px;
@@ -869,11 +869,31 @@
     border-radius: 2px;
 }
 
-.a-hover {
+.a-hover-assign {
     position: absolute;
     width: 100%;
     height: 100%;
     left: 0;
     top:0;
     z-index: 8000;
+}
+
+.btn-download-assign {
+    display: block;
+    margin: 10px 0 8px 0;
+    width: 105px;
+    height: 41px;
+    padding: 0 0 0 55px;
+    background: url(../images/bg/btn-download.png) no-repeat 0 0;
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 0 1px 0 #902e2c;
+    line-height: 36px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.btn-download-assign:hover {
+    background-position: 0 -41px;
+    color: #fff;
 }

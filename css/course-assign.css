@@ -1,9 +1,9 @@
-#course-assign .left {
+#course-assign .left-assign {
     width: 518px;
     margin-top: 15px;
 }
 
-#course-assign .left .selecting.ex2 {
+#course-assign .left-assign .selecting-assign.ex2-assign {
     padding: 0 12px;
     width: 494px;
     height: 357px;
@@ -15,16 +15,16 @@
     margin-top: 2px;
 }
 
-#course-assign .selecting.ex2 .users {
+#course-assign .selecting-assign.ex2-assign .users-assign {
     height: 345px;
     width: auto;
 }
 
-#course-assign .selecting.ex2 .user {
+#course-assign .selecting-assign.ex2-assign .user-assign {
     width: auto;
 }
 
-#course-assign .left.ex2 .users .user.pred {
+#course-assign .left-assign.ex2-assign .users-assign .user-assign.pred-assign {
     height: 28px;
     padding: 5px 0 3px;
     padding-bottom: 3px;
@@ -34,28 +34,28 @@
     /*float: left;*/
 }
 
-#course-assign .left .users .user.pred .ac_bg {
+#course-assign .left-assign .users-assign .user-assign.pred-assign .ac_bg-assign {
     overflow: visible;
     background: none;
 }
-#course-assign .left .users .user .ac_bg {
+#course-assign .left-assign .users-assign .user-assign .ac_bg-assign {
     padding-left: 10px;
 }
 
-#course-assign .left #selecting .users.change .user.pred .check {
+#course-assign .left-assign #selecting-assign .users-assign.change-assign .user-assign.pred-assign .check-assign {
     margin-top: 3px;
 }
 
-#course-assign .left.ex2 .users .user.pred .mail {
+#course-assign .left-assign.ex2-assign .users-assign .user-assign.pred-assign .mail-assign {
     font-weight: bold;
     color: #000;
 }
 
-#course-assign .left.ex2 .users .mail {
+#course-assign .left-assign.ex2-assign .users-assign .mail-assign {
     width: auto;
 }
 
-#course-assign .left .users .user .mail input {
+#course-assign .left-assign .users-assign .user-assign .mail-assign input {
     display: block;
     height: 28px;
     padding: 0 10px;
@@ -67,11 +67,11 @@
     line-height: 28px;
 }
 
-#course-assign .left .users.change .user .check {
+#course-assign .left-assign .users-assign.change-assign .user-assign .check-assign {
     margin-top: 9px;
 }
 
-#course-assign .cor {
+#course-assign .cor-assign {
     width: 70px;
     right: 24px;
     top: 7px;
@@ -89,25 +89,25 @@
     display: none;
 }
 
-#course-assign .cor img {
+#course-assign .cor-assign img {
     margin-top: -2px;
     float: left;
     padding-right: 4px;
 }
 
-#course-assign .selecting.ex2 .users.change .scroll.spin.fix {
+#course-assign .selecting-assign.ex2-assign .users-assign.change-assign .scroll-assign.spin-assign.fix-assign {
     height: 270px !important;
 }
-#course-assign .left.ex2 .users .scroll.exel {
+#course-assign .left-assign.ex2-assign .users-assign .scroll-assign.exel-assign {
     height: 313px;
 }
 
 
-#course-assign .selecting.ex2 .users.change .sub {
+#course-assign .selecting-assign.ex2-assign .users-assign.change-assign .sub-assign {
     margin-top: -19px;
 }
 
-#course-assign .sub {
+#course-assign .sub-assign {
     background: url("../images/white_cover2.png") repeat-x top;
     height: 20px;
     margin: -15px -5px 0 -15px;
@@ -117,18 +117,18 @@
 
 
 
-#course-assign #selecting .users .user.addnew {
+#course-assign #selecting-assign .users-assign .user-assign.addnew-assign {
     background: none;
 }
 
 
-#course-assign .addnew.out {
+#course-assign .addnew-assign.out-assign {
     margin: 0 0 0 10px;
     overflow: auto;
     display: none;
 }
 
-#course-assign .mail button {
+#course-assign .mail-assign button {
     width: 452px;
     height: 28px;
     padding: 0 10px;
@@ -141,39 +141,39 @@
     margin-left: 22px;
 }
 
-#course-assign .left .users .user.addnew .check {
+#course-assign .left-assign .users-assign .user-assign.addnew-assign .check-assign {
     display: none;
 }
 
-#course-assign .pad {
+#course-assign .pad-assign {
     height: 6px;
     width: 300px;
 }
 
-#course-assign .user.empty {
+#course-assign .user-assign.empty-assign {
     display: none;
 }
 
-#course-assign .mail button:hover {
+#course-assign .mail-assign button:hover {
     border: 1px solid #666;
     background: #fbfbfb;
 }
 
-#course-assign .left .users .user .mail {
+#course-assign .left-assign .users-assign .user-assign .mail-assign {
     font-size: 12px;
     line-height: 16px;
     color: black;
 }
 
-#course-assign .left.exel #upload_exel {
+#course-assign .left-assign.exel-assign #upload_exel-assign {
     padding: 66px 0 66px;
 }
 
-#course-assign .left.exel {
+#course-assign .left-assign.exel-assign {
     margin-top: 17px;
 }
 
-#course-assign .linked {
+#course-assign .linked-assign {
     margin-top: 17px;
 }
 

@@ -1,20 +1,20 @@
-#add-user .actions {
+#add-user .actions-assign {
     height: 32px;
     overflow: auto;
 }
 
 
-#add-user .actions ul {
+#add-user .actions-assign ul {
     margin-bottom: 10px;
     display: none;
 }
 
-#add-user .actions ul li {
+#add-user .actions-assign ul li {
     float: left;
     margin-left: 6px;
 }
 
-#add-user .actions ul li a {
+#add-user .actions-assign ul li a {
     display: block;
     float: left;
     padding: 4px 6px 0;
@@ -28,31 +28,31 @@
     border-radius: 3px;
 }
 
-#add-user .actions ul li a:hover {
+#add-user .actions-assign ul li a:hover {
     background: url("../images/add_actions_but.jpg") repeat-x bottom;
 }
 
-#add-user .actions ul li a img {
+#add-user .actions-assign ul li a img {
     float: left;
     position: relative;
     top: -1px;
     margin-right: 4px;
 }
 
-#add-user .table-add {
+#add-user .table-add-assign {
     height: 345px;
 }
 
-#add-user .table-add .scroll {
+#add-user .table-add-assign .scroll-assign {
     height: 285px;
     padding-bottom: 15px;
 }
 
-#add-user .table-add .scroll.ex>.jspContainer>.jspPane {
+#add-user .table-add-assign .scroll-assign.ex-assign>.jspContainer>.jspPane {
     padding-bottom: 265px !important;
 }
 
-#add-user .table-add .head {
+#add-user .table-add-assign .head-assign {
     height: 35px;
     border-bottom: solid 1px #dbdbdb;
     overflow: auto;
@@ -62,7 +62,7 @@
 
 }
 
-#add-user .table-add .th {
+#add-user .table-add-assign .th-assign {
     float: left;
     padding-top: 8px;
     margin-right: 20px;
@@ -71,7 +71,7 @@
     font-weight: bold;
 }
 
-#add-user .table-add .th.selectall, #add-user .table-add .check {
+#add-user .table-add-assign .th.selectall, #add-user .table-add .check {
     background: url("../images/checkbox_par.jpg") no-repeat 9px 8px;
     width: 43px;
     height: 27px;
@@ -79,53 +79,53 @@
     cursor: pointer;
 }
 
-#add-user .table-add .th.selectall.active, #add-user .table-add .check.active {
+#add-user .table-add .th-assign.selectall-assign.active, #add-user .table-add-assign .check-assign.active {
     background: url("../images/checkbox_par_active.png") no-repeat 9px 8px;
 }
 
-#add-user .table-add .th.mail {
+#add-user .table-add-assign .th-assign.mail-assign {
     width: 333px;
     margin-left: -10px;
 }
 
-#add-user .table-add .th.group {
+#add-user .table-add-assign .th-assign.group-assign {
     width: 300px;
     text-align: left;
 
 }
 
-#add-user .table-add .th.status {
+#add-user .table-add-assign .th-assign.status-assign {
     width: 94px;
     padding-left: 33px;
 }
 
-#add-user .table-add .user {
+#add-user .table-add-assign .user-assign {
     height: 39px;
     background: url("../images/bg/dashed.png") repeat-x bottom;
     width: 886px;
     margin: 0 auto;
 }
 
-#add-user .table-add .check {
+#add-user .table-add-assign .check-assign {
     float: left;
     background: url("../images/checkbox_par.jpg") no-repeat 9px 12px;
 }
 
-#add-user .table-add .ac_bg.active {
+#add-user .table-add-assign -assign.ac_bg.active {
     background: #e0e5ea;
     height: 38px;
 
 }
 
-#add-user .table-add .ac_bg.active .check {
+#add-user .table-add-assign .ac_bg-assign.active .check-assign {
     background: url("../images/checkbox_par_active.png") no-repeat 9px 12px;
 }
 
-#add-user .table-add.use .user .mail {
+#add-user .table-add-assign.use-assign .user-assign .mail-assign {
     padding-top: 4px;
 }
 
-#add-user .table-add .user .group {
+#add-user .table-add-assign .user-assign .group-assign {
     width: 332px;
     float: left;
     padding-top: 4px;
@@ -134,7 +134,7 @@
 
 }
 
-#add-user .table-add .user .mail input {
+#add-user .table-add-assign .user-assign .mail-assign input {
     width: 312px;
     border-radius: 2px;
     border: 1px solid #cccccc;
@@ -146,35 +146,35 @@
     line-height: 28px;
 }
 
-#add-user .table-add .user .status {
+#add-user .table-add-assign .user-assign .status-assign {
     width: 125px;
     float: left;
     padding-top: 4px;
 }
 
-#add-user .table-add .user .status .sbHolder {
+#add-user .table-add-assign .user-assign .status-assign .sbHolder {
     width: 106px;
     margin-top: 3px;
 }
 
-#add-user .table-add .user .status .sbSelector {
+#add-user .table-add-assign .user-assign .status-assign .sbSelector {
     width: 110px;
 }
 
-#add-user .table-add .user .status .sbOptions {
+#add-user .table-add-assign .user-assign .status-assign .sbOptions {
     width: 126px;
     z-index: 99000;
 }
 
-#add-user .table-add .user .status .sbOptions li {
+#add-user .table-add-assign .user-assign .status-assign .sbOptions li {
     padding-left: 10px;
 }
 
-#add-user .table-add .user .status .sbOptions li a {
+#add-user .table-add-assign .user-assign .status-assign .sbOptions li a {
     color: #000;
 }
 
-#add-user .table-add .user.clear {
+#add-user .table-add-assign .user-assign.clear-assign {
     display: none;
 }
 
@@ -240,7 +240,7 @@
 }
 
 
-#add-user .select-group {
+#add-user .select-group-assign {
     background: #fff;
     float: left;
     padding: 0 32px 0 10px;
@@ -254,7 +254,7 @@
     position: relative;
 }
 
-#add-user .select-group .arrow {
+#add-user .select-group-assign .arrow-assign {
     width: 23px;
     height: 24px;
     position: absolute;
@@ -264,12 +264,12 @@
     background: url(../images/arr_select.jpg) no-repeat;
 }
 
-#add-user .select-group p.select-group-text {
+#add-user .select-group-assign p.select-group-text-assign {
     line-height: 28px;
     margin-bottom: 0;
 }
 
-#add-user .select-group-list {
+#add-user .select-group-list-assign {
     border: 1px solid #c9c9c9;
     position: absolute;
     width: 100%;
@@ -283,43 +283,43 @@
     z-index: 9000;
 }
 
-#add-user .select-group-list input {
+#add-user .select-group-list-assign input {
     width: auto;
     height: auto;
     float: left;
     margin: 4px 10px 0 0;
 }
 
-#add-user .select-group-list span {
+#add-user .select-group-list-assign span {
 }
 
-#add-user .select-group-list ul {
+#add-user .select-group-list-assign ul {
     margin: 0;
 }
 
-#add-user .select-group-list li {
+#add-user .select-group-list-assign li {
     clear: both;
     padding: 0;
 }
 
-#add-user .select-group-list li label {
+#add-user .select-group-list-assign li label {
     font-size: 14px;
 }
 
-#add-user .select-group-list li input.new_text {
+#add-user .select-group-list-assign li input.new_text-assign {
     border: 1px solid #CCC;
     color: #565656;
     height: 20px;
     line-height: 16px;
 }
 
-#add-user .select-group-list .create {
+#add-user .select-group-list-assign .create-assign {
     margin: 10px;
     border-bottom: 1px solid #CCC;
     padding-bottom: 5px;
 }
 
-#add-user .select-group-list .white_btn {
+#add-user .select-group-list-assign .white_btn-assign {
     background: url("../images/bg/white_btn_bg.jpg") repeat-x scroll 0 0 #E9E9E9;
     border: 1px solid #AFAFAF;
     border-radius: 2px 2px 2px 2px;
@@ -335,33 +335,33 @@
 }
 
 
-#add-user .select-group-scroll {
+#add-user .select-group-scroll-assign {
     height: 180px;
 }
 
-#add-user .select-group-scroll .jspVerticalBar {
+#add-user .select-group-scroll-assign .jspVerticalBar {
     right: 6px;
 }
 
 
 
-#add-user .select-group-cont {
+#add-user .select-group-cont-assign {
     padding: 0 0 0 10px;
 }
 
-#add-user .table-add .select-group p.select-group-text {
+#add-user .table-add-assign .select-group-assign p.select-group-text-assign {
     color: #000;
     font-size: 12px;
 }
 
-#add-user .table-add .select-group input[type=checkbox] {
+#add-user .table-add-assign .select-group-assign input[type=checkbox] {
     width: 0;
     height: 0;
     position: absolute;
     left: -90000px;
 }
 
-#add-user .table-add .select-group li .edit {
+#add-user .table-add-assign .select-group-assign li .edit-assign {
     position: absolute;
     background: url("../images/bg/edit.png") no-repeat;
     width: 23px;
@@ -372,7 +372,7 @@
     z-index: 99999;
 }
 
-#add-user .table-add .select-group li .del {
+#add-user .table-add-assign .select-group-assign li .del-assign {
     position: absolute;
     background: #ecf1f6 url("../images/bg/del3.png") no-repeat;
     width: 23px;
@@ -383,7 +383,7 @@
     z-index: 99999999;
 }
 
-#add-user .table-add .select-group label {
+#add-user .table-add-assign .select-group-assign label {
     display: block;
     padding: 2px 3px 3px 24px;
     cursor: pointer;
@@ -392,43 +392,43 @@
     background: url("../images/checkbox_par.png") no-repeat 2px 4px;
 }
 
-#add-user .table-add .select-group label.active {
+#add-user .table-add-assign .select-group-assign label.active {
     background: url("../images/checkbox_par_active.png") no-repeat 2px 4px;
 }
 
-#add-user .table-add .select-group label input {
+#add-user .table-add-assign .select-group-assign label input {
     display: inline-block;
     float: none;
     padding: 0;
     margin: 0;
 }
 
-#add-user .table-add .select-group li {
+#add-user .table-add-assign .select-group-assign li {
     padding: 1px;
     margin-right: 10px;
     position: relative;
     height: 25px;
 }
 
-#add-user .table-add .select-group li:hover, .table-add .select-group li.active {
+#add-user .table-add-assign .select-group-assign li:hover, .table-add-assign .select-group-assign li.active {
     background: #ecf1f6;
 }
 
-#add-user .table-add .select-group li:hover .edit {
+#add-user .table-add-assign .select-group-assign li:hover .edit-assign {
     display: block;
 }
 
-#add-user .table-add .select-group li.active:hover .edit {
+#add-user .table-add-assign .select-group-assign li.active:hover .edit-assign {
     display: none;
 }
 
-#add-user .table-add .select-group-list .create a {
+#add-user .table-add-assign .select-group-list-assign .create-assign a {
     font-size: 12px;
     color: #000;
     font-weight: bold;
 }
 
-#add-user .table-add .add-new {
+#add-user .table-add-assign .add-new-assign {
     display: block;
     width: 312px;
     color: #7e7e7e;
@@ -440,7 +440,7 @@
     margin-top: 6px;
 }
 
-#add-user .table-add .user .mail {
+#add-user .table-add-assign .user-assign .mail-assign {
     width: 333px;
     float: left;
     padding-top: 12px;
@@ -449,94 +449,94 @@
     margin-left: -10px;
 }
 
-#add-user .dash-top.exel {
+#add-user .dash-top-assign.exel-assign {
     margin-top: 32px;
 }
 
-#add-user #upload_exel {
+#add-user #upload_exel-assign {
     padding: 67px 0;
     width: 510px;
     margin: 0 auto;
 }
 
-#add-user #get_link {
+#add-user #get_link-assign {
     padding: 31px 0 31px;
 }
 
-#add-user #get_link .table-add {
+#add-user #get_link-assign .table-add-assign {
     height: auto;
     margin-bottom: 20px;
 }
 
-#add-user #get_link .table-add p {
+#add-user #get_link-assign .table-add-assign p {
     margin-bottom: 0;
     padding-top: 1px;
 }
 
-#add-user #get_link .table-add {
+#add-user #get_link-assign .table-add-assign {
     height: auto;
     margin-bottom: 20px;
 }
 
-#add-user #get_link .table-add .select-group-scroll {
+#add-user #get_link .table-add-assign .select-group-scroll-assign {
     height: 110px;
     overflow: hidden;
 }
 
-#add-user #get_link .select-group-list {
+#add-user #get_link-assign .select-group-list-assign {
     height: 200px;
     overflow: hidden;
 }
 
-#add-user #get_link .table-add .user {
+#add-user #get_link-assign .table-add-assign .user-assign {
     padding-bottom: 16px;
 }
 
-#add-user #get_link .table-add .head.oth {
+#add-user #get_link-assign .table-add-assign .head-assign.oth-assign {
     width: 490px;
     margin: 0 auto;
 }
 
-#add-user #get_link  .table-add .user .group {
+#add-user #get_link-assign .table-add-assign .user-assign .group-assign {
     width: 342px;
 }
 
-#add-user #get_link  .table-add .th.group {
+#add-user #get_link-assign .table-add-assign .th-assign.group-assign {
     width: 352px;
 }
 
-#add-user #get_link  .table-add .th.status {
+#add-user #get_link-assign  .table-add-assign .th-assign.status-assign {
     margin-right: 0;
     width: 94px;
     padding-left: 0;
     margin-left: -8px;
 }
 
-#add-user #get_link .select-group {
+#add-user #get_link-assign .select-group-assign {
     width: 300px;
 }
 
-#add-user #get_link p {
+#add-user #get_link-assign p {
     background: none;
 }
 
-#add-user #get_link .table-add p {
+#add-user #get_link-assign .table-add-assign p {
     padding-bottom: 5px;
 }
 
-#add-user #get_link .table-add .user {
+#add-user #get_link-assign .table-add-assign .user-assign {
     width: auto;
 }
 
-#add-user #get_link .table-add .th {
+#add-user #get_link-assign .table-add-assign .th-assign {
     font-weight: normal;
     color: #000;
 }
 
-#add-user.dialog-assign #get_link p {
+#add-user.dialog-assign #get_link-assign p {
     margin-bottom: 14px;
 }
 
-#add-user .table-add.use .scroll .jspVerticalBar {
+#add-user .table-add-assign-assign.use .scroll-assign .jspVerticalBar {
     right: 5px;
 }

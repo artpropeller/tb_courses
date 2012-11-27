@@ -2,19 +2,19 @@
     color: #0E67D2;
 }
 
-#sharing-assign .groups, #sharing-assign .selecting {
+#sharing-assign .groups-assign, #sharing-assign .selecting-assign {
     margin-top: 0;
     height: 386px;
 }
 
-#sharing-assign .group-menu .scroll {
+#sharing-assign .group-menu-assign .scroll-assign {
     height: 360px;
 }
 
-#sharing-assign .users .scroll {
+#sharing-assign .users-assign .scroll-assign {
     height: 325px;
 }
 
-#sharing-assign .selecting .users .scroll {
+#sharing-assign .selecting-assign .users-assign .scroll-assign {
     height: 355px;
 }

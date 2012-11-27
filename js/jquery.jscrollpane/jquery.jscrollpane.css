@@ -103,6 +103,7 @@
 
 .content-block:hover .jspDrag,
 .scroll:hover .jspDrag,
+.scroll-assign:hover .jspDrag,
 .choice ul:hover .jspDrag,
 .scrolltext:hover .jspDrag,
 .file-list:hover .jspDrag,
@@ -134,6 +135,7 @@
 .content-block:hover .jspDragTop,
 .file-list:hover .jspDragTop,
 .scroll:hover .jspDragTop,
+.scroll-assign:hover .jspDragTop,
 .choice ul:hover .jspDragTop,
 .scrolltext:hover .jspDragTop,
 .select-group-scroll:hover .jspDragTop,
