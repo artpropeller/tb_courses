@@ -328,30 +328,30 @@ $(document).ready(function (e) {
 
     // group list select
     var group_list_hover = false;
-    $(".select-group .arrow, .select-group-text").live('click', function () {
+    $(".select-group-assign .arrow-assign, .select-group-text-assign").live('click', function () {
 //        $(".select-group-list").hide();
 //        if (!$(this).is('.active')) {
 //            $(".select-group-list").slideUp(500);
-        var parent = $(this).parents(".select-group");
-        if (parent.find(".select-group-list").is(":visible"))
-            parent.find(".select-group-list").slideUp(500);
+        var parent = $(this).parents(".select-group-assign");
+        if (parent.find(".select-group-list-assign").is(":visible"))
+            parent.find(".select-group-list-assign").slideUp(500);
         else {
-            if ($(".select-group-list:visible").size() > 0) {
-                $(".select-group-list").slideUp(250, function(){
-                parent.find(".select-group-list").slideDown(250);
+            if ($(".select-group-list-assign:visible").size() > 0) {
+                $(".select-group-list-assign").slideUp(250, function(){
+                parent.find(".select-group-list-assign").slideDown(250);
             });}
             else {
-                parent.find(".select-group-list").slideDown(500);
+                parent.find(".select-group-list-assign").slideDown(500);
             }
             }
         setTimeout(function () {
-            parent.find('.select-group-scroll').jScrollPane({animateScroll:true});
+            parent.find('.select-group-scroll-assign').jScrollPane({animateScroll:true});
 
-            $('.scroll').addClass('ex');
-            $('.scroll').jScrollPane({animateScroll:true});
-            scr = $('.scroll.ex').data('jsp');
+            $('.scroll-assign').addClass('ex-assign');
+            $('.scroll-assign').jScrollPane({animateScroll:true});
+            scr = $('.scroll-assign.ex-assign').data('jsp');
 
-            var pad = ($('.select-group-list:visible').parents('.user').position().top - scr.getContentPositionY() + ($('.select-group-list:visible').innerHeight() + 34)) - 285;
+            var pad = ($('.select-group-list-assign:visible').parents('.user-assign').position().top - scr.getContentPositionY() + ($('.select-group-list-assign:visible').innerHeight() + 34)) - 285;
             if (pad > 0) {
                 scr.scrollToY(scr.getContentPositionY() + pad + 20);
             }
@@ -360,7 +360,7 @@ $(document).ready(function (e) {
     });
 
 
-    $(".select-group").live({'mouseover':function () {
+    $(".select-group-assign").live({'mouseover':function () {
         group_list_hover = true;
     }, 'mouseout':function () {
         group_list_hover = false;
@@ -368,10 +368,10 @@ $(document).ready(function (e) {
 
     $("*").click(function () {
         if (!group_list_hover) {
-            $(".select-group-list").slideUp(500);
+            $(".select-group-list-assign").slideUp(500);
             setTimeout(function(){
-                $('.scroll').removeClass('ex');
-                $('.scroll').jScrollPane();
+                $('.scroll-assign').removeClass('ex-assign');
+                $('.scroll-assign').jScrollPane();
             },550);
 
         }
@@ -379,16 +379,16 @@ $(document).ready(function (e) {
     });
 
     // create new li
-    $(".select-group-list .create a").live('click', function () {
-        var parent = $(this).parents(".select-group-list"),
+    $(".select-group-list-assign .create-assign a").live('click', function () {
+        var parent = $(this).parents(".select-group-list-assign"),
             list = parent.find("ul"),
             count = list.find("li").size() + 1;
 
         var html = '' +
             '<li>' +
-            '<a class="edit" href="#"></a><a class="del" href="#"></a>' +
+            '<a class="edit-assign" href="#"></a><a class="del-assign" href="#"></a>' +
             '<input type="checkbox"/>' +
-            '<label class="hidden"><input type="text" maxlength="30" class="new_text" /></label>' +
+            '<label class="hidden-assign"><input type="text" maxlength="30" class="new_text-assign" /></label>' +
             '</li>';
         list.append(html);
         list.find('input').autoGrowInput({
@@ -397,42 +397,42 @@ $(document).ready(function (e) {
             maxWidth: 240
         });
 
-        parent.find(".select-group-scroll").jScrollPane({animateScroll:true});
-        api_sroll_select = parent.find(".select-group-scroll").data('jsp');
+        parent.find(".select-group-scroll-assign").jScrollPane({animateScroll:true});
+        api_sroll_select = parent.find(".select-group-scroll-assign").data('jsp');
         api_sroll_select.scrollToPercentY("100");
-        $(".select-group-list .new_text").focus();
+        $(".select-group-list-assign .new_text-assign").focus();
     });
 
     // save or remove li
-    $(".select-group-list .new_text").live("focusout", function () {
-        var parent = $(this).parents(".select-group-list li"),
+    $(".select-group-list-assign .new_text-assign").live("focusout", function () {
+        var parent = $(this).parents(".select-group-list-assign li"),
             val = $.trim($(this).val());
 
         if (val != "") {
-            parent.find(".hidden").text(val).removeClass("hidden");
+            parent.find(".hidden-assign").text(val).removeClass("hidden-assign");
             $(this).remove();
         }
         else
             parent.remove();
-        var v = $(this).parents('.select-group-list').find('.select-group-scroll').jScrollPane({animateScroll:true});
+        var v = $(this).parents('.select-group-list-assign').find('.select-group-scroll-assign').jScrollPane({animateScroll:true});
         v1 = v.data('jsp');
         v1.scrollToPercentY("100");
     });
 
     // on press "enter"
-    $(".select-group-list .new_text").live("keypress", function (e) {
+    $(".select-group-list-assign .new_text-assign").live("keypress", function (e) {
         if (e.which == 13) {
-            var parent = $(this).parents(".select-group-list li"),
+            var parent = $(this).parents(".select-group-list-assign li"),
                 val = $.trim($(this).val());
 
             if (val != "") {
-                parent.find(".hidden").text(val).removeClass("hidden");
+                parent.find(".hidden-assign").text(val).removeClass("hidden-assign");
                 $(this).remove();
             }
             else
                 parent.remove();
 
-            var v = $(this).parents('.select-group-list').find('.select-group-scroll').jScrollPane({animateScroll:true});
+            var v = $(this).parents('.select-group-list-assign').find('.select-group-scroll-assign').jScrollPane({animateScroll:true});
             v1 = v.data('jsp');
             v1.scrollToPercentY("100");
 
@@ -442,9 +442,9 @@ $(document).ready(function (e) {
 
 
     // on click "save" btn
-    $(".select-group-list .white_btn").live('click', function () {
-        var parent = $(this).parents(".select-group-list"),
-            select_group = parent.parents(".select-group"),
+    $(".select-group-list-assign .white_btn-assign").live('click', function () {
+        var parent = $(this).parents(".select-group-list-assign"),
+            select_group = parent.parents(".select-group-assign"),
             list = parent.find("ul"),
             size = list.find("input:checked").size();
 
@@ -457,11 +457,11 @@ $(document).ready(function (e) {
         else
             var text = "Группа не выбрана";
 
-        select_group.find(".select-group-text").text(text);
-        $(".select-group-list").slideUp(500);
+        select_group.find(".select-group-text-assign").text(text);
+        $(".select-group-list-assign").slideUp(500);
         setTimeout(function(){
-            $('.scroll').removeClass('ex');
-            $('.scroll').jScrollPane();
+            $('.scroll-assign').removeClass('ex');
+            $('.scroll-assign').jScrollPane();
         }, 550);
     });
     // --end-- group list select

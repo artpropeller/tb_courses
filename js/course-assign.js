@@ -378,7 +378,7 @@ $(function () {
     });
 
     $('.table-add-assign .add-new-assign').click(function () {
-        var nu = $('.user-assign.clear-assign').clone().removeClass('clear');
+        var nu = $('.user-assign.clear-assign').clone().removeClass('clear-assign');
         $(this).before(nu);
         $('.selectbox-assign').selectbox("detach");
         $('.selectbox-assign').selectbox({

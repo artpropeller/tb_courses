@@ -110,6 +110,7 @@
 .folders-list:hover .jspDrag,
 .events-list:hover .jspDrag,
 .select-group-scroll:hover .jspDrag,
+.select-group-scroll-assign:hover .jspDrag,
 .over-left:hover .jspDrag,
 .over-right:hover .jspDrag {
     /*background: url(bott.png) no-repeat 0 bottom;*/
@@ -139,6 +140,7 @@
 .choice ul:hover .jspDragTop,
 .scrolltext:hover .jspDragTop,
 .select-group-scroll:hover .jspDragTop,
+.select-group-scroll-assign:hover .jspDragTop,
 .folders-list:hover .jspDragTop,
 .events-list:hover .jspDragTop,
 .over-left:hover .jspDragTop,

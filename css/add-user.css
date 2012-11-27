@@ -71,7 +71,7 @@
     font-weight: bold;
 }
 
-#add-user .table-add-assign .th.selectall, #add-user .table-add .check {
+#add-user .table-add-assign .th.selectall, #add-user .table-add-assign .check-assign {
     background: url("../images/checkbox_par.jpg") no-repeat 9px 8px;
     width: 43px;
     height: 27px;
@@ -111,7 +111,7 @@
     background: url("../images/checkbox_par.jpg") no-repeat 9px 12px;
 }
 
-#add-user .table-add-assign -assign.ac_bg.active {
+#add-user .table-add-assign .ac_bg.active {
     background: #e0e5ea;
     height: 38px;
 
@@ -478,7 +478,7 @@
     margin-bottom: 20px;
 }
 
-#add-user #get_link .table-add-assign .select-group-scroll-assign {
+#add-user #get_link-assign .table-add-assign .select-group-scroll-assign {
     height: 110px;
     overflow: hidden;
 }
