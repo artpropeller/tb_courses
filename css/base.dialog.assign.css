@@ -880,6 +880,8 @@
 
 .btn-download-assign {
     display: block;
+    position: relative;
+    overflow: hidden;
     margin: 10px 0 8px 0;
     width: 105px;
     height: 41px;
@@ -891,6 +893,18 @@
     line-height: 36px;
     font-weight: 700;
     font-size: 14px;
+}
+
+.btn-download-assign input {
+    background: none;
+    position: absolute;
+    top:-300px;
+    left: 0;
+    display: block;
+    width: 260px;
+    height: 59px;
+    padding:0 0 0 260px;
+    border: 0 0 0 0;
 }
 
 .btn-download-assign:hover {

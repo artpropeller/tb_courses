@@ -171,8 +171,24 @@
 
                             <p>Загрузите электронную таблицу со списком адресов e-mail пользователей,
                                 которых вы хотите пригласить в систему.</p>
+                            <label for="btn-download-assign" class="btn-download-assign">
+                               Загрузить
+                                <input type="file" id="btn-download-assign" size="160"  value="Загрузить" >
+                            </label>
 
-                            <a href="#" class="btn-download-assign"><span>Загрузить</span></a>
+                            <script type="text/javascript">
+                                if($.browser.mozilla) {
+                                    $(document).on('click', 'label', function(e) {
+                                        if(e.currentTarget === this && e.target.nodeName !== 'INPUT') {
+                                            $(this.control).click();
+                                        }
+                                    });
+                                }
+                            </script>
+
+
+
+
                             <ul>
                                 <li>Таблица должна содержать адреса e-mail, набранные в один столбец друг под другом</li>
                                 <li>Пример таблицы можно скачать здесь — <a href="#">Пример.xls</a></li>
