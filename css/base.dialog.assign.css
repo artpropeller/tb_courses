@@ -118,6 +118,7 @@
     line-height: 1;
     font-family: Helvetica, Arial, sans-serif;
     margin: 0;
+    position: relative;
 }
 
 .dialog-assign .groups-assign .group-menu-assign h3 {

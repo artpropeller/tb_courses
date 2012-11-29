@@ -123,7 +123,7 @@ $(function () {
         }
     });
 
-    $('.select-user-assign').click(function () {
+    $('.cas-assign .select-user-assign').click(function () {
         var select = $('.groups-assign .user-group-assign.active .user-assign.active').css('display','block').clone();
         $('.groups-assign .user-group-assign.active .user-assign.active').remove();
         var parent = '#' + $('.user-group-assign.active').attr('id');
@@ -214,14 +214,14 @@ $(function () {
         return false;
     });
 
-    $('.select-all-assign').click(function () {
+    $('.select-all-assign:not(".webin")').click(function () {
         if (!$(this).is('.active')) {
             $(this).addClass('active').html('Снять выделение');
-            $(this).parent().find('.user-group-assign.active .user-assign').removeClass('active').addClass('active');
+            $(this).parents('.users-assign').find('.user-group-assign.active .user-assign').removeClass('active').addClass('active');
         }
         else {
             $(this).removeClass('active').html('Выделить всех');
-            $(this).parent().find('.user-group-assign.active .user-assign').removeClass('active');
+            $(this).parents('.users-assign').find('.user-group-assign.active .user-assign').removeClass('active');
         }
 
         return false;
