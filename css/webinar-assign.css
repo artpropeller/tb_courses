@@ -4,7 +4,6 @@
     overflow: auto;
 }
 
-
 #webinar-assign .set-assign {
     float: left;
     overflow: auto;
@@ -74,7 +73,7 @@
 }
 
 #webinar-assign .radio-assign {
-    border-left:1px solid #dddddd;
+    border-left: 1px solid #dddddd;
     margin-top: 18px;
     overflow: auto;
     padding: 8px 0 7px 30px;
@@ -125,7 +124,6 @@
     display: block;
 }
 
-
 #webinar-assign .selecting-assign .users-assign {
     width: auto;
     /*overflow: hidden;*/
@@ -135,7 +133,7 @@
     background: url("../images/panel-accordeon.jpg") repeat-x top;
     height: 23px;
     padding: 9px 15px 0 32px;
-    border:1px solid #bfbfbf;
+    border: 1px solid #bfbfbf;
     position: relative;
     cursor: pointer;
     border-radius: 0 0 3px 3px;
@@ -145,7 +143,7 @@
     width: 9px;
     height: 9px;
     position: absolute;
-    top:10px;
+    top: 10px;
     left: 13px;
     background: url("../images/arr-panel.png") no-repeat right;
 
@@ -158,18 +156,16 @@
 
 #webinar-assign .panel-accordeon-assign.active {
     background: none;
-    border:1px solid transparent;
+    border: 1px solid transparent;
 }
 
 #webinar-assign .panel-accordeon-assign:first-child {
     border-radius: 3px 3px 0 0;
 }
 
-
-
 #webinar-assign .selecting-assign .user-group-assign {
     margin: 0 12px;
-    border-top:1px solid #ddd;
+    border-top: 1px solid #ddd;
 }
 
 #webinar-assign .selecting-assign .scroll-assign-wb .jspVerticalBar {
@@ -180,7 +176,6 @@
     float: left;
 }
 
-
 #webinar-assign  h3 a.faq-assign {
     width: 17px;
     top: -2px;
@@ -190,3 +185,107 @@
     position: absolute;
     right: -25px;
 }
+
+#webinar-assign #upload_exel-assign {
+    width: 522px;
+    padding: 50px 0;
+    margin-top: 15px;
+}
+
+#webinar-assign #get_link-assign {
+    margin-top: 15px;
+    padding-top: 79px;
+    padding-bottom: 79px;
+}
+
+#webinar-assign #get_link-assign.web-assign .link-assign {
+    background: url("../images/bg/dashed.png") repeat-x bottom;
+    padding-bottom: 30px;
+    margin-bottom: 18px;
+    width: 546px;
+}
+
+#webinar-assign #get_link-assign.web-assign .link-assign .value-assign{
+    width: 410px;
+}
+
+#webinar-assign #get_link-assign h2.web-assign {
+    background: url("../images/bg/dashed.png") repeat-x bottom;
+    padding-bottom: 15px;
+    margin-bottom: 0;
+
+}
+
+#webinar-assign #get_link-assign.web-assign{
+    width: 546px;
+    margin: 0 auto;
+    padding-top: 110px;
+}
+
+#webinar-assign .parameter-assign {
+    background: url("../images/bg/dashed.png") repeat-x bottom;
+    padding: 30px 0;
+    margin-bottom: 28px;
+    overflow: auto;
+
+}
+#webinar-assign .parameter-assign div{
+    float: left;
+}
+
+
+#webinar-assign .parameter-assign em{
+    font-style: normal;
+    color: #666666;
+    font-size: 11px;
+    display: block;
+    padding-bottom: 5px;
+
+}
+#webinar-assign .parameter-assign .name-assign{
+    width: 376px;
+    padding-right: 10px;
+}
+
+#webinar-assign .parameter-assign .name-assign span{
+    font-weight: bold;
+
+}
+
+#webinar-assign .parameter-assign .date-assign{
+    width: 102px;
+    padding-right: 10px;
+}
+
+
+#webinar-assign .parameter-assign span{
+    font-size: 16px;
+    color: #000;
+}
+
+#webinar-assign .selecting-assign.web-assign{
+    background: none;
+    box-shadow: none;
+    width: 490px;
+    padding: 0 15px;
+}
+
+
+#webinar-assign .selecting-assign.exel2-assign{
+    background: none;
+    width: 520px;
+    border:0;
+    box-shadow: none;
+
+}
+
+#webinar-assign .selecting-assign.exel2-assign .user-assign{
+    width: 100%;
+}
+
+#webinar-assign .selecting-assign.exel2-assign .info-assign.first .mail-assign{
+    color: #000;
+    font-weight: bold;
+}
+
+#webinar-assign .selecting-assign.exel2-assign .user
