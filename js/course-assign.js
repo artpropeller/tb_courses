@@ -517,10 +517,10 @@ $(function () {
     $('.addnew-assign').click(function () {
         $(this).removeClass('active');
         var n = $('.user-assign.empty-assign').clone().removeClass('empty-assign');
-        if ($('#selecting-assign .user-group-assign .user-assign').size() >= 8) {
+        if ($('#selecting-assign .user-group-assign .user-assign').size() >= 7) {
             $('#selecting-assign .user-group-assign .addnew-assign').hide();
             $('.spin-assign').addClass('fix-assign');
-            $('.addnew-assign-assign.out-assign').show(0);
+            $('.addnew-assign.out-assign').show(0);
         }
         $('#selecting-assign .user-group-assign .addnew-assign').before(n);
         $('#selecting-assign .scroll-assign').jScrollPane({animateScroll:true});

@@ -14,7 +14,6 @@
     <link type="text/css" rel="stylesheet" href="style.css"/>
     <link type="text/css" rel="stylesheet" href="course-view.css"/>
 
-
     <link type="text/css" rel="stylesheet" href="css/base.dialog.assign.css"/>
     <link type="text/css" rel="stylesheet" href="css/webinar-assign.css"/>
 
@@ -113,266 +112,204 @@
 <!-- ____ CONTENT ____ -->
 
 <div class="container-aasign">
-<div class="dialog-assign" id="webinar-assign">
-<div class="close-assign"></div>
-<h2>Создание видеовстречи</h2>
+    <div id="webinar-assign" class="dialog-assign">
+        <div class="close-assign"></div>
+        <h2>Создание видеовстречи</h2>
 
-<div class="settings-assign dash-bottom-assign">
-    <div class="set-assign name-meet-assign">
-        <label for="">Название</label>
-        <input type="text">
-    </div>
-    <div class="set-assign date-meet-assign">
-        <label for="">Дата</label>
-        <input type="text"> <a href="#"><img src="images/ico_color_calendar.png" alt=""></a>
-    </div>
-    <div class="set-assign time-meet-assign">
-        <label for="">Время</label>
-        <input type="text"><em>:</em><input type="text">
-    </div>
-    <div class="set-assign">
-        <div class="radio-assign">
-            <label for="id_radio_1" class="active">Открытый<input id="id_radio_1" type="radio" name="course"  checked></label>
-            <label for="id_radio_2">Закрытый<input id="id_radio_2" type="radio" name="course"></label>
-        </div>
-    </div>
-</div>
-
-<ul class="menu-assign fl-left">
-    <li><a href="#">Пользователи</a></li>
-    <li><a href="#">Пригласить по e-mail</a></li>
-    <li class="active"><a href="#">Загрузка Excel файла</a></li>
-    <li class="last"><a href="#">Получить ссылку</a></li>
-</ul>
-
-<div class="clear"></div>
-
-
-    <div class="left-assign ex2-assign fl-left">
-
-    <div class="dash-top-assign">
-    <div class="dash-left-assign">
-    <div class="dash-right-assign">
-    <div class="dash-bottom-assign">
-
-    <div id="selecting-assign" class="selecting-assign ex2-assign">
-    <div class="users-assign">
-    <a href="#" class="cor-assign fl-right"><img src="images/add-user-ico-del.png" width="13" height="14"
-                                 alt="">удалить</a>
-
-    <div class="user-assign pred-assign all-mail-assign">
-        <div class="ac_bg-assign">
-            <div class="check-assign"></div>
-
-            <div class="info-assign first">
-                <span class="mail-assign">Адрес электронной почты (e-mail)</span>
-
-
+        <div class="settings-assign dash-bottom-assign">
+            <div class="set-assign name-meet-assign">
+                <label for="">Название</label>
+                <input type="text">
+            </div>
+            <div class="set-assign date-meet-assign">
+                <label for="">Дата</label>
+                <input type="text"> <a href="#"><img src="images/ico_color_calendar.png" alt=""></a>
+            </div>
+            <div class="set-assign time-meet-assign">
+                <label for="">Время</label>
+                <input type="text"><em>:</em><input type="text">
+            </div>
+            <div class="set-assign">
+                <div class="radio-assign">
+                    <label for="id_radio_1" class="active">Открытый<input id="id_radio_1" type="radio" name="course"
+                                                                          checked></label>
+                    <label for="id_radio_2">Закрытый<input id="id_radio_2" type="radio" name="course"></label>
+                </div>
             </div>
         </div>
-    </div>
+
+        <ul class="menu-assign fl-left">
+            <li><a href="#">Пользователи</a></li>
+            <li class="active"><a href="#">Пригласить по e-mail</a></li>
+            <li><a href="#">Загрузка Excel файла</a></li>
+            <li class="last"><a href="#">Получить ссылку</a></li>
+        </ul>
+
+        <div class="clear"></div>
+        <div class="left-assign ex2-assign fl-left">
+
+            <div class="dash-top-assign">
+                <div class="dash-left-assign">
+                    <div class="dash-right-assign">
+                        <div class="dash-bottom-assign">
+
+                            <div id="selecting-assign" class="selecting-assign ex2-assign">
+                                <div class="users-assign change-assign">
+                                    <a href="#" class="cor-assign"><img src="images/add-user-ico-del.png" width="13"
+                                                                 height="14" alt="">удалить</a>
+
+                                    <div class="user-assign pred-assign all-mail-assign">
+                                        <div class="ac_bg-assign">
+                                            <div class="check-assign"></div>
+
+                                            <div class="info-assign">
+                                                <span class="mail-assign">Адрес электронной почты (e-mail)</span>
 
 
-    <div class="scroll-assign exel-assign">
-        <div class="user-group-assign active">
+                                            </div>
+                                        </div>
+                                    </div>
 
 
-            <div class="user-assign first">
-                <div class="ac_bg-assign">
-                    <div class="check-assign"></div>
+                                    <div class="scroll-assign spin-assign exel-assign">
+                                        <div class="user-group-assign active">
 
 
-                    <div class="info-assign">
-                        <span class="mail-assign">konstantin@konstantinopolskiy.com</span>
+                                            <div class="user-assign first">
+                                                <div class="ac_bg-assign">
+                                                    <div class="check-assign"></div>
+                                                    <div class="info-assign">
+                                                        <span class="mail-assign"><input type="text"
+                                                                                  value="konstantin@konstantinopolskiy.com"></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="user-assign">
+                                                <div class="ac_bg-assign">
+                                                    <div class="check-assign"></div>
+
+
+                                                    <div class="info-assign">
+                                                        <span class="mail-assign"><input type="text" value="evgeny@gmail.com"></span>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="user-assign">
+                                                <div class="ac_bg-assign">
+                                                    <div class="check-assign"></div>
+
+
+                                                    <div class="info-assign">
+                                                        <span class="mail-assign"><input type="text"
+                                                                                  value="anna1985@yandex.ru"></span>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="user-assign">
+                                                <div class="ac_bg-assign">
+                                                    <div class="check-assign"></div>
+                                                    <div class="info-assign">
+                                                        <span class="mail-assign"><input type="text"
+                                                                                  value="konstantin@konstantinopolskiy.com"></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="user-assign empty-assign">
+                                                <div class="ac_bg-assign">
+                                                    <div class="check-assign"></div>
+                                                    <div class="info-assign">
+                                                        <span class="mail-assign"><input type="text" value=""></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="user-assign addnew-assign">
+                                                <div class="ac_bg-assign">
+                                                    <div class="check-assign oth-assign"></div>
+                                                    <div class="info-assign">
+                                                        <span class="mail-assign">
+                                                            <button>кликните, чтобы добавить e-mail</button>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="pad-assign"></div>
+
+                                        </div>
+                                    </div>
+                                    <div class="sub-assign"></div>
+                                    <div class="addnew-assign mail-assign out-assign">
+                                        <button>кликните, чтобы добавить e-mail
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="clear"></div>
+
+                            </div>
+                            <div class="clear"></div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="arrows-assign eml-assign fl-left">
+            <a class="arr-assign select-user-assign" href="#"><span></span></a>
+            <a class="arr-assign remove-user-assign" href="#"><span></span></a>
+        </div>
+
+        <div id="selecto-assign" class="selecting-assign fl-left">
+            <div class="users-assign">
+                <div class="panel-accordeon-assign">
+                    <a class="select-all-assign fl-right webin" href="#">Выделить всех</a>
+                    <div class="toggle-acordeon-assign"></div>
+                    <h3>Докладчики <a href="#" class="faq-assign"></a></h3>
+                </div>
+                <div class="scroll-assign-wb">
+                    <div class="user-group-assign">
+
+                    </div>
+                </div>
+                <div class="panel-accordeon-assign active">
+                    <a class="select-all-assign fl-right webin" href="#">Выделить всех</a>
+                    <div class="toggle-acordeon-assign"></div>
+                    <h3>Участники <a href="#" class="faq-assign"></a></h3>
+                </div>
+
+                <div class="scroll-assign-wb active">
+                    <div class="user-group-assign active">
 
                     </div>
                 </div>
             </div>
-            <div class="user-assign">
-                <div class="ac_bg-assign">
-                    <div class="check-assign"></div>
+        </div>
 
+        <div class="clear"></div>
 
-                    <div class="info-assign">
-                        <span class="mail-assign">evgeny@gmail.com</span>
-
-                    </div>
-                </div>
-            </div>
-            <div class="user-assign">
-                <div class="ac_bg-assign">
-                    <div class="check-assign"></div>
-
-
-                    <div class="info-assign">
-                        <span class="mail-assign">anna1985@yandex.ru</span>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="user-assign">
-                <div class="ac_bg-assign">
-                    <div class="check-assign"></div>
-
-
-                    <div class="info-assign">
-                        <span class="mail-assign">konstantin@konstantinopolskiy.com</span>
-
-                    </div>
-                </div>
-            </div>
-            <div class="user-assign">
-                <div class="ac_bg-assign">
-                    <div class="check-assign"></div>
-
-
-                    <div class="info-assign">
-                        <span class="mail-assign">konstantin@konstantinopolskiy.com</span>
-
-                    </div>
-                </div>
-            </div>
-            <div class="user-assign">
-                <div class="ac_bg-assign">
-                    <div class="check-assign"></div>
-
-
-                    <div class="info-assign">
-                        <span class="mail-assign">konstantin@konstantinopolskiy.com</span>
-
-                    </div>
-                </div>
-            </div>
-            <div class="user-assign">
-                <div class="ac_bg-assign">
-                    <div class="check-assign"></div>
-
-
-                    <div class="info-assign">
-                        <span class="mail-assign">konstantin@konstantinopolskiy.com</span>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="user-assign">
-                <div class="ac_bg-assign">
-                    <div class="check-assign"></div>
-
-
-                    <div class="info-assign">
-                        <span class="mail-assign">konstantin@konstantinopolskiy.com</span>
-
-                    </div>
-                </div>
-            </div>
-            <div class="user-assign">
-                <div class="ac_bg-assign">
-                    <div class="check-assign"></div>
-
-
-                    <div class="info-assign">
-                        <span class="mail-assign">konstantin@konstantinopolskiy.com</span>
-
-                    </div>
-                </div>
-            </div>
-            <div class="user-assign">
-                <div class="ac_bg-assign">
-                    <div class="check-assign"></div>
-
-
-                    <div class="info-assign">
-                        <span class="mail-assign">konstantin@konstantinopolskiy.com</span>
-
-                    </div>
-                </div>
-            </div> <div class="user-assign">
-            <div class="ac_bg-assign">
-                <div class="check-assign"></div>
-
-
-                <div class="info-assign">
-                    <span class="mail-assign">konstantin@konstantinopolskiy.com</span>
-
-                </div>
-            </div>
-        </div> <div class="user-assign">
-            <div class="ac_bg-assign">
-                <div class="check-assign"></div>
-
-
-                <div class="info-assign">
-                    <span class="mail-assign">konstantin@konstantinopolskiy.com</span>
-
-                </div>
-            </div>
+        <div class="send-assign fl-left">
+            <input type="checkbox" id="save">
+            <label for="save" class="fl-left">Сохранить группу</label>
+            <a href="#"><img src="images/ico_faq.png" width="17" height="17" alt=""></a>
         </div>
 
 
 
 
-        </div>
-    </div>
-    <div class="sub-assign"></div>
-    </div>
-    <div class="clear"></div>
-
-    </div>
-    <div class="clear"></div>
-
-
-    </div>
-    </div>
-    </div>
-    </div>
-
-    </div>
-
-
-
-<div class="arrows-assign web-assign fl-left">
-    <a class="arr-assign select-user-assign" href="#"><span></span></a>
-    <a class="arr-assign remove-user-assign" href="#"><span></span></a>
-</div>
-
-<div class="selecting-assign fl-left">
-    <div class="users-assign">
-        <div class="panel-accordeon-assign">
-            <a class="select-all-assign fl-right webin" href="#">Выделить всех</a>
-            <div class="toggle-acordeon-assign"></div>
-            <h3>Докладчики <a href="#" class="faq-assign"></a></h3>
-        </div>
-        <div class="scroll-assign-wb">
-            <div class="user-group-assign">
-
-            </div>
-        </div>
-        <div class="panel-accordeon-assign active">
-            <a class="select-all-assign fl-right webin" href="#">Выделить всех</a>
-            <div class="toggle-acordeon-assign"></div>
-            <h3>Участники <a href="#" class="faq-assign"></a></h3>
+        <div class="buttons-assign fl-right">
+            <a class="btn-assign btn-blue-assign" href="#">Отмена</a>
+            <a class="btn-assign btn-red-assign" href="#">Далее</a>
         </div>
 
-        <div class="scroll-assign-wb active">
-            <div class="user-group-assign active">
 
-            </div>
-        </div>
     </div>
-</div>
-
-<div class="clear"></div>
-
-
-<div class="buttons-assign fl-right">
-    <a class="btn-assign btn-blue-assign" href="#">Отмена</a>
-    <a class="btn-assign btn-red-assign" href="#">Создать</a>
-</div>
-
-
-</div>
 </div>
 
 <div id="course-view">

@@ -168,6 +168,8 @@
     border-bottom: dotted 1px #0E67D2;
     font-size: 12px;
     line-height: 12px;
+    position: relative;
+    z-index: 10;
 }
 
 .dialog-assign .users-assign h3 {
