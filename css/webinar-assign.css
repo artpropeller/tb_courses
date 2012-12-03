@@ -34,7 +34,7 @@
 }
 
 #webinar-assign .date-meet-assign {
-    width: 145px;
+    width: 150px;
 }
 
 #webinar-assign .date-meet-assign input[type=text] {
@@ -43,7 +43,8 @@
 }
 
 #webinar-assign .date-meet-assign img {
-    margin-top: 1px;
+    margin: 0 0 0 0;
+    padding: 0;
 }
 
 #webinar-assign .time-meet-assign {
@@ -77,6 +78,18 @@
     margin-top: 18px;
     overflow: auto;
     padding: 8px 0 7px 30px;
+    position: relative;
+    width: 255px;
+}
+
+#webinar-assign  .radio-assign a.faq-assign {
+    width: 17px;
+    top: 8px;
+    height: 17px;
+    background: url("../images/ico_faq.png");
+    display: block;
+    position: absolute;
+    right: 0;
 }
 
 #webinar-assign .radio-assign label {
@@ -395,7 +408,7 @@
 #webinar-assign .mail-assign button {
     width: 452px;
     height: 28px;
-    padding: 0 10px;
+    padding: 0 10px 0;
     border: 1px solid #D0D0D0;
     color: #7E7E7E;
     font-size: 12px;
@@ -403,7 +416,17 @@
     text-align: left;
     cursor: pointer;
     margin-left: 22px;
+    position: relative;
+
 }
+
+#webinar-assign .mail-assign button::-moz-focus-inner {
+    padding:0 ;
+    margin-top: -2px;
+    line-height: 12px;
+    border:2px;
+}
+
 
 #webinar-assign .left-assign .users-assign .user-assign.addnew-assign .check-assign {
     display: none;

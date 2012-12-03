@@ -576,7 +576,7 @@ function showcor() {
 }
 
 function checkSelect() {
-    $('.user-group-assign.active').each(function () {
+    $('.user-group-assign.active:not(".webin-aasign")').each(function () {
 
         var sa = $(this).find('.user-assign.active').size();
         var se = $(this).parents('.users-assign').find('.select-all-assign');
