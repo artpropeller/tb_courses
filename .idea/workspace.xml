@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/sass_stdlib.xml" />
-      <change type="DELETED" beforePath="D:\workspere\markup\tb_courses\�_�_�_�_.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspere\markup\tb_courses\����.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/webinar-assign.css" afterPath="$PROJECT_DIR$/css/webinar-assign.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/course-assign.js" afterPath="$PROJECT_DIR$/js/course-assign.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/webinar-assign.js" afterPath="$PROJECT_DIR$/js/webinar-assign.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webinar-create.html" afterPath="$PROJECT_DIR$/webinar-create.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webinar-exel1.html" afterPath="$PROJECT_DIR$/webinar-exel1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webinar-exel2.html" afterPath="$PROJECT_DIR$/webinar-exel2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webinar-link.html" afterPath="$PROJECT_DIR$/webinar-link.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webinar-mail.html" afterPath="$PROJECT_DIR$/webinar-mail.html" />
     </list>
     <ignored path="tb_courses.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,10 +41,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="webinar-assign.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="webinar-assign.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/webinar-assign.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="409" column="17" selection-start="8558" selection-end="8558" vertical-scroll-proportion="0.14007781">
+            <state line="436" column="1" selection-start="9066" selection-end="9066" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -96,10 +86,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="webinar-assign.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="webinar-assign.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/webinar-assign.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="132" column="13" selection-start="5965" selection-end="5965" vertical-scroll-proportion="0.0">
+            <state line="124" column="36" selection-start="5547" selection-end="5547" vertical-scroll-proportion="0.33268481">
               <folding />
             </state>
           </provider>
@@ -150,8 +140,8 @@
         <option value="$PROJECT_DIR$/webinar-exel2.html" />
         <option value="$PROJECT_DIR$/webinar-link.html" />
         <option value="$PROJECT_DIR$/webinar-mail.html" />
-        <option value="$PROJECT_DIR$/js/webinar-assign.js" />
         <option value="$PROJECT_DIR$/css/webinar-assign.css" />
+        <option value="$PROJECT_DIR$/js/webinar-assign.js" />
       </list>
     </option>
   </component>
@@ -188,6 +178,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -222,7 +213,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -231,8 +221,8 @@
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../avangard" />
     <property name="DefaultHtmlFileTemplate" value="Html" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -396,7 +386,11 @@
       <created>1354263271743</created>
       <updated>1354263271743</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="webinar fixes">
+      <created>1354527870364</created>
+      <updated>1354527870364</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -407,7 +401,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23181818" sideWeight="0.6712329" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23560606" sideWeight="0.6712329" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -458,7 +452,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="webinar" />
+    <option name="LAST_COMMIT_MESSAGE" value="webinar fixes" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -487,6 +481,7 @@
     <MESSAGE value="assign css" />
     <MESSAGE value="letter" />
     <MESSAGE value="webinar" />
+    <MESSAGE value="webinar fixes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -578,16 +573,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/webinar-assign.js">
+    <entry file="file://$PROJECT_DIR$/css/webinar-assign.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="132" column="13" selection-start="5965" selection-end="5965" vertical-scroll-proportion="0.0">
+        <state line="436" column="1" selection-start="9066" selection-end="9066" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/webinar-assign.css">
+    <entry file="file://$PROJECT_DIR$/js/webinar-assign.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="409" column="17" selection-start="8558" selection-end="8558" vertical-scroll-proportion="0.14007781">
+        <state line="124" column="36" selection-start="5547" selection-end="5547" vertical-scroll-proportion="0.33268481">
           <folding />
         </state>
       </provider>

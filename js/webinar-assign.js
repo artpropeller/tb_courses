@@ -122,7 +122,6 @@ $(function () {
         var parent = '#' + $('.user-group-assign.active').attr('id');
         select.each(function () {
             if ($(this).find('input').val() && !$(this).is('.empty-assign')) {
-                alert($(this).find('input').val());
                 $(this).find('.mail-assign').html($(this).find('input').val());
                 $(this).find('.info-assign').prepend('<span class="name-assign">Новый пользователь</span>');
                 $(this).find('.info-assign').before('<img class="avatar-assign" src="images/new_ava.jpg" alt="">');
