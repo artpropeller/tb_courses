@@ -251,7 +251,7 @@
     padding-left: 19px;
     padding-top: 1px;
     cursor: pointer;
-    margin-bottom: 13px;
+    margin-bottom: 12px;
 }
 
 .account .set.timezone .check {
@@ -505,6 +505,7 @@
 .account .notify .gray .tarif {
     font-size: 14px;
     color: #000;
+    line-height: 18px;
     margin-bottom: 12px;
 
 }
@@ -513,7 +514,7 @@
     font-size: 18px;
     font-weight: bold;
     display: block;
-    padding-top: 8px;
+    padding-top: 10px;
     float: left;
     margin-right: 18px;
 
@@ -525,7 +526,7 @@
     height: 17px;
     display: block;
     float: left;
-    margin-top: 8px;
+    margin-top: 11px;
 
 }
 
@@ -543,6 +544,7 @@
 
 .account .notify .gray .opisanie p.last{
     padding-bottom: 7px;
+    margin-bottom: 4px;
 }
 
 .account .notify .gray .blue_arr {
@@ -620,12 +622,12 @@
 
 
 .col {
-    padding: 22px 0 24px;
+    padding: 26px 0 27px;
     border-top:1px solid #fff;
     border-bottom:1px solid #fff;
     overflow: auto;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 16px;
+    margin-bottom: 17px;
 }
 
 .smena{
@@ -650,7 +652,7 @@
     color: #0e67d2;
     font-size: 14px;
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
 
 }
 
