@@ -456,6 +456,10 @@
     overflow: visible;
 }
 
+.tab_bar ul {
+    margin: 0;
+}
+
 .tab_bar li {
     float: left;
     padding: 0;

@@ -4,7 +4,7 @@
     <list default="true" id="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account.css" afterPath="$PROJECT_DIR$/account.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/profile.js" afterPath="$PROJECT_DIR$/js/profile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profile-org.html" afterPath="$PROJECT_DIR$/profile-org.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profile.html" afterPath="$PROJECT_DIR$/profile.html" />
     </list>
     <ignored path="tb_courses.iws" />
@@ -37,10 +37,20 @@
       <file leaf-file-name="profile.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/profile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="202" column="63" selection-start="10120" selection-end="10120" vertical-scroll-proportion="-2.4615386">
+            <state line="286" column="30" selection-start="9847" selection-end="14640" vertical-scroll-proportion="-5.6153846">
               <folding>
+                <element signature="tag#div#2;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="tag#div#1;tag#div#2;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profile-org.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/profile-org.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="274" column="25" selection-start="14392" selection-end="14392" vertical-scroll-proportion="0.21235521">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -63,10 +73,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="account.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="account.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/account.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="628" column="18" selection-start="11093" selection-end="11093" vertical-scroll-proportion="0.65225565">
+            <state line="459" column="13" selection-start="8299" selection-end="8299" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -101,7 +111,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/resize-course-assign-exel2.html" />
         <option value="$PROJECT_DIR$/css/webinar-assign.css" />
         <option value="$PROJECT_DIR$/webinar-create-exel2.html" />
         <option value="$PROJECT_DIR$/css/base.dialog.assign.css" />
@@ -114,9 +123,10 @@
         <option value="$PROJECT_DIR$/js/jquery.fancybox/jquery.fancybox.css" />
         <option value="$PROJECT_DIR$/resize-test-assign-step2.html" />
         <option value="$PROJECT_DIR$/css/test-assign.css" />
-        <option value="$PROJECT_DIR$/profile.html" />
         <option value="$PROJECT_DIR$/js/profile.js" />
+        <option value="$PROJECT_DIR$/profile.html" />
         <option value="$PROJECT_DIR$/account.css" />
+        <option value="$PROJECT_DIR$/profile-org.html" />
       </list>
     </option>
   </component>
@@ -153,7 +163,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -188,6 +197,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -195,8 +205,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="D:/teachbase_front" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -271,7 +281,11 @@
       <created>1354526214025</created>
       <updated>1354526214025</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="last change">
+      <created>1354822521665</created>
+      <updated>1354822521665</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -282,7 +296,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26060605" sideWeight="0.94133335" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26439393" sideWeight="0.94133335" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -412,26 +426,10 @@
         <state line="507" column="14" selection-start="24654" selection-end="24654" vertical-scroll-proportion="0.17953669" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/profile-org.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="211" column="32" selection-start="10713" selection-end="10713" vertical-scroll-proportion="0.32818532">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/test-assign.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="164" column="19" selection-start="3884" selection-end="3884" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="202" column="63" selection-start="10120" selection-end="10120" vertical-scroll-proportion="-2.4615386">
-          <folding>
-            <element signature="tag#div#1;tag#div#2;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -442,9 +440,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="286" column="30" selection-start="9847" selection-end="14640" vertical-scroll-proportion="-5.6153846">
+          <folding>
+            <element signature="tag#div#2;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#1;tag#div#2;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/account.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="628" column="18" selection-start="11093" selection-end="11093" vertical-scroll-proportion="0.65225565">
+        <state line="459" column="13" selection-start="8299" selection-end="8299" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profile-org.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="274" column="25" selection-start="14392" selection-end="14392" vertical-scroll-proportion="0.21235521">
           <folding />
         </state>
       </provider>
