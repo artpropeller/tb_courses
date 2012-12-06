@@ -1,4 +1,3 @@
-
 #test-assign .parameters-assign .hide-settings-assign a {
     display: inline-block;
     padding-left: 23px;
@@ -63,7 +62,6 @@
 #test-assign .parameters-assign .hide-settings-assign .option-assign label.active {
     background: url("../images/checkbox_par_active.png") no-repeat 0 0;
 }
-
 
 #test-assign .parameters-assign .inparr-assign {
     width: 72px;
@@ -144,9 +142,45 @@
 }
 
 #test-assign .parameters-assign .hide-settings-assign .option-assign {
-    padding:0;
+    padding: 0;
     margin: 0;
     width: auto;
     height: auto;
     /*overflow: auto;*/
+}
+
+#message_naz {
+    background: #f1f1f1;
+    padding: 25px;
+    width: 424px;
+    display: none;
+    border:3px solid #305c88;
+    color: #000;
+
+
+}
+
+#message_naz span{
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+#message_naz strong{
+    font-size: 18px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+#message_naz a{
+    color: #0e67d2;
+    font-size: 14px;
+    text-decoration: underline;
+    background: url("../images/blue_arr.png") no-repeat right;
+    padding-right: 18px;
+}
+
+
+.fancybox-close{
+    display: none;
 }
