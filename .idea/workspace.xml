@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profile-org.html" afterPath="$PROJECT_DIR$/profile-org.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profile.html" afterPath="$PROJECT_DIR$/profile.html" />
     </list>
     <ignored path="tb_courses.iws" />
@@ -33,10 +32,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profile.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="profile.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/profile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="389" column="59" selection-start="16879" selection-end="16879" vertical-scroll-proportion="-3.3846154">
+            <state line="124" column="40" selection-start="5166" selection-end="5166" vertical-scroll-proportion="0.34879032">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#2;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -87,10 +86,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profile-org.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="profile-org.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/profile-org.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="119" column="0" selection-start="5095" selection-end="5095" vertical-scroll-proportion="0.34274194">
+            <state line="116" column="39" selection-start="5030" selection-end="5057" vertical-scroll-proportion="-4.576923">
               <folding />
             </state>
           </provider>
@@ -132,8 +131,8 @@
         <option value="$PROJECT_DIR$/css/test-assign.css" />
         <option value="$PROJECT_DIR$/js/profile.js" />
         <option value="$PROJECT_DIR$/account.css" />
-        <option value="$PROJECT_DIR$/profile.html" />
         <option value="$PROJECT_DIR$/profile-org.html" />
+        <option value="$PROJECT_DIR$/profile.html" />
       </list>
     </option>
   </component>
@@ -301,7 +300,11 @@
       <created>1354881152267</created>
       <updated>1354881152267</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="fix">
+      <created>1354881671201</created>
+      <updated>1354881671201</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -466,19 +469,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/profile.html">
+    <entry file="file://$PROJECT_DIR$/profile-org.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="389" column="59" selection-start="16879" selection-end="16879" vertical-scroll-proportion="-3.3846154">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#2;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="116" column="39" selection-start="5030" selection-end="5057" vertical-scroll-proportion="-4.576923">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/profile-org.html">
+    <entry file="file://$PROJECT_DIR$/profile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="0" selection-start="5095" selection-end="5095" vertical-scroll-proportion="0.34274194">
-          <folding />
+        <state line="124" column="40" selection-start="5166" selection-end="5166" vertical-scroll-proportion="0.34879032">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#2;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
