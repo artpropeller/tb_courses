@@ -88,184 +88,235 @@
 <!-- PAGE -->
 <div id="main">
 
-    <!-- ____ HEADER ____ -->
-    <div id="header">
-        <div class="container">
-            <div class="h-logo"><a href="/"><img src="images/bg/logo.png" alt=""/></a></div>
-            <div class="h-menu"><a href="#" class="plus">Plus</a> <a href="#">Курсы</a> <a href="#">Видеовстречи</a> <a
-                    href="#">Тесты</a> <a href="#">Библиотека</a> <a href="#">Отчеты</a> <a href="#">Пользователи</a>
-            </div>
-
-            <div class="header-search search-animate">
-                <form action="" method="post">
-                    <input type="submit" value=""/>
-                    <input type="text" value="Поиск по сайту..."
-                           onfocus="if(this.value=='Поиск по сайту...')this.value='';"
-                           onblur="if(this.value=='')this.value='Поиск по сайту...';"/>
-                </form>
-            </div>
-            <div class="h-personal"><a href="#"><span><img src="images/content-im/ico.jpg" alt=""/></span></a></div>
+<!-- ____ HEADER ____ -->
+<div id="header">
+    <div class="container">
+        <div class="h-logo"><a href="/"><img src="images/bg/logo.png" alt=""/></a></div>
+        <div class="h-menu"><a href="#" class="plus">Plus</a> <a href="#">Курсы</a> <a href="#">Видеовстречи</a> <a
+                href="#">Тесты</a> <a href="#">Библиотека</a> <a href="#">Отчеты</a> <a href="#">Пользователи</a>
         </div>
+
+        <div class="header-search search-animate">
+            <form action="" method="post">
+                <input type="submit" value=""/>
+                <input type="text" value="Поиск по сайту..."
+                       onfocus="if(this.value=='Поиск по сайту...')this.value='';"
+                       onblur="if(this.value=='')this.value='Поиск по сайту...';"/>
+            </form>
+        </div>
+        <div class="h-personal"><a href="#"><span><img src="images/content-im/ico.jpg" alt=""/></span></a></div>
     </div>
-    <!-- ____ /HEADER ____ -->
-    <!-- ____ CONTENT ____ -->
+</div>
+<!-- ____ /HEADER ____ -->
+<!-- ____ CONTENT ____ -->
 
 
-    <div id="course-view" class="profile">
-        <div class="account">
-            <h1>Настройки аккаунта</h1>
+<div id="course-view" class="profile">
+<div class="account">
 
-            <div class="dash-top">
-                <div class="dash-left">
-                    <div class="dash-right">
-                        <div class="dash-bottom">
-                            <div class="avatar">
-                                <div class="actions">
-                                    <a href="#" class="change">заменить</a>
-                                    <a href="#" class="remove"></a>
-                                </div>
-                                <img src="images/big_avatar.jpg" alt="" width="90" height="90">
+    <ul class="menu">
+        <li class="active"><a href="#">Настройка аккаунта</a></li>
+        <li class="last"><a href="#">Тарифный план</a></li>
+    </ul>
+
+    <div class="clr"></div>
+
+    <div class="dash-top">
+        <div class="dash-left">
+            <div class="dash-right">
+                <div class="dash-bottom">
+                    <div class="avatar">
+                        <div class="actions">
+                            <a href="#" class="change">заменить</a>
+                            <a href="#" class="remove"></a>
+                        </div>
+                        <img src="images/big_avatar.jpg" alt="" width="90" height="90">
+                    </div>
+                    <div class="user-info">
+                        <h2>Информация о пользователе</h2>
+
+                        <div class="set">
+                            <div class="label">имя и фамилия</div>
+                            <input type="text" name="name" value="Константин Константинопольский">
+                        </div>
+                        <div class="set">
+                            <div class="label">текущий e-mail</div>
+                            <div class="val">konstantin@konstantinopolsky.com</div>
+                        </div>
+                        <div class="action">
+                            <a href="#change-mail" class="fancy">изменить e-mail</a> <span>|</span> <a
+                                href="#change-pass" class="fancy">изменить пароль</a>
+                        </div>
+                        <h2>Общие настройки </h2>
+
+                        <div class="set timezone">
+                            <div class="label">часовой пояс</div>
+                            <div class="choice timezone">
+                                <a class="selector" href="#"><span>UTC+4</span> — Москва</a>
+
+                                <div class="toggle"></div>
+                                <ul>
+                                    <li><span>GMT+2</span> — Калининград</li>
+                                    <li><span>GMT+4</span> — Ижевск</li>
+                                    <li><span>GMT+5</span> — Екатеринбург</li>
+                                    <li><span>GMT+6</span> — Новосибирск</li>
+                                    <li><span>GMT+8</span> — Иркутск</li>
+                                    <li><span>GMT+9</span> — Якутск</li>
+                                    <li><span>GMT+10</span> — Владивосток</li>
+                                    <li><span>GMT+11</span> — Магадан</li>
+                                    <li><span>GMT+12</span> — Камчатка</li>
+                                    <li><span>GMT+2</span> — Калининград</li>
+                                    <li><span>GMT+4</span> — Ижевск</li>
+                                    <li><span>GMT+5</span> — Екатеринбург</li>
+                                    <li><span>GMT+6</span> — Новосибирск</li>
+                                    <li><span>GMT+8</span> — Иркутск</li>
+                                    <li><span>GMT+9</span> — Якутск</li>
+                                    <li><span>GMT+10</span> — Владивосток</li>
+                                    <li><span>GMT+11</span> — Магадан</li>
+                                    <li><span>GMT+12</span> — Камчатка</li>
+                                    <li><span>GMT+2</span> — Калининград</li>
+                                    <li><span>GMT+4</span> — Ижевск</li>
+                                    <li><span>GMT+5</span> — Екатеринбург</li>
+                                    <li><span>GMT+6</span> — Новосибирск</li>
+                                    <li><span>GMT+8</span> — Иркутск</li>
+                                    <li><span>GMT+9</span> — Якутск</li>
+                                    <li><span>GMT+10</span> — Владивосток</li>
+                                    <li><span>GMT+11</span> — Магадан</li>
+                                    <li><span>GMT+12</span> — Камчатка</li>
+                                </ul>
                             </div>
-                            <div class="user-info">
-                                <h2>Информация о пользователе</h2>
+                            <div class="check">Определять автоматически</div>
+                        </div>
+                        <div class="set lang">
+                            <div class="label">язык/language</div>
+                            <div class="choice">
+                                <a class="selector" href="#">Русский</a>
 
-                                <div class="set">
-                                    <div class="label">имя и фамилия</div>
-                                    <input type="text" name="name" value="Константин Константинопольский">
-                                </div>
-                                <div class="set">
-                                    <div class="label">текущий e-mail</div>
-                                    <div class="val">konstantin@konstantinopolsky.com</div>
-                                </div>
-                                <div class="action">
-                                    <a href="#change-mail" class="fancy">изменить e-mail</a> <span>|</span> <a
-                                        href="#change-pass" class="fancy">изменить пароль</a>
-                                </div>
-                                <h2>Общие настройки </h2>
-
-                                <div class="set timezone">
-                                    <div class="label">часовой пояс</div>
-                                    <div class="choice timezone">
-                                        <a class="selector" href="#"><span>UTC+4</span> — Москва</a>
-
-                                        <div class="toggle"></div>
-                                        <ul>
-                                            <li><span>GMT+2</span> — Калининград</li>
-                                            <li><span>GMT+4</span> — Ижевск</li>
-                                            <li><span>GMT+5</span> — Екатеринбург</li>
-                                            <li><span>GMT+6</span> — Новосибирск</li>
-                                            <li><span>GMT+8</span> — Иркутск</li>
-                                            <li><span>GMT+9</span> — Якутск</li>
-                                            <li><span>GMT+10</span> — Владивосток</li>
-                                            <li><span>GMT+11</span> — Магадан</li>
-                                            <li><span>GMT+12</span> — Камчатка</li>
-                                            <li><span>GMT+2</span> — Калининград</li>
-                                            <li><span>GMT+4</span> — Ижевск</li>
-                                            <li><span>GMT+5</span> — Екатеринбург</li>
-                                            <li><span>GMT+6</span> — Новосибирск</li>
-                                            <li><span>GMT+8</span> — Иркутск</li>
-                                            <li><span>GMT+9</span> — Якутск</li>
-                                            <li><span>GMT+10</span> — Владивосток</li>
-                                            <li><span>GMT+11</span> — Магадан</li>
-                                            <li><span>GMT+12</span> — Камчатка</li>
-                                            <li><span>GMT+2</span> — Калининград</li>
-                                            <li><span>GMT+4</span> — Ижевск</li>
-                                            <li><span>GMT+5</span> — Екатеринбург</li>
-                                            <li><span>GMT+6</span> — Новосибирск</li>
-                                            <li><span>GMT+8</span> — Иркутск</li>
-                                            <li><span>GMT+9</span> — Якутск</li>
-                                            <li><span>GMT+10</span> — Владивосток</li>
-                                            <li><span>GMT+11</span> — Магадан</li>
-                                            <li><span>GMT+12</span> — Камчатка</li>
-                                        </ul>
-                                    </div>
-                                    <div class="check">Определять автоматически</div>
-                                </div>
-                                <div class="set lang">
-                                    <div class="label">язык/language</div>
-                                    <div class="choice">
-                                        <a class="selector" href="#">Русский</a>
-
-                                        <div class="toggle"></div>
-                                        <ul>
-                                            <li>English</li>
-                                            <li>Svenska</li>
-                                        </ul>
-                                    </div>
-                                </div>
-
+                                <div class="toggle"></div>
+                                <ul>
+                                    <li>English</li>
+                                    <li>Svenska</li>
+                                </ul>
                             </div>
+                        </div>
+                        <div class="clr"></div>
+                        <div class="action org">
+                            <a href="#">реквизиты организации</a>
+                        </div>
 
-                            <div class="notify">
-                                <h2>Уведомления</h2>
+                    </div>
 
-                                <div class="gray">
-                                    <div class="set">
-                                        <div class="check"><label>Уведомлять о назначеной/завершенной видеовстрече
-                                            по</label>
-
-                                            <div class="choice">
-                                                <a class="selector" href="#">SMS</a>
-
-                                                <div class="toggle"></div>
-                                                <ul>
-                                                    <li>E-mail</li>
-                                                    <li>SMS и e-mail</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="set course">
-                                        <div class="check"><label>Уведомлять о назначеном/завершенном курсе по</label>
-
-                                            <div class="choice">
-                                                <a class="selector" href="#">SMS</a>
-
-                                                <div class="toggle"></div>
-                                                <ul>
-                                                    <li>E-mail</li>
-                                                    <li>SMS и e-mail</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="set">
-                                        <div class="check"><label>Уведомлять о назначеном/ завершенном
-                                            тесте/опросе</label></div>
-                                    </div>
-                                    <div class="set">
-                                        <div class="check"><label>Подписаться на информационную рассылку</label></div>
-                                    </div>
-                                    <div class="set">
-                                        <div class="check"><label>Уведомлять о событиях в ленте новостей</label></div>
-                                    </div>
-                                    <div class="phone">
-                                        <a href="#phone-default" class="fancy">номер мобильного</a>
-                                        <a href="#phone-send" class="fancy">второе окно</a></div>
-                                </div>
-                            </div>
-
+                    <div class="notify">
+                        <div class="tab_bar">
+                            <ul>
+                                <li class="active"><a href="#profile_notify">уведомления</a></li>
+                                <li><a href="#profile_tarif">тарифный план</a></li>
+                            </ul>
                             <div class="clr"></div>
+                        </div>
 
-                            <div class="buttons">
-                                <a class="button-blue" href="#">Отмена</a>
-                                <a class="button-red" href="#">Сохранить</a>
+                        <div id="profile_notify" class="gray">
+                            <div class="corner"></div>
+                            <div class="set">
+                                <div class="check"><label>Уведомлять о назначеной/завершенной видеовстрече
+                                    по</label>
+
+                                    <div class="choice">
+                                        <a class="selector" href="#">SMS</a>
+
+                                        <div class="toggle"></div>
+                                        <ul>
+                                            <li>E-mail</li>
+                                            <li>SMS и e-mail</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="set course">
+                                <div class="check"><label>Уведомлять о назначеном/завершенном курсе по</label>
+
+                                    <div class="choice">
+                                        <a class="selector" href="#">SMS</a>
+
+                                        <div class="toggle"></div>
+                                        <ul>
+                                            <li>E-mail</li>
+                                            <li>SMS и e-mail</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="set">
+                                <div class="check"><label>Уведомлять о назначеном/ завершенном
+                                    тесте/опросе</label></div>
+                            </div>
+                            <div class="set">
+                                <div class="check"><label>Подписаться на информационную рассылку</label></div>
+                            </div>
+                            <div class="set">
+                                <div class="check"><label>Уведомлять о событиях в ленте новостей</label></div>
+                            </div>
+                            <div class="phone">
+                                <a href="#phone-default" class="fancy">номер мобильного</a>
+                            </div>
+                        </div>
+
+
+                        <div  id="profile_tarif" class="gray hide">
+                            <div class="corner"></div>
+                            <div class="tarif">Текущий тариф <strong>«Малый бизнес»</strong>
+
+                                <div class="clr"></div>
+                                <span class="big_size">100 пользователей / 10 Гб</span><a class="inf" href="#"></a>
+
+                                <div class="clr"></div>
                             </div>
 
-                            <!--Контент-->
+                            <div class="opisanie">
+                                <p><strong>7000</strong> рублей за месяц</p>
 
+                                <p class="last">Следующее списание средств: <strong>18.09.2012</strong></p>
+                                <a class="blue_arr" href="#"><span>Оплата</span></a>
+                            </div>
 
+                            <div class="col">
+                                <span class="name">Количество пользователей:</span>
+
+                                <div class="load_bar">
+                                    <div class="hov">
+                                        <div class="inner" style="width: 50%;">
+                                            <div class="txt"><span>33</span> из <span>100</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="smena" href="#">Сменить тариф</a>
+                            </div>
+                            <a class="history_pay" href="#"><span>история платежей</span></a>
+                            <div class="clr"></div>
                         </div>
                     </div>
+
+                    <div class="clr"></div>
+
+                    <div class="buttons">
+                        <a class="button-blue" href="#">Отмена</a>
+                        <a class="button-red" href="#">Сохранить</a>
+                    </div>
+
+                    <!--Контент-->
+
+
                 </div>
             </div>
         </div>
-
     </div>
+</div>
 
-    <div id="footer">
-        <p>© Name, 2012. All right reserved.</p>
-    </div>
+</div>
+
+<div id="footer">
+    <p>© Name, 2012. All right reserved.</p>
+</div>
 
 </div>
 
