@@ -546,7 +546,7 @@
 
 }
 
-.account .notify .gray .opisanie p.last{
+.account .notify .gray .opisanie p.last {
     padding-bottom: 7px;
     margin-bottom: 4px;
 }
@@ -556,8 +556,6 @@
     background: url("images/blue_arr.png") no-repeat right;
     padding-right: 18px;
     font-weight: bold;
-
-
 
 }
 
@@ -586,7 +584,6 @@
     overflow: hidden;
     box-shadow: inset 2px 2px 2px #a8a8a8;
 
-
 }
 
 .load_bar .inner {
@@ -594,8 +591,6 @@
     height: 32px;
 
 }
-
-
 
 .load_bar .txt {
     color: #fff;
@@ -615,7 +610,7 @@
 
 }
 
-.col .name{
+.col .name {
     color: #000;
     display: block;
     margin-bottom: 6px;
@@ -624,17 +619,16 @@
 
 }
 
-
 .col {
     padding: 26px 0 27px;
-    border-top:1px solid #fff;
-    border-bottom:1px solid #fff;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
     overflow: auto;
     margin-top: 16px;
     margin-bottom: 17px;
 }
 
-.smena{
+.smena {
     display: block;
     color: #3e7ab3;
     font-size: 13px;
@@ -645,13 +639,13 @@
     float: left;
     border-radius: 3px;
     -webkit-border-radius: 3px;
-    border:1px solid #b9b9b9;
+    border: 1px solid #b9b9b9;
     padding-top: 6px;
     text-align: center;
 }
 
-.history_pay{
-    background: url("images/history_ico.png") no-repeat  left;
+.history_pay {
+    background: url("images/history_ico.png") no-repeat left;
     padding-left: 25px;
     color: #0e67d2;
     font-size: 14px;
@@ -660,11 +654,15 @@
 
 }
 
-.history_pay span{
+.history_pay span {
     border-bottom: 1px dotted #0e67d2;
 }
 
-
-.history_pay:hover span{
+.history_pay:hover span {
     border: 0;
 }
+
+
+
+
+

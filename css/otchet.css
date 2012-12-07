@@ -1,0 +1,334 @@
+#course-view .otchet .dash-bottom {
+    padding: 25px;
+    overflow: auto;
+}
+
+#course-view .otchet .inner .left, #course-view .otchet .right .block {
+    background: #fff;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    width: 266px;
+    border: 1px solid #f3f3f3;
+    border-top: 0;
+    box-shadow: 0 1px 1px #f3f3f3;
+    padding-bottom: 15px;
+    margin-right: 15px;
+
+}
+
+#course-view .otchet .menu {
+    margin-bottom: 10px;
+    margin-top: -4px;
+}
+
+#course-view .otchet h3 {
+    color: #000;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 0;
+
+}
+
+.otchet {
+    padding-left: 15px;
+}
+
+#course-view .otchet .faq {
+    background: url("../images/ico_faq.png");
+    width: 17px;
+    height: 17px;
+    margin-left: 10px;
+    margin-top: 3px;
+
+}
+
+#course-view .otchet .window_name {
+    border-bottom: 1px solid #f3f3f3;
+    padding: 8px 20px;
+    margin-bottom: 15px;
+}
+
+#course-view .otchet .img {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.colors span {
+    display: block;
+    color: #000;
+    font-size: 13px;
+    background-image: url("../images/diagram_color_sprite.png");
+    background-repeat: no-repeat;
+    margin-bottom: 15px;
+    padding-left: 25px;
+}
+
+.colors .blue {
+    background-position: top left;
+
+}
+
+.colors .red {
+    background-position: left -31px;
+}
+
+.colors .yellow {
+    background-position: left -60px;
+}
+
+.colors .gray {
+    background-position: left bottom;
+}
+
+.colors {
+    padding-left: 25px;
+
+}
+
+.itogo {
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    margin: 0 12px;
+    background: #eaeaea;
+    padding: 10px;
+    color: #000;
+    overflow: auto;
+    box-shadow: inset 0 1px 2px #cecece;
+}
+
+.itogo span {
+    display: block;
+    padding-top: 2px;
+
+}
+
+.green_but {
+    background: #6ac13c;
+    box-shadow: inset 0 1px 2px #468028;
+    color: #fff;
+    text-shadow: 1px 1px 1px #666;
+    padding: 1px 5px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+
+}
+
+.green_but:hover {
+    box-shadow: none;
+    color: #fff;
+}
+
+#course-view .otchet .right {
+    width: 650px;
+}
+
+#course-view .otchet .right .block {
+    width: 650px;
+    margin-right: 0;
+    margin-bottom: 12px;
+    padding-bottom: 0;
+}
+
+
+#course-view .otchet .right .block.last{
+    margin-bottom: 0;
+}
+
+#course-view .otchet .right .block .sod, #course-view .otchet .right .block .sod2 {
+    padding: 0 20px 15px;
+    overflow: auto;
+}
+
+#course-view .otchet .right .block .tab  li {
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    background: #eaeaea;
+    padding: 12px 15px;
+    color: #000;
+    overflow: auto;
+    box-shadow: inset 0 1px 2px #cecece;
+    float: left;
+    width: 160px;
+    margin-right: 20px;
+}
+
+#course-view .otchet .right .block .tab  li.last {
+    margin-right: 0;
+}
+
+#course-view .otchet .right .block .tab  li img {
+    float: left;
+    margin-right: 15px;
+    margin-top: 2px;
+
+}
+
+#course-view .otchet .right .block .tab  li .znach {
+    font-weight: bold;
+
+}
+
+#course-view .otchet .right .block .tab li em {
+    font-style: normal;
+    font-size: 12px;
+    display: block;
+}
+
+#course-view .otchet .right .block .tab li strong {
+    font-size: 30px;
+}
+
+#course-view .otchet .right .block .border {
+    border: 1px solid #e5e5e5;
+    color: #000;
+    margin-bottom: 0;
+    overflow: auto;
+
+}
+
+.border em {
+    font-size: 11px;
+    color: #999;
+    font-style: normal;
+
+}
+
+.border em, .border span, .border strong {
+    display: block;
+    text-align: center;
+}
+
+.border strong {
+    font-size: 19px;
+
+}
+
+#course-view .otchet .right .block .border li {
+    width: 151px;
+    border-right: 1px solid #e5e5e5;
+    padding: 5px 0;
+    float: left;
+}
+
+.border span {
+    font-size: 13px;
+}
+
+#course-view .otchet .right .block .border li.last {
+    border: 0;
+}
+
+.load_bar {
+    position: relative;
+    width: 100%;
+    margin-bottom: 12px;
+
+
+
+}
+
+.load_bar .hov {
+    background: #d6d6d6;
+    overflow: auto;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    box-shadow: inset 0 1px 2px #999;
+
+}
+
+.load_bar div{
+    height: 25px;
+}
+
+.load_bar .dark_blue{
+    background: url("../images/load_dark_blue.jpg") repeat-x;
+
+
+}
+
+.load_bar .mid_blue{
+    background: url("../images/load_mid_blue.jpg") repeat-x;
+
+
+}
+
+.load_bar .small_blue{
+    background: url("../images/load_small_blue.jpg") repeat-x;
+
+
+}
+
+.load_bar .light_blue{
+    background: url("../images/load_light_blue.jpg") repeat-x;
+
+
+}
+
+.load_bar .stat{
+    font-size: 13px;
+    color: #000;
+    position: absolute;
+    text-align: center;
+    padding-top: 4px;
+    width: 100%;
+}
+
+.sod .itogo{
+    margin: 0;
+}
+
+.sod .itogo span{
+    margin-right: 15px;
+
+}
+
+
+.markers .lp{
+    margin-right: 55px;
+}
+
+.markers .lp div, .markers .rp div{
+    background-image: url("../images/blue_load_bar_sprite.png");
+    background-repeat: no-repeat;
+    padding-left: 25px;
+    font-size: 13px;
+    color: #000;
+
+}
+
+.markers .rp div{
+    background-image: url("../images/load_bar_light_sprite.png");
+
+}
+
+
+
+
+
+
+.markers .dark_blue{
+    background-position: left top;
+    margin-bottom: 10px;
+
+
+}
+
+.markers .small_blue{
+    background-position: left bottom;
+
+
+}
+
+.markers .mid_blue{
+    background-position: left top;
+    margin-bottom: 10px;
+
+
+}
+
+.markers .light_blue{
+    background-position: left bottom;
+    margin-bottom: 1px;
+
+
+}

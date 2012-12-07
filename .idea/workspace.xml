@@ -2,8 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/blue_load_bar_sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/diagram.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/diagram_color_sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/ico_course.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/ico_opros.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/ico_test.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/load_bar_light_sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/load_dark_blue.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/load_light_blue.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/load_mid_blue.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/load_small_blue.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/otchet.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/otchet_index.html" />
+      <change type="DELETED" beforePath="D:\tb_courses\images\Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="D:\tb_courses\images\add-user-link_final-(1)_01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\tb_courses\images\add-user-link_final-(1)_02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\tb_courses\images\add-user-link_final-(1)_03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\tb_courses\images\add-user-link_final-(1)_04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\tb_courses\images\add-user-link_final-(1)_05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\tb_courses\images\add-user-link_final-(1)_06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\tb_courses\images\add-user-link_final-(1)_07.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\tb_courses\images\add-user-link_final-(1)_08.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\tb_courses\images\add-user-link_final-(1)_09.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\tb_courses\images\add-user-link_final-(1)_10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\tb_courses\images\add-user-link_final-(1)_12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\tb_courses\images\add-user-link_final-(1)_13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\tb_courses\images\add-user-link_final-(1)_14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\tb_courses\images\add-user-link_final-(1)_15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\tb_courses\images\add-user-link_final-(1)_16.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\tb_courses\images\add-user-link_final-(1)_17.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\tb_courses\images\seconds.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\tb_courses\images\test-assign-2_final_-(1)_03.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profile.html" afterPath="$PROJECT_DIR$/profile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account.css" afterPath="$PROJECT_DIR$/account.css" />
     </list>
     <ignored path="tb_courses.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,82 +55,51 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="test-assign.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/test-assign.css">
+      <file leaf-file-name="otchet_index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/otchet_index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="164" column="19" selection-start="3884" selection-end="3884" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="profile.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/profile.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="124" column="40" selection-start="5166" selection-end="5166" vertical-scroll-proportion="0.34879032">
+            <state line="257" column="110" selection-start="12590" selection-end="12590" vertical-scroll-proportion="-4.9607844">
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#2;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profile.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/profile.js">
+      <file leaf-file-name="otchet.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/otchet.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="46" selection-start="1061" selection-end="1061" vertical-scroll-proportion="0.0">
+            <state line="330" column="22" selection-start="5251" selection-end="5251" vertical-scroll-proportion="0.7814286">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="course-assign.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/course-assign.css">
+      <file leaf-file-name="course-view.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/course-view.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2201" column="6" selection-start="39803" selection-end="39808" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="account.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/account.css">
+      <file leaf-file-name="course-view-admin-result-fail.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/course-view-admin-result-fail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="459" column="13" selection-start="8299" selection-end="8299" vertical-scroll-proportion="0.0">
+            <state line="4" column="72" selection-start="277" selection-end="277" vertical-scroll-proportion="56.23077">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery.fancybox.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/jquery.fancybox/jquery.fancybox.css">
+      <file leaf-file-name="course-view-progress.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/course-view-progress.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="18" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="blue_arr.png" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/blue_arr.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="profile-org.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/profile-org.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="116" column="39" selection-start="5030" selection-end="5057" vertical-scroll-proportion="-4.576923">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="profile-admin.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/profile-admin.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="38" selection-start="0" selection-end="19176" vertical-scroll-proportion="-5.8846154">
+            <state line="6" column="61" selection-start="394" selection-end="394" vertical-scroll-proportion="-3.9230769">
               <folding />
             </state>
           </provider>
@@ -117,7 +118,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/css/webinar-assign.css" />
         <option value="$PROJECT_DIR$/webinar-create-exel2.html" />
         <option value="$PROJECT_DIR$/css/base.dialog.assign.css" />
         <option value="$PROJECT_DIR$/letter/letter.html" />
@@ -129,19 +129,19 @@
         <option value="$PROJECT_DIR$/js/jquery.fancybox/jquery.fancybox.css" />
         <option value="$PROJECT_DIR$/resize-test-assign-step2.html" />
         <option value="$PROJECT_DIR$/css/test-assign.css" />
-        <option value="$PROJECT_DIR$/js/profile.js" />
-        <option value="$PROJECT_DIR$/account.css" />
         <option value="$PROJECT_DIR$/profile-org.html" />
         <option value="$PROJECT_DIR$/profile.html" />
+        <option value="$PROJECT_DIR$/account.css" />
+        <option value="$PROJECT_DIR$/otchet3.html" />
+        <option value="$PROJECT_DIR$/css/otchet.css" />
       </list>
     </option>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="width" value="1456" />
+    <option name="height" value="886" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -169,6 +169,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -197,13 +198,26 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tb_courses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tb_courses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -216,9 +230,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\workspere\markup\tb_courses" />
-      <recent name="D:\tb_courses\letter" />
       <recent name="D:\tb_courses" />
+      <recent name="D:\tb_courses\letter" />
     </key>
   </component>
   <component name="RunManager">
@@ -289,34 +302,24 @@
       <updated>1354526214025</updated>
     </task>
     <task id="LOCAL-00009" summary="last change">
-      <created>1354822521665</created>
-      <updated>1354822521665</updated>
+      <created>1354803213385</created>
+      <updated>1354803213385</updated>
     </task>
-    <task id="LOCAL-00010" summary="fix">
-      <created>1354826906349</created>
-      <updated>1354826906349</updated>
+    <task id="LOCAL-00010" summary="last change">
+      <created>1354812741406</created>
+      <updated>1354812741406</updated>
     </task>
-    <task id="LOCAL-00011" summary="fix">
-      <created>1354881152267</created>
-      <updated>1354881152267</updated>
-    </task>
-    <task id="LOCAL-00012" summary="fix">
-      <created>1354881671201</created>
-      <updated>1354881671201</updated>
-    </task>
-    <option name="localTasksCounter" value="13" />
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1456" height="886" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27348486" sideWeight="0.94133335" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24911785" sideWeight="0.94133335" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -324,8 +327,10 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -366,7 +371,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="last change" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -381,80 +386,19 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="files" />
     <MESSAGE value="last change" />
-    <MESSAGE value="fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/letter/images/ability_img.jpg">
+    <entry file="file://$PROJECT_DIR$/images/corner_settings_course.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/letter/mail-remainder.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="196" selection-start="2638" selection-end="2799" vertical-scroll-proportion="1.090379" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/letter/mail-registration.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="59" selection-start="3738" selection-end="3738" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result-test-final.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery.fancybox/jquery.fancybox.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="18" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/course-assign.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2201" column="6" selection-start="39803" selection-end="39808" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/blue_arrow_niz.png">
+    <entry file="file://$PROJECT_DIR$/images/ico_faq.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resize-test-assign-step2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="507" column="14" selection-start="24654" selection-end="24654" vertical-scroll-proportion="0.17953669" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/test-assign.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="164" column="19" selection-start="3884" selection-end="3884" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/profile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="46" selection-start="1061" selection-end="1061" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/account.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="459" column="13" selection-start="8299" selection-end="8299" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/images/blue_arr.png">
@@ -462,26 +406,89 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/profile-admin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="38" selection-start="0" selection-end="19176" vertical-scroll-proportion="-5.8846154">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/profile-org.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="39" selection-start="5030" selection-end="5057" vertical-scroll-proportion="-4.576923">
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/images/but_gray.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/profile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="124" column="40" selection-start="5166" selection-end="5166" vertical-scroll-proportion="0.34879032">
+        <state line="267" column="0" selection-start="12935" selection-end="12935" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/history_ico.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profile-admin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/cv-home-ico.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course-view-progress.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="61" selection-start="394" selection-end="394" vertical-scroll-proportion="-3.9230769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course-view-admin-result-fail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="72" selection-start="277" selection-end="277" vertical-scroll-proportion="56.23077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/ico_faq.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/diagram_color_sprite.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course-view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="664" column="0" selection-start="11789" selection-end="11789" vertical-scroll-proportion="0.75714284">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/otchet_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="257" column="110" selection-start="12590" selection-end="12590" vertical-scroll-proportion="-4.9607844">
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#2;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/otchet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="330" column="22" selection-start="5251" selection-end="5251" vertical-scroll-proportion="0.7814286">
+          <folding />
         </state>
       </provider>
     </entry>
