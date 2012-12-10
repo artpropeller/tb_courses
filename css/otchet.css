@@ -1,5 +1,5 @@
 #course-view .otchet .dash-bottom {
-    padding:15px 20px;
+    padding:15px 17px;
     overflow: auto;
 }
 
@@ -7,7 +7,7 @@
     background: #fff;
     border-radius: 3px;
     -webkit-border-radius: 3px;
-    width: 271px;
+    width: 278px;
     border: 1px solid #f3f3f3;
     border-top: 0;
     box-shadow: 0 1px 1px #f3f3f3;
@@ -29,7 +29,7 @@
 
 }
 
-.otchet {
+#course-view .otchet {
     padding-left: 15px;
 }
 
@@ -53,7 +53,7 @@
     margin-bottom: 15px;
 }
 
-.colors span {
+#course-view .otchet .colors span {
     display: block;
     color: #000;
     font-size: 13px;
@@ -63,29 +63,29 @@
     padding-left: 25px;
 }
 
-.colors .blue {
+#course-view .otchet .colors .blue {
     background-position: top left;
 
 }
 
-.colors .red {
+#course-view .otchet .colors .red {
     background-position: left -31px;
 }
 
-.colors .yellow {
+#course-view .otchet .colors .yellow {
     background-position: left -60px;
 }
 
-.colors .gray {
+#course-view .otchet .colors .gray {
     background-position: left bottom;
 }
 
-.colors {
+#course-view .otchet .colors {
     padding-left: 25px;
 
 }
 
-.itogo {
+#course-view .otchet .itogo {
     border-radius: 3px;
     -webkit-border-radius: 3px;
     margin: 0 12px;
@@ -96,13 +96,13 @@
     box-shadow: inset 0 1px 2px #cecece;
 }
 
-.itogo span {
+#course-view .otchet .itogo span {
     display: block;
     padding-top: 2px;
 
 }
 
-.green_but {
+#course-view .otchet .green_but {
     background: #6ac13c;
     box-shadow: inset 0 1px 2px #468028;
     color: #fff;
@@ -114,7 +114,7 @@
 
 }
 
-.green_but:hover {
+#course-view .otchet .green_but:hover {
     box-shadow: none;
     color: #fff;
 }
@@ -187,19 +187,19 @@
 
 }
 
-.border em {
+#course-view .otchet .border em {
     font-size: 11px;
     color: #999;
     font-style: normal;
 
 }
 
-.border em, .border span, .border strong {
+#course-view .otchet .border em, #course-view .otchet .border span, #course-view .otchet .border strong {
     display: block;
     text-align: center;
 }
 
-.border strong {
+#course-view .otchet .border strong {
     font-size: 19px;
 
 }
@@ -211,7 +211,7 @@
     float: left;
 }
 
-.border span {
+#course-view .otchet .border span {
     font-size: 13px;
 }
 
@@ -219,7 +219,7 @@
     border: 0;
 }
 
-.load_bar {
+#course-view .otchet .load_bar {
     position: relative;
     width: 100%;
     margin-bottom: 12px;
@@ -228,7 +228,7 @@
 
 }
 
-.load_bar .hov {
+#course-view .otchet .load_bar .hov {
     background: #d6d6d6;
     overflow: auto;
     border-radius: 25px;
@@ -237,35 +237,35 @@
 
 }
 
-.load_bar div{
+#course-view .otchet .load_bar div{
     height: 25px;
 }
 
-.load_bar .dark_blue{
+#course-view .otchet .load_bar .dark_blue{
     background: url("../images/load_dark_blue.jpg") repeat-x;
 
 
 }
 
-.load_bar .mid_blue{
+#course-view .otchet .load_bar .mid_blue{
     background: url("../images/load_mid_blue.jpg") repeat-x;
 
 
 }
 
-.load_bar .small_blue{
+#course-view .otchet .load_bar .small_blue{
     background: url("../images/load_small_blue.jpg") repeat-x;
 
 
 }
 
-.load_bar .light_blue{
+#course-view .otchet .load_bar .light_blue{
     background: url("../images/load_light_blue.jpg") repeat-x;
 
 
 }
 
-.load_bar .stat{
+#course-view .otchet .load_bar .stat{
     font-size: 13px;
     color: #000;
     position: absolute;
@@ -274,22 +274,22 @@
     width: 100%;
 }
 
-.sod .itogo{
+#course-view .otchet .sod .itogo{
     margin: 0;
     margin-right: -8px;
 }
 
-.sod .itogo span{
+#course-view .otchet .sod .itogo span{
     margin-right: 15px;
 
 }
 
 
-.markers .lp{
+#course-view .otchet .markers .lp{
     margin-right: 55px;
 }
 
-.markers .lp div, .markers .rp div{
+#course-view .otchet .markers .lp div, #course-view .otchet .markers .rp div{
     background-image: url("../images/blue_load_bar_sprite.png");
     background-repeat: no-repeat;
     padding-left: 25px;
@@ -298,7 +298,7 @@
 
 }
 
-.markers .rp div{
+#course-view .otchet .markers .rp div{
     background-image: url("../images/load_bar_light_sprite.png");
 
 }
@@ -308,7 +308,7 @@
 
 
 
-.markers .dark_blue{
+#course-view .otchet .markers .dark_blue{
     background-position: left top;
     margin-bottom: 10px;
     margin-left: 10px;
@@ -316,23 +316,21 @@
 
 }
 
-.markers .small_blue{
+#course-view .otchet .markers .small_blue{
     background-position: left bottom;
     margin-left: 10px;
 
 
 }
 
-.markers .mid_blue{
+#course-view .otchet .markers .mid_blue{
     background-position: left top;
     margin-bottom: 10px;
 
 
 }
 
-.markers .light_blue{
+#course-view .otchet .markers .light_blue{
     background-position: left bottom;
     margin-bottom: 1px;
-
-
 }
