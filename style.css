@@ -1,12 +1,3 @@
-@charset "utf-8";
-/*______________________________________________________________________________________________
-CSS:0.	General styles
-	1.	Footer
-	2.	Header
-	3.	Main content
-______________________________________________________________________________________________*/
-
-/* ________________________________________ 0.	General styles _______________________________*/
 
 * {
     margin: 0;
@@ -151,8 +142,8 @@ ol>li:before {
     margin: 0 0 0 -17px;
     width: 17px;
     display: inline-block;
-    content: counters(item, ".") ". ";
-    counter-increment: item;
+    /*content: counters(item, ".") ". ";*/
+    /*counter-increment: item;*/
     color: #4b7eac;
 }
 

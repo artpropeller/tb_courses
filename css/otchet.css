@@ -276,6 +276,8 @@
     text-align: center;
     padding-top: 4px;
     width: 100%;
+    left: 0;
+    top: 0;
 }
 
 #course-view .otchet .sod .itogo{
@@ -330,9 +332,8 @@
 #course-view .otchet .markers .mid_blue{
     background-position: left top;
     margin-bottom: 10px;
-
-
 }
+
 
 #course-view .otchet .markers .light_blue{
     background-position: left bottom;
