@@ -1,9 +1,143 @@
-#course-view .otchet .dash-bottom {
+/*BEGIN:перенесено corse-view.css*/
+#header .container {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: auto;
+    position: relative;
+}
+
+
+
+#header .container .header-search {
+    position: relative;
+    float: right;
+    right: 0;
+}
+
+#stat-view {
+    padding: 0 22px;
+    width: 1000px;
+    margin: -4px auto 0;
+}
+
+#main {
+    max-height: none;
+    height: auto;
+}
+
+
+#stat-view .dash-top, #stat-view .dash-right, #stat-view .dash-left, #stat-view .dash-bottom {
+    position: static;
+    width: auto;
+    height: auto;
+    margin: 0;
+}
+
+#stat-view .dash-right, #stat-view .dash-left {
+    background-position: right;
+    background-image:url("../images/bg/dashed-v.png");
+    background-repeat: repeat-y ;
+}
+
+#stat-view .dash-left {
+    background-position: left;}
+
+#stat-view .dash-bottom {
+    padding: 5px 6px;
+    background-position: bottom;
+}
+
+#course_assign .dash-bottom{
+    padding: 0;
+    background-position: bottom;
+}
+
+
+#stat-view .head .menu{
+    border-radius: 3px;
+    border: 1px solid #d7d7d7;
+    overflow: auto;
+    float: left;
+    margin: 0;
+}
+
+#stat-view .head .menu li {
+    float: left;
+    padding: 5px 18px 0;
+    margin: 0;
+    background: url("../images/cv-menu.jpg") repeat-x;
+    height: 25px;
+    border-right: 1px solid #d7d7d7;
+    font-size: 14px;
+
+}
+
+#stat-view .head .menu li.home {
+    padding: 6px 10px 0 10px;
+    height: 24px;
+}
+
+#stat-view .head .menu li.home a {
+    width: 17px;
+    height: 17px;
+    margin-left: 2px;
+    background: url("../images/cv-home-ico.png") no-repeat right;
+    display: block;
+}
+
+#stat-view .head .menu li.home.active a {
+    background: url("../images/cv-home-ico.png") no-repeat left;
+}
+
+#stat-view .head .menu li.active {
+    background: #a2acb6;
+    color: #fff;
+    box-shadow: inset 0 0 5px #696f76;
+}
+
+#stat-view .head .menu li a {
+    display: block;
+    overflow: auto;
+    float: left;
+}
+
+#stat-view .head .menu li.active a {
+    color: #fff;
+    text-shadow: 0 1px 0 #4e5359;
+}
+
+#stat-view .head .menu li a span {
+    color: #fff;
+    font-weight: bold;
+    font-size: 10px;
+    background: #de4940;
+    display: inline-block;
+    margin-left: 2px;
+    border-radius: 2px;
+    padding: 3px 6px;
+    line-height: 10px;
+    border: 1px solid #ce443b;
+    box-shadow: 0 2px 0 #fff;
+}
+
+#stat-view .head .menu li.last {
+    border: none;
+}
+
+
+/*END:перенесено corse-view.css*/
+
+#header {
+    margin-bottom: 15px;
+}
+
+
+#stat-view .otchet .dash-bottom {
     padding:15px 17px;
     overflow: auto;
 }
 
-#course-view .otchet .inner .left, #course-view .otchet .right .block {
+#stat-view .otchet .inner .left, #stat-view .otchet .right .block {
     background: #fff;
     border-radius: 3px;
     -webkit-border-radius: 3px;
@@ -16,12 +150,12 @@
 
 }
 
-#course-view .otchet .menu {
+#stat-view .otchet .menu {
     margin-bottom: 15px;
     margin-top: 5px;
 }
 
-#course-view .otchet h3 {
+#stat-view .otchet h3 {
     color: #000;
     font-size: 17px;
     font-weight: bold;
@@ -29,11 +163,11 @@
 
 }
 
-#course-view .otchet {
+#stat-view .otchet {
     padding-left: 15px;
 }
 
-#course-view .otchet .faq {
+#stat-view .otchet .faq {
     background: url("../images/ico_faq.png");
     width: 17px;
     height: 17px;
@@ -42,22 +176,22 @@
 
 }
 
-#course-view .otchet .window_name {
+#stat-view .otchet .window_name {
     border-bottom: 1px solid #f3f3f3;
     padding: 8px 20px;
     margin-bottom: 15px;
 }
 
-#course-view .otchet .left .window_name {
+#stat-view .otchet .left .window_name {
     margin-bottom: 0;
 }
 
-#course-view .otchet .img {
+#stat-view .otchet .img {
     text-align: center;
     margin-bottom: 0;
 }
 
-#course-view .otchet .colors span {
+#stat-view .otchet .colors span {
     display: block;
     color: #000;
     font-size: 13px;
@@ -67,29 +201,29 @@
     padding-left: 25px;
 }
 
-#course-view .otchet .colors .blue {
+#stat-view .otchet .colors .blue {
     background-position: top left;
 
 }
 
-#course-view .otchet .colors .red {
+#stat-view .otchet .colors .red {
     background-position: left -31px;
 }
 
-#course-view .otchet .colors .yellow {
+#stat-view .otchet .colors .yellow {
     background-position: left -60px;
 }
 
-#course-view .otchet .colors .gray {
+#stat-view .otchet .colors .gray {
     background-position: left bottom;
 }
 
-#course-view .otchet .colors {
+#stat-view .otchet .colors {
     padding-left: 25px;
 
 }
 
-#course-view .otchet .itogo {
+#stat-view .otchet .itogo {
     border-radius: 3px;
     -webkit-border-radius: 3px;
     margin: 0 12px;
@@ -100,13 +234,13 @@
     box-shadow: inset 0 1px 2px #cecece;
 }
 
-#course-view .otchet .itogo span {
+#stat-view .otchet .itogo span {
     display: block;
     padding-top: 2px;
 
 }
 
-#course-view .otchet .green_but {
+#stat-view .otchet .green_but {
     background: #6ac13c;
     box-shadow: inset 0 1px 2px #468028;
     color: #fff;
@@ -118,16 +252,16 @@
 
 }
 
-#course-view .otchet .green_but:hover {
+#stat-view .otchet .green_but:hover {
     box-shadow: none;
     color: #fff;
 }
 
-#course-view .otchet .right {
+#stat-view .otchet .right {
     width: 650px;
 }
 
-#course-view .otchet .right .block {
+#stat-view .otchet .right .block {
     width: 655px;
     margin-right: 0;
     margin-bottom: 12px;
@@ -135,16 +269,16 @@
 }
 
 
-#course-view .otchet .right .block.last{
+#stat-view .otchet .right .block.last{
     margin-bottom: 0;
 }
 
-#course-view .otchet .right .block .sod, #course-view .otchet .right .block .sod2 {
+#stat-view .otchet .right .block .sod, #stat-view .otchet .right .block .sod2 {
     padding: 0 20px 15px;
     overflow: auto;
 }
 
-#course-view .otchet .right .block .tab  li {
+#stat-view .otchet .right .block .tab  li {
     border-radius: 3px;
     -webkit-border-radius: 3px;
     padding: 12px 15px;
@@ -157,33 +291,33 @@
     background: #f7f7f7;
 }
 
-#course-view .otchet .right .block .tab  li.last {
+#stat-view .otchet .right .block .tab  li.last {
     margin-right: 0;
 }
 
-#course-view .otchet .right .block .tab  li img {
+#stat-view .otchet .right .block .tab  li img {
     float: left;
     margin-right: 15px;
     margin-top: 2px;
 
 }
 
-#course-view .otchet .right .block .tab  li .znach {
+#stat-view .otchet .right .block .tab  li .znach {
     font-weight: bold;
 
 }
 
-#course-view .otchet .right .block .tab li em {
+#stat-view .otchet .right .block .tab li em {
     font-style: normal;
     font-size: 12px;
     display: block;
 }
 
-#course-view .otchet .right .block .tab li strong {
+#stat-view .otchet .right .block .tab li strong {
     font-size: 30px;
 }
 
-#course-view .otchet .right .block .border {
+#stat-view .otchet .right .block .border {
     border: 1px solid #e5e5e5;
     color: #000;
     margin-bottom: 0;
@@ -191,39 +325,39 @@
 
 }
 
-#course-view .otchet .border em {
+#stat-view .otchet .border em {
     font-size: 11px;
     color: #999;
     font-style: normal;
 
 }
 
-#course-view .otchet .border em, #course-view .otchet .border span, #course-view .otchet .border strong {
+#stat-view .otchet .border em, #stat-view .otchet .border span, #stat-view .otchet .border strong {
     display: block;
     text-align: center;
 }
 
-#course-view .otchet .border strong {
+#stat-view .otchet .border strong {
     font-size: 19px;
 
 }
 
-#course-view .otchet .right .block .border li {
+#stat-view .otchet .right .block .border li {
     width: 151px;
     border-right: 1px solid #e5e5e5;
     padding: 5px 0;
     float: left;
 }
 
-#course-view .otchet .border span {
+#stat-view .otchet .border span {
     font-size: 13px;
 }
 
-#course-view .otchet .right .block .border li.last {
+#stat-view .otchet .right .block .border li.last {
     border: 0;
 }
 
-#course-view .otchet .load_bar {
+#stat-view .otchet .load_bar {
     position: relative;
     width: 100%;
     margin-bottom: 12px;
@@ -232,7 +366,7 @@
 
 }
 
-#course-view .otchet .load_bar .hov {
+#stat-view .otchet .load_bar .hov {
     background: #d6d6d6;
     overflow: auto;
     border-radius: 25px;
@@ -241,35 +375,35 @@
 
 }
 
-#course-view .otchet .load_bar div{
+#stat-view .otchet .load_bar div{
     height: 25px;
 }
 
-#course-view .otchet .load_bar .dark_blue{
+#stat-view .otchet .load_bar .dark_blue{
     background: url("../images/load_dark_blue.jpg") repeat-x;
 
 
 }
 
-#course-view .otchet .load_bar .mid_blue{
+#stat-view .otchet .load_bar .mid_blue{
     background: url("../images/load_mid_blue.jpg") repeat-x;
 
 
 }
 
-#course-view .otchet .load_bar .small_blue{
+#stat-view .otchet .load_bar .small_blue{
     background: url("../images/load_small_blue.jpg") repeat-x;
 
 
 }
 
-#course-view .otchet .load_bar .light_blue{
+#stat-view .otchet .load_bar .light_blue{
     background: url("../images/load_light_blue.jpg") repeat-x;
 
 
 }
 
-#course-view .otchet .load_bar .stat{
+#stat-view .otchet .load_bar .stat{
     font-size: 13px;
     color: #000;
     position: absolute;
@@ -280,22 +414,22 @@
     top: 0;
 }
 
-#course-view .otchet .sod .itogo{
+#stat-view .otchet .sod .itogo{
     margin: 0;
     margin-right: -8px;
 }
 
-#course-view .otchet .sod .itogo span{
+#stat-view .otchet .sod .itogo span{
     margin-right: 15px;
 
 }
 
 
-#course-view .otchet .markers .lp{
+#stat-view .otchet .markers .lp{
     margin-right: 55px;
 }
 
-#course-view .otchet .markers .lp div, #course-view .otchet .markers .rp div{
+#stat-view .otchet .markers .lp div, #stat-view .otchet .markers .rp div{
     background-image: url("../images/blue_load_bar_sprite.png");
     background-repeat: no-repeat;
     padding-left: 25px;
@@ -304,38 +438,31 @@
 
 }
 
-#course-view .otchet .markers .rp div{
+#stat-view .otchet .markers .rp div{
     background-image: url("../images/load_bar_light_sprite.png");
 
 }
 
-
-
-
-
-
-#course-view .otchet .markers .dark_blue{
+#stat-view .otchet .markers .dark_blue{
     background-position: left top;
     margin-bottom: 10px;
     margin-left: 10px;
-
-
 }
 
-#course-view .otchet .markers .small_blue{
+#stat-view .otchet .markers .small_blue{
     background-position: left bottom;
     margin-left: 10px;
 
 
 }
 
-#course-view .otchet .markers .mid_blue{
+#stat-view .otchet .markers .mid_blue{
     background-position: left top;
     margin-bottom: 10px;
 }
 
 
-#course-view .otchet .markers .light_blue{
+#stat-view .otchet .markers .light_blue{
     background-position: left bottom;
     margin-bottom: 1px;
 }
