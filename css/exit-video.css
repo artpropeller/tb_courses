@@ -1,0 +1,47 @@
+body{
+    background: #f0f0f0;
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.lfl{
+    float: left;
+}
+.ofl{
+    overflow: auto;
+}
+
+.top{
+    background: url("images/black_top_bg.jpg") repeat-x;
+}
+
+.top .left{
+    background: url("images/blzck_logo_teach.jpg") no-repeat;
+    width: 170px;
+    height: 43px;
+
+}
+
+.container{
+    margin:  0 auto;
+    width: 960px;
+}
+
+
+
+.center .container{
+    padding-top: 150px;
+    width: 740px;
+
+}
+
+h1{
+    font-size: 32px;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+.txt{
+    margin-left: 111px;
+    padding-top: 5px;
+}
