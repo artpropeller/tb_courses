@@ -279,8 +279,9 @@ var _scales = {
       },
       y = function (d) { return self.yScale(d.y); },
       line = d3.svg.line()
-        .x(x)
-        .interpolate(inter),
+        .x(x),
+        //отмена плавных линий
+//        .interpolate(inter),
       area = d3.svg.area()
         .x(x)
         .y1(self.yZero)
