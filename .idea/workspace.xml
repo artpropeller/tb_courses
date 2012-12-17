@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" name="Default" comment="last change">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/black_top_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/gray_arr_pic.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/exit-video.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/reset.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/exit-video.html" />
+    <list default="true" id="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/blzck_logo_teach.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/exit-video.css" afterPath="$PROJECT_DIR$/css/exit-video.css" />
     </list>
     <ignored path="tb_courses.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,22 +24,19 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="otchet_index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/otchet_index.html">
+      <file leaf-file-name="exit-video.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exit-video.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="237" column="0" selection-start="11219" selection-end="11219" vertical-scroll-proportion="-8.576923">
-              <folding>
-                <marker date="1355494651625" expanded="true" signature="2961:3054" placeholder="..." />
-                <marker date="1355494651625" expanded="true" signature="2987:3042" placeholder="{...}" />
-              </folding>
+            <state line="12" column="40" selection-start="422" selection-end="422" vertical-scroll-proportion="-7.8461537">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="exit-video.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/exit-video.html">
+      <file leaf-file-name="exit-video.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/exit-video.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="40" selection-start="422" selection-end="422" vertical-scroll-proportion="0.2918455">
+            <state line="15" column="1" selection-start="216" selection-end="216" vertical-scroll-proportion="0.35172415">
               <folding />
             </state>
           </provider>
@@ -51,7 +45,7 @@
       <file leaf-file-name="otchet.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/otchet.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="168" column="0" selection-start="3009" selection-end="3009" vertical-scroll-proportion="0.0">
+            <state line="184" column="24" selection-start="3307" selection-end="3312" vertical-scroll-proportion="-19.52">
               <folding />
             </state>
           </provider>
@@ -70,7 +64,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/letter/letter.html" />
         <option value="$PROJECT_DIR$/letter/mail-pay.html" />
         <option value="$PROJECT_DIR$/letter/mail-remainder.html" />
         <option value="$PROJECT_DIR$/letter/mail-results.html" />
@@ -86,6 +79,7 @@
         <option value="$PROJECT_DIR$/otchet_index.html" />
         <option value="$PROJECT_DIR$/css/otchet.css" />
         <option value="$PROJECT_DIR$/exit-video.html" />
+        <option value="$PROJECT_DIR$/css/exit-video.css" />
       </list>
     </option>
   </component>
@@ -176,9 +170,9 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="last_opened_file_path" value="D:/Craftman" />
-    <property name="options.searchVisible" value="true" />
+    <property name="last_opened_file_path" value="D:/teachbase_front" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -269,17 +263,21 @@
       <created>1355056458889</created>
       <updated>1355056458889</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="last change">
+      <created>1355494759855</created>
+      <updated>1355494759855</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="886" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24911785" sideWeight="0.94133335" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24911785" sideWeight="0.94133335" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -351,11 +349,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/images/ico_faq.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/blue_arr.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -418,14 +411,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/otchet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="168" column="0" selection-start="3009" selection-end="3009" vertical-scroll-proportion="0.0">
+        <state line="184" column="24" selection-start="3307" selection-end="3312" vertical-scroll-proportion="-19.52">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/otchet_index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="237" column="0" selection-start="11219" selection-end="11219" vertical-scroll-proportion="-8.576923">
+        <state line="237" column="0" selection-start="11219" selection-end="11219" vertical-scroll-proportion="1.9241774">
           <folding>
             <marker date="1355494651625" expanded="true" signature="2961:3054" placeholder="..." />
             <marker date="1355494651625" expanded="true" signature="2987:3042" placeholder="{...}" />
@@ -435,7 +428,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/exit-video.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="40" selection-start="422" selection-end="422" vertical-scroll-proportion="0.2918455">
+        <state line="12" column="40" selection-start="422" selection-end="422" vertical-scroll-proportion="-7.8461537">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/exit-video.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="1" selection-start="216" selection-end="216" vertical-scroll-proportion="0.35172415">
           <folding />
         </state>
       </provider>
