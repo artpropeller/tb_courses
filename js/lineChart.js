@@ -175,6 +175,8 @@ var opts = {
     "axisPaddingLeft":20,
     "axisPaddingRight":20,
     "paddingBottom":20,
+    "paddingLeft":20,
+    "paddingRight":0,
     "tickHintX":11,
     "tickHintY":2,
     "dataFormatX":function (x) {

@@ -134,7 +134,7 @@
 
 #stat-view .otchet .dash-bottom {
     padding:15px 17px;
-    overflow: auto;
+    overflow: visible;
 }
 
 #stat-view .otchet .inner .left, #stat-view .otchet .right .block {
@@ -555,4 +555,492 @@
 .user-line.color1:before {
     border-color: rgba(144, 199, 211, 0);
     border-left-color: #90c7d3;
+}
+
+#stat-view .white-block {
+    background: #fff;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border: 1px solid #f3f3f3;
+    border-top: 0;
+    box-shadow: 1px 1px 0 0 rgba(0,0,0,0.05);
+}
+
+#stat-view .select {
+    width: 183px;
+    height: 31px;
+    border-radius: 2px;
+    border: 1px solid #bfbfbf;
+    position: relative;
+    background: #fafafa url("../images/st-select-bg.png") repeat-x top;
+    margin-left: 20px;
+    cursor: pointer;
+    padding: 0;
+    overflow: visible;
+    color: #404040;
+    font-size: 12px;
+    float: left;
+}
+
+#stat-view .select.date {
+    width: 205px;
+    margin-right: 16px;
+}
+
+#stat-view .select ul {
+    display: none;
+    position: absolute;
+    left: -1px;
+    z-index: 100;
+    width: 183px;
+    border-radius: 0 2px 2px 2px;
+    border: 1px solid #bfbfbf;
+    border-top:0;
+    padding: 0 0 0 0;
+    margin: 0;
+    top:32px;
+    background: #e4e4e4 url("../images/st-select-list-bg.png") repeat-x top;
+}
+
+#stat-view .select ul li {
+    padding: 10px;
+    line-height: 12px;
+    margin: 0;
+    border:1px solid transparent;
+    border-left:0;
+    border-right:0;
+}
+
+#stat-view .select ul li:hover {
+    color: #999999;
+}
+
+#stat-view .select ul li.active {
+    border-color: #d7d7d7;
+    background: #fff;
+    color: #404040;
+}
+
+#stat-view .select .toggle {
+    position: absolute;
+    border-radius: 2px;
+    border: 1px solid #bfbfbf;
+    height: 31px;
+    background: #fafafa url("../images/st-select-bg.png") repeat-x top;
+    width: 29px;
+    right: -1px;
+    top:-1px;
+}
+
+#stat-view .select .toggle img {
+    display: block;
+    margin: 14px 0 0 11px;
+}
+
+#stat-view .select .value {
+    width: 133px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 5px 0 0 10px;
+    white-space: nowrap;
+}
+
+#stat-view .select.date .value {
+    width: 160px;
+}
+
+#stat-view .select.active {
+    background: #fafafa url("../images/st-select-bg-active.png") repeat-x top;
+    border-bottom: 0;
+    height: 32px;
+    border-radius: 2px 2px 2px 0;
+}
+
+#stat-view .select .picker {
+    display: none;
+    position: absolute;
+    left: -1px;
+    z-index: 100;
+    border-radius: 0 2px 2px 2px;
+    border: 1px solid #bfbfbf;
+    padding: 0 0 0 0;
+    margin: 0;
+    top:31px;
+    width: 365px;
+    background: #e4e4e4 url("../images/st-select-list-bg.png") repeat-x top;
+}
+
+#stat-view .select .picker .border {
+    border-top:solid 1px #f3f3f3;
+    position: absolute;
+    width: 176px;
+    top:-1px;
+}
+
+#stat-view .datepickerContainer {
+    background: none;
+    font-size: 11px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#stat-view .datepickerContainer td, #stat-view .datepickerContainer th {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    border: 0;
+
+}
+
+#stat-view .datepickerContainer table td {
+    vertical-align: top;
+}
+
+#stat-view .datepickerContainer .datepickerDoW th {
+    color: #656565;
+    font-size: 9px;
+    text-transform: lowercase;
+    text-shadow: 0 1px 0 #fff;
+}
+
+#stat-view .datepickerContainer .datepickerDays td {
+    border:1px solid #b7c1cb;
+    height: 22px;
+    width: 22px;
+    line-height: 12px;
+    vertical-align: middle;
+    background: #fff;
+    cursor: pointer;
+}
+
+#stat-view .datepickerContainer .datepickerDays td a {
+    color: #dbd9d7;
+    cursor: pointer;
+    padding: 0 1px;
+}
+
+#stat-view .datepickerContainer .datepickerDays td.datepickerSelected {
+    background: #dbe3ec;
+
+}
+
+#stat-view .datepickerContainer .datepickerDays td.datepickerSelected a {
+    color: #3a3d3f;
+}
+
+#stat-view .datepickerContainer .datepickerDays td.datepickerSelected.datepickerNotInMonth {
+    background: #fff;
+}
+
+#stat-view .datepickerContainer, #stat-view .datepicker {
+    height: auto !important;
+    position: relative;
+    top:0;
+    left: 0;
+    padding: 5px 5px 5px;
+}
+
+#stat-view .datepickerMonth {
+    width: 80px;
+}
+
+#stat-view  .datepickerGoPrev {
+    width: 40px;
+}
+
+#stat-view .datepickerMonth a {
+    color: #474747;
+    font-size: 11px;
+}
+
+#stat-view  .datepickerGoPrev a {
+    width: 21px;
+    height: 21px;
+    background: url("../images/cal-prev.png") no-repeat;
+    float: right;
+}
+
+#stat-view  .datepickerGoNext a {
+    width: 21px;
+    height: 21px;
+    float: left;
+    background: url("../images/cal-next.png") no-repeat;
+}
+
+#stat-view .step {
+    padding: 6px 0 0;
+    margin: 0;
+}
+
+#stat-view .step li {
+    padding: 3px 6px;
+    margin: 0 2px;
+    line-height: 12px;
+    float: left;
+    font-size: 12px;
+    color: #000;
+    cursor: pointer;
+    border:1px solid transparent;
+}
+
+#stat-view .step li.active {
+    background: #e5e5e5;
+    border-radius: 3px;
+    border-color: #dedede;
+}
+
+#chart_div {
+    margin: 0 auto 35px;
+    width: 850px;
+    height: 190px;
+}
+
+#stat-view .metrics {
+    font-family: "PT Sans", sans-serif;
+    font-size: 14px;
+    color: #777777;
+    text-align: center;
+    line-height: 20px;
+    margin: 20px 0 25px;
+}
+
+#stat-view .metrics .val {
+    font-weight: bold;
+    color: #404040;
+    font-size: 20px;
+
+}
+
+#stat-view .metrics .item {
+    float: left;
+    width: 236px;
+    border-left: 1px solid #e1e1e1;
+    position: relative;
+}
+
+#stat-view .metrics .item .name {
+    position: relative;
+}
+
+#stat-view .metrics .item.last {
+    border-right: 1px solid #e1e1e1;
+}
+
+
+#stat-view .metrics .tooltip {
+    position: absolute;
+    border-radius: 5px;
+    padding:16px 15px;
+    /*display: none;*/
+    font-size: 12px;
+    color: #000000;
+    line-height: 14px;
+    left: 50%;
+    top:27px;
+    text-align: center;
+    width: 300px;
+    margin-left: -170px;
+    display: none;
+    text-align: left;
+    z-index: 10;
+}
+
+
+#stat-view .metrics .tooltip{
+    background: #f3faee;
+    border: 4px solid #ffffff;
+    box-shadow: 0 0 8px rgba(0,0,0,0.5);
+}
+#stat-view .metrics .tooltip:after, #stat-view .metrics .tooltip:before {
+    bottom: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+#stat-view .metrics .tooltip:after {
+    border-color: rgba(243, 250, 238, 0);
+    border-bottom-color: #f3faee;
+    border-width: 8px;
+    left: 50%;
+    margin-left: -8px;
+}
+#stat-view .metrics .tooltip:before {
+    border-color: rgba(255, 255, 255, 0);
+    border-bottom-color:  #ffffff;
+    border-width: 14px;
+    left: 50%;
+    margin-left: -14px;
+}
+
+#usersTable {
+    /*width: 100%;*/
+    margin: 0 0 0 15px;
+    background: url("../images/bg/dashed.png") repeat-x top;
+}
+
+#usersTable thead {
+    background: url("../images/bg/dashed.png") repeat-x bottom;
+}
+
+#usersTable th {
+    text-align: left;
+    font-size: 12px;
+    line-height: 12px;
+    vertical-align: bottom;
+    font-weight: normal;
+    color: #000;
+    padding: 5px 0;
+}
+
+#usersTable th.check {
+    width: 30px;
+}
+
+#usersTable th.name {
+    width: 220px;
+    cursor: pointer;
+}
+
+#usersTable th.quantity-visits {
+    width: 115px;
+    cursor: pointer;
+}
+
+#usersTable th.time {
+    width: 150px;
+    cursor: pointer;
+}
+
+#usersTable th.quantity-views {
+     width: 260px;
+}
+
+#usersTable th.quantity-videos {
+    width: 135px;
+    cursor: pointer;
+}
+
+#stat-view .users {
+    padding: 15px 0;
+}
+
+
+#usersTable td {
+    text-align: left;
+    font-size: 12px;
+    line-height: 12px;
+    vertical-align: middle;
+    font-weight: normal;
+    color: #000;
+    padding: 3px 0 4px;
+    margin: 2px;
+}
+
+#usersTable tbody tr {
+    background: url("../images/bg/dashed.png") repeat-x bottom;
+    padding:  0;
+}
+
+#usersTable tbody td.name img {
+    display: block;
+    float: left;
+    margin-right: 8px;
+}
+
+#usersTable tbody td.name span {
+   display: block;
+   float: left;
+    padding-top: 4px;
+}
+
+#usersTable .head-pub {
+    text-align: center;
+    margin-right: 20px;
+    padding-bottom: 2px;
+    border-bottom: solid 1px #cccccc;
+    margin-bottom: 2px;
+}
+
+#usersTable .quantity-views span {
+    width: 86px;
+    display: block;
+    float: left;
+}
+
+#usersTable td.views {
+    width: 86px;
+}
+
+#usersTable td.check span {
+    display: block;
+    background: url("../images/checkbox_par.png") no-repeat center;
+    width: 16px;
+    height: 24px;
+    cursor: pointer;
+    margin-left: 7px;
+}
+
+#usersTable tbody td .sel {
+    height: 18px;
+    padding-top: 6px;
+}
+
+#usersTable tbody td.name .sel {
+    padding-top: 2px;
+    height: 22px;
+}
+
+#usersTable tbody .active td .sel {
+    background: #ebf0f5;
+    border:0;
+}
+
+#usersTable tbody td.check .sel {
+    height: 24px;
+    padding-top: 0;
+}
+
+#usersTable .active td.check span {
+    background: url("../images/checkbox_par_active.png") no-repeat center;
+}
+
+#usersTable th.sorting-asc, #usersTable th.sorting-desc {
+    font-weight: bold;
+}
+
+#usersTable th.sorting-asc {
+     background-image: url("../images/toggle-select-top.png");
+     background-repeat: no-repeat;
+ }
+
+#usersTable th.sorting-desc {
+    background-image: url("../images/toggle-select.png");
+    background-repeat: no-repeat;
+}
+
+#usersTable th.sorting-asc.name, #usersTable th.sorting-desc.name {
+    background-position: 100px 25px;
+}
+
+#usersTable th.sorting-asc.quantity-visits, #usersTable th.sorting-desc.quantity-visits {
+    background-position: 75px 21px;
+}
+
+#usersTable th.sorting-asc.time, #usersTable th.sorting-desc.time {
+    background-position: 85px 21px;
+}
+
+#usersTable th.sorting-asc.quantity-videos, #usersTable th.sorting-desc.quantity-videos {
+    background-position: 120px 21px;
+}
+
+#stat-view .userstable {
+    height: 250px;
+}
+
+#stat-view .userstable .jspVerticalBar {
+    right: 8px;
 }
