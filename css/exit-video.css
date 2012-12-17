@@ -12,7 +12,7 @@ body{
 }
 
 .top{
-    background: url("images/black_top_bg.jpg") repeat-x;
+    background: url("../images/black_top_bg.jpg") repeat-x;
 }
 
 .top .left{
