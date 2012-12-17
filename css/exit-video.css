@@ -12,11 +12,11 @@ body{
 }
 
 .top{
-    background: url("images/black_top_bg.jpg") repeat-x;
+    background: url("../images/black_top_bg.jpg") repeat-x;
 }
 
 .top .left{
-    background: url("images/blzck_logo_teach.jpg") no-repeat;
+    background: url("../images/blzck_logo_teach.jpg") no-repeat;
     width: 170px;
     height: 43px;
 
