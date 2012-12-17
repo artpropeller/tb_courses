@@ -472,3 +472,87 @@
 #piechart-users {
     background: url("../images/piechart_bg.png") no-repeat center 27px;
 }
+
+
+.chart-tooltip {
+    position: absolute;
+    border-radius: 5px;
+    padding: 4px 15px;
+    display: none;
+    text-align: center;
+}
+
+
+.chart-tooltip{
+    background: #f3faee;
+    border: 4px solid #ffffff;
+    box-shadow: 0 0 8px rgba(0,0,0,0.3);
+}
+.chart-tooltip:after, .chart-tooltip:before {
+    top: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.chart-tooltip:after {
+    border-color: rgba(243, 250, 238, 0);
+    border-top-color: #f3faee;
+    border-width: 8px;
+    left: 50%;
+    margin-left: -8px;
+}
+.chart-tooltip:before {
+    border-color: rgba(255, 255, 255, 0);
+    border-top-color: #ffffff;
+    border-width: 14px;
+    left: 50%;
+    margin-left: -14px;
+}
+
+.user-line {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    padding: 2px;
+}
+
+.user-line.color1 {
+    border: 2px solid #90c7d3;
+}
+.user-line:after, .user-line:before {
+    left: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.user-line:after {
+    border-width: 8px;
+    top: 50%;
+    margin-top: -8px;
+}
+
+.user-line.color1:after {
+    border-color: rgba(144, 199, 211, 0);
+    border-left-color: #90c7d3;
+}
+
+.arrow_box:before {
+
+    border-width: 16px;
+    top: 50%;
+    margin-top: -16px;
+}
+
+.user-line.color1:before {
+    border-color: rgba(144, 199, 211, 0);
+    border-left-color: #90c7d3;
+}
