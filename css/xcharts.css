@@ -7,7 +7,9 @@
 }
 .xchart circle {
   stroke: #FFF;
-  stroke-width: 3px;
+    z-index: 10000;
+    position: relative;
+  /*stroke-width: 3px;*/
 }
 .xchart .axis .domain {
   fill: none;

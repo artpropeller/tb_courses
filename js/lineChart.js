@@ -1,3 +1,5 @@
+var timeTT = '';
+
 var tt = document.createElement('div'),
     leftOffset = -(~~$('html').css('padding-left').replace('px', '') + ~~$('body').css('margin-left').replace('px', '')),
     topOffset = -32;
@@ -186,6 +188,7 @@ var opts = {
         return d3.time.format('%e %b')(x);
     },
     "mouseover":function (d, i) {
+        clearInterval(timeTT);
         var days = {
             "Sunday":"Воскресенье",
             "Monday":"Понедельник",
@@ -199,10 +202,13 @@ var opts = {
         $(tt).html(days[d3.time.format('%A')(d.x)] + d3.time.format(', %e %B, %Y')(d.x) + '<br><strong>Посещений: ' + d.y + '</strong>')
             .css({top:topOffset + pos.top - 26, left:pos.left + 3 + leftOffset})
             .show(0);
+        $(tt).hover(function(){timeTT = true;},function(){timeTT = false; $(this).hide()});
         $(tt).css({'margin-left':-tt.offsetWidth / 2 + 'px'});
     },
     "mouseout":function (x) {
-        $(tt).hide();
+        if (timeTT) {
+         $(tt).hide();
+        }
     }
 };
 

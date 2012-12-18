@@ -486,7 +486,7 @@
 .chart-tooltip{
     background: #f3faee;
     border: 4px solid #ffffff;
-    box-shadow: 0 0 8px rgba(0,0,0,0.3);
+    box-shadow: 0 0 4px rgba(0,0,0,0.5);
 }
 .chart-tooltip:after, .chart-tooltip:before {
     top: 100%;
@@ -819,6 +819,7 @@
 
 #stat-view .metrics .item .name {
     position: relative;
+    z-index: 20;
 }
 
 #stat-view .metrics .item.last {
@@ -1084,6 +1085,7 @@
     border-radius: 2px;
     -webkit-border-radius: 2px;
     margin-top: 6px;
+    display: none;
 }
 
 #stat-view .show_but:hover{

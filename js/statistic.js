@@ -45,6 +45,12 @@ $(function(){
     //выбор пользователя
     $('#usersTable tbody .check span').click(function(){
         $(this).parents('tr').toggleClass('active');
+        if ($('#usersTable tr.active').size() > 0) {
+            $('#stat-view .show_but').show(0);
+        }
+        else {
+            $('#stat-view .show_but').hide(0);
+        }
     });
 
 
