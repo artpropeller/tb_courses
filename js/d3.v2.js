@@ -2342,7 +2342,7 @@
     return j;
   }
   function d3_time_formatRe(names) {
-    return new RegExp("^(?:" + names.map(d3.requote).join("|") + ")", "i");
+    return new RegExp("^(?:" + $.map(names, d3.requote).join("|") + ")", "i");
   }
   function d3_time_formatLookup(names) {
     var map = new d3_Map, i = -1, n = names.length;
@@ -3077,7 +3077,7 @@
       return d3.round(x, p = d3_format_precision(x, p)).toFixed(Math.max(0, Math.min(20, p)));
     }
   });
-  var d3_formatPrefixes = [ "y", "z", "a", "f", "p", "n", "μ", "m", "", "k", "M", "G", "T", "P", "E", "Z", "Y" ].map(d3_formatPrefix);
+  var d3_formatPrefixes = $.map([ "y", "z", "a", "f", "p", "n", "μ", "m", "", "k", "M", "G", "T", "P", "E", "Z", "Y" ], d3_formatPrefix);
   d3.formatPrefix = function(value, precision) {
     var i = 0;
     if (value) {
@@ -6722,7 +6722,7 @@
   };
   var d3_time_prototype = Date.prototype;
   var d3_time_formatDateTime = "%a %b %e %H:%M:%S %Y", d3_time_formatDate = "%m/%d/%y", d3_time_formatTime = "%H:%M:%S";
-  var d3_time_days = d3_time_daySymbols, d3_time_dayAbbreviations = d3_time_days.map(d3_time_formatAbbreviate), d3_time_months = [ "Январь", "Февраль", "March", "April", "May", "June", "July", "August", "September", "October", "ноября", "Декабрь" ], d3_time_monthAbbreviations = d3_time_months.map(d3_time_formatAbbreviate);
+  var d3_time_days = d3_time_daySymbols, d3_time_dayAbbreviations = $.map(d3_time_days, d3_time_formatAbbreviate), d3_time_months = [ "Январь", "Февраль", "March", "April", "May", "June", "July", "August", "September", "October", "ноября", "Декабрь" ], d3_time_monthAbbreviations = $.map(d3_time_months, d3_time_formatAbbreviate);
   d3.time.format = function(template) {
     function format(date) {
       var string = [], i = -1, j = 0, c, f;
@@ -6925,7 +6925,7 @@
     var year = d3.time.year(date);
     return Math.floor((date - year - (date.getTimezoneOffset() - year.getTimezoneOffset()) * 6e4) / 864e5);
   };
-  d3_time_daySymbols.forEach(function(day, i) {
+  $.each(d3_time_daySymbols, function(i, day) {
     day = day.toLowerCase();
     i = 7 - i;
     var interval = d3.time[day] = d3_time_interval(function(date) {
@@ -6996,7 +6996,7 @@
   d3.time.scale = function() {
     return d3_time_scale(d3.scale.linear(), d3_time_scaleLocalMethods, d3_time_scaleLocalFormat);
   };
-  var d3_time_scaleUTCMethods = d3_time_scaleLocalMethods.map(function(m) {
+  var d3_time_scaleUTCMethods = $.map(d3_time_scaleLocalMethods, function(m) {
     return [ m[0].utc, m[1] ];
   });
   var d3_time_scaleUTCFormats = [ [ d3.time.format.utc("%Y"), function(d) {

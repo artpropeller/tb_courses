@@ -4,15 +4,14 @@
     <bookmark url="file://$PROJECT_DIR$/css/xcharts.css" line="16" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" name="Default" comment="chart">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/cal-next.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/cal-prev.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/st-select-bg-active.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/st-select-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/st-select-list-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/toggle-select-top.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/toggle-select.png" />
+    <list default="true" id="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/es5-sham.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/es5-shim.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/statistics-tasks.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/d3.v2.js" afterPath="$PROJECT_DIR$/js/d3.v2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/lineChart.js" afterPath="$PROJECT_DIR$/js/lineChart.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statistics.html" afterPath="$PROJECT_DIR$/statistics.html" />
     </list>
     <ignored path="tb_courses.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,10 +31,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="otchet.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="otchet.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/otchet.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="868" column="1" selection-start="16144" selection-end="16144" vertical-scroll-proportion="0.7906977">
+            <state line="881" column="1" selection-start="16447" selection-end="16447" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -62,7 +61,16 @@
       <file leaf-file-name="d3.v2.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/d3.v2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6724" column="240" selection-start="228673" selection-end="228673" vertical-scroll-proportion="0.0">
+            <state line="6929" column="14" selection-start="235279" selection-end="235279" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="es5-sham.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/es5-sham.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="5" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -71,7 +79,45 @@
       <file leaf-file-name="statistics.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/statistics.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="74" selection-start="957" selection-end="957" vertical-scroll-proportion="0.0">
+            <state line="83" column="36" selection-start="3817" selection-end="3817" vertical-scroll-proportion="-13.076923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="statistics-tasks.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/statistics-tasks.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="161" column="105" selection-start="8711" selection-end="8711" vertical-scroll-proportion="0.36452243">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lineChart.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/lineChart.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="59" column="9" selection-start="1561" selection-end="1561" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#325#1561#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery-1.7.1.min.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/jquery-1.7.1.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="41" selection-start="65268" selection-end="65268" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="xcharts.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/xcharts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="787" column="26" selection-start="32391" selection-end="32391" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -90,22 +136,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/profile-org.html" />
-        <option value="$PROJECT_DIR$/profile.html" />
         <option value="$PROJECT_DIR$/js/pie.js" />
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/asdfasd.html" />
         <option value="$PROJECT_DIR$/stat.html" />
-        <option value="$PROJECT_DIR$/js/d3.v2.js" />
         <option value="$PROJECT_DIR$/js/xcharts.js" />
-        <option value="$PROJECT_DIR$/js/lineChart.js" />
         <option value="$PROJECT_DIR$/js/datepicker.js" />
         <option value="$PROJECT_DIR$/css/xcharts.css" />
         <option value="$PROJECT_DIR$/otchet_index.html" />
         <option value="$PROJECT_DIR$/js/jquery.dataTables.js" />
         <option value="$PROJECT_DIR$/js/statistic.js" />
-        <option value="$PROJECT_DIR$/statistics.html" />
         <option value="$PROJECT_DIR$/css/otchet.css" />
+        <option value="$PROJECT_DIR$/js/jquery-1.7.1.min.js" />
+        <option value="$PROJECT_DIR$/js/d3.v2.js" />
+        <option value="$PROJECT_DIR$/statistics.html" />
+        <option value="$PROJECT_DIR$/js/lineChart.js" />
+        <option value="$PROJECT_DIR$/statistics-tasks.html" />
       </list>
     </option>
   </component>
@@ -171,7 +217,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -204,9 +250,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspere\markup\tb_courses" />
       <recent name="D:\workspere\markup\tb_courses\js" />
       <recent name="D:\workspere\markup\tb_courses\css" />
-      <recent name="D:\workspere\markup\tb_courses" />
       <recent name="D:\tb_courses\letter" />
       <recent name="D:\tb_courses" />
     </key>
@@ -330,18 +376,22 @@
       <created>1355685905310</created>
       <updated>1355685905310</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="chart">
+      <created>1355784525832</created>
+      <updated>1355784525832</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22121212" sideWeight="0.94133335" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22878788" sideWeight="0.94133335" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -412,43 +462,14 @@
     <MESSAGE value="chart" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/company-info-2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="54" selection-start="209" selection-end="332" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="146" column="19" selection-start="2035" selection-end="2035" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/course-view.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="548" column="1" selection-start="9109" selection-end="10718" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stat.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="25" selection-start="1082" selection-end="1082" vertical-scroll-proportion="0.33723196" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/lineChart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="183" column="6" selection-start="4418" selection-end="4425" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/xcharts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="313" column="28" selection-start="21067" selection-end="21067" vertical-scroll-proportion="0.031135531">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/datepicker.css">
@@ -460,9 +481,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/datepicker.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="136" column="39" selection-start="8086" selection-end="8086" vertical-scroll-proportion="-14.04">
-          <folding />
-        </state>
+        <state line="136" column="39" selection-start="8086" selection-end="8086" vertical-scroll-proportion="-14.04" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/xcharts.css">
@@ -474,24 +493,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/otchet_index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="139" column="48" selection-start="5764" selection-end="5813" vertical-scroll-proportion="2.1369605">
-          <folding>
-            <marker date="1355776355283" expanded="true" signature="2961:3054" placeholder="..." />
-            <marker date="1355776355283" expanded="true" signature="2987:3042" placeholder="{...}" />
-          </folding>
-        </state>
+        <state line="139" column="48" selection-start="5764" selection-end="5813" vertical-scroll-proportion="2.1369605" />
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/webide.jar!/resources/html5-schema/tables.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state line="199" column="21" selection-start="3823" selection-end="3823" vertical-scroll-proportion="0.33273703">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/d3.v2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6724" column="240" selection-start="228673" selection-end="228673" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -510,16 +517,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/statistics.html">
+    <entry file="file://$PROJECT_DIR$/css/otchet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="74" selection-start="957" selection-end="957" vertical-scroll-proportion="0.0">
+        <state line="881" column="1" selection-start="16447" selection-end="16447" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/otchet.css">
+    <entry file="file://$PROJECT_DIR$/js/xcharts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="868" column="1" selection-start="16144" selection-end="16144" vertical-scroll-proportion="0.7906977">
+        <state line="787" column="26" selection-start="32391" selection-end="32391" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery-1.7.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="41" selection-start="65268" selection-end="65268" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/es5-sham.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="5" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/d3.v2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6929" column="14" selection-start="235279" selection-end="235279" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statistics.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="36" selection-start="3817" selection-end="3817" vertical-scroll-proportion="-13.076923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/lineChart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="9" selection-start="1561" selection-end="1561" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#325#1561#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statistics-tasks.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="161" column="105" selection-start="8711" selection-end="8711" vertical-scroll-proportion="0.36452243">
           <folding />
         </state>
       </provider>
