@@ -1056,12 +1056,12 @@
 
 }
 
-.top_block{
+#stat-view .top_block{
     padding: 0 20px 10px;
     overflow: auto;
 }
 
-.print{
+#stat-view .print{
     display: block;
     background: url("../images/ico_print.png") no-repeat;
     width: 16px;
@@ -1071,7 +1071,7 @@
 
 }
 
-.show_but{
+#stat-view .show_but{
     background: url("../images/show_but_bg.jpg") repeat-x;
     display: block;
     height: 17px;
@@ -1086,24 +1086,24 @@
     margin-top: 6px;
 }
 
-.show_but:hover{
+#stat-view .show_but:hover{
     background: #f1f1f1;
 }
 
-.statistic_buts{
+#stat-view .statistic_buts{
     overflow: auto;
     padding-left: 0;
     margin-bottom: 7px;
 }
 
-.statistic_buts li{
+#stat-view .statistic_buts li{
     float: left;
     margin-right: 5px;
     margin-left: 0;
     padding-left: 0;
 }
 
-.statistic_buts a{
+#stat-view .statistic_buts a{
     display: block;
     background: url("../images/otchet_but_bg.jpg") repeat-x;
     height: 26px;
@@ -1119,7 +1119,7 @@
     box-shadow: 0 1px 2px #ebebeb;
 
 }
-.statistic_buts li.active a{
+#stat-view .statistic_buts li.active a{
     background: #f3f8fc;
     border:3px solid #cde6f6;
     color: #3b86c4;
@@ -1127,4 +1127,133 @@
     height: 25px;
     padding-top: 4px;
     width: 174px;
+}
+
+#usersTable.tasks th {
+    padding: 10px 0;
+}
+
+#usersTable.tasks th.name {
+    width: 225px;
+}
+
+#usersTable.tasks td.name span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 170px;
+    white-space: nowrap;
+}
+
+#usersTable.tasks th.author {
+    width: 175px;
+}
+
+#usersTable.tasks th.begin, #usersTable.tasks th.time {
+    width: 95px;
+}
+
+#usersTable.tasks th.end {
+    width: 100px;
+}
+
+#usersTable.tasks th.current, #usersTable.tasks th.quantity-views {
+    width: 95px;
+}
+
+#usersTable.tasks th.sorting-asc.name, #usersTable.tasks th.sorting-desc.name {
+    background-position: 100px 14px;
+}
+
+#usersTable.tasks th.sorting-asc.author, #usersTable.tasks th.sorting-desc.author {
+    background-position: 43px 14px;
+}
+
+#usersTable.tasks th.sorting-asc.begin, #usersTable.tasks th.sorting-desc.begin {
+    background-position: 63px 14px;
+}
+
+#usersTable.tasks th.sorting-asc.end, #usersTable.tasks th.sorting-desc.end {
+    background-position: 83px 14px;
+}
+
+#usersTable.tasks th.sorting-asc.time, #usersTable.tasks th.sorting-desc.time {
+    background-position: 80px 14px;
+}
+
+#usersTable.tasks th.sorting-asc.current, #usersTable.tasks th.sorting-desc.current {
+    background-position: 64px 14px;
+}
+
+#usersTable.tasks th.sorting-asc.quantity-views, #usersTable.tasks th.sorting-desc.quantity-views {
+    background-position: 84px 14px;
+}
+
+#stat-view .legend {
+    padding-left: 83px;
+    margin: 25px 0 -25px 0;
+    overflow: hidden;
+}
+
+#stat-view .legend .item {
+    float: left;
+    margin-right: 15px;
+    font-size: 12px;
+    line-height: 12px;
+    color: #000;
+    position: relative;
+}
+
+#stat-view .legend .item .info {
+    padding-left: 13px;
+}
+
+#stat-view .legend .item .color {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    border-radius: 6px;
+    background: #fff;
+    top:1px;
+    left: 2px;
+    border:2px solid #73c841;
+}
+
+#stat-view .legend .item.color0 .color {
+    border-color: #73c841;
+}
+
+#stat-view .legend .item.color1 .color {
+    border-color: #90c7d3;
+}
+
+#stat-view .legend .item.color2 .color {
+    border-color: #6d68d6;
+}
+
+#stat-view .legend .item.color3 .color {
+    border-color: #f76565;
+}
+
+#stat-view .legend .item.color4 .color {
+    border-color: #cbcc05;
+}
+
+#stat-view .legend .item.color5 .color {
+    border-color: #cccccc;
+}
+
+#stat-view .legend .item.color6 .color {
+    border-color: #9356af;
+}
+
+#stat-view .legend .item.color7 .color {
+    border-color: #4d774c;
+}
+
+#stat-view .legend .item.color8 .color {
+    border-color: #bb3493;
+}
+
+#stat-view .legend .item.color9 .color {
+    border-color: #a68b6f;
 }

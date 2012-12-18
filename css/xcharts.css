@@ -266,9 +266,6 @@
 }
 
 
-
-
-
 .xchart .color1 .line {
     stroke: #90c7d3;
 }
@@ -299,3 +296,280 @@
     stroke: #90c7d3;
     stroke-width: 2px;
 }
+
+
+
+.xchart .color2 .line {
+    stroke: #6d68d6;
+}
+.xchart .color2 rect,
+.xchart .color2 circle {
+    fill: #fff;
+}
+.xchart .color2 .fill {
+    opacity: 0;
+    fill: rgba(109, 104, 214, 0);
+}
+
+.xchart .color2.comp .line {
+    stroke: #6d68d6;
+}
+.xchart .color2.comp rect {
+    fill: #6d68d6;
+}
+.xchart .color2.comp .fill {
+    display: none;
+}
+.xchart .color2.comp circle,
+.xchart .color2.comp .pointer {
+    fill: #6d68d6;
+}
+
+.xchart .color2 circle {
+    stroke: #6d68d6;
+    stroke-width: 2px;
+}
+
+
+
+
+.xchart .color3 .line {
+    stroke: #f76565;
+}
+.xchart .color3 rect,
+.xchart .color3 circle {
+    fill: #fff;
+}
+.xchart .color3 .fill {
+    opacity: 0;
+    fill: rgba(109, 104, 214, 0);
+}
+
+.xchart .color3.comp .line {
+    stroke: #f76565;
+}
+.xchart .color3.comp rect {
+    fill: #f76565;
+}
+.xchart .color3.comp .fill {
+    display: none;
+}
+.xchart .color3.comp circle,
+.xchart .color3.comp .pointer {
+    fill: #f76565;
+}
+
+.xchart .color3 circle {
+    stroke: #f76565;
+    stroke-width: 2px;
+}
+
+
+
+
+.xchart .color4 .line {
+    stroke: #cbcc05;
+}
+.xchart .color4 rect,
+.xchart .color4 circle {
+    fill: #fff;
+}
+.xchart .color4 .fill {
+    opacity: 0;
+    fill: rgba(109, 104, 214, 0);
+}
+
+.xchart .color4.comp .line {
+    stroke: #cbcc05;
+}
+.xchart .color4.comp rect {
+    fill: #cbcc05;
+}
+.xchart .color4.comp .fill {
+    display: none;
+}
+.xchart .color4.comp circle,
+.xchart .color4.comp .pointer {
+    fill: #cbcc05;
+}
+
+.xchart .color4 circle {
+    stroke: #cbcc05;
+    stroke-width: 2px;
+}
+
+
+
+.xchart .color5 .line {
+    stroke: #cccccc;
+}
+.xchart .color5 rect,
+.xchart .color5 circle {
+    fill: #fff;
+}
+.xchart .color5 .fill {
+    opacity: 0;
+    fill: rgba(109, 104, 214, 0);
+}
+
+.xchart .color5.comp .line {
+    stroke: #cccccc;
+}
+.xchart .color5.comp rect {
+    fill: #cccccc;
+}
+.xchart .color5.comp .fill {
+    display: none;
+}
+.xchart .color5.comp circle,
+.xchart .color5.comp .pointer {
+    fill: #cccccc;
+}
+
+.xchart .color5 circle {
+    stroke: #cccccc;
+    stroke-width: 2px;
+}
+
+
+
+
+.xchart .color6 .line {
+    stroke: #9356af;
+}
+.xchart .color6 rect,
+.xchart .color6 circle {
+    fill: #fff;
+}
+.xchart .color6 .fill {
+    opacity: 0;
+    fill: rgba(109, 104, 214, 0);
+}
+
+.xchart .color6.comp .line {
+    stroke: #9356af;
+}
+.xchart .color6.comp rect {
+    fill: #9356af;
+}
+.xchart .color6.comp .fill {
+    display: none;
+}
+.xchart .color6.comp circle,
+.xchart .color6.comp .pointer {
+    fill: #9356af;
+}
+
+.xchart .color6 circle {
+    stroke: #9356af;
+    stroke-width: 2px;
+}
+
+
+
+
+
+
+.xchart .color7 .line {
+    stroke: #4d774c;
+}
+.xchart .color7 rect,
+.xchart .color7 circle {
+    fill: #fff;
+}
+.xchart .color7 .fill {
+    opacity: 0;
+    fill: rgba(109, 104, 214, 0);
+}
+
+.xchart .color7.comp .line {
+    stroke: #4d774c;
+}
+.xchart .color7.comp rect {
+    fill: #4d774c;
+}
+.xchart .color7.comp .fill {
+    display: none;
+}
+.xchart .color7.comp circle,
+.xchart .color7.comp .pointer {
+    fill: #4d774c;
+}
+
+.xchart .color7 circle {
+    stroke: #4d774c;
+    stroke-width: 2px;
+}
+
+
+
+
+
+
+.xchart .color8 .line {
+    stroke: #bb3493;
+}
+.xchart .color8 rect,
+.xchart .color8 circle {
+    fill: #fff;
+}
+.xchart .color8 .fill {
+    opacity: 0;
+    fill: rgba(109, 104, 214, 0);
+}
+
+.xchart .color8.comp .line {
+    stroke: #bb3493;
+}
+.xchart .color8.comp rect {
+    fill: #bb3493;
+}
+.xchart .color8.comp .fill {
+    display: none;
+}
+.xchart .color8.comp circle,
+.xchart .color8.comp .pointer {
+    fill: #bb3493;
+}
+
+.xchart .color8 circle {
+    stroke: #bb3493;
+    stroke-width: 2px;
+}
+
+
+
+
+
+
+.xchart .color9 .line {
+    stroke: #a68b6f;
+}
+.xchart .color9 rect,
+.xchart .color9 circle {
+    fill: #fff;
+}
+.xchart .color9 .fill {
+    opacity: 0;
+    fill: rgba(109, 104, 214, 0);
+}
+
+.xchart .color9.comp .line {
+    stroke: #a68b6f;
+}
+.xchart .color9.comp rect {
+    fill: #a68b6f;
+}
+.xchart .color9.comp .fill {
+    display: none;
+}
+.xchart .color9.comp circle,
+.xchart .color9.comp .pointer {
+    fill: #a68b6f;
+}
+
+.xchart .color9 circle {
+    stroke: #a68b6f;
+    stroke-width: 2px;
+}
+

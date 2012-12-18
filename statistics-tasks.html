@@ -115,6 +115,19 @@
 
     <div class="clear"></div>
 
+    <div class="legend">
+        <div class="item color0">
+            <div class="color"></div>
+            <div class="info">Сергей Колодяжный</div>
+        </div>
+        <div class="item color1">
+            <div class="color"></div>
+            <div class="info">Марина Сотникова</div>
+        </div>
+    </div>
+
+    <div class="clear"></div>
+
     <div id="chart_div"></div>
 
 
@@ -169,602 +182,439 @@
 
 <div class="scroll userstable">
 
-<table cellspacing="0" cellpadding="0" id="usersTable">
+<table cellspacing="0" cellpadding="0" id="usersTable" class="tasks">
 <thead>
 <tr>
     <th class="check"></th>
-    <th data-sort="string" class="name">Имя и фамилия</th>
-    <th data-sort="int" class="quantity-visits">Количество<br>посещений</th>
-    <th data-sort="float" class="time">Ср. продолж.<br>посещения</th>
-    <th class="quantity-views" colspan="3">
-        <div class="head-pub">Количество просмотров</div>
-        <span>курсов</span>
-        <span>тестов</span>
-        <span>опросов</span>
-    </th>
-    <th data-sort="int" class="quantity-videos">Кол-во просмотров<br>видеовстреч</th>
+    <th data-sort="string" class="name">Название курса</th>
+    <th data-sort="string" class="author">Автор</th>
+    <th data-sort="int" class="begin">Началось</th>
+    <th data-sort="int" class="end">Закончилось</th>
+    <th data-sort="float" class="time">Ср. продолж.</th>
+    <th data-sort="int" class="current">Проходят</th>
+    <th data-sort="int" class="quantity-views">Кол-во просм.</th>
 </tr>
 </thead>
 <tbody>
 
 <tr>
-    <td class="check">
-        <div class="sel"><span></span></div>
-    </td>
-    <td data-sort-value="Артем Николаев" class="name">
+    <td class="check"><div class="sel"><span></span></div></td>
+    <td data-sort-value="Java Script по-новому" class="name">
         <div class="sel">
             <img src="images/ava_c1.jpg" alt="">
-            <span>Артем Николаев</span>
+            <span>Java Script по-новому</span>
         </div>
     </td>
-    <td class="quantity-visits">
-        <div class="sel">133</div>
+
+    <td class="author">
+        <div class="sel">Артем Николаев</div>
     </td>
-    <td data-sort-value="11" class="time">
-        <div class="sel">00:11:23</div>
+    <td class="begin">
+        <div class="sel" data-sort-value="222">01.02.12</div>
     </td>
-    <td class="views">
-        <div class="sel">123</div>
+    <td class="end">
+        <div class="sel" data-sort-value="1232">01.02.12</div>
     </td>
-    <td class="views">
-        <div class="sel">6</div>
+    <td class="time">
+        <div class="sel" data-sort-value="13">00:13:53</div>
     </td>
-    <td class="views">
-        <div class="sel">3</div>
+    <td class="current">
+        <div class="sel">12</div>
     </td>
-    <td class="quantity-videos">
-        <div class="sel">10</div>
+    <td class="quantity-views">
+        <div class="sel">222</div>
     </td>
 </tr>
 <tr>
-    <td class="check">
-        <div class="sel"><span></span></div>
-    </td>
-    <td class="name" data-sort-value="Марина Сотникова">
+    <td class="check"><div class="sel"><span></span></div></td>
+    <td data-sort-value="Английский язык для чайников" class="name">
         <div class="sel">
             <img src="images/ava_c2.jpg" alt="">
-            <span>Марина Сотникова</span>
+            <span>Английский язык для чайников</span>
         </div>
     </td>
-    <td class="quantity-visits">
-        <div class="sel">563</div>
+
+    <td class="author">
+        <div class="sel">Марина сотникова</div>
     </td>
-    <td data-sort-value="22" class="time">
-        <div class="sel">00:21:33</div>
+    <td class="begin">
+        <div class="sel" data-sort-value="12322">01.02.12</div>
     </td>
-    <td class="views">
-        <div class="sel">23</div>
+    <td class="end">
+        <div class="sel" data-sort-value="12322">01.02.12</div>
     </td>
-    <td class="views">
-        <div class="sel">7</div>
+    <td class="time">
+        <div class="sel" data-sort-value="23">00:23:53</div>
     </td>
-    <td class="views">
-        <div class="sel">2</div>
-    </td>
-    <td class="quantity-videos">
+    <td class="current">
         <div class="sel">1</div>
+    </td>
+    <td class="quantity-views">
+        <div class="sel">34</div>
     </td>
 </tr>
 <tr>
-    <td class="check">
-        <div class="sel"><span></span></div>
-    </td>
-    <td class="name" data-sort-value="Автондил Калашников">
+    <td class="check"><div class="sel"><span></span></div></td>
+    <td data-sort-value="Английский язык для чайников" class="name">
         <div class="sel">
             <img src="images/ava_c3.jpg" alt="">
-            <span>Автондил Калашников</span>
+            <span>Английский язык для чайников</span>
         </div>
     </td>
-    <td class="quantity-visits">
-        <div class="sel">23</div>
+
+    <td class="author">
+        <div class="sel">Артем Николаев</div>
     </td>
-    <td data-sort-value="1" class="time">
-        <div class="sel">00:01:23</div>
+    <td class="begin">
+        <div class="sel" data-sort-value="1234">01.02.12</div>
     </td>
-    <td class="views">
-        <div class="sel">3</div>
+    <td class="end">
+        <div class="sel" data-sort-value="22">01.02.12</div>
     </td>
-    <td class="views">
-        <div class="sel">6</div>
+    <td class="time">
+        <div class="sel" data-sort-value="43">00:43:53</div>
     </td>
-    <td class="views">
-        <div class="sel">3</div>
+    <td class="current">
+        <div class="sel">12</div>
     </td>
-    <td class="quantity-videos">
-        <div class="sel">1</div>
+    <td class="quantity-views">
+        <div class="sel">222</div>
     </td>
 </tr>
 <tr>
-    <td class="check">
-        <div class="sel"><span></span></div>
-    </td>
-    <td class="name" data-sort-value="Сергей Колодяжный">
+    <td class="check"><div class="sel"><span></span></div></td>
+    <td data-sort-value="Java Script по-новому" class="name">
         <div class="sel">
             <img src="images/ava_c1.jpg" alt="">
-            <span>Сергей Колодяжный</span>
+            <span>Java Script по-новому</span>
         </div>
     </td>
-    <td class="quantity-visits">
-        <div class="sel">233</div>
+
+    <td class="author">
+        <div class="sel">Артем Николаев</div>
     </td>
-    <td data-sort-value="51" class="time">
-        <div class="sel">00:51:23</div>
+    <td class="begin">
+        <div class="sel" data-sort-value="222">01.02.12</div>
     </td>
-    <td class="views">
-        <div class="sel">13</div>
+    <td class="end">
+        <div class="sel" data-sort-value="1232">01.02.12</div>
     </td>
-    <td class="views">
-        <div class="sel">56</div>
+    <td class="time">
+        <div class="sel" data-sort-value="13">00:13:53</div>
     </td>
-    <td class="views">
-        <div class="sel">23</div>
+    <td class="current">
+        <div class="sel">12</div>
     </td>
-    <td class="quantity-videos">
-        <div class="sel">11</div>
+    <td class="quantity-views">
+        <div class="sel">222</div>
     </td>
 </tr>
 <tr>
-    <td class="check">
-        <div class="sel"><span></span></div>
-    </td>
-    <td class="name" data-sort-value="Марина Сотникова">
+    <td class="check"><div class="sel"><span></span></div></td>
+    <td data-sort-value="Английский язык для чайников" class="name">
         <div class="sel">
             <img src="images/ava_c2.jpg" alt="">
-            <span>Марина Сотникова</span>
+            <span>Английский язык для чайников</span>
         </div>
     </td>
-    <td class="quantity-visits">
-        <div class="sel">563</div>
+
+    <td class="author">
+        <div class="sel">Марина сотникова</div>
     </td>
-    <td data-sort-value="21" class="time">
-        <div class="sel">00:21:33</div>
+    <td class="begin">
+        <div class="sel" data-sort-value="12322">01.02.12</div>
     </td>
-    <td class="views">
-        <div class="sel">23</div>
+    <td class="end">
+        <div class="sel" data-sort-value="12322">01.02.12</div>
     </td>
-    <td class="views">
-        <div class="sel">7</div>
+    <td class="time">
+        <div class="sel" data-sort-value="23">00:23:53</div>
     </td>
-    <td class="views">
-        <div class="sel">2</div>
-    </td>
-    <td class="quantity-videos">
-        <div class="sel">2</div>
-    </td>
-</tr>
-<tr>
-    <td class="check">
-        <div class="sel"><span></span></div>
-    </td>
-    <td data-sort-value="Артем Николаев" class="name">
-        <div class="sel">
-            <img src="images/ava_c1.jpg" alt="">
-            <span>Артем Николаев</span>
-        </div>
-    </td>
-    <td class="quantity-visits">
-        <div class="sel">133</div>
-    </td>
-    <td data-sort-value="11" class="time">
-        <div class="sel">00:11:23</div>
-    </td>
-    <td class="views">
-        <div class="sel">123</div>
-    </td>
-    <td class="views">
-        <div class="sel">6</div>
-    </td>
-    <td class="views">
-        <div class="sel">3</div>
-    </td>
-    <td class="quantity-videos">
-        <div class="sel">10</div>
-    </td>
-</tr>
-<tr>
-    <td class="check">
-        <div class="sel"><span></span></div>
-    </td>
-    <td class="name" data-sort-value="Марина Сотникова">
-        <div class="sel">
-            <img src="images/ava_c2.jpg" alt="">
-            <span>Марина Сотникова</span>
-        </div>
-    </td>
-    <td class="quantity-visits">
-        <div class="sel">563</div>
-    </td>
-    <td data-sort-value="22" class="time">
-        <div class="sel">00:21:33</div>
-    </td>
-    <td class="views">
-        <div class="sel">23</div>
-    </td>
-    <td class="views">
-        <div class="sel">7</div>
-    </td>
-    <td class="views">
-        <div class="sel">2</div>
-    </td>
-    <td class="quantity-videos">
+    <td class="current">
         <div class="sel">1</div>
     </td>
+    <td class="quantity-views">
+        <div class="sel">34</div>
+    </td>
 </tr>
 <tr>
-    <td class="check">
-        <div class="sel"><span></span></div>
-    </td>
-    <td class="name" data-sort-value="Автондил Калашников">
+    <td class="check"><div class="sel"><span></span></div></td>
+    <td data-sort-value="Английский язык для чайников" class="name">
         <div class="sel">
             <img src="images/ava_c3.jpg" alt="">
-            <span>Автондил Калашников</span>
+            <span>Английский язык для чайников</span>
         </div>
     </td>
-    <td class="quantity-visits">
-        <div class="sel">23</div>
+
+    <td class="author">
+        <div class="sel">Артем Николаев</div>
     </td>
-    <td data-sort-value="1" class="time">
-        <div class="sel">00:01:23</div>
+    <td class="begin">
+        <div class="sel" data-sort-value="1234">01.02.12</div>
     </td>
-    <td class="views">
-        <div class="sel">3</div>
+    <td class="end">
+        <div class="sel" data-sort-value="22">01.02.12</div>
     </td>
-    <td class="views">
-        <div class="sel">6</div>
+    <td class="time">
+        <div class="sel" data-sort-value="43">00:43:53</div>
     </td>
-    <td class="views">
-        <div class="sel">3</div>
+    <td class="current">
+        <div class="sel">12</div>
     </td>
-    <td class="quantity-videos">
-        <div class="sel">1</div>
+    <td class="quantity-views">
+        <div class="sel">222</div>
     </td>
 </tr>
 <tr>
-    <td class="check">
-        <div class="sel"><span></span></div>
-    </td>
-    <td class="name" data-sort-value="Сергей Колодяжный">
+    <td class="check"><div class="sel"><span></span></div></td>
+    <td data-sort-value="Java Script по-новому" class="name">
         <div class="sel">
             <img src="images/ava_c1.jpg" alt="">
-            <span>Сергей Колодяжный</span>
+            <span>Java Script по-новому</span>
         </div>
     </td>
-    <td class="quantity-visits">
-        <div class="sel">233</div>
+
+    <td class="author">
+        <div class="sel">Артем Николаев</div>
     </td>
-    <td data-sort-value="51" class="time">
-        <div class="sel">00:51:23</div>
+    <td class="begin">
+        <div class="sel" data-sort-value="222">01.02.12</div>
     </td>
-    <td class="views">
-        <div class="sel">13</div>
+    <td class="end">
+        <div class="sel" data-sort-value="1232">01.02.12</div>
     </td>
-    <td class="views">
-        <div class="sel">56</div>
+    <td class="time">
+        <div class="sel" data-sort-value="13">00:13:53</div>
     </td>
-    <td class="views">
-        <div class="sel">23</div>
+    <td class="current">
+        <div class="sel">12</div>
     </td>
-    <td class="quantity-videos">
-        <div class="sel">11</div>
+    <td class="quantity-views">
+        <div class="sel">222</div>
     </td>
 </tr>
 <tr>
-    <td class="check">
-        <div class="sel"><span></span></div>
-    </td>
-    <td class="name" data-sort-value="Марина Сотникова">
+    <td class="check"><div class="sel"><span></span></div></td>
+    <td data-sort-value="Английский язык для чайников" class="name">
         <div class="sel">
             <img src="images/ava_c2.jpg" alt="">
-            <span>Марина Сотникова</span>
+            <span>Английский язык для чайников</span>
         </div>
     </td>
-    <td class="quantity-visits">
-        <div class="sel">563</div>
+
+    <td class="author">
+        <div class="sel">Марина сотникова</div>
     </td>
-    <td data-sort-value="21" class="time">
-        <div class="sel">00:21:33</div>
+    <td class="begin">
+        <div class="sel" data-sort-value="12322">01.02.12</div>
     </td>
-    <td class="views">
-        <div class="sel">23</div>
+    <td class="end">
+        <div class="sel" data-sort-value="12322">01.02.12</div>
     </td>
-    <td class="views">
-        <div class="sel">7</div>
+    <td class="time">
+        <div class="sel" data-sort-value="23">00:23:53</div>
     </td>
-    <td class="views">
-        <div class="sel">2</div>
-    </td>
-    <td class="quantity-videos">
-        <div class="sel">2</div>
-    </td>
-</tr>
-<tr>
-    <td class="check">
-        <div class="sel"><span></span></div>
-    </td>
-    <td data-sort-value="Артем Николаев" class="name">
-        <div class="sel">
-            <img src="images/ava_c1.jpg" alt="">
-            <span>Артем Николаев</span>
-        </div>
-    </td>
-    <td class="quantity-visits">
-        <div class="sel">133</div>
-    </td>
-    <td data-sort-value="11" class="time">
-        <div class="sel">00:11:23</div>
-    </td>
-    <td class="views">
-        <div class="sel">123</div>
-    </td>
-    <td class="views">
-        <div class="sel">6</div>
-    </td>
-    <td class="views">
-        <div class="sel">3</div>
-    </td>
-    <td class="quantity-videos">
-        <div class="sel">10</div>
-    </td>
-</tr>
-<tr>
-    <td class="check">
-        <div class="sel"><span></span></div>
-    </td>
-    <td class="name" data-sort-value="Марина Сотникова">
-        <div class="sel">
-            <img src="images/ava_c2.jpg" alt="">
-            <span>Марина Сотникова</span>
-        </div>
-    </td>
-    <td class="quantity-visits">
-        <div class="sel">563</div>
-    </td>
-    <td data-sort-value="22" class="time">
-        <div class="sel">00:21:33</div>
-    </td>
-    <td class="views">
-        <div class="sel">23</div>
-    </td>
-    <td class="views">
-        <div class="sel">7</div>
-    </td>
-    <td class="views">
-        <div class="sel">2</div>
-    </td>
-    <td class="quantity-videos">
+    <td class="current">
         <div class="sel">1</div>
     </td>
+    <td class="quantity-views">
+        <div class="sel">34</div>
+    </td>
 </tr>
 <tr>
-    <td class="check">
-        <div class="sel"><span></span></div>
-    </td>
-    <td class="name" data-sort-value="Автондил Калашников">
+    <td class="check"><div class="sel"><span></span></div></td>
+    <td data-sort-value="Английский язык для чайников" class="name">
         <div class="sel">
             <img src="images/ava_c3.jpg" alt="">
-            <span>Автондил Калашников</span>
+            <span>Английский язык для чайников</span>
         </div>
     </td>
-    <td class="quantity-visits">
-        <div class="sel">23</div>
+
+    <td class="author">
+        <div class="sel">Артем Николаев</div>
     </td>
-    <td data-sort-value="1" class="time">
-        <div class="sel">00:01:23</div>
+    <td class="begin">
+        <div class="sel" data-sort-value="1234">01.02.12</div>
     </td>
-    <td class="views">
-        <div class="sel">3</div>
+    <td class="end">
+        <div class="sel" data-sort-value="22">01.02.12</div>
     </td>
-    <td class="views">
-        <div class="sel">6</div>
+    <td class="time">
+        <div class="sel" data-sort-value="43">00:43:53</div>
     </td>
-    <td class="views">
-        <div class="sel">3</div>
+    <td class="current">
+        <div class="sel">12</div>
     </td>
-    <td class="quantity-videos">
-        <div class="sel">1</div>
+    <td class="quantity-views">
+        <div class="sel">222</div>
     </td>
 </tr>
 <tr>
-    <td class="check">
-        <div class="sel"><span></span></div>
-    </td>
-    <td class="name" data-sort-value="Сергей Колодяжный">
+    <td class="check"><div class="sel"><span></span></div></td>
+    <td data-sort-value="Java Script по-новому" class="name">
         <div class="sel">
             <img src="images/ava_c1.jpg" alt="">
-            <span>Сергей Колодяжный</span>
+            <span>Java Script по-новому</span>
         </div>
     </td>
-    <td class="quantity-visits">
-        <div class="sel">233</div>
+
+    <td class="author">
+        <div class="sel">Артем Николаев</div>
     </td>
-    <td data-sort-value="51" class="time">
-        <div class="sel">00:51:23</div>
+    <td class="begin">
+        <div class="sel" data-sort-value="222">01.02.12</div>
     </td>
-    <td class="views">
-        <div class="sel">13</div>
+    <td class="end">
+        <div class="sel" data-sort-value="1232">01.02.12</div>
     </td>
-    <td class="views">
-        <div class="sel">56</div>
+    <td class="time">
+        <div class="sel" data-sort-value="13">00:13:53</div>
     </td>
-    <td class="views">
-        <div class="sel">23</div>
+    <td class="current">
+        <div class="sel">12</div>
     </td>
-    <td class="quantity-videos">
-        <div class="sel">11</div>
+    <td class="quantity-views">
+        <div class="sel">222</div>
     </td>
 </tr>
 <tr>
-    <td class="check">
-        <div class="sel"><span></span></div>
-    </td>
-    <td class="name" data-sort-value="Марина Сотникова">
+    <td class="check"><div class="sel"><span></span></div></td>
+    <td data-sort-value="Английский язык для чайников" class="name">
         <div class="sel">
             <img src="images/ava_c2.jpg" alt="">
-            <span>Марина Сотникова</span>
+            <span>Английский язык для чайников</span>
         </div>
     </td>
-    <td class="quantity-visits">
-        <div class="sel">563</div>
+
+    <td class="author">
+        <div class="sel">Марина сотникова</div>
     </td>
-    <td data-sort-value="21" class="time">
-        <div class="sel">00:21:33</div>
+    <td class="begin">
+        <div class="sel" data-sort-value="12322">01.02.12</div>
     </td>
-    <td class="views">
-        <div class="sel">23</div>
+    <td class="end">
+        <div class="sel" data-sort-value="12322">01.02.12</div>
     </td>
-    <td class="views">
-        <div class="sel">7</div>
+    <td class="time">
+        <div class="sel" data-sort-value="23">00:23:53</div>
     </td>
-    <td class="views">
-        <div class="sel">2</div>
-    </td>
-    <td class="quantity-videos">
-        <div class="sel">2</div>
-    </td>
-</tr>
-<tr>
-    <td class="check">
-        <div class="sel"><span></span></div>
-    </td>
-    <td data-sort-value="Артем Николаев" class="name">
-        <div class="sel">
-            <img src="images/ava_c1.jpg" alt="">
-            <span>Артем Николаев</span>
-        </div>
-    </td>
-    <td class="quantity-visits">
-        <div class="sel">133</div>
-    </td>
-    <td data-sort-value="11" class="time">
-        <div class="sel">00:11:23</div>
-    </td>
-    <td class="views">
-        <div class="sel">123</div>
-    </td>
-    <td class="views">
-        <div class="sel">6</div>
-    </td>
-    <td class="views">
-        <div class="sel">3</div>
-    </td>
-    <td class="quantity-videos">
-        <div class="sel">10</div>
-    </td>
-</tr>
-<tr>
-    <td class="check">
-        <div class="sel"><span></span></div>
-    </td>
-    <td class="name" data-sort-value="Марина Сотникова">
-        <div class="sel">
-            <img src="images/ava_c2.jpg" alt="">
-            <span>Марина Сотникова</span>
-        </div>
-    </td>
-    <td class="quantity-visits">
-        <div class="sel">563</div>
-    </td>
-    <td data-sort-value="22" class="time">
-        <div class="sel">00:21:33</div>
-    </td>
-    <td class="views">
-        <div class="sel">23</div>
-    </td>
-    <td class="views">
-        <div class="sel">7</div>
-    </td>
-    <td class="views">
-        <div class="sel">2</div>
-    </td>
-    <td class="quantity-videos">
+    <td class="current">
         <div class="sel">1</div>
     </td>
+    <td class="quantity-views">
+        <div class="sel">34</div>
+    </td>
 </tr>
 <tr>
-    <td class="check">
-        <div class="sel"><span></span></div>
-    </td>
-    <td class="name" data-sort-value="Автондил Калашников">
+    <td class="check"><div class="sel"><span></span></div></td>
+    <td data-sort-value="Английский язык для чайников" class="name">
         <div class="sel">
             <img src="images/ava_c3.jpg" alt="">
-            <span>Автондил Калашников</span>
+            <span>Английский язык для чайников</span>
         </div>
     </td>
-    <td class="quantity-visits">
-        <div class="sel">23</div>
+
+    <td class="author">
+        <div class="sel">Артем Николаев</div>
     </td>
-    <td data-sort-value="1" class="time">
-        <div class="sel">00:01:23</div>
+    <td class="begin">
+        <div class="sel" data-sort-value="1234">01.02.12</div>
     </td>
-    <td class="views">
-        <div class="sel">3</div>
+    <td class="end">
+        <div class="sel" data-sort-value="22">01.02.12</div>
     </td>
-    <td class="views">
-        <div class="sel">6</div>
+    <td class="time">
+        <div class="sel" data-sort-value="43">00:43:53</div>
     </td>
-    <td class="views">
-        <div class="sel">3</div>
+    <td class="current">
+        <div class="sel">12</div>
     </td>
-    <td class="quantity-videos">
-        <div class="sel">1</div>
+    <td class="quantity-views">
+        <div class="sel">222</div>
     </td>
 </tr>
 <tr>
-    <td class="check">
-        <div class="sel"><span></span></div>
-    </td>
-    <td class="name" data-sort-value="Сергей Колодяжный">
+    <td class="check"><div class="sel"><span></span></div></td>
+    <td data-sort-value="Java Script по-новому" class="name">
         <div class="sel">
             <img src="images/ava_c1.jpg" alt="">
-            <span>Сергей Колодяжный</span>
+            <span>Java Script по-новому</span>
         </div>
     </td>
-    <td class="quantity-visits">
-        <div class="sel">233</div>
+
+    <td class="author">
+        <div class="sel">Артем Николаев</div>
     </td>
-    <td data-sort-value="51" class="time">
-        <div class="sel">00:51:23</div>
+    <td class="begin">
+        <div class="sel" data-sort-value="222">01.02.12</div>
     </td>
-    <td class="views">
-        <div class="sel">13</div>
+    <td class="end">
+        <div class="sel" data-sort-value="1232">01.02.12</div>
     </td>
-    <td class="views">
-        <div class="sel">56</div>
+    <td class="time">
+        <div class="sel" data-sort-value="13">00:13:53</div>
     </td>
-    <td class="views">
-        <div class="sel">23</div>
+    <td class="current">
+        <div class="sel">12</div>
     </td>
-    <td class="quantity-videos">
-        <div class="sel">11</div>
+    <td class="quantity-views">
+        <div class="sel">222</div>
     </td>
 </tr>
 <tr>
-    <td class="check">
-        <div class="sel"><span></span></div>
-    </td>
-    <td class="name" data-sort-value="Марина Сотникова">
+    <td class="check"><div class="sel"><span></span></div></td>
+    <td data-sort-value="Английский язык для чайников" class="name">
         <div class="sel">
             <img src="images/ava_c2.jpg" alt="">
-            <span>Марина Сотникова</span>
+            <span>Английский язык для чайников</span>
         </div>
     </td>
-    <td class="quantity-visits">
-        <div class="sel">563</div>
+
+    <td class="author">
+        <div class="sel">Марина сотникова</div>
     </td>
-    <td data-sort-value="21" class="time">
-        <div class="sel">00:21:33</div>
+    <td class="begin">
+        <div class="sel" data-sort-value="12322">01.02.12</div>
     </td>
-    <td class="views">
-        <div class="sel">23</div>
+    <td class="end">
+        <div class="sel" data-sort-value="12322">01.02.12</div>
     </td>
-    <td class="views">
-        <div class="sel">7</div>
+    <td class="time">
+        <div class="sel" data-sort-value="23">00:23:53</div>
     </td>
-    <td class="views">
-        <div class="sel">2</div>
+    <td class="current">
+        <div class="sel">1</div>
     </td>
-    <td class="quantity-videos">
-        <div class="sel">2</div>
+    <td class="quantity-views">
+        <div class="sel">34</div>
+    </td>
+</tr>
+<tr>
+    <td class="check"><div class="sel"><span></span></div></td>
+    <td data-sort-value="Английский язык для чайников" class="name">
+        <div class="sel">
+            <img src="images/ava_c3.jpg" alt="">
+            <span>Английский язык для чайников</span>
+        </div>
+    </td>
+
+    <td class="author">
+        <div class="sel">Артем Николаев</div>
+    </td>
+    <td class="begin">
+        <div class="sel" data-sort-value="1234">01.02.12</div>
+    </td>
+    <td class="end">
+        <div class="sel" data-sort-value="22">01.02.12</div>
+    </td>
+    <td class="time">
+        <div class="sel" data-sort-value="43">00:43:53</div>
+    </td>
+    <td class="current">
+        <div class="sel">12</div>
+    </td>
+    <td class="quantity-views">
+        <div class="sel">222</div>
     </td>
 </tr>
 

@@ -91,9 +91,31 @@ $(function(){
 
     //таблица
     $("#usersTable").stupidtable();
-    $(".userstable").jScrollPane();
+    $(".userstable").jScrollPane({
+        autoReinitialise: true,
+        autoReinitialiseDelay: 50
+    });
 
-
+    //поиск по таблице
+    $('#stat-view #search-table').keydown(function (event) {
+        var text;
+        setTimeout(function () {
+            text = $('#stat-view #search-table').val();
+        }, 50);
+        setTimeout(function () {
+            if (text.length) {
+                $('#usersTable tbody tr').hide(0);
+                $('#usersTable tbody tr').each(function () {
+                    if ($(this).find('.name span').text().toLowerCase().indexOf(text.toLowerCase()) + 1) {
+                        $(this).show(0);
+                    }
+                });
+            }
+            else {
+                $('#usersTable tbody tr').show(0);
+            }
+        }, 150);
+    });
 
 });
 // удаление пустых ячеек
