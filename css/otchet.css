@@ -898,12 +898,12 @@
 }
 
 #usersTable th.time {
-    width: 150px;
+    width: 146px;
     cursor: pointer;
 }
 
 #usersTable th.quantity-views {
-    width: 260px;
+    width: 400px;
 }
 
 #usersTable th.quantity-videos {
@@ -945,20 +945,19 @@
 
 #usersTable .head-pub {
     text-align: center;
-    margin-right: 20px;
     padding-bottom: 2px;
     border-bottom: solid 1px #cccccc;
     margin-bottom: 2px;
 }
 
 #usersTable .quantity-views span {
-    width: 86px;
+    width: 100px;
     display: block;
     float: left;
 }
 
 #usersTable td.views {
-    width: 86px;
+    width: 100px;
 }
 
 #usersTable td.check span {
