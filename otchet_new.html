@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Language" content="en"/>
+    <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+    <title>Logotype - Курсы</title>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <meta name="robots" content="index,follow"/>
+    <meta name="copyright" content=""/>
+
+
+
+    <!-- fancy -->
+    <script type="text/javascript" src="js/raphael-min.js"></script>
+
+    <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+
+    <script type="text/javascript" src="js/pie.js"></script>
+
+    <script type="text/javascript" src="js/jquery.mousewheel-3.0.6.pack.js"></script>
+    <script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+    <link type="text/css" rel="stylesheet" href="js/jquery.fancybox/jquery.fancybox.css"/>
+
+    <!--<link type="text/css" rel="stylesheet" href="course-view.css"/>-->
+    <link type="text/css" rel="stylesheet" href="template_styles.css"/>
+    <link type="text/css" rel="stylesheet" href="css/otchet.css"/>
+
+    <script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+    <link type="text/css" href="js/jquery.jscrollpane/jquery.jscrollpane.css" rel="stylesheet" media="all"/>
+
+    <script type="text/javascript" src="js/jquery-ui-1.8.20.custom.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="js/jquery.ui/jquery-ui-1.8.20.custom.css"/>
+
+    <script type="text/javascript" src="js/custom-form-elements.js"></script>
+
+    <script type="text/javascript" src="js/jquery.functions.js"></script>
+    <script type="text/javascript" src="js/tiny.js"></script>
+    <script type="text/javascript" src="js/profile.js"></script>
+
+</head>
+<body>
+<div class="header-bg"></div>
+<!-- PAGE -->
+<div id="main">
+
+<!-- ____ HEADER ____ -->
+<div id="header">
+    <div class="container">
+        <div class="h-logo"></div>
+        <div class="h-menu"><a href="#" class="plus">Plus</a> <a href="#">Курсы</a> <a href="#">Видеовстречи</a> <a
+                href="#">Тесты</a> <a href="#">Библиотека</a> <a href="#">Отчеты</a> <a href="#">Пользователи</a>
+        </div>
+
+        <div class="header-search search-animate">
+            <form action="" method="post">
+                <input type="submit" value=""/>
+                <input type="text" value="Поиск по сайту..."
+                       onfocus="if(this.value=='Поиск по сайту...')this.value='';"
+                       onblur="if(this.value=='')this.value='Поиск по сайту...';"/>
+            </form>
+        </div>
+        <div class="h-personal"><a href="#"><span><img src="images/content-im/ico.jpg" alt=""/></span></a></div>
+    </div>
+</div>
+<!-- ____ /HEADER ____ -->
+<!-- ____ CONTENT ____ -->
+
+<div class="central-block">
+<div id="stat-view">
+    <!--[if IE 8]>
+    <style type="text/css">
+        #piechart-users {
+            background-position: 43px 27px;
+        }
+    </style>
+    <![endif]-->
+
+
+    <div class="otchet">
+        <div class="head">
+
+            <ul class="menu">
+                <li class="home active"><a href="#"></a></li>
+                <li><a href="#">Посещаемость</a></li>
+                <li><a href="#">Видеовстречи</a></li>
+                <li><a href="#">Файлы</a></li>
+                <li class="last"><a href="#">Задания</a></li>
+            </ul>
+        </div>
+
+        <div class="clear"></div>
+
+        <div class="dash-top">
+            <div class="dash-left">
+                <div class="dash-right">
+                    <div class="dash-bottom">
+                        <div class="inner">
+                            <div class="left float_left">
+                                <div class="users">
+                                    <div class="window_name">
+                                        <h3 class="float_left">Пользователи</h3><a href="#"
+                                                                                   class="faq float_left"></a>
+
+                                        <div class="clear"></div>
+
+                                    </div>
+                                    <ul class="user_type">
+                                        <li><span class="float_left">Администраторы</span><strong class="float_right">3</strong></li>
+                                        <li><span class="float_left">Специалисты</span><strong class="float_right">12</strong></li>
+                                        <li class="last"><span class="float_left">Слушатели</span><strong class="float_right">78</strong></li>
+                                    </ul>
+
+                                    <div class="total">
+                                        <p>По вашему тарифу<br>
+                                        осталось свободных</p>
+                                        <span><strong>33</strong> пользователя</span>
+                                        <div class="load_bar">
+                                            <div class="inner">
+                                                <div class="blue_line" style="width: 30%;"><div class="txt">занято 1235 из 2000</div></div>
+                                            </div>
+                                        </div>
+
+                                        <a class="green_but float_left" href="#">Увеличить</a>
+
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+                            <div class="right float_left">
+                                <div class="block">
+                                    <div class="window_name">
+                                        <h3 class="float_left">Создано</h3><a href="#"
+                                                                              class="faq float_left"></a>
+
+                                        <div class="clear"></div>
+
+                                    </div>
+
+                                    <div class="sod">
+                                        <ul class="tab">
+                                            <li><img src="images/ico_course.png" width="40" height="40" alt="">
+
+                                                <div class="znach float_left">
+                                                    <em>Курсы</em>
+                                                    <strong>23</strong>
+                                                </div>
+                                            </li>
+
+                                            <li><img src="images/ico_test.png" width="40" height="40" alt="">
+
+                                                <div class="znach float_left">
+                                                    <em>Тесты</em>
+                                                    <strong>17</strong>
+                                                </div>
+                                            </li>
+
+                                            <li class="last"><img src="images/ico_opros.png" width="40" height="40"
+                                                                  alt="">
+
+                                                <div class="znach float_left">
+                                                    <em>Опросы</em>
+                                                    <strong>39</strong>
+                                                </div>
+                                            </li>
+                                        </ul>
+
+                                    </div>
+
+
+                                </div>
+                                <div class="block">
+                                    <div class="window_name">
+                                        <h3 class="float_left">Пройдено</h3><a href="#"
+                                                                               class="faq float_left"></a>
+
+                                        <div class="clear"></div>
+
+                                    </div>
+                                    <div class="sod">
+                                        <ul class="border">
+                                            <li><span>Курсы</span><strong>43</strong><em>(Прошли 34 польз.)</em>
+                                            </li>
+                                            <li><span>Опросы</span><strong>325</strong><em>(Прошли 34 польз.)</em>
+                                            </li>
+                                            <li><span>Тесты</span><strong>69</strong><em>(Прошли 34 польз.)</em>
+                                            </li>
+                                            <li class="last"><span>Видеовстречи</span><strong>69</strong><em>(Прошли
+                                                34 польз.)</em></li>
+                                        </ul>
+                                    </div>
+
+
+                                </div>
+
+                                <div class="block last">
+                                    <div class="window_name">
+                                        <h3 class="float_left">Объем памяти</h3>
+
+                                        <div class="clear"></div>
+
+                                    </div>
+
+                                    <div class="sod">
+                                        <div class="load_bar">
+                                            <div class="hov">
+                                                <div class="dark_blue float_left" style="width: 25%;"></div>
+                                                <div class="mid_blue float_left" style="width: 15%;"></div>
+                                                <div class="small_blue float_left" style="width: 12%;"></div>
+                                                <div class="light_blue float_left" style="width: 8%;"></div>
+                                                <div class="stat">
+                                                    95% занято (4,65 Гб из 5,0 Гб)
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="markers float_left">
+                                            <div class="lp float_left">
+                                                <div class="dark_blue">Файлы <strong>1,2 Гб</strong></div>
+                                                <div class="small_blue">Курсы <strong>538 Мб</strong></div>
+                                            </div>
+                                            <div class="rp float_left">
+                                                <div class="mid_blue">Видеовстречи <strong>450 Мб</strong></div>
+                                                <div class="light_blue">Тесты и опросы <strong>198 Мб</strong></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="itogo float_right"><span class="float_left"><strong>Общая
+                                            емкость
+                                            5 Гб</strong></span><a class="green_but float_right"
+                                                                   href="#">Добавить</a></div>
+
+
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+                           <div class="clear"></div>
+
+                        <!--Контент-->
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+</div>
+
+
+</div>
+
+
+</body>
+</html>

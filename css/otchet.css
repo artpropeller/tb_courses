@@ -1259,3 +1259,100 @@
 #stat-view .legend .item.color9 .color {
     border-color: #a68b6f;
 }
+
+#stat-view .user_type{
+    padding: 0 20px;
+    margin-bottom: 0;
+
+}
+
+#stat-view .user_type li{
+    border-bottom:  1px solid #e5e5e5;
+    padding: 25px 0;
+    overflow: auto;
+    color: #000;
+    font-size: 13px;
+}
+
+#stat-view .user_type li span, .user_type li strong{
+    display: block;
+
+}
+
+#stat-view .user_type li strong{
+    font-size: 30px;
+
+}
+
+#stat-view .user_type li.last{
+    border: 0;
+}
+
+#stat-view .total{
+    background: #eaeaea;
+    border-radius: 3px;
+    box-shadow:  inset 1px 1px 2px #dadada;
+    margin:  0 12px;
+    padding: 20px 20px 12px;
+    overflow: auto;
+}
+
+#stat-view .total p{
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 14px;
+}
+
+#stat-view .total span{
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 14px;
+}
+
+#stat-view .total span strong{
+    font-size: 30px;
+}
+
+#stat-view .total .load_bar{
+    position: relative;
+    width: 100%;
+    margin-bottom: 15px;
+
+
+
+}
+
+#stat-view .total .load_bar .inner{
+    background: #b6b6b6;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-bottom: 1px solid #f2f2f2;
+    box-shadow: inset 0 1px 2px #9a9a9a;
+    overflow: hidden;
+    height: 32px;
+
+}
+
+#stat-view .total .load_bar .blue_line{
+    background: url("../images/blue_line_bg.jpg") repeat-x;
+    height: 32px;
+}
+
+#stat-view .total .load_bar .txt{
+    position: absolute;
+    color: #fff;
+    font-size: 18px;
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    padding-top: 8px;
+    text-shadow: 1px 1px 1px #7c7c7c;
+}
+
+#stat-view .left .users{
+    padding: 0;
+}
+
+
