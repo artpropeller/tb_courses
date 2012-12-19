@@ -284,8 +284,8 @@ var _scales = {
 //        .interpolate(inter),
       area = d3.svg.area()
         .x(x)
-        .y1(self.yZero)
-        .interpolate(inter),
+        .y1(self.yZero),
+//        .interpolate(inter),
       container,
       fills,
       paths;
@@ -314,6 +314,7 @@ var _scales = {
       .attr('class', 'fill')
       .style('opacity', 0)
       .attr('d', area.y0(y));
+
 
     paths = container.selectAll('path.line')
       .data(datum);
@@ -880,6 +881,7 @@ _.defaults(xChart.prototype, {
     xAxis.call(xRules);
 
     labels = self._gScale.selectAll('.axisX g')[0];
+
     //  ..количество по x
 //    if (labels.length > (self._width/80)) {
     if (labels.length > (self._width)) {
@@ -900,7 +902,8 @@ _.defaults(xChart.prototype, {
     yRules = d3.svg.axis()
       .scale(self.yScale)
       .ticks(yTicks)
-      .tickSize(-self._width - o.axisPaddingRight - o.axisPaddingLeft)
+      .tickSize(-self._width - o.axisPaddingRight - o.axisPaddingLeft + 20)
+      .tickPadding(30)
       .tickFormat(o.tickFormatY)
       .orient('left');
 

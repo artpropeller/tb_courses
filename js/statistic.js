@@ -30,6 +30,7 @@ $(function(){
     //выбор типа статистики
     $('.select.type').click(function(){
         $(this).toggleClass('active');
+        $('.click-zone').toggle(0);
         $(this).find('ul').slideToggle(300);
     });
 
@@ -42,7 +43,15 @@ $(function(){
     //выбор даты статистики
     $('.select.date .toggle, .select.date .value').click(function(){
         $(this).parents('.select').toggleClass('active');
+        $('.click-zone').toggle(0);
         $(this).parents('.select').find('.picker').slideToggle(300);
+    });
+
+    $('.click-zone').click(function(){
+        $('.click-zone').hide(0);
+        $('.select').removeClass('active');
+        $('.select').find('ul').slideUp(300);
+        $('.select').find('.picker').slideUp(300);
     });
 
 

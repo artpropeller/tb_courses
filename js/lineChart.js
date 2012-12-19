@@ -177,10 +177,10 @@ var data2 = {
 var opts = {
     "axisPaddingBottom":0,
     "axisPaddingTop":10,
-    "axisPaddingLeft":20,
+    "axisPaddingLeft":0,
     "axisPaddingRight":20,
     "paddingBottom":20,
-    "paddingLeft":20,
+    "paddingLeft":50,
     "paddingRight":0,
     "tickHintX":11,
     "tickHintY":2,

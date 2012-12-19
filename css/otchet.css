@@ -565,6 +565,7 @@
     color: #404040;
     font-size: 12px;
     float: left;
+    z-index: 5;
 }
 
 #stat-view .select.date {
@@ -639,6 +640,8 @@
     border-bottom: 0;
     height: 32px;
     border-radius: 2px 2px 2px 0;
+    z-index: 15;
+
 }
 
 #stat-view .select .picker {
@@ -805,6 +808,7 @@
 #stat-view .metrics .item .name {
     position: relative;
     z-index: 20;
+    margin-bottom: 5px;
 }
 
 #stat-view .metrics .item.last {
@@ -817,6 +821,7 @@
     padding: 16px 15px;
     /*display: none;*/
     font-size: 12px;
+    font-family: Helvetica, Arial, sans-serif;
     color: #000000;
     line-height: 14px;
     left: 50%;
@@ -826,13 +831,13 @@
     margin-left: -170px;
     display: none;
     text-align: left;
-    z-index: 10;
+    z-index: 30;
 }
 
 #stat-view .metrics .tooltip {
     background: #f3faee;
     border: 4px solid #ffffff;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
 }
 
 #stat-view .metrics .tooltip:after, #stat-view .metrics .tooltip:before {
@@ -848,18 +853,40 @@
 #stat-view .metrics .tooltip:after {
     border-color: rgba(243, 250, 238, 0);
     border-bottom-color: #f3faee;
-    border-width: 8px;
+    border-width: 18px;
     left: 50%;
-    margin-left: -8px;
+    margin-left: -16px;
+    z-index: 50;
+    top:-28px;
+    bottom: auto;
 }
 
-#stat-view .metrics .tooltip:before {
-    border-color: rgba(255, 255, 255, 0);
-    border-bottom-color: #ffffff;
-    border-width: 14px;
-    left: 50%;
-    margin-left: -14px;
+/*#stat-view .metrics .tooltip:before {*/
+    /*border-color: rgba(255, 255, 255, 0);*/
+    /*border-bottom-color: #ffffff;*/
+    /*border-width: 14px;*/
+    /*left: 50%;*/
+    /*margin-left: -14px;*/
+/*}*/
+
+
+
+#stat-view .metrics .tooltip .tips{
+    content: '';
+    height:14px;
+    width:14px;
+    -webkit-transform: rotate(-45deg);
+    position:absolute;
+    top:-12px;
+    left:50%;
+    background: #fff;
+    z-index:20;
+    margin-left: -5px;
+    border-left: 2px solid rgba(255,255,255,1);
+    border-bottom: 2px solid rgba(255,255,255,1);
+    box-shadow: 1px -1px 1px rgba(0,0,0,0.2);
 }
+
 
 #usersTable {
      margin: 0 0 0 15px;
@@ -1442,4 +1469,14 @@
 #usersTable.tasks td.name span {
     max-width: 170px;
     width: auto;
+}
+
+#stat-view .click-zone {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: none;
 }
