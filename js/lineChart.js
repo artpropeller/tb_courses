@@ -234,7 +234,6 @@ var visitChartView = {
             }
         });
 
-//        console.log($(circles[0][0]).offset());
 
         circles.enter().append('circle')
             .style('opacity', 0)

@@ -75,7 +75,6 @@ $(function(){
                 $(this).parents('.select').toggleClass('active');
                 $(this).parents('.select').find('.picker').slideToggle(300);
             }
-            console.log(dates);
             clearTd();
         }
     });
@@ -173,7 +172,6 @@ this.tooltip = function(){
 
 
 function addTooltipClass(elements, length){
-    console.log($(elements));
     $(elements).each(function(){
         if ($(this).text().length > length) {
             $(this).addClass('tooltips');
