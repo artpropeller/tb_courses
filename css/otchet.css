@@ -6,8 +6,6 @@
     position: relative;
 }
 
-
-
 #header .container .header-search {
     position: relative;
     float: right;
@@ -25,7 +23,6 @@
     height: auto;
 }
 
-
 #stat-view .dash-top, #stat-view .dash-right, #stat-view .dash-left, #stat-view .dash-bottom {
     position: static;
     width: auto;
@@ -35,25 +32,25 @@
 
 #stat-view .dash-right, #stat-view .dash-left {
     background-position: right;
-    background-image:url("../images/bg/dashed-v.png");
-    background-repeat: repeat-y ;
+    background-image: url("../images/bg/dashed-v.png");
+    background-repeat: repeat-y;
 }
 
 #stat-view .dash-left {
-    background-position: left;}
+    background-position: left;
+}
 
 #stat-view .dash-bottom {
     padding: 5px 6px;
     background-position: bottom;
 }
 
-#course_assign .dash-bottom{
+#course_assign .dash-bottom {
     padding: 0;
     background-position: bottom;
 }
 
-
-#stat-view .head .menu{
+#stat-view .head .menu {
     border-radius: 3px;
     border: 1px solid #d7d7d7;
     overflow: auto;
@@ -124,16 +121,14 @@
     border: none;
 }
 
-
 /*END:перенесено corse-view.css*/
 
 #header {
     margin-bottom: 15px;
 }
 
-
 #stat-view .otchet .dash-bottom {
-    padding:15px 17px;
+    padding: 15px 17px;
     overflow: visible;
 }
 
@@ -157,7 +152,7 @@
 
 #stat-view .otchet h3 {
     color: #000;
-    font-size: 17px;
+    font-size: 18px;
     font-weight: bold;
     margin: 0;
 
@@ -268,8 +263,7 @@
     padding-bottom: 0;
 }
 
-
-#stat-view .otchet .right .block.last{
+#stat-view .otchet .right .block.last {
     margin-bottom: 0;
 }
 
@@ -363,8 +357,6 @@
     width: 100%;
     margin-bottom: 12px;
 
-
-
 }
 
 #stat-view .otchet .load_bar .hov {
@@ -376,35 +368,31 @@
 
 }
 
-#stat-view .otchet .load_bar div{
+#stat-view .otchet .load_bar div {
     height: 25px;
 }
 
-#stat-view .otchet .load_bar .dark_blue{
+#stat-view .otchet .load_bar .dark_blue {
     background: url("../images/load_dark_blue.jpg") repeat-x;
 
-
 }
 
-#stat-view .otchet .load_bar .mid_blue{
+#stat-view .otchet .load_bar .mid_blue {
     background: url("../images/load_mid_blue.jpg") repeat-x;
 
-
 }
 
-#stat-view .otchet .load_bar .small_blue{
+#stat-view .otchet .load_bar .small_blue {
     background: url("../images/load_small_blue.jpg") repeat-x;
 
-
 }
 
-#stat-view .otchet .load_bar .light_blue{
+#stat-view .otchet .load_bar .light_blue {
     background: url("../images/load_light_blue.jpg") repeat-x;
 
-
 }
 
-#stat-view .otchet .load_bar .stat{
+#stat-view .otchet .load_bar .stat {
     font-size: 13px;
     color: #000;
     position: absolute;
@@ -415,22 +403,21 @@
     top: 0;
 }
 
-#stat-view .otchet .sod .itogo{
+#stat-view .otchet .sod .itogo {
     margin: 0;
     margin-right: -8px;
 }
 
-#stat-view .otchet .sod .itogo span{
+#stat-view .otchet .sod .itogo span {
     margin-right: 15px;
 
 }
 
-
-#stat-view .otchet .markers .lp{
+#stat-view .otchet .markers .lp {
     margin-right: 55px;
 }
 
-#stat-view .otchet .markers .lp div, #stat-view .otchet .markers .rp div{
+#stat-view .otchet .markers .lp div, #stat-view .otchet .markers .rp div {
     background-image: url("../images/blue_load_bar_sprite.png");
     background-repeat: no-repeat;
     padding-left: 25px;
@@ -439,40 +426,36 @@
 
 }
 
-#stat-view .otchet .markers .rp div{
+#stat-view .otchet .markers .rp div {
     background-image: url("../images/load_bar_light_sprite.png");
 
 }
 
-#stat-view .otchet .markers .dark_blue{
+#stat-view .otchet .markers .dark_blue {
     background-position: left top;
     margin-bottom: 10px;
     margin-left: 10px;
 }
 
-#stat-view .otchet .markers .small_blue{
+#stat-view .otchet .markers .small_blue {
     background-position: left bottom;
     margin-left: 10px;
 
-
 }
 
-#stat-view .otchet .markers .mid_blue{
+#stat-view .otchet .markers .mid_blue {
     background-position: left top;
     margin-bottom: 10px;
 }
 
-
-#stat-view .otchet .markers .light_blue{
+#stat-view .otchet .markers .light_blue {
     background-position: left bottom;
     margin-bottom: 1px;
 }
 
-
 #piechart-users {
     background: url("../images/piechart_bg.png") no-repeat center 27px;
 }
-
 
 .chart-tooltip {
     position: absolute;
@@ -482,12 +465,12 @@
     text-align: center;
 }
 
-
-.chart-tooltip{
+.chart-tooltip {
     background: #f3faee;
     border: 4px solid #ffffff;
-    box-shadow: 0 0 4px rgba(0,0,0,0.5);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
 }
+
 .chart-tooltip:after, .chart-tooltip:before {
     top: 100%;
     border: solid transparent;
@@ -505,6 +488,7 @@
     left: 50%;
     margin-left: -8px;
 }
+
 .chart-tooltip:before {
     border-color: rgba(255, 255, 255, 0);
     border-top-color: #ffffff;
@@ -524,6 +508,7 @@
 .user-line.color1 {
     border: 2px solid #90c7d3;
 }
+
 .user-line:after, .user-line:before {
     left: 100%;
     border: solid transparent;
@@ -563,7 +548,7 @@
     -webkit-border-radius: 3px;
     border: 1px solid #f3f3f3;
     border-top: 0;
-    box-shadow: 1px 1px 0 0 rgba(0,0,0,0.05);
+    box-shadow: 1px 1px 0 0 rgba(0, 0, 0, 0.05);
 }
 
 #stat-view .select {
@@ -595,10 +580,10 @@
     width: 183px;
     border-radius: 0 2px 2px 2px;
     border: 1px solid #bfbfbf;
-    border-top:0;
+    border-top: 0;
     padding: 0 0 0 0;
     margin: 0;
-    top:32px;
+    top: 32px;
     background: #e4e4e4 url("../images/st-select-list-bg.png") repeat-x top;
 }
 
@@ -606,9 +591,9 @@
     padding: 10px;
     line-height: 12px;
     margin: 0;
-    border:1px solid transparent;
-    border-left:0;
-    border-right:0;
+    border: 1px solid transparent;
+    border-left: 0;
+    border-right: 0;
 }
 
 #stat-view .select ul li:hover {
@@ -629,7 +614,7 @@
     background: #fafafa url("../images/st-select-bg.png") repeat-x top;
     width: 29px;
     right: -1px;
-    top:-1px;
+    top: -1px;
 }
 
 #stat-view .select .toggle img {
@@ -665,16 +650,16 @@
     border: 1px solid #bfbfbf;
     padding: 0 0 0 0;
     margin: 0;
-    top:31px;
+    top: 31px;
     width: 365px;
     background: #e4e4e4 url("../images/st-select-list-bg.png") repeat-x top;
 }
 
 #stat-view .select .picker .border {
-    border-top:solid 1px #f3f3f3;
+    border-top: solid 1px #f3f3f3;
     position: absolute;
     width: 176px;
-    top:-1px;
+    top: -1px;
 }
 
 #stat-view .datepickerContainer {
@@ -703,7 +688,7 @@
 }
 
 #stat-view .datepickerContainer .datepickerDays td {
-    border:1px solid #b7c1cb;
+    border: 1px solid #b7c1cb;
     height: 22px;
     width: 22px;
     line-height: 12px;
@@ -734,7 +719,7 @@
 #stat-view .datepickerContainer, #stat-view .datepicker {
     height: auto !important;
     position: relative;
-    top:0;
+    top: 0;
     left: 0;
     padding: 5px 5px 5px;
 }
@@ -779,7 +764,7 @@
     font-size: 12px;
     color: #000;
     cursor: pointer;
-    border:1px solid transparent;
+    border: 1px solid transparent;
 }
 
 #stat-view .step li.active {
@@ -826,17 +811,16 @@
     border-right: 1px solid #e1e1e1;
 }
 
-
 #stat-view .metrics .tooltip {
     position: absolute;
     border-radius: 5px;
-    padding:16px 15px;
+    padding: 16px 15px;
     /*display: none;*/
     font-size: 12px;
     color: #000000;
     line-height: 14px;
     left: 50%;
-    top:27px;
+    top: 27px;
     text-align: center;
     width: 300px;
     margin-left: -170px;
@@ -845,12 +829,12 @@
     z-index: 10;
 }
 
-
-#stat-view .metrics .tooltip{
+#stat-view .metrics .tooltip {
     background: #f3faee;
     border: 4px solid #ffffff;
-    box-shadow: 0 0 8px rgba(0,0,0,0.5);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
 }
+
 #stat-view .metrics .tooltip:after, #stat-view .metrics .tooltip:before {
     bottom: 100%;
     border: solid transparent;
@@ -868,9 +852,10 @@
     left: 50%;
     margin-left: -8px;
 }
+
 #stat-view .metrics .tooltip:before {
     border-color: rgba(255, 255, 255, 0);
-    border-bottom-color:  #ffffff;
+    border-bottom-color: #ffffff;
     border-width: 14px;
     left: 50%;
     margin-left: -14px;
@@ -916,7 +901,7 @@
 }
 
 #usersTable th.quantity-views {
-     width: 260px;
+    width: 260px;
 }
 
 #usersTable th.quantity-videos {
@@ -927,7 +912,6 @@
 #stat-view .users {
     padding: 15px 0;
 }
-
 
 #usersTable td {
     text-align: left;
@@ -942,7 +926,7 @@
 
 #usersTable tbody tr {
     background: url("../images/bg/dashed.png") repeat-x bottom;
-    padding:  0;
+    padding: 0;
 }
 
 #usersTable tbody td.name img {
@@ -952,8 +936,8 @@
 }
 
 #usersTable tbody td.name span {
-   display: block;
-   float: left;
+    display: block;
+    float: left;
     padding-top: 4px;
 }
 
@@ -996,7 +980,7 @@
 
 #usersTable tbody .active td .sel {
     background: #ebf0f5;
-    border:0;
+    border: 0;
 }
 
 #usersTable tbody td.check .sel {
@@ -1013,9 +997,9 @@
 }
 
 #usersTable th.sorting-asc {
-     background-image: url("../images/toggle-select-top.png");
-     background-repeat: no-repeat;
- }
+    background-image: url("../images/toggle-select-top.png");
+    background-repeat: no-repeat;
+}
 
 #usersTable th.sorting-desc {
     background-image: url("../images/toggle-select.png");
@@ -1046,23 +1030,23 @@
     right: 8px;
 }
 
-#search-table{
+#search-table {
     height: 25px;
     background: #fff;
-    border:1px solid #d2d2d2;
+    border: 1px solid #d2d2d2;
     width: 170px;
-    line-height: 23px;
-    padding:  0 10px;
+    line-height: 1.3;
+    padding: 0 10px;
     margin-right: 22px;
 
 }
 
-#stat-view .top_block{
+#stat-view .top_block {
     padding: 0 20px 10px;
     overflow: auto;
 }
 
-#stat-view .print{
+#stat-view .print {
     display: block;
     background: url("../images/ico_print.png") no-repeat;
     width: 16px;
@@ -1072,12 +1056,12 @@
 
 }
 
-#stat-view .show_but{
+#stat-view .show_but {
     background: url("../images/show_but_bg.jpg") repeat-x;
     display: block;
     height: 17px;
     border: 1px solid #bdbdbd;
-    padding:  2px 12px 0;
+    padding: 2px 12px 0;
     color: #444444;
     font-size: 11px;
     font-weight: bold;
@@ -1088,24 +1072,24 @@
     display: none;
 }
 
-#stat-view .show_but:hover{
+#stat-view .show_but:hover {
     background: #f1f1f1;
 }
 
-#stat-view .statistic_buts{
+#stat-view .statistic_buts {
     overflow: auto;
     padding-left: 0;
     margin-bottom: 7px;
 }
 
-#stat-view .statistic_buts li{
+#stat-view .statistic_buts li {
     float: left;
     margin-right: 5px;
     margin-left: 0;
     padding-left: 0;
 }
 
-#stat-view .statistic_buts a{
+#stat-view .statistic_buts a {
     display: block;
     background: url("../images/otchet_but_bg.jpg") repeat-x;
     height: 26px;
@@ -1114,18 +1098,19 @@
     font-weight: bold;
     text-align: center;
     border-radius: 5px;
-    border:1px solid #e9e9e9;
+    border: 1px solid #e9e9e9;
     border-top: 0;
     font-size: 15px;
     padding-top: 8px;
     box-shadow: 0 1px 2px #ebebeb;
 
 }
-#stat-view .statistic_buts li.active a{
+
+#stat-view .statistic_buts li.active a {
     background: #f3f8fc;
-    border:3px solid #cde6f6;
+    border: 3px solid #cde6f6;
     color: #3b86c4;
-    border-top:3px solid #cde6f6;
+    border-top: 3px solid #cde6f6;
     height: 25px;
     padding-top: 4px;
     width: 174px;
@@ -1148,18 +1133,22 @@
 
 #usersTable.tasks th.author {
     width: 175px;
+    cursor: pointer;
 }
 
 #usersTable.tasks th.begin, #usersTable.tasks th.time {
     width: 95px;
+    cursor: pointer;
 }
 
 #usersTable.tasks th.end {
     width: 100px;
+    cursor: pointer;
 }
 
 #usersTable.tasks th.current, #usersTable.tasks th.quantity-views {
     width: 95px;
+    cursor: pointer;
 }
 
 #usersTable.tasks th.sorting-asc.name, #usersTable.tasks th.sorting-desc.name {
@@ -1215,9 +1204,9 @@
     height: 4px;
     border-radius: 6px;
     background: #fff;
-    top:1px;
-    left: 2px;
-    border:2px solid #73c841;
+    top: 2px;
+    left: 1px;
+    border: 2px solid #73c841;
 }
 
 #stat-view .legend .item.color0 .color {
@@ -1260,70 +1249,68 @@
     border-color: #a68b6f;
 }
 
-#stat-view .user_type{
+#stat-view .user_type {
     padding: 0 20px;
     margin-bottom: 0;
 
 }
 
-#stat-view .user_type li{
-    border-bottom:  1px solid #e5e5e5;
+#stat-view .user_type li {
+    border-bottom: 1px solid #e5e5e5;
     padding: 25px 0;
     overflow: auto;
     color: #000;
     font-size: 13px;
 }
 
-#stat-view .user_type li span, .user_type li strong{
+#stat-view .user_type li span, .user_type li strong {
     display: block;
 
 }
 
-#stat-view .user_type li strong{
+#stat-view .user_type li strong {
     font-size: 30px;
 
 }
 
-#stat-view .user_type li.last{
+#stat-view .user_type li.last {
     border: 0;
 }
 
-#stat-view .total{
+#stat-view .total {
     background: #eaeaea;
     border-radius: 3px;
-    box-shadow:  inset 1px 1px 2px #dadada;
-    margin:  0 12px;
+    box-shadow: inset 1px 1px 2px #dadada;
+    margin: 0 12px;
     padding: 20px 20px 12px;
     overflow: auto;
 }
 
-#stat-view .total p{
+#stat-view .total p {
     font-size: 15px;
     line-height: 20px;
     margin-bottom: 14px;
 }
 
-#stat-view .total span{
+#stat-view .total span {
     font-weight: bold;
     font-size: 20px;
     display: block;
     margin-bottom: 14px;
 }
 
-#stat-view .total span strong{
+#stat-view .total span strong {
     font-size: 30px;
 }
 
-#stat-view .total .load_bar{
+#stat-view .total .load_bar {
     position: relative;
     width: 100%;
     margin-bottom: 15px;
 
-
-
 }
 
-#stat-view .total .load_bar .inner{
+#stat-view .total .load_bar .inner {
     background: #b6b6b6;
     border-radius: 3px;
     -webkit-border-radius: 3px;
@@ -1334,12 +1321,14 @@
 
 }
 
-#stat-view .total .load_bar .blue_line{
+#stat-view .total .load_bar .blue_line {
     background: url("../images/blue_line_bg.jpg") repeat-x;
     height: 32px;
+    border-radius: 3px 0 0 3px;
+
 }
 
-#stat-view .total .load_bar .txt{
+#stat-view .total .load_bar .txt {
     position: absolute;
     color: #fff;
     font-size: 18px;
@@ -1349,10 +1338,59 @@
     width: 100%;
     padding-top: 8px;
     text-shadow: 1px 1px 1px #7c7c7c;
+
 }
 
-#stat-view .left .users{
+#stat-view .left .users {
     padding: 0;
 }
 
+.h-logo {
+    padding-top: 3px;
+}
+
+.h-personal {
+    display: block;
+    padding: 0;
+    position: relative;
+    top: 9px;
+    margin-right: 5px;
+
+}
+
+#stat-view .total .load_bar .inner::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 32px;
+    box-shadow: 0 0 0 3px #EAEAEA;
+    border-radius: 3px;
+}
+
+#stat-view .otchet .load_bar .hov::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 25px;
+    box-shadow: 0 0 0 6px #fff;
+    border-radius: 25px;
+
+}
+
+#tooltip {
+    position: absolute;
+    border: 1px solid #ccc68a;
+    background: #f5f1c5;
+    padding: 3px 4px;
+    display: none;
+    z-index: 999999999999;
+    color: #5e5923;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12.5px;
+    box-shadow: 0 0 13px #a9a9a9;
+}
 
