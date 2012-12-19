@@ -148,12 +148,12 @@ function clearTd(){
 
 this.tooltip = function(){
     /* CONFIG */
-    xOffset = -23;
+    xOffset = -13;
     yOffset = 13;
     // these 2 variable determine popup's distance from the cursor
     // you might want to adjust to get the right result
     /* END CONFIG */
-    $(".tooltip").hover(function(e){
+    $(".tooltips").hover(function(e){
             this.t = $(this).text();
             $("body").append("<p id='tooltip'>"+ this.t +"</p>");
             $("#tooltip")
@@ -164,7 +164,7 @@ this.tooltip = function(){
         function(){
             $("#tooltip").remove();
         });
-    $(".tooltip").mousemove(function(e){
+    $(".tooltips").mousemove(function(e){
         $("#tooltip")
             .css("top",(e.pageY - xOffset) + "px")
             .css("left",(e.pageX + yOffset) + "px");
@@ -176,7 +176,7 @@ function addTooltipClass(elements, length){
     console.log($(elements));
     $(elements).each(function(){
         if ($(this).text().length > length) {
-            $(this).addClass('tooltip');
+            $(this).addClass('tooltips');
         }
     });
 }
