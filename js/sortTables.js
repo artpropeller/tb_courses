@@ -6,6 +6,8 @@
     $.fn.stupidtable = function(sortFns){
         return this.each(function () {
             var $table = $(this);
+            console.log($table.attr('rel'));
+            var $tablesort = $('#'+$table.attr('rel'));
             sortFns = sortFns || {};
 
             // ==================================================== //
@@ -68,10 +70,10 @@
             // ==================================================== //
             // Do sorting when THs are clicked
             $table.on("click", "th", function(){
-                var trs = $table.children("tbody").children("tr");
+                var trs = $tablesort.find('tr');
                 var $this = $(this);
                 var th_index = 0;
-
+                console.log(trs);
                 $table.find('th').slice(0, $this.index()).each(function () {
                     var cols = $(this).attr('colspan') || 1;
                     th_index += parseInt(cols);
@@ -94,6 +96,7 @@
                         var order_by = typeof(sort_val) !== "undefined" ? sort_val : $e.text();
                         column.push(order_by);
                     });
+                    console.log(column);
 
                     // If the column is already sorted, just reverse the order. The sort
                     // map is just reversing the indexes.
@@ -122,7 +125,7 @@
                     // Replace the content of tbody with the sortedTRs. Strangely (and
                     // conveniently!) enough, .append accomplishes this for us.
                     var sortedTRs = $(apply_sort_map(trs, theMap));
-                    $table.children("tbody").append(sortedTRs);
+                    $tablesort.children("tbody").append(sortedTRs);
 
                     // Trigger `aftertablesort` event. Similar to `beforetablesort`
                     $table.trigger("aftertablesort", {column: th_index, direction: sort_dir})

@@ -23,6 +23,10 @@ var parseMonth = {
 
 $(function(){
 
+    addTooltipClass('#usersTable.tasks td.name span', 25);
+
+    tooltip();
+
     //выбор типа статистики
     $('.select.type').click(function(){
         $(this).toggleClass('active');
@@ -96,7 +100,7 @@ $(function(){
     );
 
     //таблица
-    $("#usersTable").stupidtable();
+    $("#usersSortTable").stupidtable();
     $(".userstable").jScrollPane({
         autoReinitialise: true,
         autoReinitialiseDelay: 50
@@ -137,6 +141,42 @@ function clearTd(){
         });
         if (cell == 7) {
             tr.remove();
+        }
+    });
+}
+
+
+this.tooltip = function(){
+    /* CONFIG */
+    xOffset = -23;
+    yOffset = 13;
+    // these 2 variable determine popup's distance from the cursor
+    // you might want to adjust to get the right result
+    /* END CONFIG */
+    $(".tooltip").hover(function(e){
+            this.t = $(this).text();
+            $("body").append("<p id='tooltip'>"+ this.t +"</p>");
+            $("#tooltip")
+                .css("top",(e.pageY - xOffset) + "px")
+                .css("left",(e.pageX + yOffset) + "px")
+                .fadeIn("fast");
+        },
+        function(){
+            $("#tooltip").remove();
+        });
+    $(".tooltip").mousemove(function(e){
+        $("#tooltip")
+            .css("top",(e.pageY - xOffset) + "px")
+            .css("left",(e.pageX + yOffset) + "px");
+    });
+};
+
+
+function addTooltipClass(elements, length){
+    console.log($(elements));
+    $(elements).each(function(){
+        if ($(this).text().length > length) {
+            $(this).addClass('tooltip');
         }
     });
 }

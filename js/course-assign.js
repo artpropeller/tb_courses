@@ -8,6 +8,8 @@
 seti = '';
 $(function () {
 
+
+
     $('.scroll-assign').jScrollPane({animateScroll:true});
 
     $('.dialog-assign .option-assign label').click(function () {

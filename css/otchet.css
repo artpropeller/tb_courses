@@ -862,8 +862,10 @@
 }
 
 #usersTable {
-    /*width: 100%;*/
-    margin: 0 0 0 15px;
+     margin: 0 0 0 15px;
+ }
+
+#usersTable #usersSortTable {
     background: url("../images/bg/dashed.png") repeat-x top;
 }
 
@@ -1394,3 +1396,52 @@
     box-shadow: 0 0 13px #a9a9a9;
 }
 
+#usersTable.tasks td.name {
+    width: 225px;
+}
+
+#usersTable.tasks td.author {
+    width: 175px;
+}
+
+#usersTable.tasks td.begin, #usersTable.tasks td.time {
+    width: 95px;
+}
+
+#usersTable.tasks td.end {
+    width: 100px;
+}
+
+#usersTable.tasks td.current, #usersTable.tasks td.quantity-views {
+    width: 95px;
+}
+
+
+#usersTable td.name {
+    width: 220px;
+}
+
+#usersTable td.quantity-visits {
+    width: 115px;
+}
+
+#usersTable td.time {
+    width: 150px;
+}
+
+#usersTable td.quantity-views {
+    width: 260px;
+}
+
+#usersTable td.quantity-videos {
+    width: 135px;
+}
+
+#usersTable td.check {
+    width: 30px;
+}
+
+#usersTable.tasks td.name span {
+    max-width: 170px;
+    width: auto;
+}
