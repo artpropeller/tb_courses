@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/ico_opros.png" afterPath="$PROJECT_DIR$/images/ico_opros.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statistics.html" afterPath="$PROJECT_DIR$/statistics.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/otchet_new.html" afterPath="$PROJECT_DIR$/otchet_new.html" />
     </list>
     <ignored path="tb_courses.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,10 +63,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="statistics.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="statistics.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/statistics.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="114" selection-start="1647" selection-end="1647" vertical-scroll-proportion="0.7260677">
+            <state line="35" column="114" selection-start="1647" selection-end="1647" vertical-scroll-proportion="-22.884615">
               <folding />
             </state>
           </provider>
@@ -89,14 +90,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="otchet_new.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="otchet_new.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/otchet_new.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="25" selection-start="1948" selection-end="1948" vertical-scroll-proportion="-3.9230769">
+            <state line="122" column="86" selection-start="5260" selection-end="5260" vertical-scroll-proportion="0.5994109">
               <folding>
-                <marker date="1355910633896" expanded="true" signature="3037:3130" placeholder="..." />
-                <marker date="1355910633896" expanded="true" signature="3063:3118" placeholder="{...}" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1355914620450" expanded="true" signature="3037:3130" placeholder="..." />
+                <marker date="1355914620450" expanded="true" signature="3063:3118" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -138,8 +138,8 @@
         <option value="$PROJECT_DIR$/js/lineChart.js" />
         <option value="$PROJECT_DIR$/statistics-tasks.html" />
         <option value="$PROJECT_DIR$/css/otchet.css" />
-        <option value="$PROJECT_DIR$/otchet_new.html" />
         <option value="$PROJECT_DIR$/statistics.html" />
+        <option value="$PROJECT_DIR$/otchet_new.html" />
       </list>
     </option>
   </component>
@@ -406,18 +406,22 @@
       <created>1355910660176</created>
       <updated>1355910660176</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="chart">
+      <created>1355912190855</created>
+      <updated>1355912190855</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="886" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23218067" sideWeight="0.6706667" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23218067" sideWeight="0.6706667" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -571,14 +575,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/otchet_new.html">
+    <entry file="file://$PROJECT_DIR$/statistics-tasks.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="25" selection-start="1948" selection-end="1948" vertical-scroll-proportion="-3.9230769">
-          <folding>
-            <marker date="1355910633896" expanded="true" signature="3037:3130" placeholder="..." />
-            <marker date="1355910633896" expanded="true" signature="3063:3118" placeholder="{...}" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="35" column="110" selection-start="1529" selection-end="1631" vertical-scroll-proportion="-18.961538">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statistics.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="114" selection-start="1647" selection-end="1647" vertical-scroll-proportion="-22.884615">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -589,17 +596,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/statistics-tasks.html">
+    <entry file="file://$PROJECT_DIR$/otchet_new.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="110" selection-start="1529" selection-end="1631" vertical-scroll-proportion="-18.961538">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/statistics.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="114" selection-start="1647" selection-end="1647" vertical-scroll-proportion="0.7260677">
-          <folding />
+        <state line="122" column="86" selection-start="5260" selection-end="5260" vertical-scroll-proportion="0.5994109">
+          <folding>
+            <marker date="1355914620450" expanded="true" signature="3037:3130" placeholder="..." />
+            <marker date="1355914620450" expanded="true" signature="3063:3118" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
