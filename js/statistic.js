@@ -88,6 +88,8 @@ $(function(){
         }
     });
 
+    $('.datepickerGoNext a:eq(0), .datepickerGoPrev a:eq(1)').remove();
+
     clearTd();
 
     // выбор шага
@@ -124,7 +126,7 @@ $(function(){
             if (text.length) {
                 $('#usersTable tbody tr').hide(0);
                 $('#usersTable tbody tr').each(function () {
-                    if ($(this).find('.name span').text().toLowerCase().indexOf(text.toLowerCase()) + 1) {
+                    if ($(this).find('.name span').text().toLowerCase().indexOf(text.toLowerCase()) + 1 || $(this).find('.author .sel').text().toLowerCase().indexOf(text.toLowerCase()) + 1) {
                         $(this).show(0);
                     }
                 });
@@ -151,6 +153,7 @@ function clearTd(){
             tr.remove();
         }
     });
+
 }
 
 

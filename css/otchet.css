@@ -469,6 +469,7 @@
     background: #f3faee;
     border: 4px solid #ffffff;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+    z-index: 100;
 }
 
 .chart-tooltip:after, .chart-tooltip:before {
@@ -484,17 +485,39 @@
 .chart-tooltip:after {
     border-color: rgba(243, 250, 238, 0);
     border-top-color: #f3faee;
-    border-width: 8px;
+    border-width: 15px;
     left: 50%;
-    margin-left: -8px;
+    margin-left: -15px;
+    z-index: 30;
+    top: auto;
+    bottom: -24px;
 }
 
 .chart-tooltip:before {
     border-color: rgba(255, 255, 255, 0);
+    z-index: 30;
     border-top-color: #ffffff;
     border-width: 14px;
     left: 50%;
+
     margin-left: -14px;
+}
+
+
+.chart-tooltip .tips{
+    content: '';
+    height:14px;
+    width:14px;
+    -webkit-transform: rotate(-45deg);
+    position:absolute;
+    bottom:-11px;
+    left:50%;
+    background: #fff;
+    z-index:20;
+    margin-left: -7px;
+    border-left: 2px solid rgba(255,255,255,1);
+    border-bottom: 2px solid rgba(255,255,255,1);
+    box-shadow: -1px 1px 1px rgba(0,0,0,0.2);
 }
 
 .user-line {

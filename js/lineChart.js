@@ -6,6 +6,7 @@ var tt = document.createElement('div'),
 tt.className = 'chart-tooltip';
 document.body.appendChild(tt);
 
+
 $(tt).hover(function(){ timeTT = true;},function(){timeTT = false; $(this).hide()});
 
 
@@ -201,7 +202,7 @@ var opts = {
             "Saturday":"Суббота"
         };
         var pos = $(this).offset();
-        $(tt).html(days[d3.time.format('%A')(d.x)] + d3.time.format(', %e %B, %Y')(d.x) + '<br><strong>Посещений: ' + d.y + '</strong>')
+        $(tt).html(days[d3.time.format('%A')(d.x)] + d3.time.format(', %e %B, %Y')(d.x) + '<br><strong>Посещений: ' + d.y + '</strong><div class="tips"></div>')
             .css({top:topOffset + pos.top - 26, left:pos.left + 3 + leftOffset})
             .show(0);
 
