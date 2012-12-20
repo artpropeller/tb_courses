@@ -312,6 +312,7 @@ var _scales = {
 
     fills.enter().append('path')
       .attr('class', 'fill')
+      .attr('padding', '10px')
       .style('opacity', 0)
       .attr('d', area.y0(y));
 
@@ -929,7 +930,7 @@ _.defaults(xChart.prototype, {
 
     zLinePath.enter().append('line')
       .attr('x1', 0)
-      .attr('x2', self._width + o.axisPaddingLeft + o.axisPaddingRight)
+      .attr('x2', self._width + o.axisPaddingLeft + o.axisPaddingRight - 20)
       .attr('y1', self.yZero)
       .attr('y2', self.yZero);
 

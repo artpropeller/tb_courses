@@ -14,9 +14,13 @@
 .xchart .axis .domain {
   fill: none;
 }
-.xchart .axis .tick {
+.xchart .axis .tick, .xchart .axisZero  {
   stroke: #EEE;
   stroke-width:1px;
+}
+
+.xchart .axis.axisY g:first-child .tick {
+    stroke-width:0;
 }
 
 .xchart .axis.axisX .tick {
