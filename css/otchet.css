@@ -1458,6 +1458,13 @@
     width: 175px;
 }
 
+#usersTable.tasks td.author .sel {
+    overflow: hidden;
+    width: 173px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
 #usersTable.tasks td.begin, #usersTable.tasks td.time {
     width: 95px;
 }
@@ -1509,3 +1516,4 @@
     left: 0;
     display: none;
 }
+

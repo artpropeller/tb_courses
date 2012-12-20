@@ -23,7 +23,7 @@ var parseMonth = {
 
 $(function(){
 
-    addTooltipClass('#usersTable.tasks td.name span', 25);
+    addTooltipClass('#usersTable.tasks td.name span, #usersTable.tasks td.author .sel', 25);
     addTooltipClass('.select.type .value', 21);
 
     tooltip();
