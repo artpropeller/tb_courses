@@ -509,6 +509,7 @@
     height:14px;
     width:14px;
     -webkit-transform: rotate(-45deg);
+    -moz-transform:rotate(45deg);
     position:absolute;
     bottom:-11px;
     left:50%;
@@ -899,6 +900,7 @@
     height:14px;
     width:14px;
     -webkit-transform: rotate(-45deg);
+    -moz-transform:rotate(-45deg);
     position:absolute;
     top:-12px;
     left:50%;
@@ -912,7 +914,7 @@
 
 
 #usersTable {
-     margin: 0 0 0 15px;
+     margin: 0 0 0 20px;
  }
 
 #usersTable #usersSortTable {
@@ -1444,8 +1446,12 @@
     box-shadow: 0 0 13px #a9a9a9;
 }
 
-#usersTable.tasks td.name {
-    width: 225px;
+#usersTable.tasks td.check, #usersTable.tasks th.check {
+    width: 0;
+}
+
+#usersTable.tasks td.name, #usersTable.tasks th.name {
+    width: 250px;
 }
 
 #usersTable.tasks td.author {
