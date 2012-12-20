@@ -24,6 +24,7 @@ var parseMonth = {
 $(function(){
 
     addTooltipClass('#usersTable.tasks td.name span', 25);
+    addTooltipClass('.select.type .value', 21);
 
     tooltip();
 
@@ -38,6 +39,8 @@ $(function(){
         $('.select.type li').removeClass('active');
         $(this).addClass('active');
         $(this).parents('.select').find('.value').text($(this).text());
+        addTooltipClass('.select.type .value', 21);
+        tooltip();
     });
 
     //выбор даты статистики
@@ -165,13 +168,14 @@ this.tooltip = function(){
     // you might want to adjust to get the right result
     /* END CONFIG */
     $(".tooltips").hover(function(e){
+            if ($(this).is('.tooltips')) {
             this.t = $(this).text();
             $("body").append("<p id='tooltip'>"+ this.t +"</p>");
             $("#tooltip")
                 .css("top",(e.pageY - xOffset) + "px")
                 .css("left",(e.pageX + yOffset) + "px")
                 .fadeIn("fast");
-        },
+        }},
         function(){
             $("#tooltip").remove();
         });
@@ -187,6 +191,9 @@ function addTooltipClass(elements, length){
     $(elements).each(function(){
         if ($(this).text().length > length) {
             $(this).addClass('tooltips');
+        }
+        else {
+            $(this).removeClass('tooltips');
         }
     });
 }

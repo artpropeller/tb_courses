@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/otchet.css" afterPath="$PROJECT_DIR$/css/otchet.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/xcharts.css" afterPath="$PROJECT_DIR$/css/xcharts.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/xcharts.js" afterPath="$PROJECT_DIR$/js/xcharts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/statistic.js" afterPath="$PROJECT_DIR$/js/statistic.js" />
     </list>
     <ignored path="tb_courses.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,10 +26,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="statistic.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="statistic.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/statistic.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="46" selection-start="2350" selection-end="2350" vertical-scroll-proportion="0.0">
+            <state line="170" column="28" selection-start="4666" selection-end="4666" vertical-scroll-proportion="0.3212928">
               <folding />
             </state>
           </provider>
@@ -73,10 +71,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="otchet.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="otchet.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/otchet.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="802" column="16" selection-start="15208" selection-end="15208" vertical-scroll-proportion="0.36575875">
+            <state line="801" column="12" selection-start="15191" selection-end="15191" vertical-scroll-proportion="121.68">
               <folding />
             </state>
           </provider>
@@ -143,10 +141,10 @@
         <option value="$PROJECT_DIR$/statistics.html" />
         <option value="$PROJECT_DIR$/statistics-tasks.html" />
         <option value="$PROJECT_DIR$/js/lineChart.js" />
-        <option value="$PROJECT_DIR$/js/statistic.js" />
         <option value="$PROJECT_DIR$/css/xcharts.css" />
         <option value="$PROJECT_DIR$/js/xcharts.js" />
         <option value="$PROJECT_DIR$/css/otchet.css" />
+        <option value="$PROJECT_DIR$/js/statistic.js" />
       </list>
     </option>
   </component>
@@ -213,20 +211,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tb_courses" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tb_courses" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -407,7 +391,11 @@
       <created>1355989410222</created>
       <updated>1355989410222</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="chart">
+      <created>1355998591037</created>
+      <updated>1355998591037</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -561,13 +549,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/statistic.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="46" selection-start="2350" selection-end="2350" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/statistics-tasks.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="6" selection-start="22" selection-end="22" vertical-scroll-proportion="-0.65384614">
@@ -591,7 +572,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/otchet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="802" column="16" selection-start="15208" selection-end="15208" vertical-scroll-proportion="0.36575875">
+        <state line="801" column="12" selection-start="15191" selection-end="15191" vertical-scroll-proportion="121.68">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/statistic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="170" column="28" selection-start="4666" selection-end="4666" vertical-scroll-proportion="0.3212928">
           <folding />
         </state>
       </provider>
