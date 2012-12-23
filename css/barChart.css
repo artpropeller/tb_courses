@@ -1,0 +1,180 @@
+.barChart {
+    width: 875px;
+    height: 240px;
+    margin: 50px auto;
+    position: relative;
+}
+
+.barChart .container-axis {
+    height: 189px;
+    position: relative;
+    width: 100%;
+    top:0;
+    left: 0;
+}
+
+.barChart .axis {
+    height: 189px;
+    position: absolute;
+    width: 100%;
+    top:0;
+    left: 0;
+}
+
+.barChart .grid {
+    height: 18px;
+    font-size: 12px;
+    color: #666666;
+    line-height: 12px;
+    overflow: hidden;
+    top:0;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    margin-top: -9px;
+
+}
+
+.barChart .grid .label {
+    width: 55px;
+    float: left;
+    padding-top: 2px;
+    height: 16px;
+}
+
+.barChart .grid .line {
+    height: 8px;
+    border-bottom: solid 1px #eaeaea;
+    float: left;
+    width: 820px;
+}
+
+.barChart .container-bar {
+    z-index: 1;
+    width: 770px;
+    height: 189px;
+    position: absolute;
+    top:0;
+    left: 80px;
+    overflow: hidden;
+}
+
+.barChart .container-bar ul {
+    height: 189px;
+    position: relative;
+    top:0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.barChart .container-bar ul li {
+    height: 189px;
+    width: 70px;
+    float: left;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.barChart .container-bar ul li .bar {
+    width: 50px;
+    margin-left: 5px;
+    position: absolute;
+    height: 52%;
+    bottom: 0;
+    left: 0;
+    opacity: 0.8;
+    border-radius: 3px 3px 0 0;
+    background: #82d344;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzgyZDM0NCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM1MWFmMzQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  #82d344 0%, #51af34 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#82d344), color-stop(100%,#51af34));
+    background: -webkit-linear-gradient(top,  #82d344 0%,#51af34 100%);
+    background: -o-linear-gradient(top,  #82d344 0%,#51af34 100%);
+    background: -ms-linear-gradient(top,  #82d344 0%,#51af34 100%);
+    background: linear-gradient(to bottom,  #82d344 0%,#51af34 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#82d344', endColorstr='#51af34',GradientType=0 );
+
+}
+
+.barChart .container-bar ul li .label {
+    text-align: center;
+    font-size: 12px;
+    color: #1e2c19;
+    position: absolute;
+    top:50%;
+    height: 16px;
+    margin-top: -8px;
+    width: 50px;
+}
+
+.barChart .navBar {
+    position: absolute;
+    bottom: 0;
+    height: 43px;
+    width: 100%;
+}
+
+.barChart .navBar li {
+    padding: 0;
+    margin: 0;
+    float: left;
+    width: 58px;
+    text-align: center;
+    height: 41px;
+    border:1px solid #cccbcb;
+    margin-right: 10px;
+    position: relative;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+.barChart .navBar li span {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    margin: -12px 0 0 -12px;
+    width: 24px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: bold;
+    height: 24px;
+    text-align: center;
+    background: url("../images/circle_test.png") no-repeat;
+}
+
+.barChart .sliding {
+    position: absolute;
+    overflow: hidden;
+    width: 770px;
+    bottom: 0;
+    left: 80px;
+    height: 43px;
+}
+
+.barChart .prev {
+    width: 21px;
+    height: 21px;
+    background: url("../images/test_prev_arr.png") no-repeat;
+    left:50px;
+    position: absolute;
+    top:12px;
+    cursor: pointer;
+}
+
+.barChart .next {
+    width: 21px;
+    height: 21px;
+    background: url("../images/test_next_arr.png") no-repeat;
+    right:3px;
+    position: absolute;
+    top:12px;
+    cursor: pointer;
+}
+
+.barChart .sliding ul {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
