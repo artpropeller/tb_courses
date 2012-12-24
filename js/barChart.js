@@ -7,7 +7,8 @@
  */
 
 
-function createBarChart(data, area) {
+function createBarChart(data, area, fill) {
+
 
     area.html('');
 
@@ -15,15 +16,21 @@ function createBarChart(data, area) {
 
     area.addClass('barChart');
 
-    $.each(data, function (i, e) {
-        var el = e.time.split(':');
-        max = (max <= parseInt(el[0])) ? parseInt(el[0]) + 1 : max;
-    });
+    if (!fill) {
+        $.each(data, function (i, e) {
+            var el = e.time.split(':');
+            max = (max <= parseInt(el[0])) ? parseInt(el[0]) + 1 : max;
+        });
 
-    if (max > 5) {
-        while (max % 5 != 0) {
-            max = max + 1;
+        if (max > 5) {
+            while (max % 5 != 0) {
+                max = max + 1;
+            }
         }
+
+    }
+    else {
+        area.addClass('fill');
     }
 
     var step = max / 10;
@@ -31,40 +38,52 @@ function createBarChart(data, area) {
     step = maxGrid == 10 ? step : 1;
     var s = 0;
 
+    maxGrid = fill == true ? 10 : maxGrid;
+    var percent = 100;
 
     var axis = area.append('<div class="container-axis"><div class="axis"></div></div>');
 
     for (var i = 0; i < maxGrid; i++) {
         var gridHtml = '<div class="grid"><div class="label"></div><div class="line"></div></div>';
         var grid = $(gridHtml);
-        if (i % 2 == 0 || maxGrid < 10) {
-            grid.find('.label').text(Math.ceil(max - s) + ':00');
-        }
 
-        if (maxGrid < 10) {
-            grid.css({'top':(100 / (maxGrid - 1) * i) + '%'});
+        if (!fill) {
+            if (i % 2 == 0 || maxGrid < 10) {
+                grid.find('.label').text(Math.ceil(max - s) + ':00');
+            }
+
+            if (maxGrid < 10) {
+                grid.css({'top':(100 / (maxGrid - 1) * i) + '%'});
+            }
+            else {
+                grid.css({'top':(100 / (maxGrid) * i) + '%'});
+            }
+
+
+            if (i % 2 == 0 || maxGrid < 10) {
+                axis.find('.axis').append(grid);
+            }
+
+            if (i + 1 != maxGrid && maxGrid < 10) {
+                grid.after($(gridHtml).css({'top':(100 / ((maxGrid - 1) * 2)) + (100 / (maxGrid - 1) * i) + '%'}));
+            }
+
+            if (i + 1 != maxGrid && maxGrid == 10) {
+                grid.after($(gridHtml).css({'top':(10 * (i + 1)) + '%'}));
+            }
         }
         else {
-            grid.css({'top':(100 / (maxGrid) * i) + '%'});
-        }
-
-
-        if (i % 2 == 0 || maxGrid < 10) {
+            grid.find('.label').text(i % 2 == 0 ? percent + '%' : '');
+            grid.css('top', (100 - percent) + '%');
             axis.find('.axis').append(grid);
-        }
 
-        if (i + 1 != maxGrid && maxGrid < 10) {
-            grid.after($(gridHtml).css({'top':(100 / ((maxGrid - 1) * 2)) + (100 / (maxGrid - 1) * i) + '%'}));
         }
-
-        if (i + 1 != maxGrid && maxGrid == 10) {
-            grid.after($(gridHtml).css({'top':(10 * (i + 1)) + '%'}));
-        }
-
+        percent -= 10;
         s = s + step;
     }
     if (maxGrid == 10) {
-        axis.find('.axis').append('<div style="top: 100%;" class="grid"><div class="label">0:00</div><div class="line"></div></div>');
+        var l = fill == true ? '0%' : '0:00';
+        axis.find('.axis').append('<div style="top: 100%;" class="grid"><div class="label">' + l + '</div><div class="line"></div></div>');
     }
 
     var bars = area.append('<div class="container-bar"><ul></ul></div>');
@@ -73,13 +92,21 @@ function createBarChart(data, area) {
 
 
     $.each(data, function (i, e) {
-        var bar = $('<li><div class="bar"><div class="label">' + e.time + '</div><div class="quest">' + e.quest + '</div></div></li>');
-        var el = e.time.split(':');
-        var pr = (parseInt(el[0]) * 60) + parseInt(el[1]);
-        var height = pr;
-        bar.find('.bar').css({'height':((height / (max * 60)) * 100) + '%'});
-        if (maxGrid == 10) {
-            bar.find('.bar').css({'height':((height / (max * 6)) * 18.9) + 'px'});
+        var lab = fill == true ? e.percent + '%' : e.time;
+        var bar = $('<li><div class="bar"><div class="label">' + lab + '</div><div class="quest">' + e.quest + '</div></div></li>');
+        if (!fill) {
+            var el = e.time.split(':');
+            var pr = (parseInt(el[0]) * 60) + parseInt(el[1]);
+            var height = pr;
+            bar.find('.bar').css({'height':((height / (max * 60)) * 100) + '%'});
+            if (maxGrid == 10) {
+                bar.find('.bar').css({'height':((height / (max * 6)) * 18.9) + 'px'});
+            }
+        }
+        else {
+            bar.find('.bar').css({'height':e.percent+'%'});
+            bar.append('<div class="red-fill"></div>');
+            bar.find('.red-fill').css({'height':(100 - e.percent)+'%'});
         }
         area.find('.navBar ul').append('<li><span>' + (i + 1) + '</span></li>');
         area.find('.container-bar ul').append(bar);
@@ -93,20 +120,20 @@ function createBarChart(data, area) {
 
     area.find('.bar').hover(
         function (e) {
-            $('body').append('<div id="tooltip-quest">'+$(this).find('.quest').text()+'</div>');
+            $('body').append('<div id="tooltip-quest">' + $(this).find('.quest').text() + '</div>');
             var l = $(this).offset().left;
-            if (($(window).width()/2) < l) {
+            if (($(window).width() / 2) < l) {
                 $('#tooltip-quest').addClass('lorient');
                 l = l - 360;
             }
             $('#tooltip-quest').css({
-                top: $(this).offset().top,
-                'margin-top': -($('#tooltip-quest').height()+39),
-                left: l
+                top:$(this).offset().top,
+                'margin-top':-($('#tooltip-quest').height() + 39),
+                left:l
             });
         },
         function () {
-           $('#tooltip-quest').remove();
+            $('#tooltip-quest').remove();
         });
 
 
@@ -158,4 +185,20 @@ var data_new = new Array(
     {time:'1:40', quest:'В каком предложении придаточную часть сложноподчинённого предложения заменить обособленным определением, выраженным причастным оборотом?'}
 );
 
-createBarChart(data_new, $('#barChart'));
+var data_answer = new Array(
+    {percent:'20', quest:'В каком предложении придаточную часть сложноподчинённого предложения заменить обособленным определением, выраженным причастным оборотом?'},
+    {percent:'45', quest:'В каком предложении придаточную часть сложноподчинённого предложения?'},
+    {percent:'50', quest:'В каком предложении придаточную часть?'},
+    {percent:'55', quest:'В каком предложении?'},
+    {percent:'10', quest:'В каком предложении придаточную часть сложноподчинённого предложения заменить?'},
+    {percent:'5', quest:'В каком предложении придаточную часть сложноподчинённого предложения заменить обособленным определением, выраженным причастным оборотом?'},
+    {percent:'17', quest:'В каком предложении придаточную часть сложноподчинённого предложения заменить обособленным определением, выраженным причастным оборотом?'},
+    {percent:'53', quest:'В каком предложении придаточную часть сложноподчинённого предложения?'},
+    {percent:'66', quest:'В каком предложении придаточную часть?'},
+    {percent:'98', quest:'В каком предложении?'},
+    {percent:'77', quest:'В каком предложении придаточную часть сложноподчинённого предложения заменить?'},
+    {percent:'12', quest:'В каком предложении придаточную часть сложноподчинённого предложения заменить обособленным определением, выраженным причастным оборотом?'}
+);
+
+createBarChart(data_new, $('#barChart'), false);
+createBarChart(data_answer, $('#barChartFill'), true);
