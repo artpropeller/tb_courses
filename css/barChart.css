@@ -1,7 +1,7 @@
 .barChart {
-    width: 875px;
+    width: 905px;
     height: 240px;
-    margin: 50px auto;
+    margin: 0;
     position: relative;
 }
 
@@ -47,7 +47,7 @@
     height: 8px;
     border-bottom: solid 1px #eaeaea;
     float: left;
-    width: 820px;
+    width: 850px;
 }
 
 .barChart .container-bar {
@@ -56,7 +56,7 @@
     height: 189px;
     position: absolute;
     top:0;
-    left: 80px;
+    left: 95px;
     overflow: hidden;
 }
 
@@ -151,7 +151,7 @@
     overflow: hidden;
     width: 770px;
     bottom: 0;
-    left: 80px;
+    left: 95px;
     height: 43px;
 }
 
@@ -159,7 +159,7 @@
     width: 21px;
     height: 21px;
     background: url("../images/test_prev_arr.png") no-repeat;
-    left:50px;
+    left:60px;
     position: absolute;
     top:12px;
     cursor: pointer;
@@ -169,7 +169,7 @@
     width: 21px;
     height: 21px;
     background: url("../images/test_next_arr.png") no-repeat;
-    right:3px;
+    right:13px;
     position: absolute;
     top:12px;
     cursor: pointer;

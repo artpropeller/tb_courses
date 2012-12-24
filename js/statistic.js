@@ -21,21 +21,31 @@ var parseMonth = {
     11:' декабря'
 };
 
-$(function(){
+$(function () {
 
-    addTooltipClass('#usersTable.tasks td.name span, #usersTable.tasks td.author .sel', 25);
+    addTooltipClass('#usersTable.tasks td.name span, #usersTable.tasks td.author .sel, #usersTable.stat-test td.name span', 25);
+
     addTooltipClass('.select.type .value', 21);
 
     tooltip();
 
+    //переключение фильтра прогресса пользователей
+    $('#stat-view .filter a').click(function () {
+        $('#stat-view .filter li').removeClass('active');
+        $(this).parent().addClass('active');
+        progressFilter();
+        return false;
+    });
+
+
     //выбор типа статистики
-    $('.select.type').click(function(){
+    $('.select.type').click(function () {
         $(this).toggleClass('active');
         $('.click-zone').toggle(0);
         $(this).find('ul').slideToggle(300);
     });
 
-    $('.select.type li').click(function(){
+    $('.select.type li').click(function () {
         $('.select.type li').removeClass('active');
         $(this).addClass('active');
         $(this).parents('.select').find('.value').text($(this).text());
@@ -44,13 +54,13 @@ $(function(){
     });
 
     //выбор даты статистики
-    $('.select.date .toggle, .select.date .value').click(function(){
+    $('.select.date .toggle, .select.date .value').click(function () {
         $(this).parents('.select').toggleClass('active');
         $('.click-zone').toggle(0);
         $(this).parents('.select').find('.picker').slideToggle(300);
     });
 
-    $('.click-zone').click(function(){
+    $('.click-zone').click(function () {
         $('.click-zone').hide(0);
         $('.select').removeClass('active');
         $('.select').find('ul').slideUp(300);
@@ -59,7 +69,7 @@ $(function(){
 
 
     //выбор пользователя
-    $('#usersTable tbody .check span').click(function(){
+    $('#usersTable tbody .check span').click(function () {
         $(this).parents('tr').toggleClass('active');
         if ($('#usersTable tr.active').size() > 0) {
             $('#stat-view .show_but').show(0);
@@ -70,18 +80,17 @@ $(function(){
     });
 
 
-
     //календарь
     $('#choosedate').DatePicker({
-        flat: true,
-        date: ['2012-12-01','2012-12-21'],
-        current: '2012-12-01',
-        calendars: 2,
-        mode: 'range',
-        starts: 1,
-        onShow: clearTd,
-        onChange: function(formated, dates){
-            var st = dates[0].getDate() + parseMonth[dates[0].getMonth()] + ' &ndash; ' +  dates[1].getDate() + parseMonth[dates[1].getMonth()];
+        flat:true,
+        date:['2012-12-01', '2012-12-21'],
+        current:'2012-12-01',
+        calendars:2,
+        mode:'range',
+        starts:1,
+        onShow:clearTd,
+        onChange:function (formated, dates) {
+            var st = dates[0].getDate() + parseMonth[dates[0].getMonth()] + ' &ndash; ' + dates[1].getDate() + parseMonth[dates[1].getMonth()];
             if (dates[0].getDate() != dates[1].getDate()) {
                 $('.select.date .value').html(st);
                 $(this).parents('.select').toggleClass('active');
@@ -96,7 +105,7 @@ $(function(){
     clearTd();
 
     // выбор шага
-    $('#stat-view .step li').click(function(){
+    $('#stat-view .step li').click(function () {
         $('#stat-view .step li').removeClass('active');
         $(this).addClass('active');
     });
@@ -104,10 +113,10 @@ $(function(){
     // тултипы на метриках
 
     $('#stat-view .metrics .name').hover(
-        function(){
+        function () {
             $(this).next().fadeIn(300);
         },
-        function(){
+        function () {
             $(this).next().fadeOut(300);
         }
     );
@@ -115,38 +124,47 @@ $(function(){
     //таблица
     $("#usersSortTable").stupidtable();
     $(".userstable").jScrollPane({
-        autoReinitialise: true,
-        autoReinitialiseDelay: 50
+        autoReinitialise:true,
+        autoReinitialiseDelay:50
     });
 
     //поиск по таблице
     $('#stat-view #search-table').keydown(function (event) {
         var text;
+        var m = $('#usersTable tbody tr');
+        var par = $('#stat-view .filter li.active').attr('rel');
         setTimeout(function () {
             text = $('#stat-view #search-table').val();
-        }, 50);
+        }, 1);
         setTimeout(function () {
             if (text.length) {
-                $('#usersTable tbody tr').hide(0);
-                $('#usersTable tbody tr').each(function () {
+                m.hide(0);
+                m.each(function () {
                     if ($(this).find('.name span').text().toLowerCase().indexOf(text.toLowerCase()) + 1 || $(this).find('.author .sel').text().toLowerCase().indexOf(text.toLowerCase()) + 1) {
-                        $(this).show(0);
+                        if (par) {
+                            if (par == $(this).attr('class')) {
+                                $(this).show(0);
+                            }
+                        }
+                        else {
+                            $(this).show(0);
+                        }
                     }
                 });
             }
             else {
-                $('#usersTable tbody tr').show(0);
+                progressFilter()
             }
         }, 150);
     });
 
 });
 // удаление пустых ячеек
-function clearTd(){
-    $('.datepickerDays tr').each(function(){
+function clearTd() {
+    $('.datepickerDays tr').each(function () {
         var tr = $(this);
         var cell = 0;
-        $(this).find('td').each(function(){
+        $(this).find('td').each(function () {
             if ($(this).is('.datepickerNotInMonth')) {
                 cell++;
                 $(this).html('');
@@ -160,35 +178,36 @@ function clearTd(){
 }
 
 
-this.tooltip = function(){
+this.tooltip = function () {
     /* CONFIG */
     xOffset = -13;
     yOffset = 13;
     // these 2 variable determine popup's distance from the cursor
     // you might want to adjust to get the right result
     /* END CONFIG */
-    $(".tooltips").hover(function(e){
+    $(".tooltips").hover(function (e) {
             if ($(this).is('.tooltips')) {
-            this.t = $(this).text();
-            $("body").append("<p id='tooltip'>"+ this.t +"</p>");
-            $("#tooltip")
-                .css("top",(e.pageY - xOffset) + "px")
-                .css("left",(e.pageX + yOffset) + "px")
-                .fadeIn("fast");
-        }},
-        function(){
+                this.t = $(this).text();
+                $("body").append("<p id='tooltip'>" + this.t + "</p>");
+                $("#tooltip")
+                    .css("top", (e.pageY - xOffset) + "px")
+                    .css("left", (e.pageX + yOffset) + "px")
+                    .fadeIn("fast");
+            }
+        },
+        function () {
             $("#tooltip").remove();
         });
-    $(".tooltips").mousemove(function(e){
+    $(".tooltips").mousemove(function (e) {
         $("#tooltip")
-            .css("top",(e.pageY - xOffset) + "px")
-            .css("left",(e.pageX + yOffset) + "px");
+            .css("top", (e.pageY - xOffset) + "px")
+            .css("left", (e.pageX + yOffset) + "px");
     });
 };
 
 
-function addTooltipClass(elements, length){
-    $(elements).each(function(){
+function addTooltipClass(elements, length) {
+    $(elements).each(function () {
         if ($(this).text().length > length) {
             $(this).addClass('tooltips');
         }
@@ -196,4 +215,30 @@ function addTooltipClass(elements, length){
             $(this).removeClass('tooltips');
         }
     });
+}
+
+//фильтр по прогрессу
+//function progressFilter(){
+//    var par = $('#stat-view .filter li.active').attr('rel');
+//    text = $('#stat-view #search-table').val();
+//    if (par) {
+//        var m = $('#sortData tr:visible');
+//        m.hide(0);
+//        m.each(function(){
+//           if ($(this).attr('class') == par) {
+//               $(this).show();
+//           }
+//        });
+//    }
+//}
+
+function progressFilter() {
+    var par = $('#stat-view .filter li.active').attr('rel');
+    if (par) {
+        $('#sortData tr').hide(0);
+        $('#sortData tr[class=' + par + ']').show(0);
+    }
+    else {
+        $('#sortData tr').show(0);
+    }
 }

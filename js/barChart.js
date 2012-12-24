@@ -9,6 +9,8 @@
 
 function createBarChart(data, area) {
 
+    area.html('');
+
     var max = 1;
 
     area.addClass('barChart');

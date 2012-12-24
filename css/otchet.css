@@ -822,6 +822,10 @@
 
 }
 
+#stat-view .metrics .val span {
+    font-weight: normal;
+}
+
 #stat-view .metrics .item {
     float: left;
     width: 236px;
@@ -1097,6 +1101,7 @@
 #stat-view .top_block {
     padding: 0 20px 10px;
     overflow: auto;
+    position: relative;
 }
 
 #stat-view .print {
@@ -1177,7 +1182,7 @@
     width: 225px;
 }
 
-#usersTable.tasks td.name span {
+#usersTable.tasks td.name span, #usersTable.stat-test td.name span {
     overflow: hidden;
     text-overflow: ellipsis;
     width: 170px;
@@ -1517,3 +1522,250 @@
     display: none;
 }
 
+#stat-view .otchet.test {}
+
+#stat-view .otchet.test .statistic_buts a {
+    width: auto;
+    padding: 8px 20px 0;
+}
+
+#stat-view .otchet.test .statistic_buts li.active a {
+    padding-top: 4px;
+}
+
+#stat-view .otchet.test .statistic_buts {
+    margin-bottom: 2px;
+}
+
+#stat-view .back-stat {
+    float: left;
+    display: block;
+    background: url("../images/ico_back.png") no-repeat right;
+    padding-right: 17px;
+}
+
+#stat-view .test-info {
+    padding: 15px 20px;
+    margin: 14px 0 9px 0;
+    overflow: auto;
+}
+
+#stat-view .test-info .timing {
+    float: right;
+    background: url("../images/clock_timing.png") no-repeat;
+    height: 25px;
+    padding-left: 45px;
+    font-size: 16px;
+    color: #000;
+    margin-top: 5px;
+    padding-top: 7px;
+}
+
+#stat-view .test-info .timing strong {
+    font-size: 20px;
+}
+
+#stat-view .test-info .test-data img {
+    display: block;
+    float: left;
+}
+
+#stat-view .test-info .test-data .info {
+    margin-left: 85px;
+}
+
+#stat-view .test-info .name {
+    color: #000;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    padding-bottom: 5px;
+}
+
+#stat-view .test-info .author {
+    margin: 0 0 13px 0;
+    padding: 0 0 0 0;
+    color: #666666;
+    line-height: 14px;
+    font-size: 14px;
+}
+
+#stat-view .test-info p {
+    font-size: 13px;
+    line-height: 16px;
+    color: #000;
+    padding: 0 0 3px;
+    margin: 0;
+}
+
+#stat-view .test-info p a {
+    text-decoration: underline;
+    color: #677c90;
+}
+
+#stat-view .test-info p a:hover {
+    text-decoration: none;
+}
+
+#stat-view .bargraph {
+    padding: 15px 20px 15px;
+    margin: 9px 0 9px 0;
+    overflow: auto;
+}
+
+#stat-view .bargraph h2 {
+    color: #372f2b;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 19px;
+}
+
+
+#usersTable.stat-test th {
+    padding: 10px 0;
+}
+
+#usersTable.stat-test th.status {
+    width: 220px;
+    cursor: pointer;
+}
+
+#usersTable.stat-test th.timer {
+    width: 150px;
+    cursor: pointer;
+}
+
+#usersTable.stat-test th.ball {
+    width: 285px;
+    cursor: pointer;
+}
+
+#usersTable.stat-test th.ball em {
+    font-size: 11px;
+    color: #666;
+}
+
+#usersTable.stat-test td.status {
+    width: 220px;
+}
+
+#usersTable.stat-test td.timer {
+    width: 150px;
+}
+
+#usersTable.stat-test td.ball {
+    width: 285px;
+}
+
+#usersTable.stat-test th.sorting-asc.name, #usersTable.stat-test th.sorting-desc.name {
+    background-position: 99px 14px;
+}
+
+#usersTable.stat-test th.sorting-asc.status, #usersTable.stat-test th.sorting-desc.status {
+    background-position: 65px 14px;
+}
+
+#usersTable.stat-test th.sorting-asc.timer, #usersTable.stat-test th.sorting-desc.timer {
+    background-position: 95px 14px;
+}
+
+#usersTable.stat-test th.sorting-asc.ball, #usersTable.stat-test th.sorting-desc.ball {
+    background-position: 125px 14px;
+}
+
+#usersTable.stat-test td.ball.success {
+    color: #6acc29;
+}
+
+#usersTable.stat-test td.ball.fail {
+    color: #d22d48;
+}
+
+#usersTable.stat-test .pill {
+    color: #fff;
+    padding: 3px 5px 2px;
+    font-size: 9px;
+    font-weight: bold;
+    float: left;
+    margin-top: -2px;
+    border-radius: 3px;
+}
+
+#usersTable.stat-test .pill.nobegin {
+    background: #ecad16;
+}
+
+#usersTable.stat-test .pill.success {
+    background: #6acc29;
+}
+
+#usersTable.stat-test .pill.fail {
+    background: #d22d48;
+}
+
+#usersTable.stat-test .progress-block {
+    position: relative;
+    top:3px;
+    left: auto;
+    right: auto;
+    bottom: auto;
+}
+
+
+#stat-view .filter {
+    overflow: auto;
+    margin-bottom: 4px;
+    position: absolute;
+    float: left;
+    left: 120px;
+    top:7px;
+}
+
+#stat-view .filter li {
+    padding: 4px 6px 3px 2px;
+    float: left;
+    overflow: auto;
+    margin-right: 12px;
+    font-size: 13px;
+    line-height: 13px;
+    border-radius: 2px;
+}
+
+#stat-view .filter li.all {
+    padding-left: 6px;
+}
+
+#stat-view .filter li span {
+    font-weight: bold;
+    color: #fff;
+    background: #ecad16;
+    padding: 0 8px;
+    border-radius: 2px;
+}
+
+#stat-view .filter li strong {
+    border-bottom: 1px #969696 dotted;
+
+}
+
+#stat-view .filter li.active {
+    background: #6a6a6a;
+}
+
+#stat-view .filter li.active strong {
+    color: #fff;
+    border: none;
+}
+
+#stat-view .filter li span.begin {
+    background: #5bcbec;
+}
+
+#stat-view .filter li span.fail {
+    background: #ec4f68;
+}
+
+#stat-view .filter li span.success {
+    background: #6acc29;
+}
