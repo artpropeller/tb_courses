@@ -218,6 +218,11 @@
     left: 25px;
     margin-left: -7px;
 }
+
+#tooltip-quest.lorient:after, #tooltip-quest.lorient:before {
+    left: 385px;
+}
+
 #tooltip-quest:before {
     border-color: rgba(199, 199, 199, 0);
     border-top-color: #c7c7c7;

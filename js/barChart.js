@@ -91,11 +91,16 @@ function createBarChart(data, area) {
 
     area.find('.bar').hover(
         function (e) {
-            $('body').append('<div id="tooltip-quest">'+$(this).find('.quest').text()+'</div>')
+            $('body').append('<div id="tooltip-quest">'+$(this).find('.quest').text()+'</div>');
+            var l = $(this).offset().left;
+            if (($(window).width()/2) < l) {
+                $('#tooltip-quest').addClass('lorient');
+                l = l - 360;
+            }
             $('#tooltip-quest').css({
                 top: $(this).offset().top,
                 'margin-top': -($('#tooltip-quest').height()+39),
-                left: $(this).offset().left
+                left: l
             });
         },
         function () {
@@ -150,9 +155,5 @@ var data_new = new Array(
     {time:'4:20', quest:'В каком предложении придаточную часть сложноподчинённого предложения заменить?'},
     {time:'1:40', quest:'В каком предложении придаточную часть сложноподчинённого предложения заменить обособленным определением, выраженным причастным оборотом?'}
 );
-
-//var data3 = new Array('4:20', '2:30', '1:30', '2:55', '4:20', '1:40', '2:50', '3:38', '4:20', '2:30', '1:30', '2:55', '4:20', '1:40', '2:50', '3:38');
-//var data = new Array('5:20', '8:30', '6:30', '2:55', '1:20', '1:40', '7:20', '2:30');
-//var data2 = new Array('0:20', '2:30', '1:30', '2:00', '2:30', '1:30', '1:00', '2:00', '2:00', '2:30', '1:30', '1:00', '2:00', '2:00', '2:30');
 
 createBarChart(data_new, $('#barChart'));
