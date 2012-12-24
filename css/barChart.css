@@ -178,3 +178,48 @@
     margin: 0;
     padding: 0;
 }
+
+.barChart .quest {
+    display: none;
+}
+
+#tooltip-quest {
+    position: absolute;
+    background: #000;
+    z-index: 100;
+    padding: 15px;
+    width: 380px;
+    line-height: 12px;
+    left: 0;
+    top: 0;
+    border-radius: 4px;
+}
+
+#tooltip-quest  {
+    background: #fff;
+    border: 1px solid #c7c7c7;
+}
+#tooltip-quest:after, #tooltip-quest:before {
+    top: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+#tooltip-quest:after {
+    border-color: rgba(255, 255, 255, 0);
+    border-top-color: #fff;
+    border-width: 7px;
+    left: 25px;
+    margin-left: -7px;
+}
+#tooltip-quest:before {
+    border-color: rgba(199, 199, 199, 0);
+    border-top-color: #c7c7c7;
+    border-width: 8px;
+    left: 25px;
+    margin-left: -8px;
+}
