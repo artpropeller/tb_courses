@@ -141,14 +141,7 @@ $(function () {
                 m.hide(0);
                 m.each(function () {
                     if ($(this).find('.name span').text().toLowerCase().indexOf(text.toLowerCase()) + 1 || $(this).find('.author .sel').text().toLowerCase().indexOf(text.toLowerCase()) + 1) {
-                        if (par) {
-                            if (par == $(this).attr('class')) {
-                                $(this).show(0);
-                            }
-                        }
-                        else {
-                            $(this).show(0);
-                        }
+                        $(this).show(0);
                     }
                 });
             }

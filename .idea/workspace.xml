@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/barChart.css" afterPath="$PROJECT_DIR$/css/barChart.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/otchet.css" afterPath="$PROJECT_DIR$/css/otchet.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/barChart.js" afterPath="$PROJECT_DIR$/js/barChart.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statistics-test-answer.html" afterPath="$PROJECT_DIR$/statistics-test-answer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/statistic.js" afterPath="$PROJECT_DIR$/js/statistic.js" />
     </list>
     <ignored path="tb_courses.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,19 +44,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="course-view-admin-result.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/course-view-admin-result.html">
+      <file leaf-file-name="otchet.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/otchet.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="72" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0">
+            <state line="884" column="24" selection-start="16760" selection-end="16760" vertical-scroll-proportion="-9.52">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="otchet.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/otchet.css">
+      <file leaf-file-name="statistic.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/statistic.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="871" column="23" selection-start="16482" selection-end="16489" vertical-scroll-proportion="0.03307393">
+            <state line="133" column="42" selection-start="3681" selection-end="3681" vertical-scroll-proportion="0.2243346">
               <folding />
             </state>
           </provider>
@@ -145,13 +142,13 @@
         <option value="$PROJECT_DIR$/js/xcharts.js" />
         <option value="$PROJECT_DIR$/statistics.html" />
         <option value="$PROJECT_DIR$/statistics-tasks.html" />
-        <option value="$PROJECT_DIR$/js/statistic.js" />
         <option value="$PROJECT_DIR$/js/lineChart.js" />
         <option value="$PROJECT_DIR$/statistics-test.html" />
         <option value="$PROJECT_DIR$/statistics-test-answer.html" />
         <option value="$PROJECT_DIR$/css/barChart.css" />
         <option value="$PROJECT_DIR$/js/barChart.js" />
         <option value="$PROJECT_DIR$/css/otchet.css" />
+        <option value="$PROJECT_DIR$/js/statistic.js" />
       </list>
     </option>
   </component>
@@ -456,7 +453,11 @@
       <created>1356419722458</created>
       <updated>1356419722458</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="fill chart">
+      <created>1356424958028</created>
+      <updated>1356424958028</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -584,11 +585,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/statistic.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="143" column="27" selection-start="4198" selection-end="4198" vertical-scroll-proportion="4.621673" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/statistics-test-answer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="82" column="33" selection-start="3140" selection-end="3140" vertical-scroll-proportion="-4.576923">
@@ -651,7 +647,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/otchet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="871" column="23" selection-start="16482" selection-end="16489" vertical-scroll-proportion="0.03307393">
+        <state line="884" column="24" selection-start="16760" selection-end="16760" vertical-scroll-proportion="-9.52">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/statistic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="133" column="42" selection-start="3681" selection-end="3681" vertical-scroll-proportion="0.2243346">
           <folding />
         </state>
       </provider>
