@@ -244,7 +244,12 @@
 }
 
 #tooltip-quest.lorient:after, #tooltip-quest.lorient:before {
-    left: 385px;
+    right: 20px;
+    left: auto;
+}
+
+#tooltip-quest.lorient:before {
+    right: 19px;
 }
 
 #tooltip-quest:before {

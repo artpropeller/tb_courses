@@ -120,16 +120,21 @@ function createBarChart(data, area, fill) {
 
     area.find('.bar').hover(
         function (e) {
-            $('body').append('<div id="tooltip-quest">' + $(this).find('.quest').text() + '</div>');
+            $('body').append('<div id="tooltip-quest"><span>' + $(this).find('.quest').text() + '</span></div>');
             var l = $(this).offset().left;
+            var pad = $(this).offset().left;
+            var wi = ($('#tooltip-quest span').width() < 340) ? $('#tooltip-quest span').width() : 360;
             if (($(window).width() / 2) < l) {
                 $('#tooltip-quest').addClass('lorient');
-                l = l - 360;
+                pad = l - (wi);
+                pad = ($('#tooltip-quest span').width() < 340) ? pad + 20 : pad;
             }
+
             $('#tooltip-quest').css({
                 top:$(this).offset().top,
-                'margin-top':-($('#tooltip-quest').height() + 39),
-                left:l
+                'margin-top':-( $('#tooltip-quest').height() + 39),
+                left: pad,
+                width: (wi < 340 ? wi : 380) + 'px'
             });
         },
         function () {
