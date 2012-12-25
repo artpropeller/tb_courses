@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/stat-green-fill.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/stat-red-fill.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/otchet.css" afterPath="$PROJECT_DIR$/css/otchet.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/barChart.js" afterPath="$PROJECT_DIR$/js/barChart.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/statistic.js" afterPath="$PROJECT_DIR$/js/statistic.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statistics-tasks.html" afterPath="$PROJECT_DIR$/statistics-tasks.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statistics-test-answer.html" afterPath="$PROJECT_DIR$/statistics-test-answer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statistics-test.html" afterPath="$PROJECT_DIR$/statistics-test.html" />
     </list>
     <ignored path="tb_courses.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,16 +34,40 @@
       <file leaf-file-name="statistics-test.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/statistics-test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="140" column="10" selection-start="5532" selection-end="5532" vertical-scroll-proportion="-3.9230769">
+            <state line="49" column="27" selection-start="2196" selection-end="2196" vertical-scroll-proportion="-32.03846">
+              <folding>
+                <marker date="1356444537152" expanded="true" signature="2257:2319" placeholder="..." />
+                <marker date="1356444537152" expanded="true" signature="2277:2311" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="statistics.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/statistics.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="42" selection-start="775" selection-end="775" vertical-scroll-proportion="18.307692">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="otchet.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="otchet_index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/otchet_index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="78" column="16" selection-start="2920" selection-end="3072" vertical-scroll-proportion="-11.769231">
+              <folding>
+                <marker date="1355776355283" expanded="true" signature="2961:3054" placeholder="..." />
+                <marker date="1355776355283" expanded="true" signature="2987:3042" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="otchet.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/otchet.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="24" selection-start="587" selection-end="587" vertical-scroll-proportion="0.5972763">
+            <state line="1099" column="0" selection-start="20831" selection-end="20864" vertical-scroll-proportion="-6.84">
               <folding />
             </state>
           </provider>
@@ -60,16 +88,7 @@
       <file leaf-file-name="statistic.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/statistic.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="0" selection-start="721" selection-end="721" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="xcharts.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/xcharts.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="350" column="33" selection-start="5740" selection-end="5740" vertical-scroll-proportion="0.0">
+            <state line="215" column="70" selection-start="6355" selection-end="6360" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -87,18 +106,18 @@
       <file leaf-file-name="statistics-tasks.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/statistics-tasks.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="136" column="19" selection-start="4935" selection-end="4935" vertical-scroll-proportion="239.3077">
+            <state line="166" column="34" selection-start="6163" selection-end="6163" vertical-scroll-proportion="-5.8846154">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="barChart.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="barChart.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/barChart.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="133" column="41" selection-start="4339" selection-end="4339" vertical-scroll-proportion="-90.44">
+            <state line="110" column="75" selection-start="3460" selection-end="3460" vertical-scroll-proportion="0.4750499">
               <folding>
-                <marker date="1356423309618" expanded="false" signature="2249:2259" placeholder="..." />
+                <marker date="1356444782429" expanded="false" signature="2249:2259" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -107,40 +126,20 @@
       <file leaf-file-name="statistics-test-answer.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/statistics-test-answer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="20" selection-start="2582" selection-end="2590" vertical-scroll-proportion="-13.076923">
+            <state line="145" column="34" selection-start="5642" selection-end="5654" vertical-scroll-proportion="-0.92105263">
               <folding>
-                <element signature="tag#tr#1;tag#tbody#0;tag#table#0;tag#div#0;tag#div#1;tag#div#4;tag#div#0;tag#div#0;tag#div#0;tag#div#2;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="n#style#0;n#div#2;n#div#0;n#td#3;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="tag#tr#2;tag#tbody#0;tag#table#0;tag#div#0;tag#div#1;tag#div#4;tag#div#0;tag#div#0;tag#div#0;tag#div#2;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="n#style#0;n#div#2;n#div#0;n#td#3;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="tag#tr#3;tag#tbody#0;tag#table#0;tag#div#0;tag#div#1;tag#div#4;tag#div#0;tag#div#0;tag#div#0;tag#div#2;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="n#style#0;n#div#2;n#div#0;n#td#3;n#tr#3;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="tag#tr#4;tag#tbody#0;tag#table#0;tag#div#0;tag#div#1;tag#div#4;tag#div#0;tag#div#0;tag#div#0;tag#div#2;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="n#style#0;n#div#2;n#div#0;n#td#3;n#tr#4;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="tag#tr#5;tag#tbody#0;tag#table#0;tag#div#0;tag#div#1;tag#div#4;tag#div#0;tag#div#0;tag#div#0;tag#div#2;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="n#style#0;n#div#2;n#div#0;n#td#3;n#tr#5;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="tag#tr#6;tag#tbody#0;tag#table#0;tag#div#0;tag#div#1;tag#div#4;tag#div#0;tag#div#0;tag#div#0;tag#div#2;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="n#style#0;n#div#2;n#div#0;n#td#3;n#tr#6;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="tag#tr#7;tag#tbody#0;tag#table#0;tag#div#0;tag#div#1;tag#div#4;tag#div#0;tag#div#0;tag#div#0;tag#div#2;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="n#style#0;n#div#2;n#div#0;n#td#3;n#tr#7;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="tag#tr#8;tag#tbody#0;tag#table#0;tag#div#0;tag#div#1;tag#div#4;tag#div#0;tag#div#0;tag#div#0;tag#div#2;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="n#style#0;n#div#2;n#div#0;n#td#3;n#tr#8;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="tag#tr#9;tag#tbody#0;tag#table#0;tag#div#0;tag#div#1;tag#div#4;tag#div#0;tag#div#0;tag#div#0;tag#div#2;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="n#style#0;n#div#2;n#div#0;n#td#3;n#tr#9;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#0;n#td#3;n#tr#10;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#0;n#td#3;n#tr#11;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#0;n#td#3;n#tr#12;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="barChart.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/barChart.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="251" column="15" selection-start="6495" selection-end="6495" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#2929#3592#2" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -167,14 +166,14 @@
         <option value="$PROJECT_DIR$/css/xcharts.css" />
         <option value="$PROJECT_DIR$/js/xcharts.js" />
         <option value="$PROJECT_DIR$/statistics.html" />
-        <option value="$PROJECT_DIR$/statistics-tasks.html" />
         <option value="$PROJECT_DIR$/js/lineChart.js" />
-        <option value="$PROJECT_DIR$/statistics-test.html" />
         <option value="$PROJECT_DIR$/css/barChart.css" />
-        <option value="$PROJECT_DIR$/js/barChart.js" />
-        <option value="$PROJECT_DIR$/js/statistic.js" />
         <option value="$PROJECT_DIR$/statistics-test-answer.html" />
+        <option value="$PROJECT_DIR$/statistics-tasks.html" />
         <option value="$PROJECT_DIR$/css/otchet.css" />
+        <option value="$PROJECT_DIR$/statistics-test.html" />
+        <option value="$PROJECT_DIR$/js/statistic.js" />
+        <option value="$PROJECT_DIR$/js/barChart.js" />
       </list>
     </option>
   </component>
@@ -239,21 +238,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tb_courses" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tb_courses" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -491,19 +476,23 @@
       <created>1356431073116</created>
       <updated>1356431073116</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="fill chart">
+      <created>1356431222540</created>
+      <updated>1356431222540</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29924244" sideWeight="0.94133335" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29924244" sideWeight="0.94133335" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -581,18 +570,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="11" selection-start="949" selection-end="949" vertical-scroll-proportion="-11.769231" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/course-view-progress.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="72" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/course-view-user.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="72" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0">
@@ -621,20 +598,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/statistics-tasks.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="136" column="19" selection-start="4935" selection-end="4935" vertical-scroll-proportion="239.3077">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/statistics-test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="140" column="10" selection-start="5532" selection-end="5532" vertical-scroll-proportion="-3.9230769">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/barChart.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="251" column="15" selection-start="6495" selection-end="6495" vertical-scroll-proportion="0.0">
@@ -658,15 +621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/barChart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="133" column="41" selection-start="4339" selection-end="4339" vertical-scroll-proportion="-90.44">
-          <folding>
-            <marker date="1356423309618" expanded="false" signature="2249:2259" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/otchet_new.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="35" selection-start="326" selection-end="326" vertical-scroll-proportion="-4.576923">
@@ -677,34 +631,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/statistic.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="721" selection-end="721" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/statistics-test-answer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="20" selection-start="2582" selection-end="2590" vertical-scroll-proportion="-13.076923">
+        <state line="145" column="34" selection-start="5642" selection-end="5654" vertical-scroll-proportion="-0.92105263">
           <folding>
-            <element signature="tag#tr#1;tag#tbody#0;tag#table#0;tag#div#0;tag#div#1;tag#div#4;tag#div#0;tag#div#0;tag#div#0;tag#div#2;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
             <element signature="n#style#0;n#div#2;n#div#0;n#td#3;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="tag#tr#2;tag#tbody#0;tag#table#0;tag#div#0;tag#div#1;tag#div#4;tag#div#0;tag#div#0;tag#div#0;tag#div#2;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
             <element signature="n#style#0;n#div#2;n#div#0;n#td#3;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="tag#tr#3;tag#tbody#0;tag#table#0;tag#div#0;tag#div#1;tag#div#4;tag#div#0;tag#div#0;tag#div#0;tag#div#2;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
             <element signature="n#style#0;n#div#2;n#div#0;n#td#3;n#tr#3;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="tag#tr#4;tag#tbody#0;tag#table#0;tag#div#0;tag#div#1;tag#div#4;tag#div#0;tag#div#0;tag#div#0;tag#div#2;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
             <element signature="n#style#0;n#div#2;n#div#0;n#td#3;n#tr#4;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="tag#tr#5;tag#tbody#0;tag#table#0;tag#div#0;tag#div#1;tag#div#4;tag#div#0;tag#div#0;tag#div#0;tag#div#2;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
             <element signature="n#style#0;n#div#2;n#div#0;n#td#3;n#tr#5;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="tag#tr#6;tag#tbody#0;tag#table#0;tag#div#0;tag#div#1;tag#div#4;tag#div#0;tag#div#0;tag#div#0;tag#div#2;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
             <element signature="n#style#0;n#div#2;n#div#0;n#td#3;n#tr#6;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="tag#tr#7;tag#tbody#0;tag#table#0;tag#div#0;tag#div#1;tag#div#4;tag#div#0;tag#div#0;tag#div#0;tag#div#2;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
             <element signature="n#style#0;n#div#2;n#div#0;n#td#3;n#tr#7;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="tag#tr#8;tag#tbody#0;tag#table#0;tag#div#0;tag#div#1;tag#div#4;tag#div#0;tag#div#0;tag#div#0;tag#div#2;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
             <element signature="n#style#0;n#div#2;n#div#0;n#td#3;n#tr#8;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="tag#tr#9;tag#tbody#0;tag#table#0;tag#div#0;tag#div#1;tag#div#4;tag#div#0;tag#div#0;tag#div#0;tag#div#2;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
             <element signature="n#style#0;n#div#2;n#div#0;n#td#3;n#tr#9;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#td#3;n#tr#10;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#td#3;n#tr#11;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -715,8 +653,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/otchet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="24" selection-start="587" selection-end="587" vertical-scroll-proportion="0.5972763">
+        <state line="1099" column="0" selection-start="20831" selection-end="20864" vertical-scroll-proportion="-6.84">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statistics-tasks.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="166" column="34" selection-start="6163" selection-end="6163" vertical-scroll-proportion="-5.8846154">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statistics.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="42" selection-start="775" selection-end="775" vertical-scroll-proportion="18.307692">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/otchet_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="16" selection-start="2920" selection-end="3072" vertical-scroll-proportion="-11.769231">
+          <folding>
+            <marker date="1355776355283" expanded="true" signature="2961:3054" placeholder="..." />
+            <marker date="1355776355283" expanded="true" signature="2987:3042" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/statistic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="215" column="70" selection-start="6355" selection-end="6360" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statistics-test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="27" selection-start="2196" selection-end="2196" vertical-scroll-proportion="-32.03846">
+          <folding>
+            <marker date="1356444537152" expanded="true" signature="2257:2319" placeholder="..." />
+            <marker date="1356444537152" expanded="true" signature="2277:2311" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/barChart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="110" column="75" selection-start="3460" selection-end="3460" vertical-scroll-proportion="0.4750499">
+          <folding>
+            <marker date="1356444782429" expanded="false" signature="2249:2259" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

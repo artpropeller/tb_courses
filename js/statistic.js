@@ -25,7 +25,7 @@ $(function () {
 
     addTooltipClass('#usersTable.tasks td.name span, #usersTable.tasks td.author .sel, #usersTable.stat-test td.name span', 25);
 
-    addTooltipClass('#usersTable.stat-test-answers td.name .sel', 55);
+    addTooltipClass('#usersTable.stat-test-answers td.name .sel span', 55);
     addTooltipClass('#usersTable.stat-test-answers td.type .sel', 16);
 
     addTooltipClass('.select.type .value', 21);
@@ -154,6 +154,36 @@ $(function () {
         }, 150);
     });
 
+
+    /* Placeholder for IE */
+    if ($.browser.msie) { // Условие для вызова только в IE
+        $(".placeholding").find("input[type='text']").each(function () {
+            var tp = $(this).attr("placeholder");
+            $(this).attr('value', tp).css('color', '#000');
+        }).focusin(function () {
+                var val = $(this).attr('placeholder');
+                if ($(this).val() == val) {
+                    $(this).attr('value', '').css('color', '#000');
+                }
+            }).focusout(function () {
+                var val = $(this).attr('placeholder');
+                if ($(this).val() == "") {
+                    $(this).attr('value', val).css('color', '#000');
+                }
+            });
+
+        /* Protected send form */
+        $("form").submit(function () {
+            $(this).find("input[type='text']").each(function () {
+                var val = $(this).attr('placeholder');
+                if ($(this).val() == val) {
+                    $(this).attr('value', '');
+                }
+            })
+        });
+    }
+
+
 });
 // удаление пустых ячеек
 function clearTd() {
@@ -183,7 +213,7 @@ this.tooltip = function () {
     /* END CONFIG */
     $(".tooltips").hover(function (e) {
             if ($(this).is('.tooltips')) {
-                this.t = $(this).text();
+                this.t = $(this).is('.question') ? $(this).attr('quest') : $(this).text();
                 $("body").append("<p id='tooltip'>" + this.t + "</p>");
                 $("#tooltip")
                     .css("top", (e.pageY - xOffset) + "px")
@@ -229,6 +259,7 @@ function addTooltipClass(elements, length) {
 //}
 
 function progressFilter() {
+    if (!$('#stat-view #search-table').val()) {
     var par = $('#stat-view .filter li.active').attr('rel');
     if (par) {
         $('#sortData tr').hide(0);
@@ -237,4 +268,4 @@ function progressFilter() {
     else {
         $('#sortData tr').show(0);
     }
-}
+}}

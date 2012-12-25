@@ -1865,6 +1865,11 @@
 }
 
 #usersTable.stat-test-answers td.name .sel {
+    padding-top: 0;
+    height: auto;
+}
+
+#usersTable.stat-test-answers td.name .sel span {
     overflow: hidden;
     text-overflow: ellipsis;
     width: 370px;

@@ -108,7 +108,7 @@ function createBarChart(data, area, fill) {
             bar.append('<div class="red-fill"></div>');
             bar.find('.red-fill').css({'height':(100 - e.percent)+'%'});
         }
-        area.find('.navBar ul').append('<li><span>' + (i + 1) + '</span></li>');
+        area.find('.navBar ul').append('<li class="question tooltips" quest="Вопрос №'+(i+1)+'"><span>' + (i + 1) + '</span></li>');
         area.find('.container-bar ul').append(bar);
         if (bar.find('.bar').height() < bar.find('.label').height()) {
             bar.find('.label').css('margin-top', '-15px');
