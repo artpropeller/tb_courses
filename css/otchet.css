@@ -837,6 +837,7 @@
     position: relative;
     z-index: 20;
     margin-bottom: 5px;
+    cursor: pointer;
 }
 
 #stat-view .metrics .item.last {
@@ -1723,7 +1724,7 @@
 }
 
 #stat-view .filter li {
-    padding: 4px 6px 3px 2px;
+    padding: 2px 6px 2px 2px;
     float: left;
     overflow: auto;
     margin-right: 12px;
@@ -1734,14 +1735,31 @@
 
 #stat-view .filter li.all {
     padding-left: 6px;
+    margin-right: 16px;
+    margin-top: 2px;
+}
+
+#stat-view .filter li.all strong {
+    padding-top: 0;
+}
+
+#stat-view .filter li strong {
+    display: block;
+    padding-top: 1px;
+    float: left;
 }
 
 #stat-view .filter li span {
     font-weight: bold;
     color: #fff;
+    min-width: 14px;
     background: #ecad16;
-    padding: 0 8px;
+    padding:3px 6px 1px;
+    display: block;
+    float: left;
+    text-align: center;
     border-radius: 2px;
+    margin-right: 6px;
 }
 
 #stat-view .filter li strong {
