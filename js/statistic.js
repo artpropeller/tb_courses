@@ -25,6 +25,9 @@ $(function () {
 
     addTooltipClass('#usersTable.tasks td.name span, #usersTable.tasks td.author .sel, #usersTable.stat-test td.name span', 25);
 
+    addTooltipClass('#usersTable.stat-test-answers td.name .sel', 55);
+    addTooltipClass('#usersTable.stat-test-answers td.type .sel', 16);
+
     addTooltipClass('.select.type .value', 21);
 
     tooltip();

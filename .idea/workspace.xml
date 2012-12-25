@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/otchet.css" afterPath="$PROJECT_DIR$/css/otchet.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/statistic.js" afterPath="$PROJECT_DIR$/js/statistic.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statistics-test-answer.html" afterPath="$PROJECT_DIR$/statistics-test-answer.html" />
     </list>
     <ignored path="tb_courses.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,28 +37,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="course-view.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/course-view.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="637" column="0" selection-start="12339" selection-end="13177" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="otchet.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="otchet.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/otchet.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="884" column="24" selection-start="16760" selection-end="16760" vertical-scroll-proportion="-9.52">
+            <state line="33" column="24" selection-start="587" selection-end="587" vertical-scroll-proportion="0.5972763">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="statistic.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="otchet_new.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/otchet_new.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="35" selection-start="326" selection-end="326" vertical-scroll-proportion="-4.576923">
+              <folding>
+                <marker date="1355915583221" expanded="true" signature="3037:3130" placeholder="..." />
+                <marker date="1355915583221" expanded="true" signature="3063:3118" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="statistic.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/statistic.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="133" column="42" selection-start="3681" selection-end="3681" vertical-scroll-proportion="0.2243346">
+            <state line="31" column="0" selection-start="721" selection-end="721" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -92,7 +97,7 @@
       <file leaf-file-name="barChart.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/barChart.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="132" column="26" selection-start="4286" selection-end="4286" vertical-scroll-proportion="-8.52">
+            <state line="133" column="41" selection-start="4339" selection-end="4339" vertical-scroll-proportion="-90.44">
               <folding>
                 <marker date="1356423309618" expanded="false" signature="2249:2259" placeholder="..." />
               </folding>
@@ -103,8 +108,30 @@
       <file leaf-file-name="statistics-test-answer.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/statistics-test-answer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="33" selection-start="3140" selection-end="3140" vertical-scroll-proportion="-4.576923">
-              <folding />
+            <state line="65" column="20" selection-start="2582" selection-end="2590" vertical-scroll-proportion="-13.076923">
+              <folding>
+                <element signature="tag#tr#1;tag#tbody#0;tag#table#0;tag#div#0;tag#div#1;tag#div#4;tag#div#0;tag#div#0;tag#div#0;tag#div#2;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#td#3;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="tag#tr#2;tag#tbody#0;tag#table#0;tag#div#0;tag#div#1;tag#div#4;tag#div#0;tag#div#0;tag#div#0;tag#div#2;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#td#3;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="tag#tr#3;tag#tbody#0;tag#table#0;tag#div#0;tag#div#1;tag#div#4;tag#div#0;tag#div#0;tag#div#0;tag#div#2;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#td#3;n#tr#3;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="tag#tr#4;tag#tbody#0;tag#table#0;tag#div#0;tag#div#1;tag#div#4;tag#div#0;tag#div#0;tag#div#0;tag#div#2;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#td#3;n#tr#4;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="tag#tr#5;tag#tbody#0;tag#table#0;tag#div#0;tag#div#1;tag#div#4;tag#div#0;tag#div#0;tag#div#0;tag#div#2;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#td#3;n#tr#5;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="tag#tr#6;tag#tbody#0;tag#table#0;tag#div#0;tag#div#1;tag#div#4;tag#div#0;tag#div#0;tag#div#0;tag#div#2;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#td#3;n#tr#6;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="tag#tr#7;tag#tbody#0;tag#table#0;tag#div#0;tag#div#1;tag#div#4;tag#div#0;tag#div#0;tag#div#0;tag#div#2;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#td#3;n#tr#7;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="tag#tr#8;tag#tbody#0;tag#table#0;tag#div#0;tag#div#1;tag#div#4;tag#div#0;tag#div#0;tag#div#0;tag#div#2;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#td#3;n#tr#8;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="tag#tr#9;tag#tbody#0;tag#table#0;tag#div#0;tag#div#1;tag#div#4;tag#div#0;tag#div#0;tag#div#0;tag#div#2;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#td#3;n#tr#9;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#td#3;n#tr#10;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#td#3;n#tr#11;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#td#3;n#tr#12;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -144,11 +171,11 @@
         <option value="$PROJECT_DIR$/statistics-tasks.html" />
         <option value="$PROJECT_DIR$/js/lineChart.js" />
         <option value="$PROJECT_DIR$/statistics-test.html" />
-        <option value="$PROJECT_DIR$/statistics-test-answer.html" />
         <option value="$PROJECT_DIR$/css/barChart.css" />
         <option value="$PROJECT_DIR$/js/barChart.js" />
-        <option value="$PROJECT_DIR$/css/otchet.css" />
         <option value="$PROJECT_DIR$/js/statistic.js" />
+        <option value="$PROJECT_DIR$/statistics-test-answer.html" />
+        <option value="$PROJECT_DIR$/css/otchet.css" />
       </list>
     </option>
   </component>
@@ -457,7 +484,11 @@
       <created>1356424958028</created>
       <updated>1356424958028</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="fill chart">
+      <created>1356425067876</created>
+      <updated>1356425067876</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -547,11 +578,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/xcharts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="927" column="29" selection-start="35828" selection-end="35828" vertical-scroll-proportion="0.031135531" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="11" selection-start="949" selection-end="949" vertical-scroll-proportion="-11.769231" />
@@ -581,13 +607,6 @@
     <entry file="file://$PROJECT_DIR$/course-view.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="637" column="0" selection-start="12339" selection-end="13177" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/statistics-test-answer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="33" selection-start="3140" selection-end="3140" vertical-scroll-proportion="-4.576923">
           <folding />
         </state>
       </provider>
@@ -622,15 +641,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/barChart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="132" column="26" selection-start="4286" selection-end="4286" vertical-scroll-proportion="-8.52">
-          <folding>
-            <marker date="1356423309618" expanded="false" signature="2249:2259" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/xcharts.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="350" column="33" selection-start="5740" selection-end="5740" vertical-scroll-proportion="0.0">
@@ -645,16 +655,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/otchet.css">
+    <entry file="file://$PROJECT_DIR$/js/barChart.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="884" column="24" selection-start="16760" selection-end="16760" vertical-scroll-proportion="-9.52">
-          <folding />
+        <state line="133" column="41" selection-start="4339" selection-end="4339" vertical-scroll-proportion="-90.44">
+          <folding>
+            <marker date="1356423309618" expanded="false" signature="2249:2259" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/otchet_new.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="35" selection-start="326" selection-end="326" vertical-scroll-proportion="-4.576923">
+          <folding>
+            <marker date="1355915583221" expanded="true" signature="3037:3130" placeholder="..." />
+            <marker date="1355915583221" expanded="true" signature="3063:3118" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/statistic.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="133" column="42" selection-start="3681" selection-end="3681" vertical-scroll-proportion="0.2243346">
+        <state line="31" column="0" selection-start="721" selection-end="721" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statistics-test-answer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="20" selection-start="2582" selection-end="2590" vertical-scroll-proportion="-13.076923">
+          <folding>
+            <element signature="tag#tr#1;tag#tbody#0;tag#table#0;tag#div#0;tag#div#1;tag#div#4;tag#div#0;tag#div#0;tag#div#0;tag#div#2;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#td#3;n#tr#1;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="tag#tr#2;tag#tbody#0;tag#table#0;tag#div#0;tag#div#1;tag#div#4;tag#div#0;tag#div#0;tag#div#0;tag#div#2;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#td#3;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="tag#tr#3;tag#tbody#0;tag#table#0;tag#div#0;tag#div#1;tag#div#4;tag#div#0;tag#div#0;tag#div#0;tag#div#2;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#td#3;n#tr#3;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="tag#tr#4;tag#tbody#0;tag#table#0;tag#div#0;tag#div#1;tag#div#4;tag#div#0;tag#div#0;tag#div#0;tag#div#2;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#td#3;n#tr#4;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="tag#tr#5;tag#tbody#0;tag#table#0;tag#div#0;tag#div#1;tag#div#4;tag#div#0;tag#div#0;tag#div#0;tag#div#2;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#td#3;n#tr#5;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="tag#tr#6;tag#tbody#0;tag#table#0;tag#div#0;tag#div#1;tag#div#4;tag#div#0;tag#div#0;tag#div#0;tag#div#2;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#td#3;n#tr#6;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="tag#tr#7;tag#tbody#0;tag#table#0;tag#div#0;tag#div#1;tag#div#4;tag#div#0;tag#div#0;tag#div#0;tag#div#2;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#td#3;n#tr#7;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="tag#tr#8;tag#tbody#0;tag#table#0;tag#div#0;tag#div#1;tag#div#4;tag#div#0;tag#div#0;tag#div#0;tag#div#2;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#td#3;n#tr#8;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="tag#tr#9;tag#tbody#0;tag#table#0;tag#div#0;tag#div#1;tag#div#4;tag#div#0;tag#div#0;tag#div#0;tag#div#2;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#td#3;n#tr#9;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#td#3;n#tr#10;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#td#3;n#tr#11;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#td#3;n#tr#12;n#tbody#0;n#table#0;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/otchet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="24" selection-start="587" selection-end="587" vertical-scroll-proportion="0.5972763">
           <folding />
         </state>
       </provider>

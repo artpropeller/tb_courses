@@ -30,6 +30,10 @@
     margin: 0;
 }
 
+#stat-view .dash-top {
+    margin-bottom: 15px;
+}
+
 #stat-view .dash-right, #stat-view .dash-left {
     background-position: right;
     background-image: url("../images/bg/dashed-v.png");
@@ -1791,4 +1795,127 @@
 
 #stat-view .filter li span.success {
     background: #6acc29;
+}
+
+
+#usersTable.stat-test-answers th {
+    padding: 10px 0;
+    color: #7f7f7f;
+}
+
+#usersTable.stat-test-answers th.num {
+    width: 40px;
+    cursor: pointer;
+}
+
+#usersTable.stat-test-answers th.name {
+    width: 400px;
+    cursor: pointer;
+}
+
+#usersTable.stat-test-answers th.type {
+    width: 130px;
+    cursor: pointer;
+}
+
+#usersTable.stat-test-answers th.right-ans, #usersTable.stat-test-answers th.noright-ans {
+    width: 160px;
+    padding-right: 10px;
+}
+
+#usersTable.stat-test-answers th.right-ans {
+    color: #8bd06c;
+}
+
+#usersTable.stat-test-answers th.noright-ans {
+    color: #bd4f4c;
+    text-align: right;
+
+}
+
+#usersTable.stat-test-answers th.sorting-asc.name, #usersTable.stat-test-answers th.sorting-desc.name {
+    background-position: 54px 14px;
+}
+
+#usersTable.stat-test-answers th.sorting-asc.type, #usersTable.stat-test-answers th.sorting-desc.type {
+     background-position: 84px 14px;
+}
+
+#usersTable.stat-test-answers th.sorting-asc.num, #usersTable.stat-test-answers th.sorting-desc.num {
+    background-position: 17px 14px;
+}
+
+
+#usersTable.stat-test-answers td.num {
+    width: 40px;
+}
+
+#usersTable.stat-test-answers td.name {
+    width: 400px;
+    vertical-align: middle;
+}
+
+#usersTable.stat-test-answers td.type {
+    width: 130px;
+}
+
+#usersTable.stat-test-answers td.gor-bar {
+    width: 330px;
+    padding-right: 10px;
+}
+
+#usersTable.stat-test-answers td.name .sel {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 370px;
+    white-space: nowrap;
+    padding-top: 0;
+    height: auto;
+}
+
+#usersTable.stat-test-answers td.type .sel {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 110px;
+    white-space: nowrap;
+    padding-top: 0;
+    height: auto;
+}
+
+#usersTable td.gor-bar .cont-bar {
+    height: 23px;
+    background: url("../images/stat-red-fill.png") repeat-x;
+    position: relative;
+    margin-top: 1px;
+}
+
+#usersTable td.gor-bar .cont-bar::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 23px;
+    box-shadow: 0 0 0 3px #fff;
+    border-radius: 3px;
+
+}
+
+#usersTable td.gor-bar .cont-bar .green-fill {
+    height: 23px;
+    position: absolute;
+    background: url("../images/stat-green-fill.png") repeat-x;
+}
+
+#usersTable td.gor-bar .cont-bar .label {
+    color: #fff;
+    font-size: 12px;
+    padding: 5px 4px 0;
+    float: left;
+    position: relative;
+    z-index: 2;
+}
+
+#usersTable td.gor-bar .cont-bar .label.red {
+    float: right;
 }
