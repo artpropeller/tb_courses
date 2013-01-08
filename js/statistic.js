@@ -259,7 +259,7 @@ function addTooltipClass(elements, length) {
 //}
 
 function progressFilter() {
-    if (!$('#stat-view #search-table').val()) {
+    if (!$('#stat-view #search-table').val() || $('#stat-view #search-table').val() == 'Поиск пользователей') {
     var par = $('#stat-view .filter li.active').attr('rel');
     if (par) {
         $('#sortData tr').hide(0);
