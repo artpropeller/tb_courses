@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/otchet.css" afterPath="$PROJECT_DIR$/css/otchet.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/statistics.html" afterPath="$PROJECT_DIR$/statistics.html" />
     </list>
     <ignored path="tb_courses.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,8 +29,11 @@
       <file leaf-file-name="statistics-test.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/statistics-test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="45" selection-start="2495" selection-end="2495" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="71" column="6" selection-start="2658" selection-end="2658" vertical-scroll-proportion="-3.9230769">
+              <folding>
+                <marker date="1356444537152" expanded="true" signature="2257:2319" placeholder="..." />
+                <marker date="1356444537152" expanded="true" signature="2277:2311" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,10 +50,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="otchet.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="otchet.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/otchet.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1251" column="21" selection-start="24038" selection-end="24038" vertical-scroll-proportion="0.39883268">
+            <state line="1260" column="16" selection-start="24198" selection-end="24198" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -115,10 +118,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="statistics.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="statistics.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/statistics.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="1102" selection-end="1102" vertical-scroll-proportion="-3.9230769">
+            <state line="158" column="22" selection-start="8387" selection-end="8387" vertical-scroll-proportion="0.36452243">
               <folding />
             </state>
           </provider>
@@ -144,7 +147,6 @@
         <option value="$PROJECT_DIR$/js/sortTables.js" />
         <option value="$PROJECT_DIR$/css/xcharts.css" />
         <option value="$PROJECT_DIR$/js/xcharts.js" />
-        <option value="$PROJECT_DIR$/statistics.html" />
         <option value="$PROJECT_DIR$/js/lineChart.js" />
         <option value="$PROJECT_DIR$/css/barChart.css" />
         <option value="$PROJECT_DIR$/statistics-test-answer.html" />
@@ -153,6 +155,7 @@
         <option value="$PROJECT_DIR$/js/barChart.js" />
         <option value="$PROJECT_DIR$/js/statistic.js" />
         <option value="$PROJECT_DIR$/css/otchet.css" />
+        <option value="$PROJECT_DIR$/statistics.html" />
       </list>
     </option>
   </component>
@@ -218,8 +221,8 @@
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../yabeda" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -453,7 +456,11 @@
       <created>1357631351326</created>
       <updated>1357631351326</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="fill chart">
+      <created>1357649018656</created>
+      <updated>1357649018656</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -464,7 +471,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17348485" sideWeight="0.94133335" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17575757" sideWeight="0.94133335" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -625,13 +632,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/statistics-test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="45" selection-start="2495" selection-end="2495" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/statistic.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="270" column="2" selection-start="7945" selection-end="7945" vertical-scroll-proportion="0.0">
@@ -639,16 +639,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/statistics.html">
+    <entry file="file://$PROJECT_DIR$/css/otchet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="1102" selection-end="1102" vertical-scroll-proportion="-3.9230769">
+        <state line="1260" column="16" selection-start="24198" selection-end="24198" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/otchet.css">
+    <entry file="file://$PROJECT_DIR$/statistics-test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1251" column="21" selection-start="24038" selection-end="24038" vertical-scroll-proportion="0.39883268">
+        <state line="71" column="6" selection-start="2658" selection-end="2658" vertical-scroll-proportion="-3.9230769">
+          <folding>
+            <marker date="1356444537152" expanded="true" signature="2257:2319" placeholder="..." />
+            <marker date="1356444537152" expanded="true" signature="2277:2311" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statistics.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="158" column="22" selection-start="8387" selection-end="8387" vertical-scroll-proportion="0.36452243">
           <folding />
         </state>
       </provider>
