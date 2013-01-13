@@ -1,9 +1,13 @@
-@media (min-width:1360px) {
+@media (min-width:1416px) {
     .center .container.big{
         margin: 0 auto;
-        width: 1170px;
-        background: url("../images/monitor.png") no-repeat 530px 38px;
+        width: 1201px;
+        background: url("../images/monitor.png") no-repeat 560px 38px;
 
+    }
+
+    .top .container.big{
+        width: 1201px;
     }
 
     .instruction{
