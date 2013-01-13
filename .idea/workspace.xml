@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/ico_down_load.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/load_plug_but.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/monitor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/shablon_img.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/setup_plugin.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/monitor.png" afterPath="$PROJECT_DIR$/images/monitor.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/exit-video.css" afterPath="$PROJECT_DIR$/css/exit-video.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setup_plugin.html" afterPath="$PROJECT_DIR$/setup_plugin.html" />
     </list>
     <ignored path="tb_courses.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,27 +31,25 @@
       <file leaf-file-name="setup_plugin.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/setup_plugin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="67" selection-start="1660" selection-end="1660" vertical-scroll-proportion="-9.807693">
-              <folding>
-                <element signature="tag#strong#0;tag#div#1;tag#div#0;tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="exit-video.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/exit-video.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="140" column="18" selection-start="2060" selection-end="2060" vertical-scroll-proportion="0.40761635">
+            <state line="17" column="35" selection-start="534" selection-end="534" vertical-scroll-proportion="-11.115385">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="course-assign.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/course-assign.html">
+      <file leaf-file-name="exit-video.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/exit-video.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="2" selection-start="894" selection-end="965" vertical-scroll-proportion="-9.807693">
+            <state line="4" column="22" selection-start="115" selection-end="115" vertical-scroll-proportion="19.72">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="exit-video.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/exit-video.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="70" selection-start="275" selection-end="275" vertical-scroll-proportion="0.14934114">
               <folding />
             </state>
           </provider>
@@ -123,7 +118,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -184,26 +178,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tb_courses" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tb_courses" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -212,8 +193,8 @@
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="last_opened_file_path" value="D:/Адиюх" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -379,14 +360,17 @@
       <created>1357905904055</created>
       <updated>1357905904055</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="chart">
+      <created>1357912466579</created>
+      <updated>1357912466579</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1439" height="870" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -401,6 +385,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32933334" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -466,13 +451,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/xcharts.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="573" column="20" selection-start="8931" selection-end="8931" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/otchet_index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="139" column="48" selection-start="5764" selection-end="5813" vertical-scroll-proportion="-26.576923" />
@@ -480,76 +458,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/course-assign.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="529" column="17" selection-start="10073" selection-end="10074" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="529" column="17" selection-start="10073" selection-end="10074" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/base.dialog.assign.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="218" selection-end="220" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="12" column="13" selection-start="218" selection-end="220" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/add-user.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="1" selection-start="0" selection-end="1" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="1" selection-start="0" selection-end="1" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/course-view.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2220" column="0" selection-start="42036" selection-end="42314" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="2220" column="0" selection-start="42036" selection-end="42314" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/otchet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1343" column="0" selection-start="25551" selection-end="25551" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="1343" column="0" selection-start="25551" selection-end="25551" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/statistics-tasks.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="110" selection-start="1529" selection-end="1631" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="35" column="110" selection-start="1529" selection-end="1631" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/statistics.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="114" selection-start="1647" selection-end="1647" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="35" column="114" selection-start="1647" selection-end="1647" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/course-assign.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/otchet_new.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="157" column="54" selection-start="6899" selection-end="6899" vertical-scroll-proportion="-0.65384614">
-          <folding>
-            <marker date="1355914620450" expanded="true" signature="3037:3130" placeholder="..." />
-            <marker date="1355914620450" expanded="true" signature="3063:3118" placeholder="{...}" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exit-video.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="70" selection-start="275" selection-end="275" vertical-scroll-proportion="0.14890511">
-          <folding />
-        </state>
+        <state line="157" column="54" selection-start="6899" selection-end="6899" vertical-scroll-proportion="-0.65384614" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/images/load_plug_but.png">
@@ -559,23 +508,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/course-assign.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="2" selection-start="894" selection-end="965" vertical-scroll-proportion="-9.807693">
+        <state line="18" column="2" selection-start="894" selection-end="965" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/monitor.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/setup_plugin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="67" selection-start="1660" selection-end="1660" vertical-scroll-proportion="-9.807693">
-          <folding>
-            <element signature="tag#strong#0;tag#div#1;tag#div#0;tag#div#1;tag#div#0;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
+        <state line="17" column="35" selection-start="534" selection-end="534" vertical-scroll-proportion="-11.115385">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/exit-video.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="140" column="18" selection-start="2060" selection-end="2060" vertical-scroll-proportion="0.40761635">
+        <state line="4" column="22" selection-start="115" selection-end="115" vertical-scroll-proportion="19.72">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exit-video.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="70" selection-start="275" selection-end="275" vertical-scroll-proportion="0.14934114">
           <folding />
         </state>
       </provider>

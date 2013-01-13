@@ -2,6 +2,7 @@ body {
     background: #f0f0f0;
     font-family: Helvetica, sans-serif;
     font-size: 14px;
+    min-width: 1000px;
 }
 
 .lfl {
@@ -54,15 +55,19 @@ h1 {
 }
 
 .center .container.big {
-    width: 100%;
-    padding-top: 38px;
+    background: url("../images/monitor.png") no-repeat 670px 38px;
+    margin:  0;
+    width: auto;
+    min-height: 500px;
+    padding-top: 0;
+
 }
 
 .instruction {
-    padding-left: 138px;
-    padding-top: 60px;
+    padding-top: 90px;
     color: #4c4c4c;
     font-size: 14px;
+    padding-left: 138px;
 
 }
 
@@ -171,8 +176,4 @@ h1 {
     line-height: 23px;
 }
 
-.monitor img{
-    display: block;
-    margin: 0;
-    padding: 0;
-}
+
