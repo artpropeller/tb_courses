@@ -1,0 +1,14 @@
+@media (min-width:1360px) {
+    .center .container.big{
+        margin: 0 auto;
+        width: 1170px;
+        background: url("../images/monitor.png") no-repeat 530px 38px;
+
+    }
+
+    .instruction{
+        padding-left: 30px;
+    }
+
+
+}
