@@ -8,7 +8,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/exit-video.css" afterPath="$PROJECT_DIR$/css/exit-video.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/media.css" afterPath="$PROJECT_DIR$/css/media.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setup_plugin.html" afterPath="$PROJECT_DIR$/setup_plugin.html" />
     </list>
     <ignored path="tb_courses.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,7 +30,7 @@
       <file leaf-file-name="setup_plugin.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/setup_plugin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="23" selection-start="525" selection-end="525" vertical-scroll-proportion="-8.5">
+            <state line="15" column="40" selection-start="569" selection-end="569" vertical-scroll-proportion="-9.807693">
               <folding />
             </state>
           </provider>
@@ -40,7 +39,7 @@
       <file leaf-file-name="exit-video.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/exit-video.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="180" column="22" selection-start="2644" selection-end="2644" vertical-scroll-proportion="1.1491228">
+            <state line="180" column="19" selection-start="2641" selection-end="2641" vertical-scroll-proportion="0.751462">
               <folding />
             </state>
           </provider>
@@ -58,7 +57,7 @@
       <file leaf-file-name="media.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/media.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="4" selection-start="186" selection-end="190" vertical-scroll-proportion="0.0">
+            <state line="11" column="23" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -357,7 +356,11 @@
       <created>1358080245553</created>
       <updated>1358080245553</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="chart">
+      <created>1358085051017</created>
+      <updated>1358085051017</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -506,20 +509,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/setup_plugin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="23" selection-start="525" selection-end="525" vertical-scroll-proportion="-8.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/media.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="4" selection-start="186" selection-end="190" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/exit-video.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="70" selection-start="275" selection-end="275" vertical-scroll-proportion="-3.9230769">
@@ -527,9 +516,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/setup_plugin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="40" selection-start="569" selection-end="569" vertical-scroll-proportion="-9.807693">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/media.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="23" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/exit-video.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="180" column="22" selection-start="2644" selection-end="2644" vertical-scroll-proportion="1.1491228">
+        <state line="180" column="19" selection-start="2641" selection-end="2641" vertical-scroll-proportion="0.751462">
           <folding />
         </state>
       </provider>
