@@ -1924,3 +1924,120 @@
 #usersTable td.gor-bar .cont-bar .label.red {
     float: right;
 }
+
+#usersTable.files .check {
+    width: 0;
+}
+
+#usersTable.files th.name {
+     width: 230px;
+}
+
+#usersTable.files th.type {
+    width: 85px;
+}
+
+#usersTable.files th.quantity-views {
+    width: 110px;
+}
+
+#usersTable.files th.size {
+    width: 90px;
+}
+
+
+#usersTable.files th.upload {
+    width: 110px;
+}
+
+#usersTable.files th.quantity-down {
+    width: 140px;
+}
+
+
+#usersTable.files th.author {
+    width: 150px;
+}
+
+#usersTable.files th {
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+#usersTable.files th.sorting-asc.name, #usersTable.files th.sorting-desc.name {
+    background-position: 104px 14px;
+}
+
+#usersTable.files th.sorting-asc.type, #usersTable.files th.sorting-desc.type {
+    background-position: 30px 14px;
+}
+
+#usersTable.files th.sorting-asc.quantity-views, #usersTable.files th.sorting-desc.quantity-views {
+    background-position: 74px 14px;
+}
+
+#usersTable.files th.sorting-asc.size, #usersTable.files th.sorting-desc.size {
+    background-position: 50px 14px;
+}
+
+#usersTable.files th.sorting-asc.upload, #usersTable.files th.sorting-desc.upload {
+    background-position: 90px 14px;
+}
+
+#usersTable.files th.sorting-asc.quantity-down, #usersTable.files th.sorting-desc.quantity-down {
+    background-position: 120px 14px;
+}
+
+#usersTable.files th.sorting-asc.author, #usersTable.files th.sorting-desc.author {
+    background-position: 70px 14px;
+}
+
+#usersTable.files td.name {
+    width: 230px;
+}
+
+#usersTable.files td.name span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 220px;
+    white-space: nowrap;
+}
+
+#usersTable.tasks th.author {
+    width: 175px;
+    cursor: pointer;
+}
+
+#usersTable.files td.type {
+    width: 85px;
+}
+
+#usersTable.files td.quantity-views {
+    width: 110px;
+}
+
+#usersTable.files td.size {
+    width: 90px;
+}
+
+
+#usersTable.files td.upload {
+    width: 110px;
+}
+
+#usersTable.files td.quantity-down {
+    width: 140px;
+}
+
+
+#usersTable.files td.author {
+    width: 150px;
+}
+
+#usersTable.files td.author span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 140px;
+    white-space: nowrap;
+    display: block;
+}

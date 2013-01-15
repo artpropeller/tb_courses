@@ -191,6 +191,7 @@ var opts = {
     "tickFormatX":function (x) {
         return d3.time.format('%e %b')(x);
     },
+    "tickFormatY": function(y) {return y/100 + ' Гб' },
     "mouseover":function (d, i) {
         var days = {
             "Sunday":"Воскресенье",

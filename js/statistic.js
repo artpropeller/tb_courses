@@ -24,6 +24,8 @@ var parseMonth = {
 $(function () {
 
     addTooltipClass('#usersTable.tasks td.name span, #usersTable.tasks td.author .sel, #usersTable.stat-test td.name span', 25);
+    addTooltipClass('#usersTable.files td.name span', 30);
+    addTooltipClass('#usersTable.files td.author span', 20);
 
     addTooltipClass('#usersTable.stat-test-answers td.name .sel span', 55);
     addTooltipClass('#usersTable.stat-test-answers td.type .sel', 16);
