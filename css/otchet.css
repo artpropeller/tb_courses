@@ -515,6 +515,7 @@
     -webkit-transform: rotate(-45deg);
     -moz-transform:rotate(45deg);
     -o-transform:rotate(-45deg);
+    -ms-transform:rotate(-45deg);
 
     position:absolute;
     bottom:-11px;
@@ -2040,4 +2041,8 @@
     width: 140px;
     white-space: nowrap;
     display: block;
+}
+
+#stat-view .datepickerGoPrev a, #stat-view .datepickerGoNext a  {
+    cursor: pointer;
 }
