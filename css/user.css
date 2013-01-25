@@ -415,3 +415,11 @@
     top:0;
     left: 0;
 }
+
+::-ms-clear {
+    display: none;
+}
+
+::-ms-reveal {
+    display: none;
+}
