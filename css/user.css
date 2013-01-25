@@ -262,11 +262,11 @@
 
 #user-list .list-users .shadows {
     background: url("../images/shadows.png") repeat-x;
-    width: 100%;
+    width: 99%;
     height: 30px;
     position: absolute;
     bottom: 3px;
-    left: -2px;
+    left: 1px;
     z-index: 10000000;
 }
 
@@ -334,11 +334,11 @@
     display: block;
 }
 
-#user-list .user .actions a {
+#user-list .user .actions a, #main #user-list .user .actions a.plus{
     display: block;
     width: 21px;
     height: 17px;
-    padding-top: 4px;
+    padding: 4px 0 0 0;
     float: left;
     background: url("../images/bg_but-m.jpg") repeat-x top;
     border:1px solid #c8c8c8;
@@ -383,11 +383,11 @@
 
 #user-list .headers #search-list {
     border-radius: 2px;
-    height: 28px;
-    line-height: 28px;
+    height: 26px;
+    line-height: 1;
     display: block;
     width: 235px;
-    padding: 0 10px;
+    padding: 2px 10px 0;
     border:1px solid #e0e0e0;
     box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
 }
@@ -422,4 +422,48 @@
 
 ::-ms-reveal {
     display: none;
+}
+
+
+#user .nouser {
+    padding: 20px 0;
+    font-size: 20px;
+    display: none;
+}
+
+#user .quantity {
+    position: relative;
+    width: 174px;
+    background: #e3eaf4;
+    height: 8px;
+    box-shadow: inset 1px 1px 2px rgba(0,0,0,0.2);
+    border-radius: 14px;
+    margin-top: -15px;
+    padding: 3px 3px;
+}
+
+#user .quantity .label {
+    text-align: center;
+    color: #000;
+    font-size: 10px;
+    position: absolute;
+    width: 100%;
+    padding-top: 3px;
+    line-height: 10px;
+    top:0;
+    left: 0;
+}
+
+#user .quantity .prog-bar {
+    background: #379acc;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzM3OWFjYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM1YmM3ZGYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(left,  #379acc 0%, #5bc7df 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#379acc), color-stop(100%,#5bc7df));
+    background: -webkit-linear-gradient(left,  #379acc 0%,#5bc7df 100%);
+    background: -o-linear-gradient(left,  #379acc 0%,#5bc7df 100%);
+    background: -ms-linear-gradient(left,  #379acc 0%,#5bc7df 100%);
+    background: linear-gradient(to right,  #379acc 0%,#5bc7df 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#379acc', endColorstr='#5bc7df',GradientType=1 );
+    border-radius: 10px;
+    height: 8px;
 }

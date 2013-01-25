@@ -1,0 +1,86 @@
+
+.h-logo {
+    padding-top: 3px;
+    width: auto;
+}
+
+.header-search {
+    position: absolute;
+    right: 50px;
+}
+
+.h-personal {
+    display: block;
+    padding: 0;
+    position: relative;
+    top: 9px;
+    margin-right: 5px;
+
+}
+
+#header .container {
+    min-width: 960px;
+    max-width: 1650px;
+    width: auto;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+@media (min-width:1401px) {
+
+    .header-search {
+        right: 60px;
+    }
+
+    .h-personal {
+        margin-right: 15px;
+    }
+}
+
+
+#header {
+    padding: 0;
+}
+
+
+
+@media (max-width:1400px) {
+    #centring {
+        min-width: 960px;
+        max-width: 1165px;
+        width: auto;
+    }
+
+    #header .container {
+        max-width: 1165px;
+        width: auto;
+    }
+
+    .h-personal img {
+        display: block;
+    }
+
+
+
+    .header-search {
+        right: 60px;
+    }
+
+    .h-personal {
+        margin-right: 15px;
+    }
+}
+
+@media (max-width:1161px) {
+    .header-search {
+        right: 50px;
+    }
+
+    .h-personal {
+        margin-right:4px;
+    }
+
+}
+
+

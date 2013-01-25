@@ -7,7 +7,7 @@
  */
 
 function resizeUserList() {
-    $('#user-list .dash_bottom').height($(document).height() - 122 - 10);
+    $('#user-list .dash_bottom').height($(document).height() - 116 - 10);
     $('#user-list .scroll').height($('#user-list .dash_bottom').height() - 45);
 }
 
@@ -42,7 +42,13 @@ function checkSelect() {
         sl = $('#user-list .select-all');
     if (sa < s) sl.removeClass('active');
     if (sa == s) sl.addClass('active');
-    if (s == 0) sl.removeClass('active');
+    if (s == 0) {
+        sl.removeClass('active');
+        $('#user .nouser').show(0);
+    }
+    else {
+        $('#user .nouser').hide(0);
+    }
 }
 
 function deleteUsers(user) {
@@ -72,8 +78,14 @@ $(function () {
     });
 
     $('#user .groups li').click(function () {
+        if (!$(this).hasClass('active')) {
         $('#user .groups li').removeClass('active');
         $(this).addClass('active');
+        $('#user-list .group').hide(0);
+        $('#user-list .group .user').removeClass('active');
+            $($(this).attr('rel')).show(0);
+            showActionsUser();
+        }
     });
 
     $('#user-list .user .del').click(function () {
@@ -95,7 +107,6 @@ $(function () {
             else {
                 $('#user-list .shadows').show(0);
             }
-
         }
     );
 
@@ -119,7 +130,7 @@ $(function () {
             text = $('#search-list').val();
         }, 1);
         setTimeout(function () {
-            if (text.length) {
+            if (text.length && text != 'поиск пользователей') {
                 m.hide(0);
                 m.each(function () {
                     if ($(this).find('.name').text().toLowerCase().indexOf(text.toLowerCase()) + 1 || $(this).find('.email').text().toLowerCase().indexOf(text.toLowerCase()) + 1) {
@@ -132,6 +143,35 @@ $(function () {
             }
         }, 5);
     });
+
+
+    /* Placeholder for IE */
+    if ($.browser.msie) { // Условие для вызова только в IE
+        $(".placeholding").find("input[type='text']").each(function () {
+            var tp = $(this).attr("placeholder");
+            $(this).attr('value', tp).css('color', '#000');
+        }).focusin(function () {
+                var val = $(this).attr('placeholder');
+                if ($(this).val() == val) {
+                    $(this).attr('value', '').css('color', '#000');
+                }
+            }).focusout(function () {
+                var val = $(this).attr('placeholder');
+                if ($(this).val() == "") {
+                    $(this).attr('value', val).css('color', '#000');
+                }
+            });
+
+        /* Protected send form */
+        $("form").submit(function () {
+            $(this).find("input[type='text']").each(function () {
+                var val = $(this).attr('placeholder');
+                if ($(this).val() == val) {
+                    $(this).attr('value', '');
+                }
+            })
+        });
+    }
 
 
 

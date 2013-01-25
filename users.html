@@ -11,12 +11,15 @@
     <meta name="description" content=""/>
     <meta name="robots" content="index,follow"/>
     <meta name="copyright" content=""/>
-    <link type="text/css" rel="stylesheet" href="style.css"/>
+    <link type="text/css" rel="stylesheet" href="template_styles.css"/>
+    <link type="text/css" rel="stylesheet" href="css/main.css"/>
 
     <link type="text/css" rel="stylesheet" href="css/base.dialog.assign.css"/>
     <link type="text/css" rel="stylesheet" href="css/add-user.css"/>
     <link type="text/css" rel="stylesheet" href="css/user.css"/>
-
+    <!--[if IE 8]>
+    <link type="text/css" rel="stylesheet" href="css/user-ie.css"/>
+    <![endif]-->
 
     <!-- fancy -->
     <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
@@ -50,7 +53,7 @@
 <!-- ____ HEADER ____ -->
 <div id="header">
     <div class="container">
-        <div class="h-logo"><a href="/"><img src="images/bg/logo.png" alt=""/></a></div>
+        <div class="h-logo"><a href="/"><img src="images/logotb.png" alt=""/></a></div>
         <div class="h-menu"><a href="#" class="plus">Plus</a> <a href="#">Курсы</a> <a href="#">Видеовстречи</a> <a
                 href="#">Тесты</a> <a href="#">Библиотека</a> <a href="#">Отчеты</a> <a href="#">Пользователи</a></div>
 
@@ -82,10 +85,10 @@
                     <strong>Группы</strong> <a class="add_group" href="#"></a>
                 </div>
                 <ul>
-                    <li class="active"><a href="#">Коллеги</a><span></span></li>
-                    <li><a href="#">Друзья</a><span></span></li>
-                    <li><a href="#">Новые слушатели</a><span></span></li>
-                    <li><a href="#">Старые слушатели</a><span></span></li>
+                    <li class="active" rel="#group-id-1"><a href="#">Коллеги</a><span></span></li>
+                    <li rel="#group-id-2"><a href="#">Друзья</a><span></span></li>
+                    <li rel="#group-id-1"><a href="#">Новые слушатели</a><span></span></li>
+                    <li rel="#group-id-2"><a href="#">Старые слушатели</a><span></span></li>
                 </ul>
             </div>
 
@@ -117,13 +120,14 @@
                                 <div class="shadows"></div>
                                 <div class="headers">
                                     <div class="select-all"></div>
-                                    <div class="search-users">
+                                    <div class="search-users placeholding">
                                         <input type="text" placeholder="поиск пользователей" id="search-list">
                                     </div>
                                     <div class="email">Электронная почта</div>
                                     <div class="status">Отметки о статусе</div>
                                 </div>
                                 <div class="scroll">
+                                <div class="group" id="group-id-1">
                                 <div class="user">
                                     <div class="actions">
                                         <a class="edit" href="#"><img src="images/bg/edit-ico.png" alt=""></a>
@@ -726,6 +730,94 @@
                                         <div class="status">администратор</div>
                                     </div>
                                 </div>
+                                </div>
+                                <div id="group-id-2" class="group" style="display: none;">
+                                    <div class="user">
+                                        <div class="actions">
+                                            <a class="edit" href="#"><img src="images/bg/edit-ico.png" alt=""></a>
+                                            <a class="plus" href="#"><img src="images/add-user-ico-add.png" alt=""></a>
+                                            <a class="del" href="#"><img src="images/add-user-ico-del.png" alt=""></a>
+                                        </div>
+                                        <div class="inner">
+                                            <div class="check"></div>
+                                            <img src="images/ava_c2.jpg" alt="">
+                                            <div class="name">Артем Николаев</div>
+                                            <div class="email">anikolaev@mail.ru</div>
+                                            <div class="status">администратор</div>
+                                        </div>
+                                    </div>
+                                    <div class="user">
+                                        <div class="actions">
+                                            <a class="edit" href="#"><img src="images/bg/edit-ico.png" alt=""></a>
+                                            <a class="plus" href="#"><img src="images/add-user-ico-add.png" alt=""></a>
+                                            <a class="del" href="#"><img src="images/add-user-ico-del.png" alt=""></a>
+                                        </div>
+                                        <div class="inner">
+                                            <div class="check"></div>
+                                            <img src="images/ava_c1.jpg" alt="">
+                                            <div class="name">Марина Сотникова</div>
+                                            <div class="email">marina@sotnikova.ru</div>
+                                            <div class="status"></div>
+                                        </div>
+                                    </div>
+                                    <div class="user">
+                                        <div class="actions">
+                                            <a class="edit" href="#"><img src="images/bg/edit-ico.png" alt=""></a>
+                                            <a class="plus" href="#"><img src="images/add-user-ico-add.png" alt=""></a>
+                                            <a class="del" href="#"><img src="images/add-user-ico-del.png" alt=""></a>
+                                        </div>
+                                        <div class="inner">
+                                            <div class="check"></div>
+                                            <img src="images/ava_c3.jpg" alt="">
+                                            <div class="name">Автондил Калашников</div>
+                                            <div class="email">kalashnikov@gmail.com</div>
+                                            <div class="status">администратор</div>
+                                        </div>
+                                    </div>
+                                    <div class="user">
+                                        <div class="actions">
+                                            <a class="edit" href="#"><img src="images/bg/edit-ico.png" alt=""></a>
+                                            <a class="plus" href="#"><img src="images/add-user-ico-add.png" alt=""></a>
+                                            <a class="del" href="#"><img src="images/add-user-ico-del.png" alt=""></a>
+                                        </div>
+                                        <div class="inner">
+                                            <div class="check"></div>
+                                            <img src="images/ava_c2.jpg" alt="">
+                                            <div class="name">Артем Николаев</div>
+                                            <div class="email">anikolaev@mail.ru</div>
+                                            <div class="status">администратор</div>
+                                        </div>
+                                    </div>
+                                    <div class="user">
+                                        <div class="actions">
+                                            <a class="edit" href="#"><img src="images/bg/edit-ico.png" alt=""></a>
+                                            <a class="plus" href="#"><img src="images/add-user-ico-add.png" alt=""></a>
+                                            <a class="del" href="#"><img src="images/add-user-ico-del.png" alt=""></a>
+                                        </div>
+                                        <div class="inner">
+                                            <div class="check"></div>
+                                            <img src="images/ava_c1.jpg" alt="">
+                                            <div class="name">Марина Сотникова</div>
+                                            <div class="email">marina@sotnikova.ru</div>
+                                            <div class="status"></div>
+                                        </div>
+                                    </div>
+                                    <div class="user">
+                                        <div class="actions">
+                                            <a class="edit" href="#"><img src="images/bg/edit-ico.png" alt=""></a>
+                                            <a class="plus" href="#"><img src="images/add-user-ico-add.png" alt=""></a>
+                                            <a class="del" href="#"><img src="images/add-user-ico-del.png" alt=""></a>
+                                        </div>
+                                        <div class="inner">
+                                            <div class="check"></div>
+                                            <img src="images/ava_c3.jpg" alt="">
+                                            <div class="name">Автондил Калашников</div>
+                                            <div class="email">kalashnikov@gmail.com</div>
+                                            <div class="status">администратор</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nouser">К сожалению пользователи отсутствуют</div>
                             </div>
                             </div>
                         </div>
@@ -735,7 +827,13 @@
 
 
         </div>
+        <div class="clr"></div>
+        <div class="quantity">
+            <div class="label">38 из 120</div>
+            <div class="prog-bar" style="width: 40%;"></div>
+        </div>
     </div>
+
 
 </div>
 
