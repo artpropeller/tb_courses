@@ -7,7 +7,7 @@
  */
 
 function resizeUserList() {
-    $('#user-list .dash_bottom').height($(document).height() - 116 - 10);
+    $('#user-list .dash_bottom').height($(document).height() - 119 - 10);
     $('#user-list .scroll').height($('#user-list .dash_bottom').height() - 45);
 }
 
