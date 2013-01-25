@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/user-ie.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/user.css" afterPath="$PROJECT_DIR$/css/user.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/users-fn.js" afterPath="$PROJECT_DIR$/js/users-fn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/users.html" afterPath="$PROJECT_DIR$/users.html" />
     </list>
     <ignored path="tb_courses.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -94,7 +90,7 @@
       <file leaf-file-name="user.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/user.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="467" column="13" selection-start="9438" selection-end="9438" vertical-scroll-proportion="0.78205127">
+            <state line="467" column="16" selection-start="9440" selection-end="9440" vertical-scroll-proportion="0.78205127">
               <folding>
                 <element signature="e#8151#8814#2" expanded="true" />
               </folding>
@@ -509,7 +505,11 @@
       <created>1359096620134</created>
       <updated>1359096620134</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="stat files">
+      <created>1359100133943</created>
+      <updated>1359100133943</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -751,7 +751,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/user.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="467" column="13" selection-start="9438" selection-end="9438" vertical-scroll-proportion="0.78205127">
+        <state line="467" column="16" selection-start="9440" selection-end="9440" vertical-scroll-proportion="0.78205127">
           <folding>
             <element signature="e#8151#8814#2" expanded="true" />
           </folding>
