@@ -2,3 +2,7 @@
 #user-list .headers #search-list {
     line-height: 24px;
 }
+
+#edit-users .table-add-assign .user-assign .name-assign input {
+    line-height: 30px;
+}

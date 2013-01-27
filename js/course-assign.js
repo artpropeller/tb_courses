@@ -120,7 +120,7 @@ $(function () {
 
     $('.user-assign').live('click', function () {
         if (!$(this).is('.addnew-assign')) {
-            $(this).toggleClass('active');
+//            $(this).toggleClass('active');
             showcor();
         }
     });
