@@ -840,6 +840,10 @@
     position: relative;
 }
 
+#stat-view .metrics.video .item {
+    width: 315px;
+}
+
 #stat-view .metrics .item .name {
     position: relative;
     z-index: 40;
@@ -2046,3 +2050,91 @@
 #stat-view .datepickerGoPrev a, #stat-view .datepickerGoNext a  {
     cursor: pointer;
 }
+
+
+/*таблица видео*/
+
+
+#usersTable.videomeet th.name {
+    width: 210px;
+}
+
+#usersTable.videomeet th.author {
+    width: 190px;
+}
+
+#usersTable.videomeet th.upload {
+    width: 160px;
+}
+
+#usersTable.videomeet th.timing {
+    width: 170px;
+}
+
+#usersTable.videomeet th.qty-members {
+    width: 155px;
+}
+
+
+#usersTable.videomeet th {
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+#usersTable.videomeet th.sorting-asc.name, #usersTable.videomeet th.sorting-desc.name {
+    background-position: 114px 14px;
+}
+
+#usersTable.videomeet th.sorting-asc.author, #usersTable.videomeet th.sorting-desc.author {
+    background-position: 80px 14px;
+}
+
+#usersTable.videomeet th.sorting-asc.upload, #usersTable.videomeet th.sorting-desc.upload {
+    background-position: 80px 14px;
+}
+
+#usersTable.videomeet th.sorting-asc.timing, #usersTable.videomeet th.sorting-desc.timing {
+    background-position: 130px 14px;
+}
+
+#usersTable.videomeet th.sorting-asc.qty-members, #usersTable.videomeet th.sorting-desc.qty-members {
+    background-position: 120px 14px;
+}
+
+
+#usersTable.videomeet td.name {
+    width: 210px;
+}
+
+#usersTable.videomeet td.name span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 200px;
+    white-space: nowrap;
+}
+
+#usersTable.videomeet td.author {
+    width: 188px;
+}
+
+#usersTable.videomeet td.author span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 180px;
+    white-space: nowrap;
+    display: block;
+}
+
+#usersTable.videomeet td.upload {
+    width: 160px;
+}
+
+#usersTable.videomeet td.timing {
+    width: 170px;
+}
+
+#usersTable.videomeet td.qty-members {
+    width: 155px;
+}
+
+
