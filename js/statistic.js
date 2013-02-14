@@ -32,7 +32,7 @@ $(function () {
     addTooltipClass('#usersTable.stat-test-answers td.name .sel span', 55);
     addTooltipClass('#usersTable.stat-test-answers td.type .sel', 16);
 
-    addTooltipClass('.select.type .value', 21);
+    addTooltipClass('.select.type .value', 20);
 
     tooltip();
 
@@ -49,14 +49,16 @@ $(function () {
     $('.select.type').click(function () {
         $(this).toggleClass('active');
         $('.click-zone').toggle(0);
-        $(this).find('ul').slideToggle(300);
+        $(this).find('ul').slideToggle(300, function(){
+            addTooltipClass('.select.type .value', 20);
+        });
     });
 
     $('.select.type li').click(function () {
         $('.select.type li').removeClass('active');
         $(this).addClass('active');
         $(this).parents('.select').find('.value').text($(this).text());
-        addTooltipClass('.select.type .value', 21);
+        addTooltipClass('.select.type .value', 20);
         tooltip();
     });
 
@@ -163,7 +165,8 @@ $(function () {
     if ($.browser.msie) { // Условие для вызова только в IE
         $(".placeholding").find("input[type='text']").each(function () {
             var tp = $(this).attr("placeholder");
-            $(this).attr('value', tp).css('color', '#000');
+            $(this).addClass('.place');
+            $(this).attr('value', tp).css('color', '#999');
         }).focusin(function () {
                 var val = $(this).attr('placeholder');
                 if ($(this).val() == val) {
@@ -172,7 +175,7 @@ $(function () {
             }).focusout(function () {
                 var val = $(this).attr('placeholder');
                 if ($(this).val() == "") {
-                    $(this).attr('value', val).css('color', '#000');
+                    $(this).attr('value', val).css('color', '#999');
                 }
             });
 
