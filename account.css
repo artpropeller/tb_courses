@@ -662,6 +662,195 @@
     border: 0;
 }
 
+#course-view.new-user .time em{
+    font-style: normal;
+    color: #666;
+    font-size: 12px;
+    display: block;
+}
+
+
+#course-view.new-user .options .time{
+    background-position: left 4px;
+}
+
+#course-view.new-user .options{
+    width: auto;
+    right: 15px;
+}
+
+#course-view.new-user a.button-green{
+    width: 156px;
+}
+
+#course-view.new-user .navi-box-cont .plashka{
+    color: #fff;
+    font-size: 11px;
+    position: absolute;
+    background: url("images/plash-gray.png") no-repeat;
+    width: 54px;
+    height: 18px;
+    text-align: center;
+    top:67px;
+    right: -5px;
+    padding-top: 2px;
+
+}
+
+
+#course-view.new-user .navi-box-cont .plashka strong{
+    font-size: 14px;
+
+}
+
+#course-view.new-user .text{
+    float: left;
+    width: 385px;
+    padding-top: 25px;
+    margin: 0 0 0 20px;
+
+}
+
+#course-view.new-user .content{
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+
+#course-view.new-user .text .top{
+    color: #000;
+    border-bottom: 1px solid #e1e1e1;
+    margin-bottom: 50px;
+}
+
+#course-view.new-user .text .top strong{
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+#course-view.new-user .text .top p{
+    font-size: 14px;
+    line-height: 22px;
+}
+
+
+#course-view.new-user .notify{
+    float: right;
+
+}
+
+
+#course-view.new-user .text .bot{
+    text-align: center;
+    color: #6c6c6c;
+}
+
+
+#course-view.new-user h5{
+    font-size: 24px;
+    margin-bottom: 15px;
+
+}
+
+
+#course-view.new-user .text .bot p{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+#course-view.new-user .text .bot a{
+    color: #006fe1;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+#course-view.new-user .text .bot a:hover{
+    text-decoration: none;
+}
+
+
+#course-view.new-user .account .notify{
+    width: 487px;
+    margin-top: 10px;
+}
+
+
+#course-view.new-user .tab_bar li a span{
+    font-weight: normal;
+}
+
+
+.cont li{
+    background: url("images/bg/dashed.png") repeat-x bottom;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    color: #000;
+    font-size: 14px;
+    padding-left: 0;
+    position: relative;
+    z-index: 200;
+
+}
+
+
+.cont li.last{
+    background: none;
+
+}
+
+
+#course-view.new-user .notify .gray{
+    height: 308px;
+    padding-top: 15px;
+}
+
+
+
+#course-view.new-user{
+    width: 960px;
+}
+
+#header.new-user .container{
+    width: 960px;
+    padding: 0;
+}
+
+
+#header.new-user .h-logo{
+    padding-left: 0;
+    margin-left: -5px;
+    padding-right: 5px;
+}
+
+#header.new-user .h-menu>a{
+    margin-right: 0;
+}
+
+#header.new-user .h-menu>a.plus{
+    margin-right: 10px;
+}
+
+
+#course-view.new-user .author{
+    margin-bottom: 15px;
+}
+
+
+#course-view.new-user .panel{
+    overflow: visible;
+    padding-bottom: 4px;
+    padding-left: 15px;
+
+}
+
+#course-view.new-user .navi-box-cont{
+    left:2px;
+}
+
+
+
+
 
 
 
