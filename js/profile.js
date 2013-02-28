@@ -54,4 +54,6 @@ $(function () {
         return false;
     });
 
+    $('#course-view.new-user .gray .scroll').jScrollPane();
+
 });

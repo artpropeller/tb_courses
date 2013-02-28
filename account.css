@@ -783,8 +783,8 @@
 
 .cont li{
     background: url("images/bg/dashed.png") repeat-x bottom;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
     color: #000;
     font-size: 14px;
     padding-left: 0;
@@ -793,9 +793,15 @@
 
 }
 
+.cont{
+    margin-bottom: 0;
+}
+
 
 .cont li.last{
     background: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
 
 }
 
@@ -849,6 +855,26 @@
 }
 
 
+#course-view.new-user .text.fln{
+    float: none;
+    margin:  0 auto 60px;
+    width: 505px;
+}
+
+#course-view.new-user .text.fln.pad{
+    margin:  123px auto 137px;
+
+}
+
+
+#course-view.new-user .text.fll{
+    margin-top: 120px;
+}
+
+
+#course-view.new-user .gray .scroll{
+    height: 308px;
+}
 
 
 
