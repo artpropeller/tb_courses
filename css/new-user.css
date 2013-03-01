@@ -342,7 +342,7 @@
     margin-bottom: 10px;
 }
 
-#course-view-new-user .text .top p {
+#course-view-new-user .text .top p, #course-view-new-user .context p {
     font-size: 14px;
     line-height: 22px;
 }
@@ -368,13 +368,13 @@
     line-height: 20px;
 }
 
-#course-view-new-user .text .bot a {
+#course-view-new-user .text .bot a, #course-view-new-user .context a {
     color: #006fe1;
     font-weight: bold;
     text-decoration: underline;
 }
 
-#course-view-new-user .text .bot a:hover {
+#course-view-new-user .text .bot a:hover, #course-view-new-user .context a:hover {
     text-decoration: none;
 }
 
@@ -495,3 +495,15 @@
     height: 25px;
     padding: 5px 15px 0;
 }
+
+
+#course-view-new-user .text.admin .top{
+    border-bottom: 0;
+    margin-bottom: 120px;
+}
+
+#course-view-new-user .context{
+    text-align: center;
+    padding-top: 105px;
+}
+
