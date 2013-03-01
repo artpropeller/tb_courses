@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/new-user.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/new-user.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/new.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/account.css" afterPath="$PROJECT_DIR$/account.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-view-new-user1.html" afterPath="$PROJECT_DIR$/course-view-new-user1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-view-new-user2.html" afterPath="$PROJECT_DIR$/course-view-new-user2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-view-new-user3.html" afterPath="$PROJECT_DIR$/course-view-new-user3.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-view-new-user4.html" afterPath="$PROJECT_DIR$/course-view-new-user4.html" />
     </list>
     <ignored path="tb_courses.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,51 +33,69 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="course-view-new-user2.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/course-view-new-user2.html">
+      <file leaf-file-name="course-view-new-user1.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/course-view-new-user1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="213" column="59" selection-start="10132" selection-end="10132" vertical-scroll-proportion="-0.65384614">
+            <state line="13" column="108" selection-start="780" selection-end="780" vertical-scroll-proportion="-4.27451">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="course-view-new-user1.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/course-view-new-user1.html">
+      <file leaf-file-name="course-view-new-user2.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/course-view-new-user2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="164" column="44" selection-start="7071" selection-end="7071" vertical-scroll-proportion="-0.65384614">
+            <state line="13" column="0" selection-start="672" selection-end="780" vertical-scroll-proportion="-8.5">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/new.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="35" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="account.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/account.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="281" column="1" selection-start="4577" selection-end="4841" vertical-scroll-proportion="-13.4">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new-user.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/new-user.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="105" column="31" selection-start="2208" selection-end="2208" vertical-scroll-proportion="-17.48">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="course-view-new-user3.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/course-view-new-user3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="198" selection-end="1292" vertical-scroll-proportion="-1.8461539">
               <folding>
-                <element signature="tag#div#0;tag#div#1;tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#ul#0;tag#div#0;tag#div#1;tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#1;tag#div#1;tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#2;tag#div#1;tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#head#0;tag#html#0" expanded="false" />
+                <element signature="tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="account.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/account.css">
+      <file leaf-file-name="course-view-new-user4.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/course-view-new-user4.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="682" column="23" selection-start="12134" selection-end="12134" vertical-scroll-proportion="0.38108882">
+            <state line="9" column="38" selection-start="540" selection-end="540" vertical-scroll-proportion="0.21888413">
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="profile.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/profile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="0" selection-start="1497" selection-end="1497" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="plash-gray.png" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/plash-gray.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
@@ -87,9 +112,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/css/otchet.css" />
-        <option value="$PROJECT_DIR$/statistics.html" />
-        <option value="$PROJECT_DIR$/otchet_new.html" />
         <option value="$PROJECT_DIR$/exit-video.html" />
         <option value="$PROJECT_DIR$/setup_plugin.html" />
         <option value="$PROJECT_DIR$/css/media.css" />
@@ -98,11 +120,14 @@
         <option value="$PROJECT_DIR$/css/user.css" />
         <option value="$PROJECT_DIR$/course-view-open2.html" />
         <option value="$PROJECT_DIR$/course-view-new-user.html" />
-        <option value="$PROJECT_DIR$/course-view-new-user4.html" />
-        <option value="$PROJECT_DIR$/course-view-new-user3.html" />
         <option value="$PROJECT_DIR$/js/profile.js" />
-        <option value="$PROJECT_DIR$/course-view-new-user2.html" />
         <option value="$PROJECT_DIR$/account.css" />
+        <option value="$PROJECT_DIR$/js/new.js" />
+        <option value="$PROJECT_DIR$/course-view-new-user2.html" />
+        <option value="$PROJECT_DIR$/course-view-new-user1.html" />
+        <option value="$PROJECT_DIR$/course-view-new-user3.html" />
+        <option value="$PROJECT_DIR$/css/new-user.css" />
+        <option value="$PROJECT_DIR$/course-view-new-user4.html" />
       </list>
     </option>
   </component>
@@ -168,7 +193,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tb_courses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tb_courses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -180,7 +219,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors" />
-    <property name="last_opened_file_path" value="D:/ART-gallery" />
+    <property name="last_opened_file_path" value="D:/tb_msu" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -393,7 +432,11 @@
       <created>1362029006936</created>
       <updated>1362029006936</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="new-user">
+      <created>1362050195035</created>
+      <updated>1362050195035</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -481,103 +524,117 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/images/content-im/courses-10.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/content-im/courses-09.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/content-im/courses-08.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/content-im/courses-06.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/content-im/courses-05.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/content-im/courses-04.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/content-im/courses-03.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/plash-gray.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/jquery.functions.js">
+    <entry file="file://$PROJECT_DIR$/js/new-user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="330" column="10" selection-start="12345" selection-end="12347" vertical-scroll-proportion="-9.12">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/menu.js">
+    <entry file="file://$PROJECT_DIR$/resize-course-assign.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="144" column="10" selection-start="4426" selection-end="4429" vertical-scroll-proportion="0.3328467">
+        <state line="14" column="67" selection-start="801" selection-end="801" vertical-scroll-proportion="0.3404864">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/course-view-new-user4.html">
+    <entry file="file://$PROJECT_DIR$/course-view.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="167" column="48" selection-start="7214" selection-end="7214" vertical-scroll-proportion="-13.807693">
+        <state line="479" column="0" selection-start="9110" selection-end="10718" vertical-scroll-proportion="-3.06">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/course-view-new-user3.html">
+    <entry file="file://$PROJECT_DIR$/profile-admin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="167" column="52" selection-start="7218" selection-end="7218" vertical-scroll-proportion="-9.038462">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course-view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="3" selection-start="1236" selection-end="1341" vertical-scroll-proportion="-15.692307">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course-assign.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.22533137">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/course-assign.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/account.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="281" column="1" selection-start="4577" selection-end="4841" vertical-scroll-proportion="-13.4">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/profile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="0" selection-start="1497" selection-end="1497" vertical-scroll-proportion="0.0">
+        <state line="56" column="59" selection-start="1202" selection-end="1496" vertical-scroll-proportion="0.8593103">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/new.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="35" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/course-view-new-user2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="213" column="59" selection-start="10132" selection-end="10132" vertical-scroll-proportion="-0.65384614">
+        <state line="13" column="0" selection-start="672" selection-end="780" vertical-scroll-proportion="-8.5">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/course-view-new-user1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="164" column="44" selection-start="7071" selection-end="7071" vertical-scroll-proportion="-0.65384614">
+        <state line="13" column="108" selection-start="780" selection-end="780" vertical-scroll-proportion="-4.27451">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/new-user.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="105" column="31" selection-start="2208" selection-end="2208" vertical-scroll-proportion="-17.48">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course-view-open2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="54" selection-start="332" selection-end="332" vertical-scroll-proportion="0.12160229">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course-view-new-user3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="198" selection-end="1292" vertical-scroll-proportion="-1.8461539">
           <folding>
-            <element signature="tag#div#0;tag#div#1;tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#ul#0;tag#div#0;tag#div#1;tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#1;tag#div#1;tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#2;tag#div#1;tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#head#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/account.css">
+    <entry file="file://$PROJECT_DIR$/course-view-new-user4.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="682" column="23" selection-start="12134" selection-end="12134" vertical-scroll-proportion="0.38108882">
+        <state line="9" column="38" selection-start="540" selection-end="540" vertical-scroll-proportion="0.21888413">
           <folding />
         </state>
       </provider>
