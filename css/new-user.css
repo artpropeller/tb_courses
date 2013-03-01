@@ -102,7 +102,7 @@
     text-align: center;
 }
 
-#course-view-new-user a.button-green:hover{
+#course-view-new-user a.button-green:hover {
     background-position: bottom;
 }
 
@@ -496,14 +496,63 @@
     padding: 5px 15px 0;
 }
 
-
-#course-view-new-user .text.admin .top{
+#course-view-new-user .text.admin .top {
     border-bottom: 0;
     margin-bottom: 120px;
 }
 
-#course-view-new-user .context{
+#course-view-new-user .context {
     text-align: center;
     padding-top: 105px;
 }
 
+#course-view-new-user a.button-blue {
+    height: 14px;
+    border-radius: 3px;
+    border: 1px solid #839d22;
+    box-shadow: 0 0 3px #aaa;
+    display: inline-block;
+    padding: 6px 0 10px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    text-shadow: 0 1px 0 #487a15;
+    margin-right: 5px;
+    text-align: center;
+}
+
+#course-view-new-user a.button-blue {
+    background: url("../images/blue_bg_button.jpg") repeat-x top;
+    border: 1px solid #4f5884;
+    padding: 6px 11px 10px 36px;
+    text-shadow: 0 1px #38597c;
+    position: relative;
+    margin-bottom: -3px;
+}
+
+#course-view-new-user a.button-blue.last {
+    padding: 6px 15px 10px 36px;
+    margin-right: 0;
+
+}
+
+#course-view-new-user a.button-blue:hover {
+    background-position: bottom;
+}
+
+#course-view-new-user a.button-blue i {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    left: 9px;
+    top: 6px;
+    border: none !important;
+}
+
+#course-view-new-user a.button-blue i.edits {
+    background: url("../images/ico-white-edit.png");
+}
+
+#course-view-new-user a.button-blue i.view {
+    background: url("../images/ico-white-view.png");
+}
