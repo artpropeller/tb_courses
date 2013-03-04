@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/course-view-new-user-progress1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/course-view-new-user-progress2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/course-view-new-user-progress3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/course-view-new-user-progress4.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-view-new-user-admin.html" afterPath="$PROJECT_DIR$/course-view-new-user-admin.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/new-user.css" afterPath="$PROJECT_DIR$/css/new-user.css" />
     </list>
     <ignored path="tb_courses.iws" />
@@ -27,28 +30,61 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="course-view-new-user-admin.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/course-view-new-user-admin.html">
+      <file leaf-file-name="course-view-new-user-progress1.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/course-view-new-user-progress1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="104" column="62" selection-start="4733" selection-end="4733" vertical-scroll-proportion="-18.384615">
+            <state line="114" column="36" selection-start="5329" selection-end="6212" vertical-scroll-proportion="-9.692307">
+              <folding>
+                <element signature="tag#div#1;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="course-view-new-user4.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/course-view-new-user4.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="48" column="31" selection-start="2486" selection-end="2486" vertical-scroll-proportion="-0.65384614">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="course-view.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/course-view.html">
+      <file leaf-file-name="course-view-new-user-progress2.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/course-view-new-user-progress2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="154" column="92" selection-start="6889" selection-end="7053" vertical-scroll-proportion="-35.72549">
+            <state line="145" column="105" selection-start="6937" selection-end="6937" vertical-scroll-proportion="-7.8461537">
+              <folding>
+                <element signature="tag#div#0;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="course-view-new-user-progress3.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/course-view-new-user-progress3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="132" column="42" selection-start="6362" selection-end="6362" vertical-scroll-proportion="-25.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new-user.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="course-view-new-user-progress4.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/course-view-new-user-progress4.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="123" column="78" selection-start="6153" selection-end="6153" vertical-scroll-proportion="0.51054215">
+              <folding>
+                <element signature="tag#div#0;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new-user.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/new-user.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="529" column="21" selection-start="9919" selection-end="9919" vertical-scroll-proportion="0.22285715">
+            <state line="561" column="21" selection-start="10549" selection-end="10549" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -67,10 +103,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/setup_plugin.html" />
-        <option value="$PROJECT_DIR$/css/media.css" />
-        <option value="$PROJECT_DIR$/css/exit-video.css" />
-        <option value="$PROJECT_DIR$/users.html" />
         <option value="$PROJECT_DIR$/css/user.css" />
         <option value="$PROJECT_DIR$/course-view-open2.html" />
         <option value="$PROJECT_DIR$/course-view-new-user.html" />
@@ -78,20 +110,22 @@
         <option value="$PROJECT_DIR$/account.css" />
         <option value="$PROJECT_DIR$/js/new.js" />
         <option value="$PROJECT_DIR$/course-view-new-user1.html" />
-        <option value="$PROJECT_DIR$/course-view-new-user2.html" />
         <option value="$PROJECT_DIR$/course-view-new-user3.html" />
         <option value="$PROJECT_DIR$/course-view-new-user4.html" />
         <option value="$PROJECT_DIR$/course-view-new-user-admin.html" />
+        <option value="$PROJECT_DIR$/course-view-new-user-progress1.html" />
         <option value="$PROJECT_DIR$/css/new-user.css" />
+        <option value="$PROJECT_DIR$/course-view-new-user2.html" />
+        <option value="$PROJECT_DIR$/course-view-new-user-progress2.html" />
+        <option value="$PROJECT_DIR$/course-view-new-user-progress3.html" />
+        <option value="$PROJECT_DIR$/course-view-new-user-progress4.html" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1456" />
-    <option name="height" value="886" />
+    <option name="width" value="1440" />
+    <option name="height" value="871" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -119,7 +153,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -154,6 +187,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -162,8 +196,8 @@
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="last_opened_file_path" value="D:/tb_msu" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -385,18 +419,21 @@
       <created>1362137584799</created>
       <updated>1362137584799</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="new-user">
+      <created>1362138866352</created>
+      <updated>1362138866352</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="886" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="871" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23147495" sideWeight="0.6702997" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23126338" sideWeight="0.6702997" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32970026" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -407,6 +444,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32933334" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -473,26 +511,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/images/content-im/courses-12.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/content-im/courses-11.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/content-im/courses-10.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/content-im/courses-09.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/content-im/courses-07.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -520,54 +538,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/course-view-new-user2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="0" selection-start="2455" selection-end="2455" vertical-scroll-proportion="-15.692307">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/course-view-new-user3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="31" selection-start="2486" selection-end="2486" vertical-scroll-proportion="-19.615385">
-          <folding>
-            <element signature="tag#head#0;tag#html#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/course-view-new-user4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="31" selection-start="2486" selection-end="2486" vertical-scroll-proportion="-21.576923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/course-assign.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course-view-new-user-admin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="62" selection-start="4733" selection-end="4733" vertical-scroll-proportion="-0.49707603">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/course-view.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="154" column="92" selection-start="6889" selection-end="7053" vertical-scroll-proportion="-35.72549">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/course-view-new-user-admin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="62" selection-start="4733" selection-end="4733" vertical-scroll-proportion="-18.384615">
+        <state line="154" column="92" selection-start="6889" selection-end="7053" vertical-scroll-proportion="0.024853801">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/new-user.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="529" column="21" selection-start="9919" selection-end="9919" vertical-scroll-proportion="0.22285715">
+        <state line="561" column="21" selection-start="10549" selection-end="10549" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course-view-new-user3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="31" selection-start="2486" selection-end="2486" vertical-scroll-proportion="-0.65384614">
+          <folding>
+            <element signature="tag#head#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course-view-new-user2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="110" column="62" selection-start="4839" selection-end="4839" vertical-scroll-proportion="0.64006025">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course-view-new-user4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="31" selection-start="2486" selection-end="2486" vertical-scroll-proportion="-0.65384614">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course-view-new-user-progress2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="145" column="105" selection-start="6937" selection-end="6937" vertical-scroll-proportion="-7.8461537">
+          <folding>
+            <element signature="tag#div#0;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course-view-new-user-progress3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="132" column="42" selection-start="6362" selection-end="6362" vertical-scroll-proportion="-25.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course-view-new-user-progress1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="114" column="36" selection-start="5329" selection-end="6212" vertical-scroll-proportion="-9.692307">
+          <folding>
+            <element signature="tag#div#1;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course-view-new-user-progress4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="123" column="78" selection-start="6153" selection-end="6153" vertical-scroll-proportion="0.51054215">
+          <folding>
+            <element signature="tag#div#0;tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
