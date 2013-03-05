@@ -587,3 +587,16 @@
 }
 
 
+#course-view-new-user .edit-now{
+    font-size: 14px;
+    color: #006fe1;
+    text-decoration: underline;
+    display: block;
+    margin-top: -10px;
+}
+
+#course-view-new-user .edit-now:hover{
+    text-decoration: none;
+}
+
+
