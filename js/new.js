@@ -7,5 +7,13 @@ $(function () {
         return false;
     });
 
-    $('#course-view-new-user .gray .scroll').jScrollPane();
+    $('#course-view-new-user .gray .scroll').jScrollPane({
+        autoReinitialise: true,
+        autoReinitialiseDelay: 10
+    });
+
+    $('.hovers .del').click(function(){
+       $(this).parents('li').remove();
+
+    });
 });

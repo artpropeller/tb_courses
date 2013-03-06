@@ -557,12 +557,12 @@
     background: url("../images/ico-white-view.png");
 }
 
-#course-view-new-user .text .bot .item{
+#course-view-new-user .text .bot .item {
     width: 280px;
     margin: 0 auto 15px;
 }
 
-#course-view-new-user .text .bot .item span{
+#course-view-new-user .text .bot .item span {
     display: block;
     float: left;
     text-align: right;
@@ -573,7 +573,7 @@
     line-height: 15px;
 }
 
-#course-view-new-user .text .bot .item strong{
+#course-view-new-user .text .bot .item strong {
     display: block;
     color: #000000;
     float: left;
@@ -582,12 +582,11 @@
     padding-top: 8px;
 }
 
-#course-view-new-user .cont li img{
+#course-view-new-user .cont li img {
     padding-left: 5px;
 }
 
-
-#course-view-new-user .edit-now{
+#course-view-new-user .edit-now {
     font-size: 14px;
     color: #006fe1;
     text-decoration: underline;
@@ -595,8 +594,179 @@
     margin-top: -10px;
 }
 
-#course-view-new-user .edit-now:hover{
+#course-view-new-user .edit-now:hover {
     text-decoration: none;
 }
+
+#course-view-new-user .ico {
+    width: 31px;
+    height: 28px;
+    display: block;
+    float: left;
+    margin-right: 5px;
+
+}
+
+#course-view-new-user .ico.doc {
+    background: url("../images/ico-files-doc.png") no-repeat;
+}
+
+#course-view-new-user .ico.ppt {
+    background: url("../images/ico-files-ppt.png") no-repeat;
+}
+
+#course-view-new-user .ico.xls {
+    background: url("../images/ico-files-xls.png") no-repeat;
+}
+
+#course-view-new-user .ico.pdf {
+    background: url("../images/ico-files-pdf.png") no-repeat;
+}
+
+#course-view-new-user #profile_files  .cont  li span {
+    display: block;
+    float: left;
+    padding-top: 2px;
+
+}
+
+#course-view-new-user #profile_files  .cont  li img {
+    display: block;
+    float: left;
+    padding-top: 7px;
+}
+
+#course-view-new-user .ico.test {
+    width: 25px;
+    background: url("../images/ico-test.png") no-repeat;
+}
+
+#course-view-new-user .progress-info span {
+    display: block;
+}
+
+#course-view-new-user .progress-info {
+    margin-left: 35px;
+
+}
+
+#course-view-new-user .progress-info span {
+    margin-bottom: 5px;
+}
+
+#course-view-new-user .progress-info .percents {
+    float: left;
+    background: #c6ef9b;
+    border-radius: 3px;
+    padding: 0 5px;
+    display: block;
+    font-size: 12px;
+    margin-right: 5px;
+    color: #4e7832;
+}
+
+#course-view-new-user .progress-info .balls {
+    font-size: 12px;
+    color: #888888;
+}
+
+#course-view-new-user .progress-info .green {
+    color: #147700;
+}
+
+#course-view-new-user .progress-info .red {
+    color: #ff0000;
+}
+
+#course-view-new-user .progress-info .progress {
+    float: left;
+    border-right: 1px solid #d7d7d7;
+    padding-right: 15px;
+    margin-right: 15px;
+    font-size: 12px;
+    color: #888;
+
+}
+
+#course-view-new-user .progress-info .statistic {
+    overflow: auto;
+}
+
+#course-view-new-user .progress-info .progress .bar {
+    height: 4px;
+    background: #d7d7d7;
+    border: 1px solid #c8c8c8;
+    border-radius: 2px;
+    width: 118px;
+    display: inline-block;
+    margin-right: 10px;
+    box-shadow: 0 1px #f8f8f8, inset 0 1px #cfcfcf;
+    position: relative;
+
+}
+
+#course-view-new-user .progress-info .progress .bar .inner {
+    background: url("../images/progress-blue.jpg");
+    position: absolute;
+    border: 1px solid #5bace9;
+    border-radius: 2px;
+    height: 4px;
+    top: -1px;
+    box-shadow: 0 1px 1px #d3d3d3;
+}
+
+#course-view-new-user #profile_files .cont li .hovers img {
+    padding: 0;
+    display: inline;
+    float: none;
+
+}
+
+#course-view-new-user .hovers a {
+    display: block;
+    width: 27px;
+    height: 26px;
+    text-align: center;
+    float: left;
+
+
+
+}
+
+#course-view-new-user .hovers {
+    position: absolute;
+    right: 8px;
+    display: none;
+}
+
+#course-view-new-user .hovers .load {
+    padding-top: 7px;
+    height: 19px;
+}
+
+#course-view-new-user .hovers .del {
+    padding-top: 2px;
+    height: 24px;
+}
+
+
+#course-view-new-user .hovers a:hover{
+    background: url("../images/hover-grad-bg.png") no-repeat;
+
+}
+
+
+
+
+#course-view-new-user .cont li:hover .hovers{
+    display: block;
+}
+
+
+
+
+
+
+
 
 
