@@ -14,6 +14,7 @@ $(function () {
 
     $('.hovers .del').click(function(){
        $(this).parents('li').remove();
+        return false
 
     });
 });
