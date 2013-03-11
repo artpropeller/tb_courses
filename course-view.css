@@ -1511,11 +1511,11 @@
 }
 
 #graph-bar {
-    width: 230px;
-    margin-top: 45px;
-    float: right;
-    position: relative;
-}
+     width: 230px;
+     margin-top: 45px;
+     float: right;
+     position: relative;
+ }
 
 #graph-bar .bars {
     height: 210px;
