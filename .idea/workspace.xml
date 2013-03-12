@@ -4,19 +4,18 @@
     <bookmark url="file://$PROJECT_DIR$/css/xcharts.css" line="18" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" name="Default" comment="new-user">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-view-new-statistic.html" afterPath="$PROJECT_DIR$/course-view-new-statistic.html" />
+    <list default="true" id="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/new-user.css" afterPath="$PROJECT_DIR$/css/new-user.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/new.js" afterPath="$PROJECT_DIR$/js/new.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tb_courses.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1363070728129" ignored="false" />
+    <file path="/Dummy.txt" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1363072792881" ignored="false" />
     <file path="/course-view-new-statistic.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1363070016172" ignored="false" />
-    <file path="/new-user.css" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1363070177510" ignored="false" />
+    <file path="/new-user.css" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1363073362795" ignored="false" />
     <file path="/dummy.xml" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1363017205369" ignored="false" />
-    <file path="/new.js" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1363070585102" ignored="false" />
+    <file path="/new.js" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1363073132690" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +38,7 @@
       <file leaf-file-name="course-view-new-statistic.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/course-view-new-statistic.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="145" column="94" selection-start="7151" selection-end="7163" vertical-scroll-proportion="-10.692307">
+            <state line="150" column="50" selection-start="7656" selection-end="7656" vertical-scroll-proportion="-98.07692">
               <folding />
             </state>
           </provider>
@@ -48,7 +47,7 @@
       <file leaf-file-name="otchet.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/otchet.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1481" column="21" selection-start="28030" selection-end="28047" vertical-scroll-proportion="-6.16">
+            <state line="1481" column="21" selection-start="28030" selection-end="28047" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -84,16 +83,16 @@
       <file leaf-file-name="course-view-admin-result-course.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/course-view-admin-result-course.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="361" column="40" selection-start="23077" selection-end="23077" vertical-scroll-proportion="-5.8846154">
+            <state line="361" column="40" selection-start="23077" selection-end="23077" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new-user.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="new-user.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/new-user.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="969" column="24" selection-start="19018" selection-end="19018" vertical-scroll-proportion="-13.44">
+            <state line="1232" column="1" selection-start="24577" selection-end="24577" vertical-scroll-proportion="0.4003984">
               <folding />
             </state>
           </provider>
@@ -108,10 +107,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="new.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/new.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="69" selection-start="86" selection-end="86" vertical-scroll-proportion="0.063197024">
+            <state line="79" column="20" selection-start="2425" selection-end="2425" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -120,7 +119,7 @@
       <file leaf-file-name="statistic.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/statistic.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="4" selection-start="930" selection-end="989" vertical-scroll-proportion="-12.92">
+            <state line="34" column="4" selection-start="930" selection-end="989" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -157,9 +156,9 @@
         <option value="$PROJECT_DIR$/course-view-new-user-files.html" />
         <option value="$PROJECT_DIR$/course-view.css" />
         <option value="$PROJECT_DIR$/css/otchet.css" />
-        <option value="$PROJECT_DIR$/css/new-user.css" />
         <option value="$PROJECT_DIR$/course-view-new-statistic.html" />
         <option value="$PROJECT_DIR$/js/new.js" />
+        <option value="$PROJECT_DIR$/css/new-user.css" />
       </list>
     </option>
   </component>
@@ -254,8 +253,8 @@
     <property name="last_opened_file_path" value="D:/Craftman" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -497,7 +496,11 @@
       <created>1363017742848</created>
       <updated>1363017742848</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="new-user">
+      <created>1363071117992</created>
+      <updated>1363071117992</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -653,42 +656,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/course-view-admin-result-course.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="361" column="40" selection-start="23077" selection-end="23077" vertical-scroll-proportion="-5.8846154">
+        <state line="361" column="40" selection-start="23077" selection-end="23077" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/statistic.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="4" selection-start="930" selection-end="989" vertical-scroll-proportion="-12.92">
+        <state line="34" column="4" selection-start="930" selection-end="989" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/otchet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1481" column="21" selection-start="28030" selection-end="28047" vertical-scroll-proportion="-6.16">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/new-user.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="969" column="24" selection-start="19018" selection-end="19018" vertical-scroll-proportion="-13.44">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/course-view-new-statistic.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="145" column="94" selection-start="7151" selection-end="7163" vertical-scroll-proportion="-10.692307">
+        <state line="1481" column="21" selection-start="28030" selection-end="28047" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/new.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="69" selection-start="86" selection-end="86" vertical-scroll-proportion="0.063197024">
+        <state line="79" column="20" selection-start="2425" selection-end="2425" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course-view-new-statistic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="150" column="50" selection-start="7656" selection-end="7656" vertical-scroll-proportion="-98.07692">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/new-user.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1232" column="1" selection-start="24577" selection-end="24577" vertical-scroll-proportion="0.4003984">
           <folding />
         </state>
       </provider>

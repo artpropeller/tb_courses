@@ -71,15 +71,23 @@ function filterProgress(label){
 }
 
 function checkAll() {
-    console.log($('#course-view-new-user #course-results .user').size(),$('#course-view-new-user #course-results .user.active').size());
     if ($('#course-view-new-user #course-results .user').size() == $('#course-view-new-user #course-results .user.active').size()) {
         $('#course-view-new-user #course-results .head .check').addClass('active');
     }
     else {
         $('#course-view-new-user #course-results .head .check').removeClass('active');
     }
+    checkRemember();
 }
 
+function checkRemember() {
+    if ($('#course-view-new-user #course-results .user.active').size() > 0) {
+        $('#course-view-new-user #course-results .remember').show(0);
+    }
+    else {
+        $('#course-view-new-user #course-results .remember').hide(0);
+    }
+}
 
 function addTooltipClass(elements, length) {
     $(elements).each(function () {
