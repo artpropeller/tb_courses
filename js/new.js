@@ -57,6 +57,30 @@ $(function () {
     });
 
 
+    $('#course-view-new-user #course-results .search').keydown(function (event) {
+        var text;
+        var m = $('#course-view-new-user #course-results .user');
+        var par = $('#course-view-new-user #course-results .notify li.active a').attr('rel');
+        setTimeout(function () {
+            text = $('#course-view-new-user #course-results .search').val();
+        }, 1);
+        setTimeout(function () {
+            if (text.length) {
+                m.hide(0);
+                m.each(function () {
+                    if ($(this).find('.name').text().toLowerCase().indexOf(text.toLowerCase()) + 1 || $(this).find('.email').text().toLowerCase().indexOf(text.toLowerCase()) + 1) {
+                        $(this).show(0);
+                    }
+                });
+            }
+            else {
+                filterProgress(par)
+            }
+        }, 150);
+    });
+
+
+
 });
 
 
