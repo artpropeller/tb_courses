@@ -915,7 +915,7 @@
     margin: 6px auto 0;
 }
 
-#course-view-new-user #course-results .users .user.active .check {
+#course-view-new-user #course-results .users .user.active .check span {
     background: url("../images/checkbox_par_active.png");
 }
 
@@ -956,12 +956,18 @@
     padding-top: 2px;
     width: 170px;
     margin-right: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 #course-view-new-user  #course-results .users .user .email {
     padding-top: 2px;
     width: 160px;
     margin-right: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 #course-view-new-user  #course-results .users .user .status {
@@ -1163,6 +1169,10 @@
     width: 15px;
 }
 
+#course-view-new-user #course-results .users .scroll {
+    min-height: 350px;
+}
+
 #course-view-new-user #course-results .users .user .status .progress span.round {
     /*border-radius: 0 0 2px 2px;*/
     padding-top: 1px;
@@ -1210,4 +1220,22 @@
 
 #course-view-new-user #course-results .users .user .status.begin em {
     color: #0ec0f3;
+}
+
+
+#course-view-new-user .content {
+    min-height: 490px;
+}
+
+#tooltip {
+    position: absolute;
+    border: 1px solid #ccc68a;
+    background: #f5f1c5;
+    padding: 3px 4px;
+    display: none;
+    z-index: 999999999999;
+    color: #5e5923;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12.5px;
+    box-shadow: 0 0 13px #a9a9a9;
 }
