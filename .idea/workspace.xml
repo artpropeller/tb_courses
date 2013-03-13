@@ -6,19 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-view-new-messages-1.html" afterPath="$PROJECT_DIR$/course-view-new-messages-1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-view-new-messages-2.html" afterPath="$PROJECT_DIR$/course-view-new-messages-2.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/new-course-messages.css" afterPath="$PROJECT_DIR$/css/new-course-messages.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/new.js" afterPath="$PROJECT_DIR$/js/new.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tb_courses.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1363165044562" ignored="false" />
+    <file path="/Dummy.txt" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1363167265486" ignored="false" />
     <file path="/course-view-new-statistic.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1363070016172" ignored="false" />
     <file path="/new-user.css" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1363161183419" ignored="false" />
     <file path="/dummy.xml" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1363162847436" ignored="false" />
     <file path="/new.js" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1363166732009" ignored="false" />
-    <file path="/course-view-new-messages-1.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1363166490436" ignored="false" />
+    <file path="/course-view-new-messages-1.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1363168524922" ignored="false" />
     <file path="/new-course-messages.css" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1363166963886" ignored="false" />
     <file path="/course-view-new-messages-2.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1363167123902" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,8 +42,9 @@
       <file leaf-file-name="course-view-new-messages-1.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/course-view-new-messages-1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="120" column="56" selection-start="5461" selection-end="5461" vertical-scroll-proportion="-5.0">
+            <state line="117" column="0" selection-start="5337" selection-end="5337" vertical-scroll-proportion="-3.0392158">
               <folding>
+                <element signature="tag#div#1;tag#div#1;tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -83,7 +83,7 @@
       <file leaf-file-name="new-course-messages.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/new-course-messages.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="540" column="19" selection-start="11791" selection-end="11791" vertical-scroll-proportion="0.7680312">
+            <state line="544" column="19" selection-start="11884" selection-end="11884" vertical-scroll-proportion="0.9005848">
               <folding />
             </state>
           </provider>
@@ -108,7 +108,7 @@
       <file leaf-file-name="new.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/new.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="109" selection-start="1523" selection-end="1523" vertical-scroll-proportion="-8.68">
+            <state line="42" column="7" selection-start="1171" selection-end="1171" vertical-scroll-proportion="-5.28">
               <folding />
             </state>
           </provider>
@@ -164,8 +164,8 @@
         <option value="$PROJECT_DIR$/course-view-new-statistic.html" />
         <option value="$PROJECT_DIR$/css/new-user.css" />
         <option value="$PROJECT_DIR$/course-view-new-messages-4.html" />
-        <option value="$PROJECT_DIR$/course-view-new-messages-1.html" />
         <option value="$PROJECT_DIR$/course-view-new-messages-2.html" />
+        <option value="$PROJECT_DIR$/course-view-new-messages-1.html" />
         <option value="$PROJECT_DIR$/js/new.js" />
         <option value="$PROJECT_DIR$/css/new-course-messages.css" />
       </list>
@@ -543,7 +543,11 @@
       <created>1363165051140</created>
       <updated>1363165051140</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="new messages">
+      <created>1363167271196</created>
+      <updated>1363167271196</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -730,15 +734,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/course-view-new-messages-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="56" selection-start="5461" selection-end="5461" vertical-scroll-proportion="-5.0">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/course-view-new-messages-2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="125" column="0" selection-start="5670" selection-end="5670" vertical-scroll-proportion="-7.3461537">
@@ -746,16 +741,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/course-view-new-messages-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="117" column="0" selection-start="5337" selection-end="5337" vertical-scroll-proportion="-3.0392158">
+          <folding>
+            <element signature="tag#div#1;tag#div#1;tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/new.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="109" selection-start="1523" selection-end="1523" vertical-scroll-proportion="-8.68">
+        <state line="42" column="7" selection-start="1171" selection-end="1171" vertical-scroll-proportion="-5.28">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/new-course-messages.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="540" column="19" selection-start="11791" selection-end="11791" vertical-scroll-proportion="0.7680312">
+        <state line="544" column="19" selection-start="11884" selection-end="11884" vertical-scroll-proportion="0.9005848">
           <folding />
         </state>
       </provider>

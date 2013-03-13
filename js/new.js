@@ -46,12 +46,14 @@ $(function () {
         $('#course-view-new-user #course-results .users .scroll').height($(window).height()-400);
         $('#course-view-new-user #audience .rightContainer.resize-1 .scroll').height($(window).height()-300);
         $('#course-view-new-user #audience .rightContainer.resize-2 .scroll').height($(window).height()-350);
+        $('#course-view-new-user #audience .rightContainer.resize-3 .scroll').height($(window).height()-450);
     });
 
 
     $('#course-view-new-user #course-results .users .scroll').height($(window).height()-400);
     $('#course-view-new-user #audience .rightContainer.resize-1 .scroll').height($(window).height()-300);
     $('#course-view-new-user #audience .rightContainer.resize-2 .scroll').height($(window).height()-350);
+    $('#course-view-new-user #audience .rightContainer.resize-3 .scroll').height($(window).height()-450);
 
     $('#course-view-new-user #course-results .notify li a').click(function(){
         $('#course-view-new-user #course-results .notify li').removeClass('active');

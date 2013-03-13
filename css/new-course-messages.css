@@ -540,3 +540,7 @@
 #course-view-new-user #audience .rightContainer.resize-2 .scroll {
     min-height: 240px;
 }
+
+#course-view-new-user #audience .rightContainer.resize-3 .scroll {
+    min-height: 195px;
+}
