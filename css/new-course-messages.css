@@ -1,0 +1,534 @@
+#course-view-new-user #audience {
+    overflow: auto;
+    width: 975px;
+    position: relative;
+    top: -6px;
+}
+
+#course-view-new-user #audience .leftContainer {
+    float: left;
+    width: 202px;
+    margin: 0 0 0 3px;
+    height: auto;
+}
+
+#course-view-new-user #audience .rightContainer {
+    float: right;
+    width: 745px;
+}
+
+#course-view-new-user #audience input.search {
+    border: 1px solid #d2d2d2;
+    background: #fff;
+    display: block;
+    padding: 8px 10px;
+    float: none;
+    margin-bottom: 20px;
+    width: 180px;
+    border-radius: 2px;
+}
+
+#course-view-new-user #audience a.addUser {
+    background: url("../images/button_addUser.png") no-repeat top;
+    width: 200px;
+    height: 29px;
+    display: block;
+    color: #fff;
+    padding: 7px 0 0 0;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+#course-view-new-user #audience a.addUser span {
+    display: block;
+    width: 20px;
+    float: left;
+    margin-left: 35px;
+    margin-right: 5px;
+    height: 20px;
+    background: url("../images/ico_adduser.png") no-repeat;
+}
+
+#course-view-new-user #audience a.addUser:hover {
+    background: url("../images/button_addUser.png") no-repeat bottom;
+}
+
+#course-view-new-user #audience .user-group .head {
+    font-size: 10px;
+    color: #606060;
+    border-bottom: solid 1px #e0e0e0;
+    overflow: auto;
+    height: 25px;
+}
+
+#course-view-new-user #audience .user-group .head .all {
+    float: left;
+    width: 235px;
+    padding-left: 40px;
+    position: relative;
+    font-weight: bold;
+    font-size: 12px;
+    color: #000;
+    padding-top: 4px;
+    cursor: pointer;
+}
+
+#course-view-new-user #audience .user-group .head .all span {
+    display: block;
+    position: absolute;
+    top: 4px;
+    left: 13px;
+    width: 16px;
+    height: 14px;
+    background: url("../images/check_user.jpg") no-repeat left;
+}
+
+#course-view-new-user #audience .user-group .head .all.active span {
+    background: url("../images/check_user.jpg") no-repeat right;
+}
+
+#course-view-new-user #audience .user-group .head .mail {
+    float: left;
+    width: 230px;
+    padding-top: 4px;
+}
+
+#course-view-new-user #audience .user-group .head .date {
+    float: left;
+    width: 160px;
+    padding-top: 4px;
+}
+
+#course-view-new-user #audience .user-group .head .del {
+    float: left;
+}
+
+#course-view-new-user #audience .head a.del {
+    width: 48px;
+    display: none;
+    float: left;
+    font-size: 10px;
+    padding: 3px 0 0 20px;
+    color: #727272;
+    margin-right: 5px;
+    height: 18px;
+    background: url("../images/del_head.jpg") no-repeat top;
+}
+
+#course-view-new-user #audience .head a.del:hover {
+    background: url("../images/del_head.jpg") no-repeat bottom;
+}
+
+#course-view-new-user #audience .user {
+    background: url("../images/bg/dashed.png") repeat-x bottom;
+    padding: 3px;
+    overflow: auto;
+    cursor: pointer;
+}
+
+#course-view-new-user #audience .user .ac_bg {
+    overflow: auto;
+    padding: 3px 0;
+}
+
+#course-view-new-user #audience .user .check {
+    float: left;
+    width: 16px;
+    height: 14px;
+    background: url("../images/check_user.jpg") no-repeat left;
+    margin: 13px 13px 0 10px;
+}
+
+#course-view-new-user #audience .user img.avatar {
+    float: left;
+    display: block;
+    margin-right: 13px;
+    width: 40px;
+}
+
+#course-view-new-user #audience .user .info {
+    float: left;
+    line-height: 14px;
+    padding: 2px 0 0 0;
+    margin: 0;
+    min-height: 0;
+    width: 640px;
+
+}
+
+#course-view-new-user #audience .scroll {
+    height: 300px;
+}
+
+#course-view-new-user #audience .user .info span {
+    float: left;
+    padding-top: 12px;
+    display: block;
+    color: #000;
+    margin-right: 10px;
+}
+
+#course-view-new-user #audience .user .info .name {
+    color: #000;
+    width: 172px;
+}
+
+#course-view-new-user #audience .user .info .mail {
+    width: 220px;
+}
+
+#course-view-new-user #audience .user .info .date {
+    width: 147px;
+}
+
+#course-view-new-user #audience .user.active .ac_bg {
+    background: #e6ebf0;
+}
+
+#course-view-new-user #audience .user.active .check {
+    background: url("../images/check_user.jpg") no-repeat right;
+}
+
+#course-view-new-user #audience .user .info a.btn-settings {
+    margin: 4px 0;
+    float: left;
+    display: none;
+}
+
+#course-view-new-user #audience .user:hover .info a.btn-settings {
+    display: block;
+}
+
+#course-view-new-user #audience  .sub {
+    background: url("../images/white_cover.png") repeat-x top;
+    height: 35px;
+    position: relative;
+    z-index: 100;
+    margin-top: -18px;
+}
+
+
+/*??????????????????*/
+
+
+#course-view-new-user .content.messages {
+    padding-top: 17px;
+    padding-bottom: 8px;
+}
+
+#course-view-new-user .content.messages .leftContainer .addUser {
+    text-align: center;
+}
+
+#course-view-new-user .content.messages #audience .leftContainer {
+    padding: 0 9px 0px 5px;
+
+}
+
+#course-view-new-user .content.messages .rightContainer .user-group {
+    width: 360px;
+    border-top: 1px solid #e0e0e0;
+
+}
+
+#course-view-new-user .content.messages #audience .rightContainer.last .user-group {
+    border: 1px solid #e0e0e0;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    padding: 6px 8px 6px 6px;
+    width: 335px;
+    background: #fff;
+    position: relative;
+}
+
+#course-view-new-user .content.messages #audience .rightContainer {
+    width: 345px;
+    float: left;
+    margin-right: 27px;
+
+}
+
+#course-view-new-user .content.messages #audience .rightContainer.last {
+    margin-right: 0;
+    width: 345px;
+}
+
+#course-view-new-user .content.messages #audience .rightContainer.last .scroll {
+    height: 192px;
+}
+
+#course-view-new-user #audience .user.messages {
+    padding: 0;
+}
+
+#course-view-new-user #audience .user .info.messages {
+    width: 285px;
+    padding-top: 0;
+    overflow: visible;
+    margin-top: -3px;
+}
+
+#course-view-new-user #audience .user .info.messages.chat {
+    width: 270px;
+}
+
+#course-view-new-user #audience .user .info.messages span {
+    float: left;
+}
+
+#course-view-new-user #audience .user .info.messages .name a {
+    font-size: 11px;
+    font-weight: bold;
+    color: #585a63;
+    padding-top: 0;
+    margin-top: -10px;
+    float: left;
+
+}
+
+#course-view-new-user #audience .user .info.messages.chat .name a {
+    color: #2f2f2f;
+}
+
+#course-view-new-user #audience .user:hover .info.messages.chat .name a {
+    border: 0;
+
+}
+
+#course-view-new-user #audience .user .info.messages .name {
+    width: auto;
+    float: none;
+    overflow: visible;
+}
+
+#course-view-new-user #audience .user:hover .info.messages .name a {
+
+}
+
+#course-view-new-user #audience .user .info.messages .name em {
+    color: #585a63;
+    font-size: 11px;
+    font-style: normal;
+    display: block;
+    padding-left: 5px;
+    margin-top: -10px;
+    float: right;
+}
+
+#course-view-new-user #audience .user .info.messages .mes {
+    color: #585a63;
+    font-size: 11px;
+    width: auto;
+    float: none;
+    display: block;
+    margin-top: -14px;
+    padding-top: 3px;
+    padding-bottom: 0;
+    clear: both;
+}
+
+#course-view-new-user #audience .user .info.messages.read {
+    background: url("../images/arrow_mes.png") no-repeat left 12px;
+    padding-left: 12px;
+}
+
+#course-view-new-user #audience .user.messages .avatar {
+    float: left;
+
+}
+
+#course-view-new-user #audience .user .info.messages .btn-settings.delete-link {
+    position: absolute;
+    right: 9px;
+    top: 16px;
+    width: 23px;
+    padding: 0;
+    height: 23px
+}
+
+#course-view-new-user #audience .user.messages .ac_bg {
+    padding: 6px 6px 8px;
+    border-bottom: 1px solid #f2f2f2;
+
+}
+
+#course-view-new-user #audience .user.messages .ac_bg.noread {
+    background: #e7ecf1;
+    border-bottom: 1px solid #f2f2f2;
+
+}
+
+#course-view-new-user #audience .user.messages .ac_bg.active {
+    background: #76abe1 url("../images/active_user_bg.jpg") repeat-x bottom;
+
+}
+
+#course-view-new-user #audience .user.messages .ac_bg.active .name a {
+    color: #fff;
+    border: none;
+    margin-bottom: 0;
+}
+
+#course-view-new-user #audience .user.messages  .ac_bg.active .name em {
+    color: #badbff;
+}
+
+#course-view-new-user #audience .user.messages .ac_bg.active .mes {
+    color: #fff;
+    padding-left: 15px;
+}
+
+#course-view-new-user #audience .user.messages .ac_bg.read .mes {
+    background: url("../images/arrow_mes.png") no-repeat left 7px;
+    padding-left: 12px;
+}
+
+#course-view-new-user #audience .user.messages .info.messages.last {
+    padding-bottom: 25px;
+}
+
+#course-view-new-user .answer {
+    background: #f4f4f4;
+    padding: 8px;
+    overflow: auto;
+    margin: 0 -8px -6px -6px;
+}
+
+#course-view-new-user .answer input,  #course-view-new-user .answer textarea {
+    display: block;
+    height: 28px;
+    width: 295px;
+    padding: 0 25px 0 10px;
+    margin: 0 auto;
+    border: 1px solid #c8c8c8;
+    font-size: 13px;
+    color: #000;
+    line-height: 28px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    background: #fff;
+}
+
+#course-view-new-user .answer textarea {
+    background: #fff;
+    resize: none;
+    height: 64px;
+    line-height: 18px;
+    padding-top: 6px;
+}
+
+#course-view-new-user #audience .user.messages.last {
+    /*padding-bottom: 25px;*/
+}
+
+#course-view-new-user #course-view .head .menu li.active a span {
+    box-shadow: none;
+    background: #3f566f;
+    border-color: #3f566f;
+}
+
+#course-view-new-user .content.messages #audience .rightContainer.last.big {
+    width: 730px;
+}
+
+#course-view-new-user .content.messages #audience .rightContainer.last.big .user-group {
+    width: 714px;
+}
+
+#course-view-new-user .content.messages #audience .rightContainer.last.big .user-group .scroll {
+    height: 275px;
+    padding-bottom: 30px;
+}
+
+#course-view-new-user #audience .big .user .info.messages.chat {
+    width: 647px;
+}
+
+#course-view-new-user .big .answer input {
+    width: 675px;
+}
+
+#course-view-new-user #audience .window {
+    float: none;
+    margin: 60px auto;
+    padding: 30px 40px;
+    overflow: auto;
+    width: 300px;
+    position: relative;
+}
+
+#course-view-new-user #audience .window .addUser {
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+#course-view-new-user #audience .window strong {
+    font-size: 18px;
+    color: #000;
+    display: block;
+    margin-bottom: 15px;
+    font-weight: normal;
+    text-align: center;
+
+}
+
+#course-view-new-user #audience .window em {
+    display: block;
+    text-align: left;
+    font-style: normal;
+    font-size: 14px;
+    text-align: center;
+    color: #565656;
+    margin-bottom: 20px;
+}
+
+#course-view-new-user #audience .window .addUser {
+    display: block;
+    width: 190px;
+    height: 41px;
+    padding: 0;
+    background: url(../images/btn-download.png) no-repeat 0 0;
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 0 1px 0 #902e2c;
+    line-height: 36px;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 0 auto;
+}
+
+#course-view-new-user #audience .window .addUser:hover {
+    background: url(../images/btn-download.png) no-repeat 0 -41px;
+}
+
+#course-view-new-user #course-view .answer {
+    overflow: auto;
+}
+
+#course-view-new-user #audience .user.messages.last {
+    background: none;
+}
+
+#course-view-new-user  .content.messages #audience .rightContainer.last .user-group {
+    display: none;
+}
+
+#course-view-new-user  .content.messages #audience .rightContainer.last.big .user-group {
+    display: block;
+}
+
+#course-view-new-user  .answer a.button-blue {
+    /*height: 22px;*/
+    background: url("../images/blue_button_small.jpg") repeat-x top;
+    text-align: center;
+    padding: 3px 22px 4px;
+    font-size: 12px;
+    float: right;
+    margin: 6px 4px 0 0;
+    width: 123px;
+}
+
+#course-view-new-user  .answer a.button-blue:hover {
+    background: url("../images/blue_bg_button.jpg") repeat-x top;
+}

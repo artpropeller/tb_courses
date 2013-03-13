@@ -177,6 +177,10 @@ body, html, #main {
     box-shadow: 0 2px 0 #fff;
 }
 
+#course-view-new-user .head .menu li.active a span {
+    box-shadow: none;
+}
+
 .tab_bar {
     overflow: visible;
 }

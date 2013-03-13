@@ -15,10 +15,26 @@ $(function () {
         return false;
     });
 
-    $('#course-view-new-user .gray .scroll, #course-view-new-user #course-results .users .scroll').jScrollPane({
+    $('#course-view-new-user .gray .scroll, #course-view-new-user #course-results .users .scroll, #course-view-new-user #audience .scroll').jScrollPane({
         autoReinitialise: true,
         autoReinitialiseDelay: 10
     });
+
+
+    $('#course-view-new-user #audience .rightContainer:not(".last") .scroll').bind(
+        'jsp-scroll-y',
+        function(event, scrollPositionY, isAtTop, isAtBottom)
+        {
+            if (isAtBottom) {
+                $('#course-view-new-user #audience .sub').hide(0);
+            }
+            else {
+                $('#course-view-new-user #audience .sub').show(0);
+            }
+
+        }
+    );
+
 
     $('.hovers .del').click(function(){
        $(this).parents('li').remove();
@@ -79,6 +95,44 @@ $(function () {
         }, 150);
     });
 
+    $('#audience .rightContainer:not(".last") .user.messages .ac_bg').click(function () {
+        if (!$(this).is('.active')) {
+            $('#audience .user.messages .ac_bg').removeClass('active');
+            $(this).addClass('active');
+            $('#audience .rightContainer.last .user-group').fadeOut(0);
+            $($(this).parent().attr('rel')).fadeIn(100);
+            $('#audience .rightContainer.last .scroll').jScrollPane();
+        }
+        else {
+            $(this).removeClass('active');
+            $('#audience .rightContainer.last .user-group').fadeOut(0);
+        }
+        return false;
+    });
+
+    $('#SearchMessage').keydown(function (event) {
+        var text;
+        setTimeout(function () {
+            text = $('#SearchMessage').val();
+            console.log(text);
+        }, 50);
+        setTimeout(function () {
+            if (text.length) {
+                $('.user-group .user').hide(0);
+                $('.user-group .user').each(function () {
+                    if ($(this).find('.name').text().toLowerCase().indexOf(text.toLowerCase()) + 1 || $(this).find('.mes').text().toLowerCase().indexOf(text.toLowerCase()) + 1 || $(this).find('em').text().toLowerCase().indexOf(text.toLowerCase()) + 1) {
+                        $(this).show(0);
+                    }
+                });
+//            $('.groups .user-group .user .name:contains("'+text+'")').each(function(){
+//                $(this).parents('.user').show(0);
+//            });
+            }
+            else {
+                $('.user-group .user').show(0);
+            }
+        }, 150);
+    });
 
 
 });
