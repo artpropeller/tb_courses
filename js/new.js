@@ -124,8 +124,8 @@ $(function () {
         }, 50);
         setTimeout(function () {
             if (text.length) {
-                $('.user-group .user').hide(0);
-                $('.user-group .user').each(function () {
+                $('.rightContainer.resize-1 .user-group .user, .rightContainer.resize-2 .user-group .user').hide(0);
+                $('.rightContainer.resize-1 .user-group .user, .rightContainer.resize-2 .user-group .user').each(function () {
                     if ($(this).find('.name').text().toLowerCase().indexOf(text.toLowerCase()) + 1 || $(this).find('.mes').text().toLowerCase().indexOf(text.toLowerCase()) + 1 || $(this).find('em').text().toLowerCase().indexOf(text.toLowerCase()) + 1) {
                         $(this).show(0);
                     }
@@ -139,6 +139,36 @@ $(function () {
             }
         }, 150);
     });
+
+    /* Placeholder for IE */
+    if ($.browser.msie) { // Условие для вызова только в IE
+        $(".placeholding").find("input,textarea").each(function () {
+            var tp = $(this).attr("placeholder");
+            $(this).addClass('.place');
+            if ($(this).is('textarea')) {$(this).text('value', tp).css('color', '#999');}
+            $(this).attr('value', tp).css('color', '#999');
+        }).focusin(function () {
+                var val = $(this).attr('placeholder');
+                if ($(this).val() == val || $(this).text() == val) {
+                    $(this).attr('value', '').css('color', '#000').text('');
+                }
+            }).focusout(function () {
+                var val = $(this).attr('placeholder');
+                if ($(this).val() == "" || $(this).text() == val) {
+                    $(this).attr('value', val).css('color', '#999').text(val);
+                }
+            });
+
+        /* Protected send form */
+        $("form").submit(function () {
+            $(this).find("input[type='text']").each(function () {
+                var val = $(this).attr('placeholder');
+                if ($(this).val() == val) {
+                    $(this).attr('value', '');
+                }
+            })
+        });
+    }
 
 
 });

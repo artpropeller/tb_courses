@@ -446,6 +446,9 @@
 
 #course-view-new-user .big .answer input {
     width: 675px;
+    padding-top: 4px;
+    line-height: 12px;
+    height: 24px;
 }
 
 #course-view-new-user #audience .window {
