@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/course-view-new-settings.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/course-view-new-settings2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/new-course-settings.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/base.dialog.assign.css" afterPath="$PROJECT_DIR$/css/base.dialog.assign.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/new-course-messages.css" afterPath="$PROJECT_DIR$/css/new-course-messages.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/new.js" afterPath="$PROJECT_DIR$/js/new.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-view-new-settings.html" afterPath="$PROJECT_DIR$/course-view-new-settings.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tb_courses.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1363528149261" ignored="false" />
+    <file path="/Dummy.txt" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1363537216941" ignored="false" />
     <file path="/course-view-new-statistic.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1363070016172" ignored="false" />
     <file path="/new-user.css" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1363161183419" ignored="false" />
     <file path="/dummy.xml" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1363162847436" ignored="false" />
@@ -43,10 +38,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="course-view-new-settings.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="course-view-new-settings.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/course-view-new-settings.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="126" column="71" selection-start="5833" selection-end="5833" vertical-scroll-proportion="-11.923077">
+            <state line="21" column="83" selection-start="1387" selection-end="1387" vertical-scroll-proportion="0.71543086">
               <folding />
             </state>
           </provider>
@@ -114,7 +109,7 @@
       <file leaf-file-name="course-view-admin-settings2.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/course-view-admin-settings2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="83" selection-start="1811" selection-end="1890" vertical-scroll-proportion="-12.423077">
+            <state line="34" column="4" selection-start="1811" selection-end="1890" vertical-scroll-proportion="-16.346153">
               <folding>
                 <element signature="tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
                 <element signature="tag#div#2;tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
@@ -123,10 +118,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="new.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/new.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="7" selection-start="187" selection-end="187" vertical-scroll-proportion="0.27091634">
+            <state line="7" column="0" selection-start="179" selection-end="179" vertical-scroll-proportion="-4.76">
               <folding />
             </state>
           </provider>
@@ -169,12 +164,12 @@
         <option value="$PROJECT_DIR$/course-view-new-messages-1.html" />
         <option value="$PROJECT_DIR$/course-view-new-messages-2.html" />
         <option value="$PROJECT_DIR$/css/new-course-settings.css" />
-        <option value="$PROJECT_DIR$/course-view-new-settings.html" />
         <option value="$PROJECT_DIR$/course-view-new-settings2.html" />
         <option value="$PROJECT_DIR$/css/base.dialog.assign.css" />
         <option value="$PROJECT_DIR$/css/new-course-messages.css" />
         <option value="$PROJECT_DIR$/js/course-assign.js" />
         <option value="$PROJECT_DIR$/js/new.js" />
+        <option value="$PROJECT_DIR$/course-view-new-settings.html" />
       </list>
     </option>
   </component>
@@ -548,13 +543,18 @@
       <created>1363268668178</created>
       <updated>1363268668178</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="new settings">
+      <created>1363537223886</created>
+      <updated>1363537223886</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -569,7 +569,6 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32933334" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -617,7 +616,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="new settings" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -638,6 +637,7 @@
     <MESSAGE value="new-user" />
     <MESSAGE value="new messages" />
     <MESSAGE value="fixes" />
+    <MESSAGE value="new settings" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -685,30 +685,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/course-view-admin-settings.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="321" column="25" selection-start="7777" selection-end="18801" vertical-scroll-proportion="-11.615385">
-          <folding>
-            <element signature="tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#2;tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/course-view.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1235" column="1" selection-start="20481" selection-end="23381" vertical-scroll-proportion="-3.08">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/course-view-admin-settings2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="83" selection-start="1811" selection-end="1890" vertical-scroll-proportion="-12.423077">
-          <folding>
-            <element signature="tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#2;tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -718,13 +698,6 @@
           <folding>
             <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/course-view-new-settings.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="126" column="71" selection-start="5833" selection-end="5833" vertical-scroll-proportion="-11.923077">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -758,7 +731,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/new.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="7" selection-start="187" selection-end="187" vertical-scroll-proportion="0.27091634">
+        <state line="7" column="0" selection-start="179" selection-end="179" vertical-scroll-proportion="-4.76">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course-view-admin-settings2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="4" selection-start="1811" selection-end="1890" vertical-scroll-proportion="-16.346153">
+          <folding>
+            <element signature="tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#2;tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course-view-admin-settings.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="321" column="25" selection-start="7777" selection-end="18801" vertical-scroll-proportion="-11.615385">
+          <folding>
+            <element signature="tag#div#0;tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#2;tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course-view-new-settings.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="83" selection-start="1387" selection-end="1387" vertical-scroll-proportion="0.71543086">
           <folding />
         </state>
       </provider>
