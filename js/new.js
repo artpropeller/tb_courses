@@ -6,6 +6,95 @@ $(function () {
     tooltip();
 
 
+    $('.parameters.post li li').click(function () {
+        if (!$(this).is('.active')) {
+            $('#course-settings .parameters.post li li').removeClass('active');
+            $(this).addClass('active');
+            var link = $(this);
+            $('#course-settings .parameters li .textletter').slideUp(500, function () {
+
+            });
+            $(link.attr('rel')).slideDown(500);
+        }
+        else {
+            $(this).removeClass('active');
+            $($(this).attr('rel')).slideUp(500);
+        }
+        return false;
+    });
+
+    $('#deadline').change(function () {
+        if ($(this).attr('checked') == 'checked') {
+            $('#date-deadline').slideDown(300);
+        }
+        else {
+            $('#date-deadline').slideUp(300);
+        }
+    });
+
+    $('.selectbox').selectbox("detach");
+    $('.selectbox').selectbox({
+        onOpen:function (inst) {
+            $('body').prepend('<div class="a-hover"></div>');
+        },
+        onClose:function (inst) {
+            $('.a-hover').remove();
+        }
+    });
+
+    $('.a-hover').live('click', function () {
+        $(".selectbox").selectbox('close');
+    });
+
+    $('#course-settings .parameters input').change(function () {
+        $('#course-settings a.save').addClass('active');
+    });
+
+    $('#course-view-new-user .option label').click(function () {
+
+        if ($(this).find('input').attr('checked') == 'checked') {
+
+            $(this).addClass('active');
+        }
+        else {
+            $(this).removeClass('active');
+        }
+    });
+
+    $('#course-view-new-user .parameters .radio label').click(function () {
+        if (!$(this).is('.active')) {
+            $('#course-view-new-user .parameters .radio label').removeClass('active');
+            $(this).addClass('active');
+        }
+    });
+
+    $('#audience .head .all').live('click',function(){
+
+        if ($(this).is('.active')){
+            $(this).removeClass('active');
+            $('#audience .user').removeClass('active');
+            $('#audience .head .del').fadeOut(150);
+        }
+        else {
+            $(this).addClass('active');
+            $('#audience .user').addClass('active');
+            $('#audience .head .del').fadeIn(150);
+        }
+
+    });
+
+    $('#audience .user').live('click',function(){
+        $(this).toggleClass('active');
+        if ($('#audience .user.active').size()){
+            $('#audience .head .del').fadeIn(150);
+        }
+        else {
+            $('#audience .head .del').fadeOut(150);
+        }
+
+    });
+
+
 
     $('.tab_bar a').click(function () {
         $('.tab_bar li').removeClass('active');

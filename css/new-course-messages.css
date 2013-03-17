@@ -547,3 +547,572 @@
 #course-view-new-user #audience .rightContainer.resize-3 .scroll {
     min-height: 195px;
 }
+
+
+#course-view-new-user #course-results .pills {
+    overflow: auto;
+    padding-left: 1px;
+    margin-bottom: 25px;
+    margin-left: -15px;
+}
+
+#course-view-new-user  #course-results .pills li {
+    float: left;
+    font-family: Helvetica, sans-serif;
+    padding: 3px 0;
+    margin-left: -1px;
+}
+
+#course-view-new-user  #course-results .pills li a {
+    border-right: 1px solid #dedede;
+    display: block;
+    padding: 0 7px;
+    font-size: 13px;
+    line-height: 13px;
+}
+
+#course-view-new-user  #course-results .pills li.first a {
+    border-left: 1px solid #dedede;
+}
+
+#course-view-new-user  #course-results .pills li.active {
+    border-radius: 2px;
+    background: #e3e3e3;
+    border: 1px solid #dedede;
+}
+
+#course-view-new-user #course-results .pills li.active a {
+    border: none;
+}
+
+#course-view-new-user #audience .rightContainer.settings {
+    float: left;
+    margin-left: 20px;
+    width: 710px;
+}
+
+#course-view-new-user #audience .settings .user .info .date {
+    width: 140px;
+}
+
+#course-view-new-user #audience .settings .user .info {
+    width: 610px;
+}
+
+#course-view-new-user #audience .settings .user-group .head .date {
+    width: 132px;
+}
+
+
+
+#course-view-new-user #course-settings .parameters label {
+    font-size: 13px;
+}
+
+#course-view-new-user #course-settings .parameters {
+    width: 453px;
+    margin-left: 13px;
+    height: auto;
+}
+
+#course-view-new-user #course-settings .parameters.post {
+    width: 455px;
+    margin-left:15px;
+}
+
+#course-view-new-user #course-settings .parameters h3 {
+    padding-bottom: 0;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+#course-view-new-user #course-settings .parameters input[type=checkbox] {
+    position: absolute;
+    left: -100px;
+}
+
+#course-view-new-user #course-settings #date-deadline {
+    /*display: block;*/
+    float: left;
+    margin-top: -8px;
+    margin-bottom: -9px;
+}
+
+#course-view-new-user #course-settings .parameters .option.dead {
+    float: left;
+}
+
+#course-view-new-user #course-settings .parameters .option.dead label {
+    margin-right: 0;
+}
+
+#course-view-new-user #course-settings .parameters.post {
+    height: 344px;
+}
+
+#course-view-new-user #course-settings .parameters.post li li {
+    float: left;
+    padding: 0 5px;
+    margin: 0;
+    font-weight: bold;
+    font-size: 13px;
+    background: none;
+    color: #6a6a6a;
+    cursor: pointer;
+}
+
+#course-view-new-user #course-settings .parameters.post .sbOptions {
+    z-index: 100000;
+}
+
+#course-view-new-user #course-settings .parameters.post .sbOptions li {
+    float: none;
+    padding-left: 10px;
+    font-weight: normal;
+}
+
+#course-view-new-user #course-settings .parameters.post li li span {
+    border-bottom: dotted 1px #6a6a6a;
+}
+
+#course-view-new-user #course-settings .parameters.post li ul {
+    margin-left: 7px;
+    overflow: auto;
+    background: none;
+}
+
+#course-view-new-user #course-settings .parameters.post li li.active {
+    color: #fff;
+    background: #6a6a6a;
+    border-radius: 2px;
+}
+
+#course-view-new-user #course-settings .parameters.post li li.active span {
+    border-bottom: none;
+}
+
+#course-view-new-user #course-settings .parameters .letter {
+    background: #ececec url("../images/corner_settings_course.jpg") no-repeat top right;
+}
+
+#course-view-new-user #course-settings .parameters li .subletter label {
+    margin-right: 10px;
+}
+
+#course-view-new-user #course-settings .parameters.post li {
+    overflow: visible;
+    list-style: none;
+}
+
+#course-view-new-user #course-settings .parameters.post>ul {
+    background: none;
+}
+
+#course-view-new-user #course-settings {
+    overflow: visible;
+}
+
+#course-view .content {
+    overflow: visible;
+}
+
+#course-view-new-user #course-settings .parameters.post li ul.sbOptions {
+    border: 1px solid #d5d5d5;
+    /*height: 150px;*/
+    padding: 0;
+    border-radius: 2px;
+    width: 100px;
+    background: #e2e2e2;
+    list-style: none;
+    left: -1px;
+    margin: 0;
+    position: absolute;
+    top: 17px;
+    font-size: 12px;
+    z-index: 10000;
+    overflow-y: auto;
+    border-top: none;
+}
+
+#course-view-new-user #course-settings .parameters .action a.sendme {
+    margin: 0;
+    float: left;
+}
+
+#course-view-new-user #course-settings .save {
+
+}
+
+#course-view-new-user #course-settings .bottom-save {
+    overflow: auto;
+    padding: 7px 15px;
+    background: #e7ecf1;
+}
+
+#course-view-new-user #course-settings a.save {
+    background: url("../images/save_button_bg.jpg") repeat-x top;
+    height: 15px;
+    display: block;
+    float: right;
+    line-height: 13px;
+    font-size: 11px;
+    opacity: 0.3;
+    font-weight: bold;
+    padding: 4px 15px 0px;
+    border: 1px solid #b7b7b7;
+    box-shadow: 0 1px 1px #bcbcbc;
+}
+
+#course-view-new-user #course-settings a.save.active {
+    opacity: 1;
+}
+
+#course-view-new-user #course-settings .parameters li {
+    padding: 13px 0 14px 8px;
+}
+
+#course-view-new-user #course-settings {
+    position: relative;
+    top: -9px;
+}
+
+
+
+#course-view-new-user .parameters {
+    width: 360px;
+    float: left;
+    height: 447px;
+}
+
+#course-view-new-user .parameters li {
+    background: url("../images/bg/dashed.png") repeat-x top;
+    padding: 15px 0;
+    margin: 0;
+    font-size: 16px;
+    color: #000;
+    overflow: auto;
+    position: relative;
+}
+
+#course-view-new-user .parameters a.faq {
+    width: 17px;
+    height: 17px;
+    background: url("../images/ico_faq.png");
+    display: block;
+    position: absolute;
+    right: 0;
+    top:0;
+}
+
+#course-view-new-user .parameters li a.faq {
+    top:17px;
+}
+
+#course-view-new-user .parameters .radio {
+    float: left;
+    width: auto;
+    height: auto;
+    font-size: 16px;
+    background: none;
+    clear: none;
+    display: block;
+}
+
+#course-view-new-user .parameters label {
+    font-size: 16px;
+    color: #000;
+    cursor: pointer;
+    float: left;
+    padding: 0 0 0 25px;
+    margin:0 45px 0 0;
+    display: block;
+    line-height: 20px;
+}
+
+#course-view-new-user .parameters ul {
+    background: url("../images/bg/dashed.png") repeat-x bottom;
+}
+
+#course-view-new-user .parameters .radio label {
+    background: url("../images/radio.jpg") no-repeat 0 3px;
+}
+
+#course-view-new-user .parameters .radio label.active {
+    background: url("../images/radio_active.jpg") no-repeat  0 3px;
+}
+
+#course-view-new-user .parameters .radio input, #course-view-new-user .parameters .option input {
+    visibility: hidden;
+    background: none;
+}
+
+#course-view-new-user .parameters .option {
+    overflow: auto;
+}
+
+#course-view-new-user .parameters .option label {
+    background: url("../images/checkbox_par.jpg") no-repeat  0 3px;
+}
+
+#course-view-new-user .parameters .option label.active {
+    background: url("../images/checkbox_par_active.jpg") no-repeat  0 3px;
+}
+
+
+#course-view-new-user #date-deadline {
+    overflow: auto;
+    padding-left: 25px;
+    display: none;
+    margin-top: 8px;
+}
+
+#course-view-new-user #date-deadline input {
+    background: #fff;
+    border: 1px solid #ececec;
+    padding: 10px 10px 9px;
+    width: 70px;
+    text-align: center;
+    display: block;
+    float: left;
+    box-shadow: inset 0 1px 1px #ddd;
+    float: left;
+}
+
+#course-view-new-user #date-deadline input.small {
+    width: 16px;
+    padding: 10px 7px 9px;
+}
+
+#course-view-new-user #date-deadline a.calendar {
+    float: left;
+    display: block;
+    background: url("../images/ico_calendar.jpg") no-repeat;
+    width: 31px;
+    height: 31px;
+    margin: 3px 24px 0 9px;
+    opacity: 0.6;
+}
+
+#course-view-new-user #date-deadline span {
+    display: block;
+    margin: 10px 6px 0;
+    font-size: 16px;
+    color: #000;
+    float: left;
+}
+
+#course-view-new-user #date-deadline a.calendar:hover {
+    opacity: 1;
+}
+
+#course-view-new-user .parameters.post {
+    width: 450px;
+    margin-left: 50px;
+    position: relative;
+}
+
+#course-view-new-user .parameters li .edit-letter {
+    position: absolute;
+    right: 0;
+    display: none;
+    top: 15px;
+    padding-right: 15px;
+    background: url("../images/drop-edit.jpg") no-repeat right;
+}
+
+#course-view-new-user .parameters li:hover .edit-letter {
+    display: block;
+}
+
+#course-view-new-user .parameters .letter {
+    background: #ececec url("../images/letter_corner.jpg") no-repeat top right;
+    margin: 10px 0 0 0;
+    padding: 12px;
+    font-size: 12px;
+}
+
+#course-view-new-user .parameters .letter span {
+    color: #7c7c7c;
+}
+
+#course-view-new-user .parameters .letter .text a {
+    color: #0e67d2;
+}
+
+#course-view-new-user .parameters .letter .text a:hover {
+    text-decoration: underline;
+}
+
+#course-view-new-user .parameters .letter .text p {
+    margin-bottom: 13px;
+}
+
+#course-view-new-user .parameters .letter textarea {
+    display: block;
+    height: 35px;
+    padding: 8px;
+    font-size: 12px;
+    width: 403px;
+    overflow: hidden;
+    resize: none;
+}
+
+#course-view-new-user .parameters li .subletter {
+    background: #f9f9f9;
+    border: 1px solid #ececec;
+    border-radius: 2px;
+    padding: 11px;
+    font-size: 13px;
+}
+
+#course-view-new-user .parameters li .subletter .option {
+    overflow: visible;
+}
+
+#course-view-new-user .parameters .parameters.post li {
+    overflow: visible;
+}
+
+#course-view-new-user .parameters .parameters.post li .name {
+    cursor: pointer;
+}
+
+#course-view-new-user .parameters li .subletter label {
+    font-size: 13px;
+    margin-right: -10px;
+}
+
+#course-view-new-user .sbHolder {
+    border: 1px solid #d5d5d5;
+    height: 20px;
+    padding: 0 10px;
+    position: relative;
+    border-radius: 2px;
+    width: 80px;
+    background: #e2e2e2;
+    float: left;
+    margin-right: 5px;
+}
+
+#course-view-new-user .sbToggle {
+    background: url(../images/bg/drop.png) no-repeat 8px 5px;
+    display: block;
+    height: 17px;
+    outline: none;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    width: 17px;
+    z-index: 100;
+}
+
+#course-view-new-user .sbSelector {
+    display: block;
+    height: 20px;
+    left: 0;
+    outline: none;
+    padding-top: 2px;
+    overflow: hidden;
+    position: absolute;
+    text-indent: 10px;
+    top: 2px;
+    line-height: 14px;
+    color: #000;
+    text-decoration: none;
+    width: 70px;
+    white-space: nowrap;
+
+}
+
+#course-view-new-user .sbOptions {
+    border: 1px solid #d5d5d5;
+    /*height: 150px;*/
+    padding: 0;
+    border-radius: 2px;
+    width: 100px;
+    background: #e2e2e2;
+    list-style: none;
+    left: -1px;
+    margin: 0;
+    position: absolute;
+    top: 17px;
+    font-size: 12px;
+    z-index: 1;
+    overflow-y: auto;
+    border-top: none;
+}
+
+#course-view-new-user .parameters .parameters .sbOptions {
+    background: #e2e2e2;
+}
+
+#course-view-new-user .parameters .sbOptions li {
+    background: #e2e2e2;
+    padding: 3px 5px 0 10px;
+    font-size: 12px;
+    font-weight: normal;
+    float: none;
+}
+
+#course-view-new-user .parameters .sbOptions li a {
+    color: #000;
+}
+
+#course-view-new-user .sbOptions a {
+    color: #2d5778;
+    text-decoration: none;
+}
+
+#course-view-new-user .parameters .action {
+    margin: 10px 0 -5px;
+    overflow: auto;
+    padding: 4px;
+}
+
+#course-view-new-user .parameters .action a.sendme {
+    font-size: 12px;
+    color: #000;
+    margin-top: 5px;
+    border-bottom: dotted 1px #919191;
+    line-height: 12px;
+}
+
+#course-view-new-user .parameters .action a.sendme:hover {
+    border: none;
+}
+
+#course-view-new-user .parameters .action a {
+    display: block;
+    float: right;
+
+    margin-left: 15px;
+}
+
+#course-view-new-user .parameters .action a.save {
+    background: url("../images/save_button_bg.jpg") repeat-x top;
+    height: 14px;
+    line-height: 13px;
+    font-size: 12px;
+    padding: 4px 15px;
+    border: 1px solid #b7b7b7;
+    box-shadow: 0 1px 1px #bcbcbc;
+}
+
+#course-view-new-user .parameters .textletter {
+    display: none;
+}
+
+#course-view-new-user .parameters .text {
+    padding: 0;
+    margin: 0;
+}
+
+
+.a-hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top:0;
+    z-index: 8000;
+}
