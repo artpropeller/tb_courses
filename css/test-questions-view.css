@@ -1,0 +1,536 @@
+
+
+.dialog-assign.test-dialog {
+    padding: 20px 50px;
+    width: 860px;
+    height: auto;
+    min-height: 530px;
+}
+
+.dialog-assign.test-dialog .close-assign {
+    right: 35px;
+}
+
+.dialog-assign.test-dialog h2 {
+    font-size: 19px;
+    padding-left: 45px;
+    min-height: 27px;
+    line-height: 19px;
+    padding-top: 8px;
+    margin-bottom: 30px;
+}
+
+.dialog-assign.test-dialog h2.open-quest {
+    background: url("../images/ico_file_test.png") no-repeat left;
+}
+
+.dialog-assign.test-dialog .quest-info {
+    padding-bottom: 6px;
+}
+
+.dialog-assign.test-dialog .quest-info a.quest-name {
+    color: #0e67d2;
+    font-size: 13px;
+    padding-left: 35px;
+    background: url("../images/blue_arrow_niz.png") no-repeat left 6px;
+    position: relative;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.dialog-assign.test-dialog .quest-info a.quest-name.active {
+    background: url("../images/blue_arr_top.png") no-repeat left 4px;
+}
+
+.dialog-assign.test-dialog .attention {
+    background: url("../images/attemp.png") no-repeat;
+    width: 16px;
+    height: 16px;
+    display: block;
+}
+
+.dialog-assign.test-dialog a.quest-name .attention {
+    position: absolute;
+    left:13px;
+    top:0;
+}
+
+.dialog-assign.test-dialog a.quest-name .ava {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 12px;
+    top:-3px;
+}
+
+.dialog-assign.test-dialog a.quest-name strong {
+    background: url("../images/dot_settings.jpg") repeat-x bottom;
+}
+
+.dialog-assign.test-dialog a.quest-name:hover strong {
+    background: none;
+}
+
+
+.dialog-assign.test-dialog .quest-info .quest-text {
+    color: #000;
+    padding-left: 35px;
+    font-size: 13px;
+    line-height: 19px;
+    padding-bottom: 12px;
+}
+
+.dialog-assign.test-dialog .quest-info .quest-parameters {
+    float: right;
+    color: #7f7f7f;
+    font-size: 11px;
+    width: 550px;
+}
+
+.dialog-assign.test-dialog .quest-info .quest-parameters strong {
+    color: #000;
+    font-size: 13px;
+}
+
+.dialog-assign.test-dialog .quest-info .quest-parameters strong.green {
+    color: #1fa700;
+}
+
+.dialog-assign.test-dialog .quest-info .quest-parameters strong.red {
+    color: #ea0000;
+}
+
+.dialog-assign.test-dialog .quest-info .parametr, .dialog-assign.test-dialog .quest-info .div-par {
+    float: right;
+}
+
+.dialog-assign.test-dialog .quest-info .div-par {
+    padding: 0 20px;
+}
+
+.dialog-assign .table-quests {
+    padding: 4px 8px;
+}
+
+.dialog-assign .table-quests .head-quests {
+    height: 36px;
+    font-size: 11px;
+    color: #7f7f7f;
+    line-height: 15px;
+    background: url("../images/bg/dashed.png") repeat-x bottom;
+}
+
+.dialog-assign .table-quests .head-quests div {
+    float: left;
+}
+
+.dialog-assign .table-quests .head-quests .search-quest {
+    width: 285px;
+}
+
+.dialog-assign .table-quests .head-quests .search-quest input {
+    background: #fff;
+    height: 30px;
+    border:1px solid #ccc;
+    border-radius: 2px;
+    padding: 0 10px;
+    width: 225px;
+}
+
+.dialog-assign .table-quests .head-quests .email-quest {
+    width: 235px;
+}
+
+.dialog-assign .table-quests .head-quests .show-all-quest {
+    width: 115px;
+    padding-top: 7px;
+}
+
+.dialog-assign .table-quests .head-quests .show-all-quest a {
+    color: #0e67d2;
+    font-size: 12px;
+    background: url("../images/dot_settings.jpg") repeat-x bottom;
+}
+
+.dialog-assign .table-quests .head-quests .show-all-quest a:hover {
+    background: none;
+}
+
+.dialog-assign .table-quests .head-quests .time-quest {
+    width: 120px;
+}
+
+.dialog-assign .table-quests .head-quests .result-quest {
+    width: 80px;
+}
+
+.dialog-assign .table-quests .user-quest {
+    height: 20px;
+    padding: 5px 0;
+
+}
+
+.dialog-assign .table-quests .answer-quest {
+    background: url("../images/bg/dashed.png") repeat-x bottom;
+    overflow: auto;
+    padding: 1px 0 2px;
+}
+
+.dialog-assign .table-quests .answer-quest.active .user-quest, .dialog-assign .table-quests .answer-quest.active .answer-info {
+    background: #e6ebef;
+}
+
+.dialog-assign .table-quests .user-quest>div {
+    float: left;
+}
+
+.dialog-assign .table-quests .avatar {
+    width: 32px;
+    padding-left: 12px;
+}
+
+.dialog-assign .table-quests .name-user {
+    color: #0e67d2;
+    padding-top: 3px;
+    width: 242px;
+    cursor: pointer;
+}
+
+.dialog-assign .table-quests .email-user {
+    color: #000;
+    padding-top: 3px;
+    width: 348px;
+}
+
+.dialog-assign .table-quests .time-user {
+    font-weight: bold;
+    color: #000;
+    padding-top: 3px;
+    width: 120px;
+    font-size: 13px;
+}
+
+.dialog-assign .table-quests .result-user {
+    padding-top: 3px;
+    font-weight: bold;
+    font-size: 13px;
+    overflow: hidden;
+    width: 90px;
+}
+
+.dialog-assign .table-quests .result-user div {
+    padding-left: 25px;
+}
+
+.dialog-assign .table-quests .result-user div.number {
+    color: #1fa700;
+    background: url("../images/ball-number.png") no-repeat left center;
+}
+
+.dialog-assign .table-quests .result-user div.null {
+    background: url("../images/ball-null.png") no-repeat left center;
+    text-indent: 1000px;
+}
+
+.dialog-assign .table-quests .answer-info {
+    padding: 10px 0 10px 44px;
+    display: none;
+}
+
+.dialog-assign .table-quests .answer-info .label {
+    font-size: 13px;
+    color: #8d9aa5;
+    padding-bottom: 3px;
+}
+
+.dialog-assign .table-quests .answer-info .label.max {
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.dialog-assign .table-quests .answer-info .user-answer {
+    background: #fff url("../images/bg-answer.jpg") repeat-x bottom;
+    min-height: 17px;
+    border-radius: 2px;
+    padding: 8px 15px;
+    color: #000;
+    font-size: 13px;
+    border:1px solid #d1d1d1;
+    box-shadow: 1px 1px 2px rgba(0,0,0, 0.1);
+
+}
+
+.dialog-assign .table-quests .answer-info .answer-user {
+    float: left;
+    width: 680px;
+}
+.dialog-assign .table-quests .answer-info .set-ball {
+    width: 80px;
+    margin-right: 10px;
+    float: right;
+}
+
+.dialog-assign .table-quests .answer-info .set-ball input {
+    width: 40px;
+    color: #000;
+    margin-left: 4px;
+    border: 0;
+    text-align: center;
+    background: none;
+    padding-top: 7px;
+    font-size: 16px;
+}
+
+.dialog-assign .table-quests .answer-info .change-ball {
+    height: 33px;
+    background: url("../images/bg-test-ball.jpg") repeat-x;
+    border:1px solid #d1d1d1;
+    box-shadow: 1px 1px 2px rgba(0,0,0, 0.1);
+    border-radius: 2px;
+    width: 68px;
+    position: relative;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.dialog-assign .table-quests .answer-info .change-ball .ars {
+    background: url("../images/bg-test-arr.jpg") repeat-x;
+    height: 33px;
+    position: absolute;
+    right: 0;
+    top:0;
+    width: 17px;
+    border-left: 1px solid #d1d1d1;
+}
+
+.dialog-assign .table-quests .answer-info .change-ball .ars .up {
+    position: absolute;
+    width: 17px;
+    height: 16px;
+    cursor: pointer;
+    top:0;
+    right: 0;
+    background: url("../images/ars-ball.png") no-repeat 1px 3px;
+}
+
+.dialog-assign .table-quests .answer-info .change-ball .ars .up.noactive {
+    background-position: -14px 3px;
+}
+
+.dialog-assign .table-quests .answer-info .change-ball .ars .up:hover, .dialog-assign .table-quests .answer-info .change-ball .ars .down:hover {
+    background-color: #eee;
+}
+
+.dialog-assign .table-quests .answer-info .change-ball .ars div.noactive {
+    background-color: transparent !important;
+}
+
+.dialog-assign .table-quests .answer-info .change-ball .ars .down {
+    position: absolute;
+    width: 17px;
+    height: 16px;
+    cursor: pointer;
+    bottom:0;
+    right: 0;
+    background: url("../images/ars-ball.png") no-repeat 1px -17px;
+}
+
+.dialog-assign .table-quests .answer-info .change-ball .ars .down.noactive {
+    background-position: -14px -17px;
+}
+
+.dialog-assign .table-quests .answer-info .save-ball {
+    margin-top: 4px;
+}
+
+.dialog-assign .table-quests .scroll {
+    min-height: 300px;
+}
+
+.backtolist {
+    background: url("../images/new_blue_arr.jpg") no-repeat left 5px;
+    padding-left: 12px;
+    color: #0e67d2;
+    display: block;
+    margin-top: 20px;
+    margin-left: -12px;
+}
+
+.backtolist span {
+    background: url("../images/dot_settings.jpg") repeat-x bottom;
+}
+
+#main {
+    overflow: visible;
+}
+
+.dialog-assign.test-dialog a.quest-name.user {
+    float: left;
+}
+
+.dialog-assign.test-dialog .quest-info .time {
+    padding-left: 19px;
+    background: url("../images/new_ico-time.jpg") no-repeat left center;
+}
+
+.dialog-assign.test-dialog .parameters-user {
+    margin-left: 2px;
+    float: left;
+    color: #6b6b6b;
+}
+
+.dialog-assign.test-dialog .parameters-user strong {
+    font-size: 13px;
+}
+
+.dialog-assign.test-dialog .parameters-user .red {
+    color: #e10000;
+}
+
+.dialog-assign.test-dialog .parameters-user span {
+    padding: 0 15px;
+}
+
+.dialog-assign.test-dialog .quest-info input {
+    background: #fff;
+    float: right;
+    height: 30px;
+    border:1px solid #ccc;
+    border-radius: 2px;
+    padding: 0 10px;
+    margin-top: -10px;
+    width: 175px;
+}
+
+.dialog-assign.test-dialog .fiter-quest {
+    width: 430px;
+    padding-top: 6px;
+    padding-left: 20px;
+}
+
+.dialog-assign.test-dialog .fiter-quest a {
+    display: block;
+    float: left;
+    color: #363636;
+    font-size: 13px;
+    margin-right: 10px;
+    padding: 2px 4px 3px;
+}
+
+.dialog-assign.test-dialog .fiter-quest a.active {
+    background: #dfdfdf;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 #fff;
+}
+
+.dialog-assign.test-dialog .fiter-quest a.attempt {
+    position: relative;
+    padding-left: 22px;
+}
+
+.dialog-assign.test-dialog .fiter-quest a.attempt i {
+    position: absolute;
+    left: 2px;
+    top:2px;
+
+}
+
+#all-answers .table-quests .head-quests {
+    background: none;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+#all-answers .table-quests .head-quests .show-all-quest {
+    width: 100px;
+}
+
+#all-answers .table-quests .head-quests .time-quest {
+    width: 100px;
+}
+
+#all-answers .table-quests .head-quests .time-quest2 {
+    width: 90px;
+}
+
+#all-answers .table-quests .answer-quest .num-quest {
+    width: 30px;
+    font-weight: bold;
+    padding-top: 3px;
+    text-align: right;
+    padding-right: 5px;
+    color: #7e7e7e;
+}
+
+#all-answers .table-quests .answer-quest .user-quest {
+    height: auto;
+    min-height: 20px;
+    overflow: auto;
+}
+
+#all-answers .table-quests .answer-quest .name-answer {
+    width: 505px;
+    padding-top: 2px;
+    font-size: 13px;
+    color: #000;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+#all-answers .table-quests .answer-quest .name-answer strong {
+    display: none;
+
+}
+
+#all-answers .table-quests .answer-quest.active .name-answer {
+    font-weight: bold;
+}
+
+#all-answers .table-quests .answer-quest.active .name-answer span {
+    display: none;
+}
+
+#all-answers .table-quests .answer-quest.active .name-answer strong {
+    display: inline;
+}
+
+
+#all-answers .table-quests .time-user, #all-answers .table-quests .time-user2 {
+    font-weight: bold;
+    color: #000;
+    padding-top: 3px;
+    width: 100px;
+    font-size: 13px;
+}
+
+#all-answers .table-quests .time-user2 {
+    width: 90px;
+}
+
+#all-answers .table-quests .answer-info {
+    padding: 10px 0 10px 35px;
+    display: none;
+}
+
+#all-answers .table-quests .answer-info .set-ball {
+    margin-right: 25px;
+}
+
+#all-answers a.btn-red-assign {
+    background: url("../images/red_bg_button.jpg") repeat-x top;
+    border: 1px solid #C53D3C;
+    text-shadow: 0 1px #8B332D;
+    border-radius: 1px;
+    width: auto;
+    padding-right: 10px;
+    padding-left: 40px;
+    position: relative;
+}
+
+#all-answers a.btn-red-assign i {
+    position: absolute;
+    left: 12px;
+    top:6px;
+    background: url("../images/attemp-white.png") no-repeat;
+}
