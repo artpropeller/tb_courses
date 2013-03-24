@@ -534,3 +534,152 @@
     top:6px;
     background: url("../images/attemp-white.png") no-repeat;
 }
+
+.type-quest .panel {
+    background: #fff url("../images/bg-answer.jpg") repeat-x bottom;
+    min-height: 17px;
+    border-radius: 2px;
+    padding: 8px 15px;
+    position: relative;
+    color: #000;
+    font-size: 13px;
+    border:1px solid #d1d1d1;
+    margin:5px 0 ;
+    box-shadow: 1px 1px 2px rgba(0,0,0, 0.1), inset 0 1px 0 rgba(255,255,255,1);
+}
+
+.type-quest .panel img {
+    position: relative;
+    float: left;
+    margin-right: 9px;
+    top:-5px;
+}
+
+.type-quest .panel.file-panel {
+    width: auto !important;
+    padding: 3px 1px 4px 10px;
+}
+
+.type-quest .panel.file-panel img {
+    display: block;
+    top:0;
+}
+
+.type-quest .panel.green {
+    background: #fff url("../images/green-pl.jpg") repeat-x bottom;
+
+}
+
+.type-quest .panel.red {
+    background: #fff url("../images/red-pl.jpg") repeat-x bottom;
+    box-shadow: 1px 1px 2px rgba(0,0,0, 0.1), inset 0 1px 0 rgba(255,255,255,0.3);
+}
+
+.type-quest .row {
+    overflow: auto;
+}
+
+.type-quest .row>div {
+    float: left;
+}
+
+.type-quest.comparison .row .panel {
+    width: 263px;
+}
+
+.type-quest.comparison.files .row .panel {
+    width: 508px;
+}
+
+
+.type-quest .connect {
+    background: url("../images/connect.jpg") no-repeat;
+    width: 70px;
+    height: 7px;
+    margin: 20px 10px 0;
+}
+
+.type-quest.onechoice .panel, .type-quest.multichoice .panel {
+    padding-left: 45px;
+
+}
+
+.type-quest .panel i {
+    position: absolute;
+    left: 10px;
+    top:4px;
+}
+
+.type-quest.onechoice .panel i {
+    background: url("../images/answer-radio.png") no-repeat;
+    width: 25px;
+    height: 25px;
+}
+
+.type-quest.onechoice .panel.active i {
+     background: url("../images/answer-radio-active.png") no-repeat;
+}
+
+.type-quest.onechoice .panel.active.red i {
+    background: url("../images/answer-radio-active-red.png") no-repeat;
+}
+
+.type-quest.multichoice .panel i {
+    background: url("../images/answer-multi.png") no-repeat;
+    width: 25px;
+    height: 25px;
+}
+
+.type-quest.multichoice .panel.active i {
+    background: url("../images/answer-multi-active.png") no-repeat;
+}
+
+.type-quest.multichoice .panel.active.red i {
+    background: url("../images/answer-multi-active-red.png") no-repeat;
+}
+
+.answer-files {
+    margin: -6px 0 4px;
+}
+
+.answer-files img {
+    margin-right: 12px;
+}
+
+.type-quest.chain .panel {
+    padding-left: 6px;
+    margin-left: 30px;
+}
+
+.type-quest.chain .panel i {
+    width: 25px;
+    left: -30px;
+    font-size: 22px;
+    color: #b3c4d1;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    padding-top: 4px;
+}
+
+.type-quest.imagefind .panel {
+    float: left;
+    position: absolute;
+    z-index: 500;
+    bottom: -23px;
+    padding: 8px 7px;
+    display: inline-block;
+}
+
+.purpose-image {
+    position: relative;
+}
+
+.type-quest.imagefind .areas {
+    display: block;
+    border:3px solid #fff;
+    text-align: center;
+    bottom: 15px;
+    z-index: 1000;
+    position: absolute;
+}

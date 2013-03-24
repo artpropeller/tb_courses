@@ -13,6 +13,9 @@ $(function(){
         return false;
     });
 
+
+
+
     $('.answer-info .change-ball .ars .up').click(function(){
         changeAnswerBall(1, parseInt($(this).parents('.change-ball').find('input').attr('max')),$(this).parents('.change-ball').find('input'));
     });
@@ -24,6 +27,9 @@ $(function(){
     $('.answer-quest .name-user, .answer-quest .name-answer').click(function(){
         $(this).parents('.answer-quest').toggleClass('active');
         $(this).parents('.answer-quest').find('.answer-info').toggle(0);
+        $('.type-quest.imagefind .panel').each(function(){
+            $(this).css('margin-left',-($(this).width()/2 + 8) + 'px');
+        });
     });
 
     $('.dialog-assign .table-quests .head-quests .show-all-quest a').click(function(){
