@@ -4,39 +4,31 @@
     <bookmark url="file://$PROJECT_DIR$/css/xcharts.css" line="18" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" name="Default" comment="new settings">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/answer-image-ico.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/answer-multi-active-red.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/answer-multi-active.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/answer-multi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/answer-radio-active-red.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/answer-radio-active.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/answer-radio.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/answer-video-ico.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/connect.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/green-pl.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/pur-image.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/red-pl.jpg" />
+    <list default="true" id="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/bg-ico-quest.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/ico-down-quest.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/ico-print-quest.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/test-questions-view.css" afterPath="$PROJECT_DIR$/css/test-questions-view.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/test-view.js" afterPath="$PROJECT_DIR$/js/test-view.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view-quesfull-user.html" afterPath="$PROJECT_DIR$/view-quesfull-user.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view-quesfull.html" afterPath="$PROJECT_DIR$/view-quesfull.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tb_courses.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1364122816715" ignored="false" />
+    <file path="/Dummy.txt" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1364194851330" ignored="false" />
     <file path="/course-view-new-statistic.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1363070016172" ignored="false" />
     <file path="/new-user.css" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1363161183419" ignored="false" />
-    <file path="/dummy.xml" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1364121749804" ignored="false" />
+    <file path="/dummy.xml" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1364196829732" ignored="false" />
     <file path="/new.js" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1363268586835" ignored="false" />
     <file path="/course-view-new-messages-1.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1363267577188" ignored="false" />
     <file path="/new-course-messages.css" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1363535935603" ignored="false" />
     <file path="/course-view-new-messages-2.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1363528173248" ignored="false" />
     <file path="/course-view-new-settings.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1363528565609" ignored="false" />
-    <file path="/view-quesfull.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1364054118828" ignored="false" />
+    <file path="/view-quesfull.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1364126759248" ignored="false" />
     <file path="/test-view.js" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1364122465900" ignored="false" />
-    <file path="/test-questions-view.css" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1364122552329" ignored="false" />
-    <file path="/view-quesfull-user.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1364121760367" ignored="false" />
+    <file path="/test-questions-view.css" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1364196967687" ignored="false" />
+    <file path="/view-quesfull-user.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1364196927132" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +51,7 @@
       <file leaf-file-name="view-quesfull.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view-quesfull.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="37" selection-start="3058" selection-end="3058" vertical-scroll-proportion="-0.65384614">
+            <state line="58" column="0" selection-start="2712" selection-end="2712" vertical-scroll-proportion="-28.115385">
               <folding />
             </state>
           </provider>
@@ -68,21 +60,18 @@
       <file leaf-file-name="view-quesfull-user.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view-quesfull-user.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="370" column="86" selection-start="24957" selection-end="24957" vertical-scroll-proportion="-10.038462">
+            <state line="392" column="14" selection-start="25723" selection-end="25723" vertical-scroll-proportion="-9.153846">
               <folding>
-                <element signature="tag#div#6;tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#2;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#div#8;tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#2;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#9;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#9;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#1;n#div#9;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test-questions-view.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="test-questions-view.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/test-questions-view.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="663" column="0" selection-start="14094" selection-end="14094" vertical-scroll-proportion="-5.04">
+            <state line="699" column="25" selection-start="14736" selection-end="14736" vertical-scroll-proportion="0.32">
               <folding />
             </state>
           </provider>
@@ -115,10 +104,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test-view.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="test-view.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/test-view.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="41" selection-start="677" selection-end="677" vertical-scroll-proportion="0.32380953">
+            <state line="120" column="24" selection-start="4613" selection-end="4625" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/new.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="259" column="5" selection-start="8006" selection-end="9262" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -163,10 +161,10 @@
         <option value="$PROJECT_DIR$/js/course-assign.js" />
         <option value="$PROJECT_DIR$/js/new.js" />
         <option value="$PROJECT_DIR$/course-view-new-settings.html" />
+        <option value="$PROJECT_DIR$/js/test-view.js" />
         <option value="$PROJECT_DIR$/view-quesfull.html" />
         <option value="$PROJECT_DIR$/view-quesfull-user.html" />
         <option value="$PROJECT_DIR$/css/test-questions-view.css" />
-        <option value="$PROJECT_DIR$/js/test-view.js" />
       </list>
     </option>
   </component>
@@ -222,6 +220,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tb_courses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tb_courses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -233,8 +245,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../craftman" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -524,7 +536,11 @@
       <created>1364057361632</created>
       <updated>1364057361632</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="new settings">
+      <created>1364122863600</created>
+      <updated>1364122863600</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -623,11 +639,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/images/ico-test.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/content-im/poll.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -645,11 +656,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resize-course-assign-exel1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="130" column="0" selection-start="5588" selection-end="6608" vertical-scroll-proportion="-0.65384614">
-          <folding>
-            <element signature="tag#div#3;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="130" column="0" selection-start="5588" selection-end="6608" vertical-scroll-proportion="-0.65384614" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/course-view-admin-settings.html">
@@ -680,13 +687,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view-quesfull.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="37" selection-start="3058" selection-end="3058" vertical-scroll-proportion="-0.65384614">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/recall_all.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -702,28 +702,39 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view-quesfull-user.html">
+    <entry file="file://$PROJECT_DIR$/view-quesfull.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="370" column="86" selection-start="24957" selection-end="24957" vertical-scroll-proportion="-10.038462">
-          <folding>
-            <element signature="tag#div#6;tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#2;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#div#8;tag#div#1;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#2;tag#div#0;tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#9;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#9;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/test-questions-view.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="663" column="0" selection-start="14094" selection-end="14094" vertical-scroll-proportion="-5.04">
+        <state line="58" column="0" selection-start="2712" selection-end="2712" vertical-scroll-proportion="-28.115385">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/test-view.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="41" selection-start="677" selection-end="677" vertical-scroll-proportion="0.32380953">
+        <state line="120" column="24" selection-start="4613" selection-end="4625" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/new.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="259" column="5" selection-start="8006" selection-end="9262" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view-quesfull-user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="392" column="14" selection-start="25723" selection-end="25723" vertical-scroll-proportion="-9.153846">
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#1;n#div#9;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/test-questions-view.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="699" column="25" selection-start="14736" selection-end="14736" vertical-scroll-proportion="0.32">
           <folding />
         </state>
       </provider>

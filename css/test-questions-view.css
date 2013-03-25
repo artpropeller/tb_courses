@@ -59,7 +59,7 @@
     position: absolute;
     width: 20px;
     height: 20px;
-    left: 12px;
+    left: 16px;
     top:-3px;
 }
 
@@ -133,8 +133,10 @@
     height: 30px;
     border:1px solid #ccc;
     border-radius: 2px;
-    padding: 0 10px;
+    padding: 0 10px 0;
     width: 225px;
+    line-height: 30px;
+
 }
 
 .dialog-assign .table-quests .head-quests .email-quest {
@@ -240,7 +242,7 @@
 .dialog-assign .table-quests .answer-info .label {
     font-size: 13px;
     color: #8d9aa5;
-    padding-bottom: 3px;
+    padding-bottom: 5px;
 }
 
 .dialog-assign .table-quests .answer-info .label.max {
@@ -277,8 +279,10 @@
     border: 0;
     text-align: center;
     background: none;
-    padding-top: 7px;
+    margin-top: 7px;
     font-size: 16px;
+    height: 16px;
+    line-height: 16px;
 }
 
 .dialog-assign .table-quests .answer-info .change-ball {
@@ -397,6 +401,7 @@
     background: #fff;
     float: right;
     height: 30px;
+    line-height: 30px;
     border:1px solid #ccc;
     border-radius: 2px;
     padding: 0 10px;
@@ -405,9 +410,9 @@
 }
 
 .dialog-assign.test-dialog .fiter-quest {
-    width: 430px;
+    width: 420px;
     padding-top: 6px;
-    padding-left: 20px;
+    padding-left: 30px;
 }
 
 .dialog-assign.test-dialog .fiter-quest a {
@@ -416,7 +421,7 @@
     color: #363636;
     font-size: 13px;
     margin-right: 10px;
-    padding: 2px 4px 3px;
+    padding: 2px 6px 3px;
 }
 
 .dialog-assign.test-dialog .fiter-quest a.active {
@@ -673,6 +678,7 @@
 
 .purpose-image {
     position: relative;
+    margin-top: 3px;
 }
 
 .type-quest.imagefind .areas {
@@ -682,4 +688,32 @@
     bottom: 15px;
     z-index: 1000;
     position: absolute;
+}
+
+#all-answers .quest-info a.quest-name {
+    padding-left: 44px;
+}
+
+#all-answers .action-list {
+    float: right;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+#all-answers .action-list a {
+    display: block;
+    float: left;
+
+    width: 32px;
+    height: 33px;
+    margin-left: 6px;
+}
+
+#all-answers .action-list a:hover {
+    background: url("../images/bg-ico-quest.jpg") no-repeat;
+}
+
+#all-answers .action-list a img {
+    display: block;
+    margin: 10px 0 0 10px;
 }
