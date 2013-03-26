@@ -118,20 +118,22 @@ $(function(){
 
     /* Placeholder for IE */
     if ($.browser.msie) { // Условие для вызова только в IE
-        $(".placeholding").find("input,textarea").each(function () {
+        $(".placeholding").find("input[type='text']").each(function () {
             var tp = $(this).attr("placeholder");
             $(this).addClass('.place');
-            if ($(this).is('textarea')) {$(this).text('value', tp).css('color', '#999');}
-            $(this).attr('value', tp).css('color', '#999');
+            $(this).attr('value', tp);
+            $(this).css('color', '#999');
         }).focusin(function () {
                 var val = $(this).attr('placeholder');
-                if ($(this).val() == val || $(this).text() == val) {
-                    $(this).attr('value', '').css('color', '#000').text('');
+                if ($(this).val() == val) {
+                    $(this).attr('value', '');
+                    $(this).css('color', '#000');
                 }
             }).focusout(function () {
                 var val = $(this).attr('placeholder');
-                if ($(this).val() == "" || $(this).text() == val) {
-                    $(this).attr('value', val).css('color', '#999').text(val);
+                if ($(this).val() == "") {
+                    $(this).attr('value', val);
+                    $(this).css('color', '#999');
                 }
             });
 

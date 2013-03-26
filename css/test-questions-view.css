@@ -401,7 +401,7 @@
     background: #fff;
     float: right;
     height: 30px;
-    line-height: 1.3px;
+    line-height: 1.3;
     border:1px solid #ccc;
     border-radius: 2px;
     padding: 0 10px;
