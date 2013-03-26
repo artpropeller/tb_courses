@@ -235,16 +235,21 @@ $(function () {
             var tp = $(this).attr("placeholder");
             $(this).addClass('.place');
             if ($(this).is('textarea')) {$(this).text('value', tp).css('color', '#999');}
-            $(this).attr('value', tp).css('color', '#999');
+            $(this).attr('value', tp);
+            $(this).css('color', '#999');
         }).focusin(function () {
                 var val = $(this).attr('placeholder');
                 if ($(this).val() == val || $(this).text() == val) {
-                    $(this).attr('value', '').css('color', '#000').text('');
+                    $(this).attr('value', '').text('');
+                    $(this).text('');
+                    $(this).css('color', '#000');
                 }
             }).focusout(function () {
                 var val = $(this).attr('placeholder');
                 if ($(this).val() == "" || $(this).text() == val) {
-                    $(this).attr('value', val).css('color', '#999').text(val);
+                    $(this).attr('value', val).text(val);
+                    $(this).text(val);
+                    $(this).css('color', '#999');
                 }
             });
 
