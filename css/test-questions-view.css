@@ -717,3 +717,114 @@
     display: block;
     margin: 10px 0 0 10px;
 }
+
+
+.quest-info .pop-up{
+    background: #fff;
+    position: absolute;
+    left: 0;
+    top: 25px;
+    width: 270px;
+    padding: 10px;
+    z-index: 100;
+    border-radius: 4px;
+    box-shadow: 0 0 6px #d7d7d7;
+    border:  1px solid #d7d7d7;
+
+
+}
+
+.quest-info{
+    position: relative;
+}
+
+
+.dialog-assign.test-dialog .quest-info .pop-up input{
+    float: none;
+    width: 248px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+
+.dialog-assign.test-dialog .quest-info .pop-up .scroll{
+    height: 340px;
+}
+
+.pop-up .user-list li{
+    background: url("../images/bg/dashed.png") repeat-x bottom;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+
+.pop-up .user-list li.last{
+    margin-bottom: 0;
+}
+
+
+.pop-up .user-list li a{
+    color: #0e67d2;
+    display: block;
+    overflow: auto;
+}
+
+.pop-up .user-list li a:hover{
+    text-decoration: underline;
+}
+
+
+.pop-up .user-list li img{
+    float: left;
+    margin-right: 10px;
+}
+
+.pop-up .shad{
+    background: url("../images/white_cover.png") repeat-x top;
+    height: 25px;
+    position: absolute;
+    width: 100%;
+    left:0;
+    bottom: 0px;
+}
+
+
+.quest-info.quest-search .pop-up{
+    width: 535px;
+
+}
+
+
+.dialog-assign.test-dialog .quest-info.quest-search .pop-up input{
+    width: 513px;
+}
+
+
+.dialog-assign.test-dialog .quest-info.quest-search .user-list .num{
+    position: absolute;
+    width: 35px;
+    text-align: center;
+    left:0;
+    color: #b3b4b4;
+    font-size: 13px;
+    font-weight: bold;
+
+}
+
+.dialog-assign.test-dialog .quest-info.quest-search .user-list li{
+    padding-left: 35px;
+    position: relative;
+}
+
+.dialog-assign.test-dialog .quest-info.quest-search .pop-up .scroll{
+    height: 240px;
+}
+
+.dialog-assign.test-dialog .quest-info.quest-search .user-list li.active a{
+    color: #000;
+    text-decoration: none;
+}
+
+.dialog-assign.test-dialog .quest-info.quest-search .user-list li.active a:hover{
+    text-decoration: none;
+}

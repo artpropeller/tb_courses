@@ -113,6 +113,8 @@ $(function(){
                 $('.dialog-assign .table-quests .answer-quest').show(0);
             }
         }, 150);
+
+
     });
 
 
@@ -174,6 +176,11 @@ function resizeTableAnswers(){
     var s = hw - 50 - 40 - 35 -90 - $('.quest-info').height() - 10 -40;
     $('.table-quests .scroll').height(s);
     $('.dialog-assign .table-quests .scroll').jScrollPane({
+        autoReinitialise:true,
+        autoReinitialiseDelay:10
+    });
+
+    $('.quest-info .pop-up .scroll').jScrollPane({
         autoReinitialise:true,
         autoReinitialiseDelay:10
     });
