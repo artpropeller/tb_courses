@@ -628,7 +628,7 @@
 
 #course-view-new-user #course-settings .parameters input[type=checkbox] {
     position: absolute;
-    left: -100px;
+    left: -5000px;
 }
 
 #course-view-new-user #course-settings #date-deadline {
@@ -842,8 +842,10 @@
 }
 
 #course-view-new-user .parameters .radio input, #course-view-new-user .parameters .option input {
-    visibility: hidden;
+    /*visibility: hidden;*/
     background: none;
+    position: absolute;
+    left: -5000px;
 }
 
 #course-view-new-user .parameters .option {

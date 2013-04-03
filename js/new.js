@@ -240,15 +240,15 @@ $(function () {
         }).focusin(function () {
                 var val = $(this).attr('placeholder');
                 if ($(this).val() == val || $(this).text() == val) {
-                    $(this).attr('value', '').text('');
-                    $(this).text('');
+                    $(this).val('');
+                    if (!$(this).is('input')) {$(this).text('');}
                     $(this).css('color', '#000');
                 }
             }).focusout(function () {
                 var val = $(this).attr('placeholder');
                 if ($(this).val() == "" || $(this).text() == val) {
-                    $(this).attr('value', val).text(val);
-                    $(this).text(val);
+                    $(this).val(val);
+                    if (!$(this).is('input')) {$(this).text(val);}
                     $(this).css('color', '#999');
                 }
             });
