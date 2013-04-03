@@ -2,19 +2,27 @@ $(function(){
     resizeTableAnswers();
     $(window).resize(resizeTableAnswers);
 
+    addTooltipClass('.pop-up .user-list li a', 95);
 
-    $('.dialog-assign.test-dialog .quest-info a.quest-name:not(".user")').click(function(){
-        $('body').css('overflow', 'hidden');
-        $(this).toggleClass('active').next().slideToggle(0, function(){
-            resizeTableAnswers();
-            $('body').css('overflow', 'auto');
-        });
+    tooltip();
 
+
+    $('.dialog-assign.test-dialog .quest-info a.quest-name').click(function(){
+        $('.pop-up').after('<div class="popcover"></div>');
+        $('.quest-info .pop-up').toggle(0);
+//        $(this).toggleClass('active').next().slideToggle(0, function(){
+//            resizeTableAnswers();
+//            $('body').css('overflow', 'auto');
+//        });
         return false;
     });
 
 
 
+    $('.popcover').live('click', function(){
+        $('.pop-up').hide(0);
+        $(this).remove();
+    });
 
     $('.answer-info .change-ball .ars .up').click(function(){
         changeAnswerBall(1, parseInt($(this).parents('.change-ball').find('input').attr('max')),$(this).parents('.change-ball').find('input'));
@@ -95,10 +103,10 @@ $(function(){
         }, 150);
     });
 
-    $('#all-answers .quest-info input').keydown(function (event) {
+    $('#questSearch').keydown(function (event) {
         var text;
         setTimeout(function () {
-            text = $('#all-answers .quest-info input').val();
+            text = $('#questSearch').val();
         }, 50);
         setTimeout(function () {
             if (text.length) {
@@ -111,6 +119,52 @@ $(function(){
             }
             else {
                 $('.dialog-assign .table-quests .answer-quest').show(0);
+            }
+        }, 150);
+
+
+    });
+
+    $('#allUserSearch').keydown(function (event) {
+        var text;
+        setTimeout(function () {
+            text = $('#allUserSearch').val();
+        }, 50);
+        setTimeout(function () {
+            if (text.length) {
+                $('.pop-up .user-list li').hide(0);
+                $('.pop-up .user-list li').each(function () {
+                    if ($(this).find('a').text().toLowerCase().indexOf(text.toLowerCase()) + 1 ) {
+                        $(this).show(0);
+                    }
+                });
+            }
+            else {
+                $('.pop-up .user-list li').show(0);
+            }
+        }, 150);
+
+
+    });
+
+
+
+    $('.dialog-assign.test-dialog .quest-info.quest-search .pop-up input').keydown(function (event) {
+        var text;
+        setTimeout(function () {
+            text = $('.dialog-assign.test-dialog .quest-info.quest-search .pop-up input').val();
+        }, 50);
+        setTimeout(function () {
+            if (text.length) {
+                $('.dialog-assign.test-dialog .quest-info.quest-search .user-list li').hide(0);
+                $('.dialog-assign.test-dialog .quest-info.quest-search .user-list li').each(function () {
+                    if ($(this).find('a').text().toLowerCase().indexOf(text.toLowerCase()) + 1 ) {
+                        $(this).show(0);
+                    }
+                });
+            }
+            else {
+                $('.dialog-assign.test-dialog .quest-info.quest-search .user-list li').show(0);
             }
         }, 150);
 
@@ -183,5 +237,45 @@ function resizeTableAnswers(){
     $('.quest-info .pop-up .scroll').jScrollPane({
         autoReinitialise:true,
         autoReinitialiseDelay:10
+    });
+}
+
+
+this.tooltip = function () {
+    /* CONFIG */
+    xOffset = -13;
+    yOffset = 13;
+    // these 2 variable determine popup's distance from the cursor
+    // you might want to adjust to get the right result
+    /* END CONFIG */
+    $(".tooltips").hover(function (e) {
+            if ($(this).is('.tooltips')) {
+                this.t = $(this).is('.question') ? $(this).attr('quest') : $(this).text();
+                $("body").append("<p id='tooltip'>" + this.t + "</p>");
+                $("#tooltip")
+                    .css("top", (e.pageY - xOffset) + "px")
+                    .css("left", (e.pageX + yOffset) + "px")
+                    .fadeIn("fast");
+            }
+        },
+        function () {
+            $("#tooltip").remove();
+        });
+    $(".tooltips").mousemove(function (e) {
+        $("#tooltip")
+            .css("top", (e.pageY - xOffset) + "px")
+            .css("left", (e.pageX + yOffset) + "px");
+    });
+};
+
+
+function addTooltipClass(elements, length) {
+    $(elements).each(function () {
+        if ($(this).text().length > length) {
+            $(this).addClass('tooltips');
+        }
+        else {
+            $(this).removeClass('tooltips');
+        }
     });
 }
