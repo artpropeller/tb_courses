@@ -1248,3 +1248,166 @@ body, html, #main {
     font-size: 12.5px;
     box-shadow: 0 0 13px #a9a9a9;
 }
+
+#course-view-new-user.quest-statistic .navi-box-cont img{
+    margin-top: 5px;
+    margin-left: 5px;
+
+
+}
+
+
+#course-view-new-user.quest-statistic .panel .info{
+    padding-left: 95px;
+}
+
+
+#course-view-new-user.quest-statistic .head .menu li.active a span{
+    background: #3f566f;
+    border: 1px solid #3f566f;
+}
+
+
+#course-view-new-user .stop-now{
+    color: #b6261d;
+    font-size: 12px;
+    text-decoration: underline;
+    position: absolute;
+    right: 12px;
+    top: 20px;
+}
+
+#course-view-new-user .stop-now:hover{
+    text-decoration: none;
+}
+
+#course-view-new-user.quest-statistic .options{
+    right: 18px;
+}
+
+
+#course-view-new-user .tab-menu li{
+    float: left;
+    padding-left: 0;
+    margin-right: 10px;
+}
+
+
+#course-view-new-user .tab-menu li a{
+    color: #0e67d2;
+    font-size: 13px;
+    border-bottom: 1px dotted #0e67d2;
+    display: block;
+    position: relative;
+    font-weight: bold;
+}
+
+#course-view-new-user .tab-menu li a:hover{
+    border: 0;
+}
+
+#course-view-new-user .tab-menu{
+    margin-bottom: 10px;
+}
+
+
+#course-view-new-user .tab-menu li.active a{
+    background: #adadad;
+    box-shadow: inset 1px 1px 2px #969696;
+    border: 0;
+    color: #fff;
+    padding: 0 9px 2px;
+    border-radius: 3px;
+
+}
+
+#course-view-new-user .tab-menu li span{
+    display: none;
+    background: url("../images/gray-tab-arr.png") no-repeat;
+    width: 9px;
+    height: 5px;
+    position: absolute;
+    left: 50%;
+    margin-left: -5px;
+    bottom: -5px;
+
+}
+
+#course-view-new-user .tab-menu li.active span{
+    display: block;
+}
+
+#course-view-new-user .export-link{
+    color: #0e67d2;
+    font-size: 12px;
+    background: url("../images/ico-loads.png") no-repeat left 4px;
+    padding-left: 18px;
+    margin-bottom: 10px;
+
+
+}
+
+#course-view-new-user .export-link span{
+    border-bottom: 1px dotted #0e67d2;
+
+}
+
+#course-view-new-user .export-link:hover span{
+    border: 0;
+}
+
+#course-view-new-user .questions .head{
+    border-top: 2px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 5px 0;
+    overflow: auto;
+}
+
+#course-view-new-user .content.opros{
+    width: 910px;
+    margin:  0 auto;
+}
+
+#course-view-new-user .questions .head div{
+    float: left;
+    color: #606060;
+    font-size: 10px;
+    line-height: 14px;
+}
+
+#course-view-new-user .questions .head input[type=text]{
+    padding: 0 10px;
+    border: 1px solid #cfcfcf;
+    border-radius: 1px;
+    width: 382px;
+    height: 25px;
+}
+
+#course-view-new-user .questions .search{
+    width: 434px;
+}
+
+#course-view-new-user .questions .time{
+    width: 86px;
+}
+
+#course-view-new-user .questions .mid-time{
+    width: 92px;
+}
+
+#course-view-new-user .questions .mid-bal{
+    width: 98px;
+}
+
+#course-view-new-user .questions .true-answers{
+    width: 120px;
+}
+
+#course-view-new-user .questions .false-answers{
+    width: 70px;
+    padding-right: 10px;
+    text-align: right;
+}
+
+
+
