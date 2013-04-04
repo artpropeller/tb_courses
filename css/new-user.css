@@ -1371,6 +1371,7 @@ body, html, #main {
     border-radius: 1px;
     width: 382px;
     height: 25px;
+    line-height: 1.3;
 }
 
 #course-view-new-user .questions .search {

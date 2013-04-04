@@ -6,3 +6,8 @@
 .dialog-assign.test-dialog .quest-info input {
     line-height: 30px;
 }
+
+
+#course-view-new-user .questions .head input[type=text]{
+    line-height: 25px;
+}
