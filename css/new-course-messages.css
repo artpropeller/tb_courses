@@ -200,7 +200,7 @@
 }
 
 #course-view-new-user #audience  .sub {
-    background: url("../images/white_cover.png") repeat-x top;
+    background: url("../images/white_cover3.png") repeat-x top;
     height: 35px;
     position: relative;
     z-index: 100;
@@ -412,9 +412,11 @@
 #course-view-new-user .answer textarea {
     background: #fff;
     resize: none;
-    height: 64px;
+    height:70px;
     line-height: 18px;
-    padding-top: 6px;
+    padding-top: 0;
+    padding-right: 0;
+    width: 320px;
 }
 
 #course-view-new-user #audience .user.messages.last {
