@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/new-course-messages.css" afterPath="$PROJECT_DIR$/css/new-course-messages.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/new.js" afterPath="$PROJECT_DIR$/js/new.js" />
     </list>
     <ignored path="tb_courses.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,19 +45,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="course-view-new-vopros-statistic.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="course-view-new-vopros-statistic.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/course-view-new-vopros-statistic.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="124" column="46" selection-start="5794" selection-end="5794" vertical-scroll-proportion="-0.35843372">
+            <state line="124" column="46" selection-start="5794" selection-end="5794" vertical-scroll-proportion="9.153846">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new-user.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="new-user.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/new-user.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1408" column="21" selection-start="27795" selection-end="27795" vertical-scroll-proportion="0.0">
+            <state line="1408" column="21" selection-start="27795" selection-end="27795" vertical-scroll-proportion="0.7237814">
               <folding />
             </state>
           </provider>
@@ -532,7 +534,11 @@
       <created>1365060120743</created>
       <updated>1365060120743</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="new settings fix">
+      <created>1365060229992</created>
+      <updated>1365060229992</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -694,16 +700,16 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/new-user.css">
+    <entry file="file://$PROJECT_DIR$/course-view-new-vopros-statistic.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1408" column="21" selection-start="27795" selection-end="27795" vertical-scroll-proportion="0.0">
+        <state line="124" column="46" selection-start="5794" selection-end="5794" vertical-scroll-proportion="9.153846">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/course-view-new-vopros-statistic.html">
+    <entry file="file://$PROJECT_DIR$/css/new-user.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="124" column="46" selection-start="5794" selection-end="5794" vertical-scroll-proportion="-0.35843372">
+        <state line="1408" column="21" selection-start="27795" selection-end="27795" vertical-scroll-proportion="0.7237814">
           <folding />
         </state>
       </provider>
