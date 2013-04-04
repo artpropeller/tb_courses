@@ -1342,6 +1342,10 @@ body, html, #main {
     border: 0;
 }
 
+#course-view-new-user .questions{
+    position: relative;
+}
+
 #course-view-new-user .questions .head {
     border-top: 2px solid #e0e0e0;
     border-bottom: 1px solid #e0e0e0;
@@ -1474,6 +1478,21 @@ body, html, #main {
 
 #course-view-new-user .quest .inner .bad{
     color: #c80020;
+}
+
+
+#course-view-new-user .questions .scroll{
+    height: 270px;
+
+}
+
+#course-view-new-user .questions .sub{
+    position: absolute;
+    background: url("../images/white_cover3.png") repeat-x;
+    height: 15px;
+    bottom: 0;
+    width: 100%;
+
 }
 
 

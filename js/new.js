@@ -333,3 +333,16 @@ this.tooltip = function () {
             .css("left", (e.pageX + yOffset) + "px");
     });
 };
+
+$(function(){
+    $('.questions .scroll').jScrollPane({
+       autoReinitialiseDelay: 10,
+       autoReinitialise: true
+
+    });
+
+});
+
+
+
+
