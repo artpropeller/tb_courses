@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/test-questions-view.css" afterPath="$PROJECT_DIR$/css/test-questions-view.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/test-view.js" afterPath="$PROJECT_DIR$/js/test-view.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view-quesfull-user.html" afterPath="$PROJECT_DIR$/view-quesfull-user.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view-quesfull.html" afterPath="$PROJECT_DIR$/view-quesfull.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tb_courses.iws" />
@@ -27,8 +24,14 @@
     <file path="/dummy.xml" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365061913040" ignored="false" />
     <file path="/new-user.css" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1363161183419" ignored="false" />
     <file path="/course-view-new-statistic.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1363070016172" ignored="false" />
-    <file path="/Dummy.txt" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365061502524" ignored="false" />
+    <file path="/Dummy.txt" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365065001965" ignored="false" />
     <file path="/course-view-new-messages-4.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365061358430" ignored="false" />
+    <file path="$PROJECT_DIR$/../../repository/teachbase_editor/js/course-edit-fn.js" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365064962800" ignored="false" />
+    <file path="/course-edit-fn.js" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365064450799" ignored="false" />
+    <file path="$PROJECT_DIR$/../../repository/teachbase_editor/course-editor-full-mic.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365064698728" ignored="false" />
+    <file path="/course-editor-full-mic.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365064697597" ignored="false" />
+    <file path="/course-editor.css" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365064820962" ignored="false" />
+    <file path="$PROJECT_DIR$/../../repository/teachbase_editor/css/course-editor.css" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365064822614" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,25 +81,25 @@
       <file leaf-file-name="view-quesfull.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view-quesfull.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="49" selection-start="1448" selection-end="1448" vertical-scroll-proportion="-6.6666665">
+            <state line="14" column="67" selection-start="801" selection-end="801" vertical-scroll-proportion="-2.6666667">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test-view.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="test-view.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/test-view.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="217" column="0" selection-start="7826" selection-end="7826" vertical-scroll-proportion="0.00952381">
+            <state line="224" column="5" selection-start="8034" selection-end="8034" vertical-scroll-proportion="-3.96">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view-quesfull-user.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="view-quesfull-user.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/view-quesfull-user.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="319" column="10" selection-start="12873" selection-end="12873" vertical-scroll-proportion="-7.8431373">
+            <state line="301" column="116" selection-start="12266" selection-end="12266" vertical-scroll-proportion="0.19301848">
               <folding />
             </state>
           </provider>
@@ -608,7 +611,11 @@
       <created>1365061508015</created>
       <updated>1365061508015</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="new settings fix">
+      <created>1365064043780</created>
+      <updated>1365064043780</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -791,23 +798,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view-quesfull-user.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="319" column="10" selection-start="12873" selection-end="12873" vertical-scroll-proportion="-7.8431373">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/view-quesfull.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="49" selection-start="1448" selection-end="1448" vertical-scroll-proportion="-6.6666665">
+        <state line="14" column="67" selection-start="801" selection-end="801" vertical-scroll-proportion="-2.6666667">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/test-view.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="217" column="0" selection-start="7826" selection-end="7826" vertical-scroll-proportion="0.00952381">
+        <state line="224" column="5" selection-start="8034" selection-end="8034" vertical-scroll-proportion="-3.96">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view-quesfull-user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="301" column="116" selection-start="12266" selection-end="12266" vertical-scroll-proportion="0.19301848">
           <folding />
         </state>
       </provider>

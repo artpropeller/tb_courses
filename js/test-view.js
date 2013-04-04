@@ -230,7 +230,6 @@ function resizeTableAnswers(){
     var s = hw - 50 - 40 - 35 -90 - $('.quest-info').height() - 10 -40;
     $('.table-quests .scroll, .table-quests .scroll .jspContainer').css('height','auto');
     $('.table-quests .scroll .jspPane').css('position','static');
-    console.log(s, $('.table-quests .scroll').height());
     if ($('.table-quests .scroll').height() > s) {
     $('.table-quests .scroll').height(s); }
     $('.dialog-assign .table-quests .scroll').jScrollPane({
