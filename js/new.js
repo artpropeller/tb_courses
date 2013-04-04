@@ -209,7 +209,6 @@ $(function () {
         var text;
         setTimeout(function () {
             text = $('#SearchMessage').val();
-            console.log(text);
         }, 50);
         setTimeout(function () {
             if (text.length) {
