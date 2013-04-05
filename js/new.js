@@ -2,6 +2,7 @@ $(function () {
 
     addTooltipClass('#course-view-new-user #course-results .name', 25);
     addTooltipClass('#course-view-new-user #course-results .email', 25);
+    addTooltipClass('#course-view-new-user .questions.resize-1 .name span', 70);
 
     tooltip();
 
@@ -340,11 +341,30 @@ $(function(){
     $('.questions .scroll').jScrollPane({
        autoReinitialiseDelay: 10,
        autoReinitialise: true
-
     });
 
 });
 
-
+$(function(){
+    $('#SearchQuestStat').keydown(function (event) {
+        var text;
+        setTimeout(function () {
+            text = $('#SearchQuestStat').val();
+        }, 50);
+        setTimeout(function () {
+            if (text.length) {
+                $('#course-view-new-user .quest').hide(0);
+                $('#course-view-new-user .quest').each(function () {
+                    if ($(this).find('.name span').text().toLowerCase().indexOf(text.toLowerCase()) + 1 ) {
+                        $(this).show(0);
+                    }
+                });
+            }
+            else {
+                $('#course-view-new-user .quest').show(0);
+            }
+        }, 150);
+    });
+})
 
 
