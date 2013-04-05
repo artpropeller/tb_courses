@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-view-new-vopros-statistic2.html" afterPath="$PROJECT_DIR$/course-view-new-vopros-statistic2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/new-user.css" afterPath="$PROJECT_DIR$/css/new-user.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tb_courses.iws" />
@@ -18,7 +16,7 @@
     <file path="/course-edit-fn.js" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365064450799" ignored="false" />
     <file path="W:/repository/teachbase_editor/js/course-edit-fn.js" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365064962800" ignored="false" />
     <file path="/course-view-new-messages-4.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365061358430" ignored="false" />
-    <file path="/Dummy.txt" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365152314862" ignored="false" />
+    <file path="/Dummy.txt" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365156380369" ignored="false" />
     <file path="/course-view-new-statistic.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1363070016172" ignored="false" />
     <file path="/new-user.css" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365154768887" ignored="false" />
     <file path="/dummy.xml" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365146367933" ignored="false" />
@@ -87,7 +85,7 @@
       <file leaf-file-name="new-user.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/new-user.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1665" column="18" selection-start="33062" selection-end="33062" vertical-scroll-proportion="0.38496932">
+            <state line="1676" column="63" selection-start="33257" selection-end="33257" vertical-scroll-proportion="0.67177916">
               <folding />
             </state>
           </provider>
@@ -804,7 +802,11 @@
       <created>1365152318168</created>
       <updated>1365152318168</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="new settings fix">
+      <created>1365156387613</created>
+      <updated>1365156387613</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1132,7 +1134,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/new-user.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1665" column="18" selection-start="33062" selection-end="33062" vertical-scroll-proportion="0.38496932">
+        <state line="1676" column="63" selection-start="33257" selection-end="33257" vertical-scroll-proportion="0.67177916">
           <folding />
         </state>
       </provider>
