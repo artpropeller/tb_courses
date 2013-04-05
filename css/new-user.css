@@ -1607,9 +1607,6 @@ body, html, #main {
     height: 7px;
 }
 
-#course-view-new-user.quest-statistic .popup .string {
-    overflow: auto;
-}
 
 #course-view-new-user.quest-statistic .popup .string span {
     float: left;

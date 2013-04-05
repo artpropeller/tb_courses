@@ -17,7 +17,7 @@
     <file path="/course-edit-fn.js" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365064450799" ignored="false" />
     <file path="W:/repository/teachbase_editor/js/course-edit-fn.js" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365064962800" ignored="false" />
     <file path="/course-view-new-messages-4.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365061358430" ignored="false" />
-    <file path="/Dummy.txt" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365152147473" ignored="false" />
+    <file path="/Dummy.txt" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365152172376" ignored="false" />
     <file path="/course-view-new-statistic.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1363070016172" ignored="false" />
     <file path="/new-user.css" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365152160245" ignored="false" />
     <file path="/dummy.xml" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365146367933" ignored="false" />
@@ -72,7 +72,7 @@
       <file leaf-file-name="new-user.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/new-user.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1601" column="15" selection-start="31723" selection-end="31723" vertical-scroll-proportion="0.6978528">
+            <state line="1609" column="0" selection-start="31808" selection-end="31808" vertical-scroll-proportion="0.75">
               <folding />
             </state>
           </provider>
@@ -781,7 +781,11 @@
       <created>1365152151025</created>
       <updated>1365152151025</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="new settings fix">
+      <created>1365152181798</created>
+      <updated>1365152181798</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1095,7 +1099,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/new-user.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1601" column="15" selection-start="31723" selection-end="31723" vertical-scroll-proportion="0.6978528">
+        <state line="1609" column="0" selection-start="31808" selection-end="31808" vertical-scroll-proportion="0.75">
           <folding />
         </state>
       </provider>
