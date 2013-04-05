@@ -1342,7 +1342,7 @@ body, html, #main {
     border: 0;
 }
 
-#course-view-new-user .questions{
+#course-view-new-user .questions {
     position: relative;
 }
 
@@ -1457,37 +1457,36 @@ body, html, #main {
     height: 21px;
 }
 
-#course-view-new-user .quest .inner .progress-bar .true{
+#course-view-new-user .quest .inner .progress-bar .true {
     position: absolute;
     left: 5px;
     top: 3px;
 }
 
-#course-view-new-user .quest .inner .progress-bar .false{
+#course-view-new-user .quest .inner .progress-bar .false {
     position: absolute;
     top: 3px;
     right: 5px;
 }
 
-#course-view-new-user .quest .inner .time, #course-view-new-user .quest .inner .mid-time, #course-view-new-user .quest .inner .mid-bal{
+#course-view-new-user .quest .inner .time, #course-view-new-user .quest .inner .mid-time, #course-view-new-user .quest .inner .mid-bal {
     padding-top: 6px;
 }
 
-#course-view-new-user .quest .inner .good{
+#course-view-new-user .quest .inner .good {
     color: #358600;
 }
 
-#course-view-new-user .quest .inner .bad{
+#course-view-new-user .quest .inner .bad {
     color: #c80020;
 }
 
-
-#course-view-new-user .questions .scroll{
+#course-view-new-user .questions .scroll {
     height: 270px;
 
 }
 
-#course-view-new-user .questions .sub{
+#course-view-new-user .questions .sub {
     position: absolute;
     background: url("../images/white_cover3.png") repeat-x;
     height: 15px;
@@ -1495,6 +1494,135 @@ body, html, #main {
     width: 100%;
 
 }
+
+#course-view-new-user .questions .user-progress {
+    width: 115px;
+    margin-right: 10px;
+    height: 7px;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top: 10px;
+
+}
+
+#course-view-new-user .questions .user-progress span {
+    display: block;
+    float: left;
+    height: 7px;
+    border-right: 1px solid #fff;
+
+}
+
+#course-view-new-user .questions .yellow {
+    background: #edad17;
+}
+
+#course-view-new-user .questions .blue {
+    background: #5acbeb;
+}
+
+#course-view-new-user .questions .red {
+    background: #ec5068;
+}
+
+#course-view-new-user .questions .user-progress .green {
+    background: #68cc2b;
+    border: 0;
+    margin-right: -3px;
+}
+
+#course-view-new-user .questions .quest .total {
+    color: #c3c3c3;
+    padding-top: 6px;
+    cursor: pointer;
+    position: relative;
+    font-size: 10px;
+}
+
+#course-view-new-user .questions .quest .progressing:hover .popup{
+    display: block;
+
+}
+
+#course-view-new-user .questions .quest .popup .total{
+    font-size: 11px;
+}
+
+#course-view-new-user .questions .quest .popup {
+    background: url("../images/gray-grad-popup-bg.jpg") repeat-x;
+    height: 80px;
+    position: absolute;
+    top: 25px;
+    border: 1px solid #aaaaaa;
+    padding: 12px 8px;
+    white-space: nowrap;
+    font-size: 11px;
+    right: -18px;
+    line-height: 12px;
+    display: none;
+    z-index: 100;
+
+}
+
+#course-view-new-user .questions .quest .popup img {
+    position: absolute;
+    top: -5px;
+    right: 20px;
+
+
+}
+
+#course-view-new-user .questions .quest .popup strong {
+    display: block;
+}
+
+#course-view-new-user .quest.use .inner {
+    overflow: visible;
+}
+
+
+
+#course-view-new-user .questions .quest .popup .hint {
+    width: 62px;
+    padding-top: 6px;
+}
+
+#course-view-new-user .questions .quest .popup .color {
+    width: 56px;
+    height: 7px;
+    margin-top: 9px;
+    margin-right: 7px;
+
+}
+
+#course-view-new-user .questions .quest .popup .color span {
+    height: 7px;
+}
+
+#course-view-new-user .questions .quest .popup .string span {
+    float: left;
+
+}
+
+#course-view-new-user .questions .quest .popup .green {
+    background: #68cc2b;
+}
+
+
+#course-view-new-user .questions .head .search-tests{
+    width: 477px;
+}
+
+#course-view-new-user .questions .head .search-tests input[type=text]{
+    width: 414px;
+}
+
+#course-view-new-user .questions .quest.use .name{
+    width: 467px;
+}
+
+
+
 
 
 
