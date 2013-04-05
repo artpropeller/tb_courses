@@ -1482,11 +1482,11 @@ body, html, #main {
     padding-top: 6px;
 }
 
-#course-view-new-user .quest .inner .good {
+#course-view-new-user .quest .inner .good,  #course-view-new-user.quest-statistic .ac_bg .good {
     color: #358600;
 }
 
-#course-view-new-user .quest .inner .bad {
+#course-view-new-user .quest .inner .bad, #course-view-new-user.quest-statistic .ac_bg .bad {
     color: #c80020;
 }
 
@@ -1548,8 +1548,6 @@ body, html, #main {
     font-size: 10px;
 }
 
-
-
 #course-view-new-user.quest-statistic .popup .total {
     font-size: 11px;
     color: #c3c3c3;
@@ -1607,7 +1605,6 @@ body, html, #main {
     height: 7px;
 }
 
-
 #course-view-new-user.quest-statistic .popup .string span {
     float: left;
 
@@ -1617,22 +1614,18 @@ body, html, #main {
     background: #68cc2b;
 }
 
-
-#course-view-new-user.quest-statistic .popup .yellow{
+#course-view-new-user.quest-statistic .popup .yellow {
     background: #edad17;
 }
 
-#course-view-new-user.quest-statistic .popup .red{
+#course-view-new-user.quest-statistic .popup .red {
     background: #ec5068;
 }
 
-#course-view-new-user.quest-statistic .popup .blue{
+#course-view-new-user.quest-statistic .popup .blue {
     background: #5acbeb;
 
 }
-
-
-
 
 #course-view-new-user .questions .head .search-tests {
     width: 477px;
@@ -1646,38 +1639,67 @@ body, html, #main {
     width: 443px;
 }
 
-#course-view-new-user .questions .quest.use .name span{
+#course-view-new-user .questions .quest.use .name span {
     width: 395px;
 }
-
 
 #course-view-new-user .questions.resize-1 .scroll {
     height: auto;
     min-height: 330px;
 }
 
-
-#course-view-new-user.quest-statistic #course-results{
+#course-view-new-user.quest-statistic #course-results {
     padding: 0;
     width: 695px;
 
 }
 
-
-#course-view-new-user.quest-statistic #course-results  .notify{
+#course-view-new-user.quest-statistic #course-results  .notify {
     width: 528px;
     overflow: visible;
     float: left;
 
 }
 
-#course-view-new-user.quest-statistic .course-users .export-link{
+#course-view-new-user.quest-statistic .course-users .export-link {
     margin-bottom: 0;
-    margin-top: 10px;
+    margin-top: 13px;
 }
 
 #course-view-new-user.quest-statistic #course-results .notify li span {
     min-width: 20px;
+}
+
+#course-view-new-user.quest-statistic #graph-bar {
+    width: 190px;
+    margin-top: 2px;
+}
+
+#course-view-new-user.quest-statistic #graph-bar ul li{
+    width: 77px;
+}
+
+#course-view-new-user.quest-statistic .average .col{
+    display: block;
+    float: left;
+    margin-right: 25px;
+    min-width: 0;
+}
+
+#course-view-new-user.quest-statistic .average .col.last{
+    float: right;
+    margin-right: 0;
+
+}
+
+#course-view-new-user.quest-statistic .average .col strong em{
+    font-style: normal;
+    color: #959595;
+}
+
+
+#course-view-new-user.quest-statistic #course-results .users .user .name{
+    color: #0e67d2;
 }
 
 
