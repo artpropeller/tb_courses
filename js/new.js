@@ -2,7 +2,8 @@ $(function () {
 
     addTooltipClass('#course-view-new-user #course-results .name', 25);
     addTooltipClass('#course-view-new-user #course-results .email', 25);
-    addTooltipClass('#course-view-new-user .questions.resize-1 .name span', 70);
+    addTooltipClass('#course-view-new-user .questions.s70 .name span', 58);
+    addTooltipClass('#course-view-new-user .questions.s80 .name span', 60);
 
     tooltip();
 
@@ -365,6 +366,29 @@ $(function(){
             }
         }, 150);
     });
-})
+});
+
+
+$(function(){
+    $('.quest-statistic .progressing').hover(function(){
+        $(this).find('.popup').show(0);
+        var pop = $(this).find('.popup');
+        var newpop = pop.clone();
+        newpop.attr('id', 'newpopup');
+//        console.log(pop.offset(), pop.offsetTop);
+        newpop.css({'left':pop.offset().left + 'px','top':pop.offset().top + 'px', 'display':'block', 'width':pop.width()});
+        if (pop.offset().top+104 > $(window).height()) {
+            newpop.css({'top':(pop.offset().top-130) + 'px'});
+            newpop.addClass('top');
+        }
+        $('.quest-statistic').append(newpop);
+        $(this).find('.popup').hide(0);
+    },function(){
+        $('#newpopup').remove();
+    });
+});
+
+
+
 
 
