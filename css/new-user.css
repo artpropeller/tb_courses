@@ -1623,8 +1623,13 @@ body, html, #main {
 }
 
 #course-view-new-user .questions .quest.use .name {
-    width: 467px;
+    width: 443px;
 }
+
+#course-view-new-user .questions .quest.use .name span{
+    width: 395px;
+}
+
 
 #course-view-new-user .questions.resize-1 .scroll {
     height: auto;
