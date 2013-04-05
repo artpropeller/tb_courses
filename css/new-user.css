@@ -1548,16 +1548,13 @@ body, html, #main {
     font-size: 10px;
 }
 
-#course-view-new-user .questions .quest .progressing:hover .popup {
-    display: block;
 
-}
 
-#course-view-new-user .questions .quest .popup .total {
+#course-view-new-user.quest-statistic .popup .total {
     font-size: 11px;
 }
 
-#course-view-new-user .questions .quest .popup {
+#course-view-new-user.quest-statistic .popup {
     background: url("../images/gray-grad-popup-bg.jpg") repeat-x;
     height: 80px;
     position: absolute;
@@ -1573,14 +1570,14 @@ body, html, #main {
 
 }
 
-#course-view-new-user .questions .quest .popup img {
+#course-view-new-user.quest-statistic .popup img {
     position: absolute;
     top: -5px;
     right: 20px;
 
 }
 
-#course-view-new-user .questions .quest .popup strong {
+#course-view-new-user.quest-statistic .popup strong {
     display: block;
 }
 
@@ -1588,12 +1585,12 @@ body, html, #main {
     overflow: visible;
 }
 
-#course-view-new-user .questions .quest .popup .hint {
+#course-view-new-user.quest-statistic .popup .hint {
     width: 62px;
     padding-top: 6px;
 }
 
-#course-view-new-user .questions .quest .popup .color {
+#course-view-new-user.quest-statistic .popup .color {
     width: 56px;
     height: 7px;
     margin-top: 9px;
@@ -1601,16 +1598,16 @@ body, html, #main {
 
 }
 
-#course-view-new-user .questions .quest .popup .color span {
+#course-view-new-user.quest-statistic .popup .color span {
     height: 7px;
 }
 
-#course-view-new-user .questions .quest .popup .string span {
+#course-view-new-user.quest-statistic .popup .string span {
     float: left;
 
 }
 
-#course-view-new-user .questions .quest .popup .green {
+#course-view-new-user.quest-statistic .popup .green {
     background: #68cc2b;
 }
 
