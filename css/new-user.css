@@ -1411,11 +1411,14 @@ body, html, #main {
     overflow: auto;
 }
 
-#course-view-new-user .quest .inner .name .num {
+#course-view-new-user .quest .inner .num {
     font-size: 12px;
     color: #9b9b9b;
     font-weight: bold;
-    margin-right: 10px;
+    width: 25px;
+    float: left;
+    display: block;
+    padding-top: 6px;
 }
 
 #course-view-new-user .quest .inner:hover {
@@ -1431,10 +1434,16 @@ body, html, #main {
 #course-view-new-user .quest .inner .name {
     color: #000;
     padding-top: 6px;
-    width: 425px;
+    width: 400px;
+
+}
+
+#course-view-new-user .quest .inner .name span {
     overflow: hidden;
     text-overflow: ellipsis;
-
+    white-space: nowrap;
+    display: block;
+    width: 365px;
 }
 
 #course-view-new-user .quest .inner .progress-bar {
@@ -1539,12 +1548,12 @@ body, html, #main {
     font-size: 10px;
 }
 
-#course-view-new-user .questions .quest .progressing:hover .popup{
+#course-view-new-user .questions .quest .progressing:hover .popup {
     display: block;
 
 }
 
-#course-view-new-user .questions .quest .popup .total{
+#course-view-new-user .questions .quest .popup .total {
     font-size: 11px;
 }
 
@@ -1569,7 +1578,6 @@ body, html, #main {
     top: -5px;
     right: 20px;
 
-
 }
 
 #course-view-new-user .questions .quest .popup strong {
@@ -1579,8 +1587,6 @@ body, html, #main {
 #course-view-new-user .quest.use .inner {
     overflow: visible;
 }
-
-
 
 #course-view-new-user .questions .quest .popup .hint {
     width: 62px;
@@ -1608,18 +1614,25 @@ body, html, #main {
     background: #68cc2b;
 }
 
-
-#course-view-new-user .questions .head .search-tests{
+#course-view-new-user .questions .head .search-tests {
     width: 477px;
 }
 
-#course-view-new-user .questions .head .search-tests input[type=text]{
+#course-view-new-user .questions .head .search-tests input[type=text] {
     width: 414px;
 }
 
-#course-view-new-user .questions .quest.use .name{
+#course-view-new-user .questions .quest.use .name {
     width: 467px;
 }
+
+#course-view-new-user .questions.resize-1 .scroll {
+    height: auto;
+    min-height: 330px;
+}
+
+
+
 
 
 
