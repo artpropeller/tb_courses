@@ -375,8 +375,10 @@ $(function(){
         var pop = $(this).find('.popup');
         var newpop = pop.clone();
         newpop.attr('id', 'newpopup');
+        var st = pop.find('.string').first();
+        var wi = 20 + st.find('.hint').width() + st.find('.color').width() + st.find('.total').width();
 //        console.log(pop.offset(), pop.offsetTop);
-        newpop.css({'left':pop.offset().left + 'px','top':pop.offset().top + 'px', 'display':'block', 'width':pop.width()});
+        newpop.css({'left':(pop.offset().left - wi + 15) + 'px','top':pop.offset().top + 'px', 'display':'block', 'width':wi});
         if (pop.offset().top+104 > $(window).height()) {
             newpop.css({'top':(pop.offset().top-130) + 'px'});
             newpop.addClass('top');

@@ -11,3 +11,8 @@
 #course-view-new-user .questions .head input[type=text]{
     line-height: 25px;
 }
+
+
+#course-view-new-user .questions .head .search-tests input[type=text] {
+    line-height: 25px !important;
+}
