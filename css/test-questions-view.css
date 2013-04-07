@@ -449,7 +449,7 @@
 }
 
 #all-answers .table-quests .head-quests .show-all-quest {
-    width: 100px;
+    width: 109px;
 }
 
 #all-answers .table-quests .head-quests .time-quest {
@@ -457,15 +457,16 @@
 }
 
 #all-answers .table-quests .head-quests .time-quest2 {
-    width: 90px;
+    width: 95px;
 }
 
 #all-answers .table-quests .answer-quest .num-quest {
-    width: 30px;
+    width: 34px;
     font-weight: bold;
     padding-top: 3px;
     text-align: right;
     padding-right: 5px;
+    padding-left: 5px;
     color: #7e7e7e;
 }
 
@@ -511,16 +512,16 @@
 }
 
 #all-answers .table-quests .time-user2 {
-    width: 90px;
+    width: 95px;
 }
 
 #all-answers .table-quests .answer-info {
-    padding: 10px 0 10px 35px;
+    padding: 10px 0 10px 44px;
     display: none;
 }
 
 #all-answers .table-quests .answer-info .set-ball {
-    margin-right: 25px;
+    margin-right: 12px;
 }
 
 #all-answers a.btn-red-assign {
@@ -695,13 +696,13 @@
     padding-left: 44px;
 }
 
-#all-answers .action-list {
+.action-list {
     float: right;
     margin-top: 10px;
     margin-bottom: -10px;
 }
 
-#all-answers .action-list a {
+.action-list a {
     display: block;
     float: left;
 
@@ -710,11 +711,11 @@
     margin-left: 6px;
 }
 
-#all-answers .action-list a:hover {
+.action-list a:hover {
     background: url("../images/bg-ico-quest.jpg") no-repeat;
 }
 
-#all-answers .action-list a img {
+.action-list a img {
     display: block;
     margin: 10px 0 0 10px;
 }

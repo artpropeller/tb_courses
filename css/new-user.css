@@ -435,6 +435,10 @@ body, html, #main {
 #course-view-new-user h1 {
     font-size: 20px;
     line-height: 22px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 520px;
+    text-overflow: ellipsis;
 }
 
 #header.new-user .h-logo {

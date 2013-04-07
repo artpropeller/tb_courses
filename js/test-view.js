@@ -38,6 +38,7 @@ $(function(){
         $('.type-quest.imagefind .panel').each(function(){
             $(this).css('margin-left',-($(this).width()/2 + 8) + 'px');
         });
+        checkOpened();
     });
 
     $('.dialog-assign .table-quests .head-quests .show-all-quest a').click(function(){
@@ -45,6 +46,9 @@ $(function(){
             $(this).text('свернуть все');
             $('.answer-quest').addClass('active');
             $('.answer-quest .answer-info').show(0);
+            $('.type-quest.imagefind .panel').each(function(){
+                $(this).css('margin-left',-($(this).width()/2 + 8) + 'px');
+            });
         }
         else {
             $(this).text('раскрыть все');
@@ -285,4 +289,14 @@ function addTooltipClass(elements, length) {
             $(this).removeClass('tooltips');
         }
     });
+}
+
+
+function checkOpened(){
+    if ($('.answer-quest.active').size() > 0) {
+        $('.show-all-quest a').text('свернуть все');
+    }
+    else {
+        $('.show-all-quest a').text('раскрыть все');
+    }
 }
