@@ -1672,6 +1672,11 @@ body, html, #main {
     min-height: 290px;
 }
 
+#course-view-new-user .questions.resize-2 .scroll {
+    height: auto;
+    min-height: 270px;
+}
+
 #course-view-new-user.quest-statistic #course-results {
     padding: 0;
     width: 695px;

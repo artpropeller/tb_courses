@@ -134,19 +134,25 @@ $(function () {
     });
 
     $(window).resize(function(){
-        $('#course-view-new-user #course-results .users .scroll').height($(window).height()-400);
+//        $('#course-view-new-user #course-results .users .scroll').height($(window).height()-400);
         $('#course-view-new-user #audience .rightContainer.resize-1 .scroll').height($(window).height()-300);
         $('#course-view-new-user #audience .rightContainer.resize-2 .scroll').height($(window).height()-350);
         $('#course-view-new-user #audience .rightContainer.resize-3 .scroll').height($(window).height()-450);
-        $('#course-view-new-user .questions.resize-1 .scroll').height($(window).height()-370);
+        resizeTableStat(340, $('.questions.resize-1 .scroll'));
+        resizeTableStat(360, $('.questions.resize-2 .scroll'));
+        resizeTableStat(440, $('.resize-4 .scroll'));
     });
 
 
-    $('#course-view-new-user #course-results .users .scroll').height($(window).height()-400);
+//    $('#course-view-new-user #course-results .users .scroll').height($(window).height()-400);
     $('#course-view-new-user #audience .rightContainer.resize-1 .scroll').height($(window).height()-300);
     $('#course-view-new-user #audience .rightContainer.resize-2 .scroll').height($(window).height()-350);
     $('#course-view-new-user #audience .rightContainer.resize-3 .scroll').height($(window).height()-450);
-    $('#course-view-new-user .questions.resize-1 .scroll').height($(window).height()-370);
+
+    resizeTableStat(340, $('.questions.resize-1 .scroll'));
+    resizeTableStat(360, $('.questions.resize-2 .scroll'));
+    resizeTableStat(440, $('.resize-4 .scroll'));
+
 
     $('#course-view-new-user #course-results .notify li a').click(function(){
         $('#course-view-new-user #course-results .notify li').removeClass('active');
@@ -390,7 +396,17 @@ $(function(){
     });
 });
 
+function resizeTableStat(diff, scroll){
+    var hw = $(window).height();
+    var s = hw - diff;
+    scroll.find('.jspContainer').css('height','auto');
+    scroll.find('.jspPane').css('position','static');
+    scroll.css('height','auto');
+    if (scroll.height() > s) {
+        scroll.height(s); }
+    scroll.find('.jspContainer').height(scroll.height());
+    scroll.find('.jspPane').css('position','absolute');
 
-
+}
 
 
