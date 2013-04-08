@@ -302,6 +302,7 @@
 
 #stat-view .otchet .right .block .tab  li .znach {
     font-weight: bold;
+    position: relative;
 
 }
 
@@ -342,7 +343,7 @@
 }
 
 #stat-view .otchet .right .block .border li {
-    width: 151px;
+    width: 203px;
     border-right: 1px solid #e5e5e5;
     padding: 5px 0;
     float: left;
@@ -2135,6 +2136,23 @@
 
 #usersTable.videomeet td.qty-members {
     width: 155px;
+}
+
+
+#stat-view .otchet .right .block .tab  li .znach .green-cap{
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+    position: absolute;
+    background: url("../images/green-cap.jpg") no-repeat;
+    width:  55px;
+    height: 18px;
+    left: -15px;
+    top: 20px;
+    font-family: "helvetica neue", sans-serif;
+    padding-left: 15px;
+    padding-top: 0;
+    padding-bottom: 1px;
 }
 
 
