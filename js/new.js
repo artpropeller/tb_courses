@@ -37,10 +37,10 @@ $(function () {
 
     $('.selectbox').selectbox("detach");
     $('.selectbox').selectbox({
-        onOpen:function (inst) {
+        onOpen: function (inst) {
             $('body').prepend('<div class="a-hover"></div>');
         },
-        onClose:function (inst) {
+        onClose: function (inst) {
             $('.a-hover').remove();
         }
     });
@@ -71,9 +71,9 @@ $(function () {
         }
     });
 
-    $('#audience .head .all').live('click',function(){
+    $('#audience .head .all').live('click', function () {
 
-        if ($(this).is('.active')){
+        if ($(this).is('.active')) {
             $(this).removeClass('active');
             $('#audience .user').removeClass('active');
             $('#audience .head .del').fadeOut(150);
@@ -86,9 +86,9 @@ $(function () {
 
     });
 
-    $('#audience .user').live('click',function(){
+    $('#audience .user').live('click', function () {
         $(this).toggleClass('active');
-        if ($('#audience .user.active').size()){
+        if ($('#audience .user.active').size()) {
             $('#audience .head .del').fadeIn(150);
         }
         else {
@@ -96,7 +96,6 @@ $(function () {
         }
 
     });
-
 
 
     $('.tab_bar a').click(function () {
@@ -115,8 +114,7 @@ $(function () {
 
     $('#course-view-new-user #audience .rightContainer:not(".last") .scroll').bind(
         'jsp-scroll-y',
-        function(event, scrollPositionY, isAtTop, isAtBottom)
-        {
+        function (event, scrollPositionY, isAtTop, isAtBottom) {
             if (isAtBottom) {
                 $('#course-view-new-user #audience .sub').hide(0);
             }
@@ -128,17 +126,17 @@ $(function () {
     );
 
 
-    $('.hovers .del').click(function(){
-       $(this).parents('li').remove();
+    $('.hovers .del').click(function () {
+        $(this).parents('li').remove();
         return false
 
     });
 
-    $(window).resize(function(){
+    $(window).resize(function () {
 //        $('#course-view-new-user #course-results .users .scroll').height($(window).height()-400);
-        $('#course-view-new-user #audience .rightContainer.resize-1 .scroll').height($(window).height()-300);
-        $('#course-view-new-user #audience .rightContainer.resize-2 .scroll').height($(window).height()-350);
-        $('#course-view-new-user #audience .rightContainer.resize-3 .scroll').height($(window).height()-450);
+        $('#course-view-new-user #audience .rightContainer.resize-1 .scroll').height($(window).height() - 300);
+        $('#course-view-new-user #audience .rightContainer.resize-2 .scroll').height($(window).height() - 350);
+        $('#course-view-new-user #audience .rightContainer.resize-3 .scroll').height($(window).height() - 450);
         resizeTableStat(340, $('.questions.resize-1 .scroll'));
         resizeTableStat(360, $('.questions.resize-2 .scroll'));
         resizeTableStat(440, $('.resize-4 .scroll'));
@@ -146,28 +144,28 @@ $(function () {
 
 
 //    $('#course-view-new-user #course-results .users .scroll').height($(window).height()-400);
-    $('#course-view-new-user #audience .rightContainer.resize-1 .scroll').height($(window).height()-300);
-    $('#course-view-new-user #audience .rightContainer.resize-2 .scroll').height($(window).height()-350);
-    $('#course-view-new-user #audience .rightContainer.resize-3 .scroll').height($(window).height()-450);
+    $('#course-view-new-user #audience .rightContainer.resize-1 .scroll').height($(window).height() - 300);
+    $('#course-view-new-user #audience .rightContainer.resize-2 .scroll').height($(window).height() - 350);
+    $('#course-view-new-user #audience .rightContainer.resize-3 .scroll').height($(window).height() - 450);
 
     resizeTableStat(340, $('.questions.resize-1 .scroll'));
     resizeTableStat(360, $('.questions.resize-2 .scroll'));
     resizeTableStat(440, $('.resize-4 .scroll'));
 
 
-    $('#course-view-new-user #course-results .notify li a').click(function(){
+    $('#course-view-new-user #course-results .notify li a').click(function () {
         $('#course-view-new-user #course-results .notify li').removeClass('active');
         $(this).parent().addClass('active');
         filterProgress($(this).attr('rel'));
         return false;
     });
 
-    $('#course-view-new-user #course-results .user .check span').click(function(){
+    $('#course-view-new-user #course-results .user .check span').click(function () {
         $(this).parents('.user').toggleClass('active');
         checkAll();
     });
 
-    $('#course-view-new-user #course-results .head .check').click(function(){
+    $('#course-view-new-user #course-results .head .check').click(function () {
         if ($(this).is('.active')) {
             $('#course-view-new-user #course-results .user').removeClass('active');
         }
@@ -244,21 +242,27 @@ $(function () {
         $(".placeholding").find("input,textarea").each(function () {
             var tp = $(this).attr("placeholder");
             $(this).addClass('.place');
-            if ($(this).is('textarea')) {$(this).text('value', tp).css('color', '#999');}
+            if ($(this).is('textarea')) {
+                $(this).text('value', tp).css('color', '#999');
+            }
             $(this).attr('value', tp);
             $(this).css('color', '#999');
         }).focusin(function () {
                 var val = $(this).attr('placeholder');
                 if ($(this).val() == val || $(this).text() == val) {
                     $(this).val('');
-                    if (!$(this).is('input')) {$(this).text('');}
+                    if (!$(this).is('input')) {
+                        $(this).text('');
+                    }
                     $(this).css('color', '#000');
                 }
             }).focusout(function () {
                 var val = $(this).attr('placeholder');
                 if ($(this).val() == "" || $(this).text() == val) {
                     $(this).val(val);
-                    if (!$(this).is('input')) {$(this).text(val);}
+                    if (!$(this).is('input')) {
+                        $(this).text(val);
+                    }
                     $(this).css('color', '#999');
                 }
             });
@@ -278,10 +282,10 @@ $(function () {
 });
 
 
-function filterProgress(label){
+function filterProgress(label) {
     if (label != 'all') {
         $('#course-view-new-user #course-results .user').hide(0);
-        $('#course-view-new-user #course-results .user[rel='+label+']').show(0);
+        $('#course-view-new-user #course-results .user[rel=' + label + ']').show(0);
     }
     else {
         $('#course-view-new-user #course-results .user').show(0);
@@ -345,15 +349,15 @@ this.tooltip = function () {
     });
 };
 
-$(function(){
+$(function () {
     $('.questions .scroll').jScrollPane({
-       autoReinitialiseDelay: 10,
-       autoReinitialise: true
+        autoReinitialiseDelay: 10,
+        autoReinitialise: true
     });
 
 });
 
-$(function(){
+$(function () {
     $('#SearchQuestStat').keydown(function (event) {
         var text;
         setTimeout(function () {
@@ -363,7 +367,7 @@ $(function(){
             if (text.length) {
                 $('#course-view-new-user .quest').hide(0);
                 $('#course-view-new-user .quest').each(function () {
-                    if ($(this).find('.name span').text().toLowerCase().indexOf(text.toLowerCase()) + 1 ) {
+                    if ($(this).find('.name span').text().toLowerCase().indexOf(text.toLowerCase()) + 1) {
                         $(this).show(0);
                     }
                 });
@@ -376,8 +380,8 @@ $(function(){
 });
 
 
-$(function(){
-    $('.quest-statistic .progressing').hover(function(){
+$(function () {
+    $('.quest-statistic .progressing').hover(function () {
         $(this).find('.popup').show(0);
         var pop = $(this).find('.popup');
         var newpop = pop.clone();
@@ -385,29 +389,73 @@ $(function(){
         var st = pop.find('.string').first();
         var wi = 20 + st.find('.hint').width() + st.find('.color').width() + st.find('.total').width();
 //        console.log(pop.offset(), pop.offsetTop);
-        newpop.css({'left':(pop.offset().left - wi + 15) + 'px','top':pop.offset().top + 'px', 'display':'block', 'width':wi});
-        if (pop.offset().top+104 > $(window).height()) {
-            newpop.css({'top':(pop.offset().top-130) + 'px'});
+        newpop.css({'left': (pop.offset().left - wi + 15) + 'px', 'top': pop.offset().top + 'px', 'display': 'block', 'width': wi});
+        if (pop.offset().top + 104 > $(window).height()) {
+            newpop.css({'top': (pop.offset().top - 130) + 'px'});
             newpop.addClass('top');
         }
         $('.quest-statistic').append(newpop);
         $(this).find('.popup').hide(0);
-    },function(){
+    }, function () {
         $('#newpopup').remove();
     });
 });
 
-function resizeTableStat(diff, scroll){
+function resizeTableStat(diff, scroll) {
     var hw = $(window).height();
     var s = hw - diff;
-    scroll.find('.jspContainer').css('height','auto');
-    scroll.find('.jspPane').css('position','static');
-    scroll.css('height','auto');
+    scroll.find('.jspContainer').css('height', 'auto');
+    scroll.find('.jspPane').css('position', 'static');
+    scroll.css('height', 'auto');
+    console.log(s, scroll.height());
     if (scroll.height() > s) {
-        scroll.height(s); }
+        scroll.height(s);
+    }
+    console.log(s, scroll.height());
     scroll.find('.jspContainer').height(scroll.height());
-    scroll.find('.jspPane').css('position','absolute');
+    scroll.find('.jspPane').css('position', 'absolute');
 
 }
+
+
+$(function () {
+    $('#course-view-new-user .quest').click(
+        function () {
+        $('#container-1').show(0,function(){
+            setTimeout(function(){resizeTableStat(340, $('.resscroll-1 .scroll'));}, 100);
+        });
+
+
+    });
+
+   $('#course-view-new-user #course-results .users .user .name').click(function(){
+       $('#container-2').show(0, function(){
+           setTimeout(function(){resizeTableStat(340, $('.resscroll-2 .scroll'));}, 100);
+       });
+
+       return false;
+
+   });
+
+
+    $('.close-assign').click(function(){
+        $('.container-aasign').hide();
+
+    });
+
+
+    $('.tab-menu li a').click(function(){
+        $(this).parents('.content.opros').find('.tabs').hide(0);
+        $('.tab-menu li').removeClass('active') ;
+        $(this).parent().addClass('active');
+        $($(this).attr('rel')).show(0);
+        resizeTableStat(340, $('.questions.resize-1 .scroll'));
+        resizeTableStat(360, $('.questions.resize-2 .scroll'));
+        resizeTableStat(468, $('.resize-4 .scroll'));
+        return false
+    });
+
+
+});
 
 

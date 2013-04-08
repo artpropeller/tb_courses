@@ -861,3 +861,18 @@
 .pop-up .user-list li .user a {
     width: auto;
 }
+
+.dialog-assign.test-dialog .quest-info a.quest-name.no-pad i{
+    display: none;
+
+}
+
+.dialog-assign.test-dialog .quest-info a.quest-name.no-pad{
+    padding-left: 10px;
+}
+
+
+.dialog-assign.test-dialog .quest-info .quest-text.no-pad{
+    padding-left: 10px;
+
+}

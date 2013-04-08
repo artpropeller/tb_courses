@@ -935,7 +935,7 @@ body, html, #main {
 
 #course-view-new-user  #course-results .users .user {
     background: url("../images/bg/dashed.png") repeat-x bottom;
-    overflow: auto;
+    overflow: hidden;
     height: 27px;
     padding: 1px 0 2px;
     position: relative;
@@ -943,7 +943,7 @@ body, html, #main {
 
 #course-view-new-user  #course-results .users .user .ac_bg {
     padding: 4px 0 3px;
-    overflow: auto;
+    overflow: hidden;
 }
 
 #course-view-new-user  #course-results .users .user.active .ac_bg {
@@ -1418,7 +1418,7 @@ body, html, #main {
 #course-view-new-user .quest .inner {
     padding: 0 10px;
     height: 27px;
-    overflow: auto;
+    overflow: hidden;
 }
 
 #course-view-new-user .quest .inner .num {
@@ -1741,6 +1741,11 @@ body, html, #main {
 
 #course-view-new-user.quest-statistic.opr .tab-menu {
     margin-bottom: 18px;
+}
+
+
+#course-view-new-user .questions #tab-status .head input[type=text] {
+    width: 168px;
 }
 
 
