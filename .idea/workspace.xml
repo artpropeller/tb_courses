@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/otchet.css" afterPath="$PROJECT_DIR$/css/otchet.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/new-user.css" afterPath="$PROJECT_DIR$/css/new-user.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tb_courses.iws" />
@@ -17,9 +17,9 @@
     <file path="/course-edit-fn.js" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365064450799" ignored="false" />
     <file path="W:/repository/teachbase_editor/js/course-edit-fn.js" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365064962800" ignored="false" />
     <file path="/course-view-new-messages-4.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365061358430" ignored="false" />
-    <file path="/Dummy.txt" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365425242040" ignored="false" />
+    <file path="/Dummy.txt" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365425498922" ignored="false" />
     <file path="/course-view-new-statistic.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1363070016172" ignored="false" />
-    <file path="/new-user.css" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365412150069" ignored="false" />
+    <file path="/new-user.css" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365426683994" ignored="false" />
     <file path="/dummy.xml" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365421793243" ignored="false" />
     <file path="/new.js" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365415022160" ignored="false" />
     <file path="/course-view-new-messages-1.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1363267577188" ignored="false" />
@@ -58,10 +58,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="otchet_new.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="otchet_new.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/otchet_new.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="168" column="61" selection-start="7565" selection-end="7565" vertical-scroll-proportion="0.026234567">
+            <state line="168" column="61" selection-start="7565" selection-end="7565" vertical-scroll-proportion="-0.65384614">
               <folding>
                 <marker date="1365417252405" expanded="true" signature="3037:3130" placeholder="..." />
                 <marker date="1365417252405" expanded="true" signature="3063:3118" placeholder="{...}" />
@@ -82,7 +82,16 @@
       <file leaf-file-name="course-view-new-vopros-statistic.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/course-view-new-vopros-statistic.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="63" selection-start="978" selection-end="978" vertical-scroll-proportion="0.0">
+            <state line="17" column="115" selection-start="1073" selection-end="1073" vertical-scroll-proportion="-1.3076923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="new-user.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/new-user.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="805" column="19" selection-start="15202" selection-end="15202" vertical-scroll-proportion="0.46687698">
               <folding />
             </state>
           </provider>
@@ -156,7 +165,6 @@
         <option value="$PROJECT_DIR$/view-quesfull.html" />
         <option value="$PROJECT_DIR$/view-quesfull-2.html" />
         <option value="$PROJECT_DIR$/course-view-new-vopros-statistic2.html" />
-        <option value="$PROJECT_DIR$/css/new-user.css" />
         <option value="$PROJECT_DIR$/js/test-view.js" />
         <option value="$PROJECT_DIR$/otchet_new.html" />
         <option value="$PROJECT_DIR$/course-view-new-vopros-statistic.html" />
@@ -164,6 +172,7 @@
         <option value="$PROJECT_DIR$/css/base.dialog.assign.css" />
         <option value="$PROJECT_DIR$/css/test-questions-view.css" />
         <option value="$PROJECT_DIR$/css/otchet.css" />
+        <option value="$PROJECT_DIR$/css/new-user.css" />
       </list>
     </option>
   </component>
@@ -295,7 +304,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -733,13 +742,18 @@
       <created>1365423435495</created>
       <updated>1365423435495</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="cap">
+      <created>1365425503926</created>
+      <updated>1365425503926</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1598" height="858" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -754,7 +768,6 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32820514" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -849,13 +862,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/new-user.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="937" column="21" selection-start="18244" selection-end="18244" vertical-scroll-proportion="-4.64">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/view-quesfull.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="58" column="0" selection-start="2629" selection-end="17923" vertical-scroll-proportion="-6.3333335">
@@ -922,13 +928,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/course-view-new-vopros-statistic.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="63" selection-start="978" selection-end="978" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/test-questions-view.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="350" column="18" selection-start="7868" selection-end="7868" vertical-scroll-proportion="0.0">
@@ -945,11 +944,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/otchet_new.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="168" column="61" selection-start="7565" selection-end="7565" vertical-scroll-proportion="0.026234567">
+        <state line="168" column="61" selection-start="7565" selection-end="7565" vertical-scroll-proportion="-0.65384614">
           <folding>
             <marker date="1365417252405" expanded="true" signature="3037:3130" placeholder="..." />
             <marker date="1365417252405" expanded="true" signature="3063:3118" placeholder="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course-view-new-vopros-statistic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="115" selection-start="1073" selection-end="1073" vertical-scroll-proportion="-1.3076923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/new-user.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="805" column="19" selection-start="15202" selection-end="15202" vertical-scroll-proportion="0.46687698">
+          <folding />
         </state>
       </provider>
     </entry>
