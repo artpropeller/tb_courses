@@ -249,6 +249,7 @@
 .dialog-assign .table-quests .answer-info .label.max {
     font-size: 11px;
     font-weight: bold;
+    margin-bottom: -21px;
 }
 
 .dialog-assign .table-quests .answer-info .user-answer {
@@ -347,7 +348,7 @@
 }
 
 .dialog-assign .table-quests .answer-info .save-ball {
-    margin-top: 4px;
+    margin-top: 20px;
 }
 
 .dialog-assign .table-quests .scroll {

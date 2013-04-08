@@ -33,7 +33,11 @@
     width: 28px;
     height: 28px;
     cursor: pointer;
-    background: url("../images/close_assign.jpg") no-repeat;
+    background: url("../images/close_assign.jpg") no-repeat top;
+}
+
+.dialog-assign .close-assign:hover{
+    background: url("../images/close_assign.jpg") no-repeat bottom;
 }
 
 .dialog-assign h2 {

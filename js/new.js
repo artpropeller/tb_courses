@@ -139,7 +139,7 @@ $(function () {
         $('#course-view-new-user #audience .rightContainer.resize-3 .scroll').height($(window).height() - 450);
         resizeTableStat(340, $('.questions.resize-1 .scroll'));
         resizeTableStat(360, $('.questions.resize-2 .scroll'));
-        resizeTableStat(440, $('.resize-4 .scroll'));
+        resizeTableStat(442, $('.resize-4 .scroll'));
     });
 
 
@@ -150,7 +150,7 @@ $(function () {
 
     resizeTableStat(340, $('.questions.resize-1 .scroll'));
     resizeTableStat(360, $('.questions.resize-2 .scroll'));
-    resizeTableStat(440, $('.resize-4 .scroll'));
+    resizeTableStat(442, $('.resize-4 .scroll'));
 
 
     $('#course-view-new-user #course-results .notify li a').click(function () {
@@ -449,9 +449,9 @@ $(function () {
         $('.tab-menu li').removeClass('active') ;
         $(this).parent().addClass('active');
         $($(this).attr('rel')).show(0);
-        resizeTableStat(340, $('.questions.resize-1 .scroll'));
+//        resizeTableStat(340, $('.questions.resize-1 .scroll'));
         resizeTableStat(360, $('.questions.resize-2 .scroll'));
-        resizeTableStat(468, $('.resize-4 .scroll'));
+        resizeTableStat(442, $('.resize-4 .scroll'));
         return false
     });
 
