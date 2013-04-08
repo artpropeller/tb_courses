@@ -139,7 +139,7 @@ $(function () {
         $('#course-view-new-user #audience .rightContainer.resize-3 .scroll').height($(window).height() - 450);
         resizeTableStat(340, $('.questions.resize-1 .scroll'));
         resizeTableStat(360, $('.questions.resize-2 .scroll'));
-        resizeTableStat(442, $('.resize-4 .scroll'));
+        resizeTableStat(428, $('.resize-4 .scroll'));
     });
 
 
@@ -150,7 +150,7 @@ $(function () {
 
     resizeTableStat(340, $('.questions.resize-1 .scroll'));
     resizeTableStat(360, $('.questions.resize-2 .scroll'));
-    resizeTableStat(442, $('.resize-4 .scroll'));
+    resizeTableStat(428, $('.resize-4 .scroll'));
 
 
     $('#course-view-new-user #course-results .notify li a').click(function () {
@@ -433,7 +433,7 @@ $(function () {
 
        $('#container-2 .dialog-assign').css('top', '-5000px');
        $('#container-2').show(0,function(){
-           setTimeout(function(){resizeTableStat(340, $('.resscroll-2 .scroll'));}, 100);
+           setTimeout(function(){resizeTableStat(290, $('.resscroll-2 .scroll'));}, 100);
            $('#container-2 .dialog-assign').css('top',-$('#container-2 .dialog-assign').height()+'px');
            $('#container-2 .dialog-assign').animate({top:'-18px'}, 1000);
        });
