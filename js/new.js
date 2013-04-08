@@ -407,11 +407,9 @@ function resizeTableStat(diff, scroll) {
     scroll.find('.jspContainer').css('height', 'auto');
     scroll.find('.jspPane').css('position', 'static');
     scroll.css('height', 'auto');
-    console.log(s, scroll.height());
     if (scroll.height() > s) {
         scroll.height(s);
     }
-    console.log(s, scroll.height());
     scroll.find('.jspContainer').height(scroll.height());
     scroll.find('.jspPane').css('position', 'absolute');
 
@@ -421,16 +419,23 @@ function resizeTableStat(diff, scroll) {
 $(function () {
     $('#course-view-new-user .quest').click(
         function () {
+        $('#container-1 .dialog-assign').css('top', '-5000px');
         $('#container-1').show(0,function(){
             setTimeout(function(){resizeTableStat(340, $('.resscroll-1 .scroll'));}, 100);
+            $('#container-1 .dialog-assign').css('top',-$('#container-1 .dialog-assign').height()+'px');
+            $('#container-1 .dialog-assign').animate({top:'-18px'}, 1000);
         });
 
 
     });
 
    $('#course-view-new-user #course-results .users .user .name').click(function(){
-       $('#container-2').show(0, function(){
+
+       $('#container-2 .dialog-assign').css('top', '-5000px');
+       $('#container-2').show(0,function(){
            setTimeout(function(){resizeTableStat(340, $('.resscroll-2 .scroll'));}, 100);
+           $('#container-2 .dialog-assign').css('top',-$('#container-2 .dialog-assign').height()+'px');
+           $('#container-2 .dialog-assign').animate({top:'-18px'}, 1000);
        });
 
        return false;
@@ -439,8 +444,9 @@ $(function () {
 
 
     $('.close-assign').click(function(){
-        $('.container-aasign').hide();
-
+        $('.container-aasign:visible .dialog-assign').animate({top:-($('.container-aasign:visible .dialog-assign').height()+140)+'px'}, 1000, function(){
+            $('.container-aasign').hide();
+        });
     });
 
 

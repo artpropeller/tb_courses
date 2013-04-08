@@ -1748,7 +1748,19 @@ body, html, #main {
     width: 168px;
 }
 
+#header {
+    position: relative;
+    z-index: 10;
+}
 
+.container-aasign {
+    z-index: 5;
+}
+
+.central-block {
+    position: relative;
+    z-index: 3;
+}
 
 
 

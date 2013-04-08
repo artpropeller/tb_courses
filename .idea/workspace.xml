@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/new-user.css" afterPath="$PROJECT_DIR$/css/new-user.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/new.js" afterPath="$PROJECT_DIR$/js/new.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tb_courses.iws" />
@@ -17,11 +18,11 @@
     <file path="/course-edit-fn.js" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365064450799" ignored="false" />
     <file path="W:/repository/teachbase_editor/js/course-edit-fn.js" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365064962800" ignored="false" />
     <file path="/course-view-new-messages-4.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365061358430" ignored="false" />
-    <file path="/Dummy.txt" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365427183348" ignored="false" />
+    <file path="/Dummy.txt" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365428359402" ignored="false" />
     <file path="/course-view-new-statistic.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1363070016172" ignored="false" />
-    <file path="/new-user.css" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365426683994" ignored="false" />
+    <file path="/new-user.css" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365429568055" ignored="false" />
     <file path="/dummy.xml" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365421793243" ignored="false" />
-    <file path="/new.js" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365415022160" ignored="false" />
+    <file path="/new.js" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365429759810" ignored="false" />
     <file path="/course-view-new-messages-1.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1363267577188" ignored="false" />
     <file path="/new-course-messages.css" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365061237052" ignored="false" />
     <file path="/course-view-new-messages-2.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1363528173248" ignored="false" />
@@ -84,16 +85,19 @@
       <file leaf-file-name="course-view-new-vopros-statistic.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/course-view-new-vopros-statistic.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="115" selection-start="1073" selection-end="1073" vertical-scroll-proportion="-1.3076923">
-              <folding />
+            <state line="967" column="20" selection-start="37931" selection-end="37931" vertical-scroll-proportion="-11.230769">
+              <folding>
+                <element signature="tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#div#2;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new-user.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="new-user.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/new-user.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="891" column="20" selection-start="17079" selection-end="17079" vertical-scroll-proportion="0.41598696">
+            <state line="1761" column="14" selection-start="34959" selection-end="34959" vertical-scroll-proportion="-15.68">
               <folding />
             </state>
           </provider>
@@ -115,10 +119,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test-questions-view.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="test-questions-view.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/test-questions-view.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="350" column="18" selection-start="7868" selection-end="7868" vertical-scroll-proportion="0.0">
+            <state line="350" column="18" selection-start="7868" selection-end="7868" vertical-scroll-proportion="0.6661442">
               <folding />
             </state>
           </provider>
@@ -127,7 +131,7 @@
       <file leaf-file-name="new.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/new.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="152" column="49" selection-start="5156" selection-end="5156" vertical-scroll-proportion="0.0">
+            <state line="439" column="5" selection-start="15379" selection-end="15379" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -170,11 +174,11 @@
         <option value="$PROJECT_DIR$/js/test-view.js" />
         <option value="$PROJECT_DIR$/otchet_new.html" />
         <option value="$PROJECT_DIR$/course-view-new-vopros-statistic.html" />
-        <option value="$PROJECT_DIR$/js/new.js" />
         <option value="$PROJECT_DIR$/css/base.dialog.assign.css" />
         <option value="$PROJECT_DIR$/css/test-questions-view.css" />
         <option value="$PROJECT_DIR$/css/otchet.css" />
         <option value="$PROJECT_DIR$/css/new-user.css" />
+        <option value="$PROJECT_DIR$/js/new.js" />
       </list>
     </option>
   </component>
@@ -292,6 +296,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="tb_courses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tb_courses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tb_courses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -751,7 +769,11 @@
       <created>1365426709833</created>
       <updated>1365426709833</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="cap">
+      <created>1365428363811</created>
+      <updated>1365428363811</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -914,13 +936,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/new.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="152" column="49" selection-start="5156" selection-end="5156" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/close_assign.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -929,13 +944,6 @@
     <entry file="file://$PROJECT_DIR$/css/base.dialog.assign.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="66" selection-start="744" selection-end="744" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/test-questions-view.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="350" column="18" selection-start="7868" selection-end="7868" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -959,14 +967,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/course-view-new-vopros-statistic.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="115" selection-start="1073" selection-end="1073" vertical-scroll-proportion="-1.3076923">
-          <folding />
+        <state line="967" column="20" selection-start="37931" selection-end="37931" vertical-scroll-proportion="-11.230769">
+          <folding>
+            <element signature="tag#div#1;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#2;tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/new-user.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="891" column="20" selection-start="17079" selection-end="17079" vertical-scroll-proportion="0.41598696">
+        <state line="1761" column="14" selection-start="34959" selection-end="34959" vertical-scroll-proportion="-15.68">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/new.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="439" column="5" selection-start="15379" selection-end="15379" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/test-questions-view.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="350" column="18" selection-start="7868" selection-end="7868" vertical-scroll-proportion="0.6661442">
           <folding />
         </state>
       </provider>
