@@ -457,7 +457,7 @@ $(function () {
         $($(this).attr('rel')).show(0);
 //        resizeTableStat(340, $('.questions.resize-1 .scroll'));
         resizeTableStat(360, $('.questions.resize-2 .scroll'));
-        resizeTableStat(442, $('.resize-4 .scroll'));
+        resizeTableStat(428, $('.resize-4 .scroll'));
         return false
     });
 
