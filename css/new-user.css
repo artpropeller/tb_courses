@@ -889,7 +889,7 @@ body, html, #main {
 #course-view-new-user #course-results .head {
     border-top: 2px solid #e0e0e0;
     border-bottom: 1px solid #e0e0e0;
-    padding: 4px 0 4px;
+    padding: 5px 0 6px;
     overflow: auto;
 }
 
