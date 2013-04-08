@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Language" content="en"/>
+    <link rel="stylesheet" href="../template_styles.css" media="all">
+    <link rel="stylesheet" href="../css/barChart.css" media="all">
+
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic&subset=latin,cyrillic'
+          rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../js/jquery.jscrollpane/jquery.jscrollpane.css" media="all">
+    <link rel="stylesheet" href="../css/otchet.css" media="all">
+    <script type="text/javascript" src="../js/jquery-1.7.1.min.js"></script>
+
+    <script type="text/javascript" src="../js/datepicker.js"></script>
+    <script type="text/javascript" src="../js/jquery.jscrollpane.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.mousewheel-3.0.6.pack.js"></script>
+
+    <script type="text/javascript" src="../js/sortTables.js"></script>
+    <script type="text/javascript" src="../js/statistic.js"></script>
+
+
+</head>
+<body>
+<div class="header-bg"></div>
+<!-- PAGE -->
+<div id="main">
+
+<!-- ____ HEADER ____ -->
+<div id="header">
+    <div class="container">
+        <div class="h-logo"><a href="#"><img src="../images/logotb.png" width="153" height="43" alt=""></a></div>
+        <div class="h-menu"><a href="#" class="plus">Plus</a> <a href="#">Курсы</a> <a href="#">Видеовстречи</a> <a
+                href="#">Тесты</a> <a href="#">Библиотека</a> <a href="#">Отчеты</a> <a href="#">Пользователи</a>
+        </div>
+
+        <div class="header-search search-animate">
+            <form action="" method="post">
+                <input type="submit" value=""/>
+                <input type="text" value="Поиск по сайту..."
+                       onfocus="if(this.value=='Поиск по сайту...')this.value='';"
+                       onblur="if(this.value=='')this.value='Поиск по сайту...';"/>
+            </form>
+        </div>
+        <div class="h-personal"><a href="#"><span><img src="../images/content-im/ico.jpg" width="30" height="30"
+                                                       alt=""/></span></a></div>
+    </div>
+</div>
+
+<div class="central-block">
+<div id="stat-view">
+<div class="otchet test">
+<div class="head">
+
+    <ul class="menu">
+        <li class="home"><a href="#"></a></li>
+        <li><a href="#">Посещаемость</a></li>
+        <li><a href="#">Видеовстречи</a></li>
+        <li><a href="#">Файлы</a></li>
+        <li class="active last"><a href="#">Задания</a></li>
+    </ul>
+</div>
+
+<div class="clear"></div>
+
+<div class="dash-top">
+<div class="dash-left">
+<div class="dash-right">
+<div class="dash-bottom">
+
+<a class="back-stat" href="#">Вернуться назад</a>
+
+<div class="clear"></div>
+
+<div class="white-block test-info">
+    <div class="timing"><strong>3</strong> часа <strong>32</strong> минуты</div>
+    <div class="test-data">
+        <img src="../images/content-im/poll.png" alt="">
+
+        <div class="info">
+            <div class="name">Квалификация сотрудников</div>
+            <div class="author">Александр Константинов, 12 ноября</div>
+            <p>Руководящее ископаемое горизонально формирует лимнический мусковит, в тоже время поднимаясь в пределах
+                горстов до абсолютных высот 250 м. Пролювий пододвигается под фирн, что увязывается со
+                структурно-тектонической обстановкой, гидродинамическими условиями и литолого-минералогическим составом
+                пород.
+                <a href="#">Читать дальше</a></p>
+        </div>
+    </div>
+</div>
+
+<ul class="statistic_buts">
+    <li><a href="#">По результатам пользователей</a></li>
+    <li class="active"><a href="#">Статистика по вопросам теста</a></li>
+</ul>
+
+
+<div class="white-block bargraph">
+    <h2>Распределения правильных ответов</h2>
+
+    <div id="barChartFill"></div>
+</div>
+
+<div class="metrics">
+    <div class="item">
+        <div class="name">Кол-во вопросов</div>
+        <div class="tooltip">Винил начинает изоритмический open-air, благодаря
+            быстрой смене тембров (каждый инструмент играет минимум звуков).
+            Процессуальное изменение косвенно. Полиряд представляет собой open-air,
+            что отчасти объясняет такое количество кавер-версий.
+            <div class="tips"></div>
+        </div>
+        <div class="val">87</div>
+    </div>
+    <div class="item">
+        <div class="name">Средний балл</div>
+        <div class="tooltip">Винил начинает изоритмический open-air, благодаря
+            быстрой смене тембров (каждый инструмент играет минимум звуков).
+            Процессуальное изменение косвенно.
+            <div class="tips"></div>
+        </div>
+        <div class="val">70 <span>(80%)</span></div>
+    </div>
+    <div class="item">
+        <div class="name">Кол-во правильных ответов</div>
+        <div class="tooltip">Винил начинает изоритмический open-air, благодаря
+            быстрой смене тембров (каждый инструмент играет минимум звуков).
+            Процессуальное изменение косвенно. Полиряд представляет собой open-air,
+            что отчасти объясняет такое количество кавер-версий.
+            <div class="tips"></div>
+        </div>
+        <div class="val">1037 <span>(70%)</span></div>
+    </div>
+    <div class="item last">
+        <div class="name">Кол-во неправильных ответов</div>
+        <div class="tooltip">Винил начинает изоритмический open-air, благодаря
+            быстрой смене тембров
+            <div class="tips"></div>
+        </div>
+        <div class="val">245 <span>(30%)</span></div>
+    </div>
+    <div class="clear"></div>
+</div>
+
+<div class="white-block users">
+<div class="top_block placeholding">
+
+
+    <a class="print float_right" href="#"></a>
+    <input id="search-table" class="float_right" type="text" placeholder="Поиск вопросов">
+
+</div>
+
+
+<div id="usersTable" class="stat-test-answers">
+<table cellspacing="0" cellpadding="0" rel="sortData" id="usersSortTable">
+    <thead>
+    <tr>
+        <th data-sort="int" class="num">№</th>
+        <th data-sort="string" class="name">Вопрос</th>
+        <th data-sort="string" class="type">Тип вопроса</th>
+        <th class="right-ans">Прав. ответы</th>
+        <th class="noright-ans">Неправ. ответы</th>
+    </tr>
+    </thead>
+</table>
+
+<div class="scroll userstable">
+
+<table cellspacing="0" cellpadding="0" id="sortData">
+
+<tbody>
+
+<tr>
+<tr>
+    <td class="num">
+        <div class="sel">1</div>
+    </td>
+    <td data-sort-value="В каком предложении придаточную часть сложноподчинённого предложения заменить обособленным определением, выраженным причастным оборотом?" class="name">
+        <div class="sel">
+            <span>В каком предложении придаточную часть сложноподчинённого предложения заменить обособленным определением, выраженным причастным оборотом?</span>
+        </div>
+    </td>
+    <td class="type" ><div class="sel">Выбор ответа из нескольких</div></td>
+    <td class="gor-bar" colspan="2">
+        <div class="cont-bar">
+            <div class="label green">350 (72%)</div>
+            <div class="label red">350 (28%)</div>
+            <div class="green-fill" style="width: 50%;"></div>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td class="num">
+        <div class="sel">2</div>
+    </td>
+    <td data-sort-value="В каком предложении придаточную часть сложноподчинённого предложения заменить обособленным определением, выраженным причастным оборотом?" class="name">
+        <div class="sel">
+            <span>В каком предложении придаточную часть сложноподчинённого предложения заменить обособленным определением, выраженным причастным оборотом?</span>
+        </div>
+    </td>
+    <td class="type" ><div class="sel">Сопоставление</div></td>
+    <td class="gor-bar" colspan="2">
+        <div class="cont-bar">
+            <div class="label green">350 (50%)</div>
+            <div class="label red">350 (50%)</div>
+            <div class="green-fill" style="width: 72%;"></div>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td class="num">
+        <div class="sel">3</div>
+    </td>
+    <td data-sort-value="В каком предложении придаточную часть сложноподчинённого предложения заменить обособленным определением, выраженным причастным оборотом?" class="name">
+        <div class="sel">
+            <span>В каком предложении придаточную часть сложноподчинённого предложения заменить обособленным определением, выраженным причастным оборотом?</span>
+        </div>
+    </td>
+    <td class="type" ><div class="sel">Короткий ответ</div></td>
+    <td class="gor-bar" colspan="2">
+        <div class="cont-bar">
+            <div class="label green">350 (10%)</div>
+            <div class="label red">350 (90%)</div>
+            <div class="green-fill" style="width: 10%;"></div>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td class="num">
+        <div class="sel">4</div>
+    </td>
+    <td data-sort-value="В каком предложении придаточную часть сложноподчинённого предложения заменить обособленным определением, выраженным причастным оборотом?" class="name">
+        <div class="sel">
+            <span>В каком предложении придаточную часть сложноподчинённого предложения заменить обособленным определением, выраженным причастным оборотом?</span>
+        </div>
+    </td>
+    <td class="type" ><div class="sel">Выбор ответа из нескольких</div></td>
+    <td class="gor-bar" colspan="2">
+        <div class="cont-bar">
+            <div class="label green">350 (72%)</div>
+            <div class="label red">350 (28%)</div>
+            <div class="green-fill" style="width: 50%;"></div>
+        </div>
+    </td>
+    </tr>
+<tr>
+    <td class="num">
+        <div class="sel">5</div>
+    </td>
+    <td data-sort-value="В каком предложении придаточную часть сложноподчинённого предложения заменить обособленным определением, выраженным причастным оборотом?" class="name">
+        <div class="sel">
+            <span>В каком предложении придаточную часть сложноподчинённого предложения заменить обособленным определением, выраженным причастным оборотом?</span>
+        </div>
+    </td>
+    <td class="type" ><div class="sel">Сопоставление</div></td>
+    <td class="gor-bar" colspan="2">
+        <div class="cont-bar">
+            <div class="label green">350 (50%)</div>
+            <div class="label red">350 (50%)</div>
+            <div class="green-fill" style="width: 72%;"></div>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td class="num">
+        <div class="sel">6</div>
+    </td>
+    <td data-sort-value="В каком предложении придаточную часть сложноподчинённого предложения заменить обособленным определением, выраженным причастным оборотом?" class="name">
+        <div class="sel">
+            <span>В каком предложении придаточную часть сложноподчинённого предложения заменить обособленным определением, выраженным причастным оборотом?</span>
+        </div>
+    </td>
+    <td class="type" ><div class="sel">Короткий ответ</div></td>
+    <td class="gor-bar" colspan="2">
+        <div class="cont-bar">
+            <div class="label green">350 (10%)</div>
+            <div class="label red">350 (90%)</div>
+            <div class="green-fill" style="width: 10%;"></div>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td class="num">
+        <div class="sel">7</div>
+    </td>
+    <td data-sort-value="В каком предложении придаточную часть сложноподчинённого предложения заменить обособленным определением, выраженным причастным оборотом?" class="name">
+        <div class="sel">
+            <span>В каком предложении придаточную часть сложноподчинённого предложения заменить обособленным определением, выраженным причастным оборотом?</span>
+        </div>
+    </td>
+    <td class="type" ><div class="sel">Выбор ответа из нескольких</div></td>
+    <td class="gor-bar" colspan="2">
+        <div class="cont-bar">
+            <div class="label green">350 (72%)</div>
+            <div class="label red">350 (28%)</div>
+            <div class="green-fill" style="width: 50%;"></div>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td class="num">
+        <div class="sel">8</div>
+    </td>
+    <td data-sort-value="В каком предложении придаточную часть сложноподчинённого предложения заменить обособленным определением, выраженным причастным оборотом?" class="name">
+        <div class="sel">
+            <span>В каком предложении придаточную часть сложноподчинённого предложения заменить обособленным определением, выраженным причастным оборотом?</span>
+        </div>
+    </td>
+    <td class="type" ><div class="sel">Сопоставление</div></td>
+    <td class="gor-bar" colspan="2">
+        <div class="cont-bar">
+            <div class="label green">350 (50%)</div>
+            <div class="label red">350 (50%)</div>
+            <div class="green-fill" style="width: 72%;"></div>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td class="num">
+        <div class="sel">9</div>
+    </td>
+    <td data-sort-value="В каком предложении придаточную часть сложноподчинённого предложения заменить обособленным определением, выраженным причастным оборотом?" class="name">
+        <div class="sel">
+            <span>В каком предложении придаточную часть сложноподчинённого предложения заменить обособленным определением, выраженным причастным оборотом?</span>
+        </div>
+    </td>
+    <td class="type" ><div class="sel">Короткий ответ</div></td>
+    <td class="gor-bar" colspan="2">
+        <div class="cont-bar">
+            <div class="label green">350 (10%)</div>
+            <div class="label red">350 (90%)</div>
+            <div class="green-fill" style="width: 10%;"></div>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td class="num">
+        <div class="sel">10</div>
+    </td>
+    <td data-sort-value="В каком предложении придаточную часть сложноподчинённого предложения заменить обособленным определением, выраженным причастным оборотом?" class="name">
+        <div class="sel">
+            <span>В каком предложении придаточную часть сложноподчинённого предложения заменить обособленным определением, выраженным причастным оборотом?</span>
+        </div>
+    </td>
+    <td class="type" ><div class="sel">Выбор ответа из нескольких</div></td>
+    <td class="gor-bar" colspan="2">
+        <div class="cont-bar">
+            <div class="label green">350 (72%)</div>
+            <div class="label red">350 (28%)</div>
+            <div class="green-fill" style="width: 50%;"></div>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td class="num">
+        <div class="sel">11</div>
+    </td>
+    <td data-sort-value="В каком предложении придаточную часть сложноподчинённого предложения заменить обособленным определением, выраженным причастным оборотом?" class="name">
+        <div class="sel">
+            <span>В каком предложении придаточную часть сложноподчинённого предложения заменить обособленным определением, выраженным причастным оборотом?</span>
+        </div>
+    </td>
+    <td class="type" ><div class="sel">Сопоставление</div></td>
+    <td class="gor-bar" colspan="2">
+        <div class="cont-bar">
+            <div class="label green">350 (50%)</div>
+            <div class="label red">350 (50%)</div>
+            <div class="green-fill" style="width: 72%;"></div>
+        </div>
+    </td>
+</tr>
+<tr>
+    <td class="num">
+        <div class="sel">12</div>
+    </td>
+    <td data-sort-value="В каком предложении придаточную часть сложноподчинённого предложения заменить обособленным определением, выраженным причастным оборотом?" class="name">
+        <div class="sel">
+            <span>В каком предложении придаточную часть сложноподчинённого предложения заменить обособленным определением, выраженным причастным оборотом?</span>
+        </div>
+    </td>
+    <td class="type" ><div class="sel">Короткий ответ</div></td>
+    <td class="gor-bar" colspan="2">
+        <div class="cont-bar">
+            <div class="label green">350 (10%)</div>
+            <div class="label red">350 (90%)</div>
+            <div class="green-fill" style="width: 10%;"></div>
+        </div>
+    </td>
+</tr>
+
+</tbody>
+</table>
+
+</div>
+
+</div>
+
+</div>
+
+
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+
+<script type="text/javascript" src="../js/barChart.js"></script>
+
+</body>
+</html>

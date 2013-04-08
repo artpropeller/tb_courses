@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Language" content="en"/>
+    <link rel="stylesheet" href="../template_styles.css" media="all">
+    <link rel="stylesheet" href="../css/barChart.css" media="all">
+
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic&subset=latin,cyrillic'
+          rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../js/jquery.jscrollpane/jquery.jscrollpane.css" media="all">
+    <link rel="stylesheet" href="../css/otchet.css" media="all">
+    <script type="text/javascript" src="../js/jquery-1.7.1.min.js"></script>
+
+    <script type="text/javascript" src="../js/datepicker.js"></script>
+    <script type="text/javascript" src="../js/jquery.jscrollpane.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.mousewheel-3.0.6.pack.js"></script>
+
+    <script type="text/javascript" src="../js/sortTables.js"></script>
+    <script type="text/javascript" src="../js/statistic.js"></script>
+
+
+</head>
+<body>
+<div class="header-bg"></div>
+<!-- PAGE -->
+<div id="main">
+
+<!-- ____ HEADER ____ -->
+<div id="header">
+    <div class="container">
+        <div class="h-logo"><a href="#"><img src="../images/logotb.png" width="153" height="43" alt=""></a></div>
+        <div class="h-menu"><a href="#" class="plus">Plus</a> <a href="#">Курсы</a> <a href="#">Видеовстречи</a> <a
+                href="#">Тесты</a> <a href="#">Библиотека</a> <a href="#">Отчеты</a> <a href="#">Пользователи</a>
+        </div>
+
+        <div class="header-search search-animate">
+            <form action="" method="post">
+                <input type="submit" value=""/>
+                <input type="text" value="Поиск по сайту..."
+                       onfocus="if(this.value=='Поиск по сайту...')this.value='';"
+                       onblur="if(this.value=='')this.value='Поиск по сайту...';"/>
+            </form>
+        </div>
+        <div class="h-personal"><a href="#"><span><img src="../images/content-im/ico.jpg" width="30" height="30"
+                                                       alt=""/></span></a></div>
+    </div>
+</div>
+
+<div class="central-block">
+
+<div id="stat-view">
+
+<!--[if IE 8]>
+<style type="text/css">
+    #search-table {
+        line-height: 25px;
+    }
+</style>
+<![endif]-->
+
+<div class="otchet test">
+<div class="head">
+
+    <ul class="menu">
+        <li class="home"><a href="#"></a></li>
+        <li><a href="#">Посещаемость</a></li>
+        <li><a href="#">Видеовстречи</a></li>
+        <li><a href="#">Файлы</a></li>
+        <li class="active last"><a href="#">Задания</a></li>
+    </ul>
+</div>
+
+<div class="clear"></div>
+
+<div class="dash-top">
+<div class="dash-left">
+<div class="dash-right">
+<div class="dash-bottom">
+
+<a class="back-stat" href="#">Вернуться назад</a>
+
+<div class="clear"></div>
+
+<div class="white-block test-info">
+    <div class="timing"><strong>3</strong> часа <strong>32</strong> минуты</div>
+    <div class="test-data">
+        <img src="../images/content-im/poll.png" alt="">
+
+        <div class="info">
+            <div class="name">Квалификация сотрудников</div>
+            <div class="author">Александр Константинов, 12 ноября</div>
+            <p>Руководящее ископаемое горизонально формирует лимнический мусковит, в тоже время поднимаясь в пределах
+                горстов до абсолютных высот 250 м. Пролювий пододвигается под фирн, что увязывается со
+                структурно-тектонической обстановкой, гидродинамическими условиями и литолого-минералогическим составом
+                пород.
+                <a href="#">Читать дальше</a></p>
+        </div>
+    </div>
+</div>
+
+<ul class="statistic_buts">
+    <li class="active"><a href="#">Результаты по тесту</a></li>
+    <li><a href="#">Статистика по вопросам теста</a></li>
+</ul>
+
+
+<div class="white-block bargraph">
+    <h2>Средняя продолжительность прохождения</h2>
+
+    <div id="barChart"></div>
+</div>
+
+<div class="metrics">
+    <div class="item">
+        <div class="name">Кол-во польз. теста</div>
+        <div class="tooltip">Винил начинает изоритмический open-air, благодаря
+            быстрой смене тембров (каждый инструмент играет минимум звуков).
+            Процессуальное изменение косвенно. Полиряд представляет собой open-air,
+            что отчасти объясняет такое количество кавер-версий.
+            <div class="tips"></div>
+        </div>
+        <div class="val">87</div>
+    </div>
+    <div class="item">
+        <div class="name">Ср. продолж. прохождения</div>
+        <div class="tooltip">Винил начинает изоритмический open-air, благодаря
+            быстрой смене тембров (каждый инструмент играет минимум звуков).
+            Процессуальное изменение косвенно.
+            <div class="tips"></div>
+        </div>
+        <div class="val">00:23:53</div>
+    </div>
+    <div class="item">
+        <div class="name">Кол-во не прошли тест</div>
+        <div class="tooltip">Винил начинает изоритмический open-air, благодаря
+            быстрой смене тембров (каждый инструмент играет минимум звуков).
+            Процессуальное изменение косвенно. Полиряд представляет собой open-air,
+            что отчасти объясняет такое количество кавер-версий.
+            <div class="tips"></div>
+        </div>
+        <div class="val">108 <span>(70%)</span></div>
+    </div>
+    <div class="item last">
+        <div class="name">Кол-во прошедших тест</div>
+        <div class="tooltip">Винил начинает изоритмический open-air, благодаря
+            быстрой смене тембров
+            <div class="tips"></div>
+        </div>
+        <div class="val">35 <span>(30%)</span></div>
+    </div>
+    <div class="clear"></div>
+</div>
+
+<div class="white-block users">
+<div class="top_block placeholding">
+
+    <a class="show_but float_left" href="#">Показать</a>
+
+    <ul class="filter">
+        <li rel="" class="active all"><a href="#"><strong>все</strong></a></li>
+        <li rel="nobegin"><a href="#"><span>1250</span> <strong>не начали</strong></a></li>
+        <li rel="begin"><a href="#"><span class="begin">5</span> <strong>начали</strong></a></li>
+        <li rel="fail"><a href="#"><span class="fail">13</span> <strong>не прошли</strong></a></li>
+        <li rel="success"><a href="#"><span class="success">37</span> <strong>прошли</strong></a></li>
+    </ul>
+
+
+    <a class="print float_right" href="#"></a>
+    <input id="search-table" class="float_right" type="text" placeholder="Поиск пользователей">
+
+</div>
+
+
+<div id="usersTable" class="stat-test">
+<table cellspacing="0" cellpadding="0" rel="sortData" id="usersSortTable">
+    <thead>
+    <tr>
+        <th class="check"></th>
+        <th data-sort="string" class="name">Имя и Фамилия</th>
+        <th data-sort="int" class="status">Прогресс</th>
+        <th data-sort="int" class="timer">Время прохож.</th>
+        <th data-sort="int" class="ball">Баллы <em>min 120 (60%)</em></th>
+    </tr>
+    </thead>
+</table>
+
+<div class="scroll userstable">
+
+<table cellspacing="0" cellpadding="0" id="sortData">
+
+<tbody>
+
+<tr class="nobegin">
+    <td class="check">
+        <div class="sel"><span></span></div>
+    </td>
+    <td data-sort-value="Артем Цыцакович" class="name">
+        <div class="sel">
+            <img src="../images/ava_c1.jpg" alt="">
+            <span>Артем Николаевич Цыцакович</span>
+        </div>
+    </td>
+    <td class="status" data-sort-value="0"><div class="sel"><div class="pill nobegin">Не начал</div></div></td>
+    <td class="timer" data-sort-value="6"><div class="sel">00:06:37</div></td>
+    <td class="ball success"  data-sort-value="250"><div class="sel">250 (92%)</div></td>
+</tr>
+<tr class="success">
+    <td class="check">
+        <div class="sel"><span></span></div>
+    </td>
+    <td data-sort-value="Марина Сотникова" class="name">
+        <div class="sel">
+            <img src="../images/ava_c3.jpg" alt="">
+            <span>Марина Сотникова</span>
+        </div>
+    </td>
+    <td class="status" data-sort-value="97"><div class="sel"><div class="pill success">97%</div></div></td>
+    <td class="timer" data-sort-value="3"><div class="sel">00:03:37</div></td>
+    <td class="ball" data-sort-value="0"><div class="sel"></div></td>
+</tr>
+<tr class="fail">
+    <td class="check">
+        <div class="sel"><span></span></div>
+    </td>
+    <td data-sort-value="Автондил Калашников" class="name">
+        <div class="sel">
+            <img src="../images/ava_c2.jpg" alt="">
+            <span>Автондил Калашников</span>
+        </div>
+    </td>
+    <td class="status"  data-sort-value="44"><div class="sel"><div class="pill fail">44%</div></div></td>
+    <td class="timer" data-sort-value="17"><div class="sel">00:17:37</div></td>
+    <td class="ball fail" data-sort-value="56"><div class="sel">56 (31%)</div></td>
+</tr>
+<tr class="begin">
+    <td class="check">
+        <div class="sel"><span></span></div>
+    </td>
+    <td data-sort-value="Сергей Колодяжный" class="name">
+        <div class="sel">
+            <img src="../images/ava_c3.jpg" alt="">
+            <span>Сергей Колодяжный</span>
+        </div>
+    </td>
+    <td class="status"  data-sort-value="55"><div class="sel">
+        <div class="progress-block"><b style="width:55%"></b><span>55%</span></div>
+    </div></td>
+    <td class="timer" data-sort-value="12"><div class="sel">00:12:37</div></td>
+    <td class="ball" data-sort-value="0"><div class="sel"></div></td>
+</tr>
+<tr class="nobegin">
+    <td class="check">
+        <div class="sel"><span></span></div>
+    </td>
+    <td data-sort-value="Артем Цыцакович" class="name">
+        <div class="sel">
+            <img src="../images/ava_c1.jpg" alt="">
+            <span>Артем Николаевич Цыцакович</span>
+        </div>
+    </td>
+    <td class="status" data-sort-value="0"><div class="sel"><div class="pill nobegin">Не начал</div></div></td>
+    <td class="timer" data-sort-value="6"><div class="sel">00:06:37</div></td>
+    <td class="ball success"  data-sort-value="250"><div class="sel">250 (92%)</div></td>
+</tr>
+<tr class="success">
+    <td class="check">
+        <div class="sel"><span></span></div>
+    </td>
+    <td data-sort-value="Марина Сотникова" class="name">
+        <div class="sel">
+            <img src="../images/ava_c3.jpg" alt="">
+            <span>Марина Сотникова</span>
+        </div>
+    </td>
+    <td class="status" data-sort-value="97"><div class="sel"><div class="pill success">97%</div></div></td>
+    <td class="timer" data-sort-value="3"><div class="sel">00:03:37</div></td>
+    <td class="ball" data-sort-value="0"><div class="sel"></div></td>
+</tr>
+<tr class="fail">
+    <td class="check">
+        <div class="sel"><span></span></div>
+    </td>
+    <td data-sort-value="Автондил Калашников" class="name">
+        <div class="sel">
+            <img src="../images/ava_c2.jpg" alt="">
+            <span>Автондил Калашников</span>
+        </div>
+    </td>
+    <td class="status"  data-sort-value="44"><div class="sel"><div class="pill fail">44%</div></div></td>
+    <td class="timer" data-sort-value="17"><div class="sel">00:17:37</div></td>
+    <td class="ball fail" data-sort-value="56"><div class="sel">56 (31%)</div></td>
+</tr>
+<tr class="begin">
+    <td class="check">
+        <div class="sel"><span></span></div>
+    </td>
+    <td data-sort-value="Сергей Колодяжный" class="name">
+        <div class="sel">
+            <img src="../images/ava_c3.jpg" alt="">
+            <span>Сергей Колодяжный</span>
+        </div>
+    </td>
+    <td class="status"  data-sort-value="55"><div class="sel">
+        <div class="progress-block"><b style="width:55%"></b><span>55%</span></div>
+    </div></td>
+    <td class="timer" data-sort-value="12"><div class="sel">00:12:37</div></td>
+    <td class="ball" data-sort-value="0"><div class="sel"></div></td>
+</tr>
+<tr class="nobegin">
+    <td class="check">
+        <div class="sel"><span></span></div>
+    </td>
+    <td data-sort-value="Артем Цыцакович" class="name">
+        <div class="sel">
+            <img src="../images/ava_c1.jpg" alt="">
+            <span>Артем Николаевич Цыцакович</span>
+        </div>
+    </td>
+    <td class="status" data-sort-value="0"><div class="sel"><div class="pill nobegin">Не начал</div></div></td>
+    <td class="timer" data-sort-value="6"><div class="sel">00:06:37</div></td>
+    <td class="ball success"  data-sort-value="250"><div class="sel">250 (92%)</div></td>
+</tr>
+<tr class="success">
+    <td class="check">
+        <div class="sel"><span></span></div>
+    </td>
+    <td data-sort-value="Марина Сотникова" class="name">
+        <div class="sel">
+            <img src="../images/ava_c3.jpg" alt="">
+            <span>Марина Сотникова</span>
+        </div>
+    </td>
+    <td class="status" data-sort-value="97"><div class="sel"><div class="pill success">97%</div></div></td>
+    <td class="timer" data-sort-value="3"><div class="sel">00:03:37</div></td>
+    <td class="ball" data-sort-value="0"><div class="sel"></div></td>
+</tr>
+<tr class="fail">
+    <td class="check">
+        <div class="sel"><span></span></div>
+    </td>
+    <td data-sort-value="Автондил Калашников" class="name">
+        <div class="sel">
+            <img src="../images/ava_c2.jpg" alt="">
+            <span>Автондил Калашников</span>
+        </div>
+    </td>
+    <td class="status"  data-sort-value="44"><div class="sel"><div class="pill fail">44%</div></div></td>
+    <td class="timer" data-sort-value="17"><div class="sel">00:17:37</div></td>
+    <td class="ball fail" data-sort-value="56"><div class="sel">56 (31%)</div></td>
+</tr>
+<tr class="begin">
+    <td class="check">
+        <div class="sel"><span></span></div>
+    </td>
+    <td data-sort-value="Сергей Колодяжный" class="name">
+        <div class="sel">
+            <img src="../images/ava_c3.jpg" alt="">
+            <span>Сергей Колодяжный</span>
+        </div>
+    </td>
+    <td class="status"  data-sort-value="55"><div class="sel">
+        <div class="progress-block"><b style="width:55%"></b><span>55%</span></div>
+    </div></td>
+    <td class="timer" data-sort-value="12"><div class="sel">00:12:37</div></td>
+    <td class="ball" data-sort-value="0"><div class="sel"></div></td>
+</tr>
+<tr class="nobegin">
+    <td class="check">
+        <div class="sel"><span></span></div>
+    </td>
+    <td data-sort-value="Артем Цыцакович" class="name">
+        <div class="sel">
+            <img src="../images/ava_c1.jpg" alt="">
+            <span>Артем Николаевич Цыцакович</span>
+        </div>
+    </td>
+    <td class="status" data-sort-value="0"><div class="sel"><div class="pill nobegin">Не начал</div></div></td>
+    <td class="timer" data-sort-value="6"><div class="sel">00:06:37</div></td>
+    <td class="ball success"  data-sort-value="250"><div class="sel">250 (92%)</div></td>
+</tr>
+<tr class="success">
+    <td class="check">
+        <div class="sel"><span></span></div>
+    </td>
+    <td data-sort-value="Марина Сотникова" class="name">
+        <div class="sel">
+            <img src="../images/ava_c3.jpg" alt="">
+            <span>Марина Сотникова</span>
+        </div>
+    </td>
+    <td class="status" data-sort-value="97"><div class="sel"><div class="pill success">97%</div></div></td>
+    <td class="timer" data-sort-value="3"><div class="sel">00:03:37</div></td>
+    <td class="ball" data-sort-value="0"><div class="sel"></div></td>
+</tr>
+<tr class="fail">
+    <td class="check">
+        <div class="sel"><span></span></div>
+    </td>
+    <td data-sort-value="Автондил Калашников" class="name">
+        <div class="sel">
+            <img src="../images/ava_c2.jpg" alt="">
+            <span>Автондил Калашников</span>
+        </div>
+    </td>
+    <td class="status"  data-sort-value="44"><div class="sel"><div class="pill fail">44%</div></div></td>
+    <td class="timer" data-sort-value="17"><div class="sel">00:17:37</div></td>
+    <td class="ball fail" data-sort-value="56"><div class="sel">56 (31%)</div></td>
+</tr>
+<tr class="begin">
+    <td class="check">
+        <div class="sel"><span></span></div>
+    </td>
+    <td data-sort-value="Сергей Колодяжный" class="name">
+        <div class="sel">
+            <img src="../images/ava_c3.jpg" alt="">
+            <span>Сергей Колодяжный</span>
+        </div>
+    </td>
+    <td class="status"  data-sort-value="55"><div class="sel">
+        <div class="progress-block"><b style="width:55%"></b><span>55%</span></div>
+    </div></td>
+    <td class="timer" data-sort-value="12"><div class="sel">00:12:37</div></td>
+    <td class="ball" data-sort-value="0"><div class="sel"></div></td>
+</tr>
+<tr class="nobegin">
+    <td class="check">
+        <div class="sel"><span></span></div>
+    </td>
+    <td data-sort-value="Артем Цыцакович" class="name">
+        <div class="sel">
+            <img src="../images/ava_c1.jpg" alt="">
+            <span>Артем Николаевич Цыцакович</span>
+        </div>
+    </td>
+    <td class="status" data-sort-value="0"><div class="sel"><div class="pill nobegin">Не начал</div></div></td>
+    <td class="timer" data-sort-value="6"><div class="sel">00:06:37</div></td>
+    <td class="ball success"  data-sort-value="250"><div class="sel">250 (92%)</div></td>
+</tr>
+<tr class="success">
+    <td class="check">
+        <div class="sel"><span></span></div>
+    </td>
+    <td data-sort-value="Марина Сотникова" class="name">
+        <div class="sel">
+            <img src="../images/ava_c3.jpg" alt="">
+            <span>Марина Сотникова</span>
+        </div>
+    </td>
+    <td class="status" data-sort-value="97"><div class="sel"><div class="pill success">97%</div></div></td>
+    <td class="timer" data-sort-value="3"><div class="sel">00:03:37</div></td>
+    <td class="ball" data-sort-value="0"><div class="sel"></div></td>
+</tr>
+<tr class="fail">
+    <td class="check">
+        <div class="sel"><span></span></div>
+    </td>
+    <td data-sort-value="Автондил Калашников" class="name">
+        <div class="sel">
+            <img src="../images/ava_c2.jpg" alt="">
+            <span>Автондил Калашников</span>
+        </div>
+    </td>
+    <td class="status"  data-sort-value="44"><div class="sel"><div class="pill fail">44%</div></div></td>
+    <td class="timer" data-sort-value="17"><div class="sel">00:17:37</div></td>
+    <td class="ball fail" data-sort-value="56"><div class="sel">56 (31%)</div></td>
+</tr>
+<tr class="begin">
+    <td class="check">
+        <div class="sel"><span></span></div>
+    </td>
+    <td data-sort-value="Сергей Колодяжный" class="name">
+        <div class="sel">
+            <img src="../images/ava_c3.jpg" alt="">
+            <span>Сергей Колодяжный</span>
+        </div>
+    </td>
+    <td class="status"  data-sort-value="55"><div class="sel">
+        <div class="progress-block"><b style="width:55%"></b><span>55%</span></div>
+    </div></td>
+    <td class="timer" data-sort-value="12"><div class="sel">00:12:37</div></td>
+    <td class="ball" data-sort-value="0"><div class="sel"></div></td>
+</tr>
+
+
+</tbody>
+</table>
+
+</div>
+
+</div>
+
+</div>
+
+
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+
+<script type="text/javascript" src="../js/barChart.js"></script>
+
+</body>
+</html>

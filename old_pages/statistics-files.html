@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Language" content="en"/>
+    <link rel="stylesheet" href="../template_styles.css" media="all">
+    <link rel="stylesheet" href="../css/datepicker.css" media="all">
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic&subset=latin,cyrillic'
+          rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../js/jquery.jscrollpane/jquery.jscrollpane.css" media="all">
+    <link rel="stylesheet" href="../css/otchet.css" media="all">
+    <link rel="stylesheet" href="../css/xcharts.css" media="all">
+
+    <script type="text/javascript" src="../js/es5-shim.js"></script>
+    <script type="text/javascript" src="../js/es5-sham.js"></script>
+    <script type="text/javascript" src="../js/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="../js/d3.v2.js"></script>
+    <script type="text/javascript" src="../js/jquery.jscrollpane.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.mousewheel-3.0.6.pack.js"></script>
+
+    <script type="text/javascript" src="../js/xcharts.js"></script>
+    <script type="text/javascript" src="../js/datepicker.js"></script>
+    <script type="text/javascript" src="../js/sortTables.js"></script>
+    <script type="text/javascript" src="../js/statistic.js"></script>
+
+</head>
+<body>
+
+<div class="header-bg"></div>
+<!-- PAGE -->
+<div id="main">
+
+<!-- ____ HEADER ____ -->
+<div id="header">
+    <div class="container">
+        <div class="h-logo"><a href="#"><img src="../images/logotb.png" width="153" height="43" alt=""></a></div>
+        <div class="h-menu"><a href="#" class="plus">Plus</a> <a href="#">Курсы</a> <a href="#">Видеовстречи</a> <a
+                href="#">Тесты</a> <a href="#">Библиотека</a> <a href="#">Отчеты</a> <a href="#">Пользователи</a>
+        </div>
+
+        <div class="header-search search-animate">
+            <form action="" method="post">
+                <input type="submit" value=""/>
+                <input type="text" value="Поиск по сайту..."
+                       onfocus="if(this.value=='Поиск по сайту...')this.value='';"
+                       onblur="if(this.value=='')this.value='Поиск по сайту...';"/>
+            </form>
+        </div>
+        <div class="h-personal"><a href="#"><span><img src="../images/content-im/ico.jpg" width="30" height="30" alt=""/></span></a></div>
+    </div>
+</div>
+<!-- ____ /HEADER ____ -->
+<!-- ____ CONTENT ____ -->
+
+<div class="central-block">
+<div id="stat-view">
+<div class="click-zone"></div>
+
+<div class="otchet">
+<div class="head">
+
+    <ul class="menu">
+        <li class="home"><a href="#"></a></li>
+        <li><a href="#">Посещаемость</a></li>
+        <li><a href="#">Видеовстречи</a></li>
+        <li class="active"><a href="#">Файлы</a></li>
+        <li><a href="#">Задания</a></li>
+        <li class="last"><a href="#">Пользователи</a></li>
+    </ul>
+</div>
+
+<div class="clear"></div>
+
+<div class="dash-top">
+<div class="dash-left">
+<div class="dash-right">
+<div class="dash-bottom">
+
+<div class="inner">
+<div class="white-block">
+    <div class="window_name">
+        <h3 class="float_left">Объем памяти </h3><a href="#"
+                                                              class="faq float_left"></a>
+
+        <div class="clear"></div>
+    </div>
+    <div class="select type">
+        <div class="value">Объем файлов</div>
+        <div class="toggle"><img src="../images/toggle-select.png" alt=""></div>
+        <ul class="list-values">
+            <li>Количество просмотров</li>
+            <li class="active">Объем файлов</li>
+            <li>Размер</li>
+            <li>Объем памяти</li>
+        </ul>
+    </div>
+
+    <div class="select date">
+        <div class="value">18 августа — 12 сентября</div>
+        <div class="toggle"><img src="../images/toggle-select.png" alt=""></div>
+        <div class="picker">
+            <div class="border"></div>
+            <div id="choosedate"></div>
+        </div>
+    </div>
+
+    <ul class="step">
+        <li class="active">день</li>
+        <li>неделя</li>
+        <li>месяц</li>
+    </ul>
+
+    <div class="clear"></div>
+
+
+    <div id="chart_div"></div>
+
+
+</div>
+
+<div class="metrics">
+    <div class="item">
+        <div class="name">Объем памяти</div>
+        <div class="tooltip">Винил начинает изоритмический open-air, благодаря
+            быстрой смене тембров (каждый инструмент играет минимум звуков).
+            Процессуальное изменение косвенно. Полиряд представляет собой open-air,
+            что отчасти объясняет такое количество кавер-версий.
+            <div class="tips"></div>
+        </div>
+        <div class="val">2,5 Гб из 7,5Гб</div>
+    </div>
+    <div class="item">
+        <div class="name">Кол-во файлов</div>
+        <div class="tooltip">Винил начинает изоритмический open-air, благодаря
+            быстрой смене тембров (каждый инструмент играет минимум звуков).
+            Процессуальное изменение косвенно.
+            <div class="tips"></div>
+        </div>
+        <div class="val">305</div>
+    </div>
+    <div class="item">
+        <div class="name">Кол-во просмотр. файлов</div>
+        <div class="tooltip">Винил начинает изоритмический open-air, благодаря
+            быстрой смене тембров (каждый инструмент играет минимум звуков).
+            Процессуальное изменение косвенно. Полиряд представляет собой open-air,
+            что отчасти объясняет такое количество кавер-версий.
+            <div class="tips"></div>
+        </div>
+        <div class="val">34</div>
+    </div>
+    <div class="item last">
+        <div class="name">Кол-во cкачиваний</div>
+        <div class="tooltip">Винил начинает изоритмический open-air, благодаря
+            быстрой смене тембров
+            <div class="tips"></div>
+        </div>
+        <div class="val">350</div>
+    </div>
+    <div class="clear"></div>
+</div>
+
+<div class="white-block users">
+<div class="top_block placeholding">
+
+    <a class="show_but float_left" style="display: block;" href="#">Сформировать отчет</a>
+    <a class="print float_right" href="#"></a>
+    <input id="search-table" class="float_right" type="text" placeholder="Поиск пользователей">
+
+</div>
+
+
+<div id="usersTable" class="files">
+<table cellspacing="0" cellpadding="0" rel="sortData" id="usersSortTable" >
+    <thead>
+    <tr>
+        <th class="check"></th>
+        <th data-sort="string" class="name">Название файла</th>
+        <th data-sort="string" class="type">Тип</th>
+        <th data-sort="int" class="quantity-views">Просмотры</th>
+        <th data-sort="int" class="size">Размер</th>
+        <th data-sort="int" class="upload">Дата загрузки</th>
+        <th data-sort="int" class="quantity-down">Кол-во скачиваний</th>
+        <th data-sort="string" class="author">Владелец</th>
+    </tr>
+    </thead>
+</table>
+
+<div class="scroll userstable">
+
+<table cellspacing="0" cellpadding="0" id="sortData" class="tasks">
+
+<tbody>
+
+<tr>
+    <td class="check"><div class="sel"></div></td>
+    <td data-sort-value="Java Script по-новому" class="name">
+        <div class="sel">
+            <span>Java Script по-новому язык будущего поколения</span>
+        </div>
+    </td>
+    <td class="type">
+        <div class="sel">.jpg</div>
+    </td>
+    <td class="quantity-views" data-sort-value="12">
+        <div class="sel">12</div>
+    </td>
+    <td class="size" data-sort-value="13">
+        <div class="sel" >13 Мб</div>
+    </td>
+    <td class="upload" data-sort-value="1">
+        <div class="sel">12.01.12</div>
+    </td>
+    <td class="quantity-down">
+        <div class="sel">222</div>
+    </td>
+    <td class="author">
+        <div class="sel"><span>Артем Николаевич Цыцакович</span></div>
+    </td>
+</tr>
+<tr>
+    <td class="check"><div class="sel"></div></td>
+    <td data-sort-value="Java Script по-новому" class="name">
+        <div class="sel">
+            <span>Java 1Script по-новому </span>
+        </div>
+    </td>
+    <td class="type">
+        <div class="sel">.png</div>
+    </td>
+    <td class="quantity-views" data-sort-value="123">
+        <div class="sel">123</div>
+    </td>
+    <td class="size" data-sort-value="23">
+        <div class="sel" >23 Мб</div>
+    </td>
+    <td class="upload" data-sort-value="2">
+        <div class="sel">12.02.12</div>
+    </td>
+    <td class="quantity-down">
+        <div class="sel">1222</div>
+    </td>
+    <td class="author">
+        <div class="sel"><span>Сергей Колодяжный</span></div>
+    </td>
+</tr>
+<tr>
+    <td class="check"><div class="sel"></div></td>
+    <td data-sort-value="Java Script по-новому" class="name">
+        <div class="sel">
+            <span>Java Script по-новому язык будущего поколения</span>
+        </div>
+    </td>
+    <td class="type">
+        <div class="sel">.jpg</div>
+    </td>
+    <td class="quantity-views" data-sort-value="12">
+        <div class="sel">12</div>
+    </td>
+    <td class="size" data-sort-value="13">
+        <div class="sel" >13 Мб</div>
+    </td>
+    <td class="upload" data-sort-value="1">
+        <div class="sel">12.01.12</div>
+    </td>
+    <td class="quantity-down">
+        <div class="sel">222</div>
+    </td>
+    <td class="author">
+        <div class="sel"><span>Артем Николаевич Цыцакович</span></div>
+    </td>
+</tr>
+<tr>
+    <td class="check"><div class="sel"></div></td>
+    <td data-sort-value="Java Script по-новому" class="name">
+        <div class="sel">
+            <span>Java Script</span>
+        </div>
+    </td>
+    <td class="type">
+        <div class="sel">.gif</div>
+    </td>
+    <td class="quantity-views" data-sort-value="11">
+        <div class="sel">11</div>
+    </td>
+    <td class="size" data-sort-value="123">
+        <div class="sel" >123 Мб</div>
+    </td>
+    <td class="upload" data-sort-value="2">
+        <div class="sel">12.02.12</div>
+    </td>
+    <td class="quantity-down">
+        <div class="sel">1222</div>
+    </td>
+    <td class="author">
+        <div class="sel"><span>Сергей Колодяжный</span></div>
+    </td>
+</tr>
+<tr>
+    <td class="check"><div class="sel"></div></td>
+    <td data-sort-value="Java Script по-новому" class="name">
+        <div class="sel">
+            <span>Java Script по-новому язык будущего поколения</span>
+        </div>
+    </td>
+    <td class="type">
+        <div class="sel">.jpg</div>
+    </td>
+    <td class="quantity-views" data-sort-value="12">
+        <div class="sel">12</div>
+    </td>
+    <td class="size" data-sort-value="13">
+        <div class="sel" >13 Мб</div>
+    </td>
+    <td class="upload" data-sort-value="1">
+        <div class="sel">12.01.12</div>
+    </td>
+    <td class="quantity-down">
+        <div class="sel">222</div>
+    </td>
+    <td class="author">
+        <div class="sel"><span>Артем Николаевич Цыцакович</span></div>
+    </td>
+</tr>
+<tr>
+    <td class="check"><div class="sel"></div></td>
+    <td data-sort-value="Java Script по-новому" class="name">
+        <div class="sel">
+            <span>Java Script по-новому </span>
+        </div>
+    </td>
+    <td class="type">
+        <div class="sel">.png</div>
+    </td>
+    <td class="quantity-views" data-sort-value="123">
+        <div class="sel">123</div>
+    </td>
+    <td class="size" data-sort-value="23">
+        <div class="sel" >23 Мб</div>
+    </td>
+    <td class="upload" data-sort-value="2">
+        <div class="sel">12.02.12</div>
+    </td>
+    <td class="quantity-down">
+        <div class="sel">1222</div>
+    </td>
+    <td class="author">
+        <div class="sel"><span>Сергей Колодяжный</span></div>
+    </td>
+</tr>
+<tr>
+    <td class="check"><div class="sel"></div></td>
+    <td data-sort-value="Java Script по-новому" class="name">
+        <div class="sel">
+            <span>Java Script по-новому язык будущего поколения</span>
+        </div>
+    </td>
+    <td class="type">
+        <div class="sel">.jpg</div>
+    </td>
+    <td class="quantity-views" data-sort-value="12">
+        <div class="sel">12</div>
+    </td>
+    <td class="size" data-sort-value="13">
+        <div class="sel" >13 Мб</div>
+    </td>
+    <td class="upload" data-sort-value="1">
+        <div class="sel">12.01.12</div>
+    </td>
+    <td class="quantity-down">
+        <div class="sel">222</div>
+    </td>
+    <td class="author">
+        <div class="sel"><span>Артем Николаевич Цыцакович</span></div>
+    </td>
+</tr>
+<tr>
+    <td class="check"><div class="sel"></div></td>
+    <td data-sort-value="Java Script по-новому" class="name">
+        <div class="sel">
+            <span>Java Script</span>
+        </div>
+    </td>
+    <td class="type">
+        <div class="sel">.gif</div>
+    </td>
+    <td class="quantity-views" data-sort-value="11">
+        <div class="sel">11</div>
+    </td>
+    <td class="size" data-sort-value="123">
+        <div class="sel" >123 Мб</div>
+    </td>
+    <td class="upload" data-sort-value="2">
+        <div class="sel">12.02.12</div>
+    </td>
+    <td class="quantity-down">
+        <div class="sel">1222</div>
+    </td>
+    <td class="author">
+        <div class="sel"><span>Сергей Колодяжный</span></div>
+    </td>
+</tr>
+<tr>
+    <td class="check"><div class="sel"></div></td>
+    <td data-sort-value="Java Script по-новому" class="name">
+        <div class="sel">
+            <span>Java Script по-новому язык будущего поколения</span>
+        </div>
+    </td>
+    <td class="type">
+        <div class="sel">.jpg</div>
+    </td>
+    <td class="quantity-views" data-sort-value="12">
+        <div class="sel">12</div>
+    </td>
+    <td class="size" data-sort-value="13">
+        <div class="sel" >13 Мб</div>
+    </td>
+    <td class="upload" data-sort-value="1">
+        <div class="sel">12.01.12</div>
+    </td>
+    <td class="quantity-down">
+        <div class="sel">222</div>
+    </td>
+    <td class="author">
+        <div class="sel"><span>Артем Николаевич Цыцакович</span></div>
+    </td>
+</tr>
+<tr>
+    <td class="check"><div class="sel"></div></td>
+    <td data-sort-value="Java Script по-новому" class="name">
+        <div class="sel">
+            <span>Java Script по-новому </span>
+        </div>
+    </td>
+    <td class="type">
+        <div class="sel">.png</div>
+    </td>
+    <td class="quantity-views" data-sort-value="123">
+        <div class="sel">123</div>
+    </td>
+    <td class="size" data-sort-value="23">
+        <div class="sel" >23 Мб</div>
+    </td>
+    <td class="upload" data-sort-value="2">
+        <div class="sel">12.02.12</div>
+    </td>
+    <td class="quantity-down">
+        <div class="sel">1222</div>
+    </td>
+    <td class="author">
+        <div class="sel"><span>Сергей Колодяжный</span></div>
+    </td>
+</tr>
+<tr>
+    <td class="check"><div class="sel"></div></td>
+    <td data-sort-value="Java Script по-новому" class="name">
+        <div class="sel">
+            <span>Java Script по-новому язык будущего поколения</span>
+        </div>
+    </td>
+    <td class="type">
+        <div class="sel">.jpg</div>
+    </td>
+    <td class="quantity-views" data-sort-value="12">
+        <div class="sel">12</div>
+    </td>
+    <td class="size" data-sort-value="13">
+        <div class="sel" >13 Мб</div>
+    </td>
+    <td class="upload" data-sort-value="1">
+        <div class="sel">12.01.12</div>
+    </td>
+    <td class="quantity-down">
+        <div class="sel">222</div>
+    </td>
+    <td class="author">
+        <div class="sel"><span>Артем Николаевич Цыцакович</span></div>
+    </td>
+</tr>
+<tr>
+    <td class="check"><div class="sel"></div></td>
+    <td data-sort-value="Java Script по-новому" class="name">
+        <div class="sel">
+            <span>Java Script</span>
+        </div>
+    </td>
+    <td class="type">
+        <div class="sel">.gif</div>
+    </td>
+    <td class="quantity-views" data-sort-value="11">
+        <div class="sel">11</div>
+    </td>
+    <td class="size" data-sort-value="123">
+        <div class="sel" >123 Мб</div>
+    </td>
+    <td class="upload" data-sort-value="2">
+        <div class="sel">12.02.12</div>
+    </td>
+    <td class="quantity-down">
+        <div class="sel">1222</div>
+    </td>
+    <td class="author">
+        <div class="sel"><span>Сергей Колодяжный</span></div>
+    </td>
+</tr>
+<tr>
+    <td class="check"><div class="sel"></div></td>
+    <td data-sort-value="Java Script по-новому" class="name">
+        <div class="sel">
+            <span>Java Script по-новому язык будущего поколения</span>
+        </div>
+    </td>
+    <td class="type">
+        <div class="sel">.jpg</div>
+    </td>
+    <td class="quantity-views" data-sort-value="12">
+        <div class="sel">12</div>
+    </td>
+    <td class="size" data-sort-value="13">
+        <div class="sel" >13 Мб</div>
+    </td>
+    <td class="upload" data-sort-value="1">
+        <div class="sel">12.01.12</div>
+    </td>
+    <td class="quantity-down">
+        <div class="sel">222</div>
+    </td>
+    <td class="author">
+        <div class="sel"><span>Артем Николаевич Цыцакович</span></div>
+    </td>
+</tr>
+<tr>
+    <td class="check"><div class="sel"></div></td>
+    <td data-sort-value="Java Script по-новому" class="name">
+        <div class="sel">
+            <span>Java Script по-новому </span>
+        </div>
+    </td>
+    <td class="type">
+        <div class="sel">.png</div>
+    </td>
+    <td class="quantity-views" data-sort-value="123">
+        <div class="sel">123</div>
+    </td>
+    <td class="size" data-sort-value="23">
+        <div class="sel" >23 Мб</div>
+    </td>
+    <td class="upload" data-sort-value="2">
+        <div class="sel">12.02.12</div>
+    </td>
+    <td class="quantity-down">
+        <div class="sel">1222</div>
+    </td>
+    <td class="author">
+        <div class="sel"><span>Сергей Колодяжный</span></div>
+    </td>
+</tr>
+<tr>
+    <td class="check"><div class="sel"></div></td>
+    <td data-sort-value="Java Script по-новому" class="name">
+        <div class="sel">
+            <span>Java Script по-новому язык будущего поколения</span>
+        </div>
+    </td>
+    <td class="type">
+        <div class="sel">.jpg</div>
+    </td>
+    <td class="quantity-views" data-sort-value="12">
+        <div class="sel">12</div>
+    </td>
+    <td class="size" data-sort-value="13">
+        <div class="sel" >13 Мб</div>
+    </td>
+    <td class="upload" data-sort-value="1">
+        <div class="sel">12.01.12</div>
+    </td>
+    <td class="quantity-down">
+        <div class="sel">222</div>
+    </td>
+    <td class="author">
+        <div class="sel"><span>Артем Николаевич Цыцакович</span></div>
+    </td>
+</tr>
+<tr>
+    <td class="check"><div class="sel"></div></td>
+    <td data-sort-value="Java Script по-новому" class="name">
+        <div class="sel">
+            <span>Java Script</span>
+        </div>
+    </td>
+    <td class="type">
+        <div class="sel">.gif</div>
+    </td>
+    <td class="quantity-views" data-sort-value="11">
+        <div class="sel">11</div>
+    </td>
+    <td class="size" data-sort-value="123">
+        <div class="sel" >123 Мб</div>
+    </td>
+    <td class="upload" data-sort-value="2">
+        <div class="sel">12.02.12</div>
+    </td>
+    <td class="quantity-down">
+        <div class="sel">1222</div>
+    </td>
+    <td class="author">
+        <div class="sel"><span>Сергей Колодяжный</span></div>
+    </td>
+</tr>
+<tr>
+    <td class="check"><div class="sel"></div></td>
+    <td data-sort-value="Java Script по-новому" class="name">
+        <div class="sel">
+            <span>Java Script по-новому язык будущего поколения</span>
+        </div>
+    </td>
+    <td class="type">
+        <div class="sel">.jpg</div>
+    </td>
+    <td class="quantity-views" data-sort-value="12">
+        <div class="sel">12</div>
+    </td>
+    <td class="size" data-sort-value="13">
+        <div class="sel" >13 Мб</div>
+    </td>
+    <td class="upload" data-sort-value="1">
+        <div class="sel">12.01.12</div>
+    </td>
+    <td class="quantity-down">
+        <div class="sel">222</div>
+    </td>
+    <td class="author">
+        <div class="sel"><span>Артем Николаевич Цыцакович</span></div>
+    </td>
+</tr>
+<tr>
+    <td class="check"><div class="sel"></div></td>
+    <td data-sort-value="Java Script по-новому" class="name">
+        <div class="sel">
+            <span>Java Script по-новому </span>
+        </div>
+    </td>
+    <td class="type">
+        <div class="sel">.png</div>
+    </td>
+    <td class="quantity-views" data-sort-value="123">
+        <div class="sel">123</div>
+    </td>
+    <td class="size" data-sort-value="23">
+        <div class="sel" >23 Мб</div>
+    </td>
+    <td class="upload" data-sort-value="2">
+        <div class="sel">12.02.12</div>
+    </td>
+    <td class="quantity-down">
+        <div class="sel">1222</div>
+    </td>
+    <td class="author">
+        <div class="sel"><span>Сергей Колодяжный</span></div>
+    </td>
+</tr>
+<tr>
+    <td class="check"><div class="sel"></div></td>
+    <td data-sort-value="Java Script по-новому" class="name">
+        <div class="sel">
+            <span>Java Script по-новому язык будущего поколения</span>
+        </div>
+    </td>
+    <td class="type">
+        <div class="sel">.jpg</div>
+    </td>
+    <td class="quantity-views" data-sort-value="12">
+        <div class="sel">12</div>
+    </td>
+    <td class="size" data-sort-value="13">
+        <div class="sel" >13 Мб</div>
+    </td>
+    <td class="upload" data-sort-value="1">
+        <div class="sel">12.01.12</div>
+    </td>
+    <td class="quantity-down">
+        <div class="sel">222</div>
+    </td>
+    <td class="author">
+        <div class="sel"><span>Артем Николаевич Цыцакович</span></div>
+    </td>
+</tr>
+<tr>
+    <td class="check"><div class="sel"></div></td>
+    <td data-sort-value="Java Script по-новому" class="name">
+        <div class="sel">
+            <span>Java Script</span>
+        </div>
+    </td>
+    <td class="type">
+        <div class="sel">.gif</div>
+    </td>
+    <td class="quantity-views" data-sort-value="11">
+        <div class="sel">11</div>
+    </td>
+    <td class="size" data-sort-value="123">
+        <div class="sel" >123 Мб</div>
+    </td>
+    <td class="upload" data-sort-value="2">
+        <div class="sel">12.02.12</div>
+    </td>
+    <td class="quantity-down">
+        <div class="sel">1222</div>
+    </td>
+    <td class="author">
+        <div class="sel"><span>Сергей Колодяжный</span></div>
+    </td>
+</tr>
+
+</tbody>
+</table>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!--Контент-->
+
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+
+</div>
+
+
+<script type="text/javascript" src="../js/lineChart.js"></script>
+</body>
+</html>
