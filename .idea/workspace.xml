@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/gray-button.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tb_courses.iws" />
@@ -782,7 +781,11 @@
       <created>1365532056165</created>
       <updated>1365532056165</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="test-user-1&#10;">
+      <created>1365532082854</created>
+      <updated>1365532082854</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="ToolWindowManager">
