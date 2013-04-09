@@ -1743,7 +1743,6 @@ body, html, #main {
     margin-bottom: 18px;
 }
 
-
 #course-view-new-user .questions #tab-status .head input[type=text] {
     width: 168px;
 }
@@ -1762,11 +1761,130 @@ body, html, #main {
     z-index: 3;
 }
 
-
-#course-view-new-user .questions #tab-passage .head input[type=text]{
+#course-view-new-user .questions #tab-passage .head input[type=text] {
     width: 170px;
 
 }
+
+#course-view-new-user.test-admin a.button-green {
+    width: 176px;
+}
+
+#course-view-new-user .info .ico {
+    position: absolute;
+    top: -3px;
+    right: -10px;
+    width: 85px;
+
+}
+
+#course-view-new-user .ico-close {
+    background: #d9dcde url("../images/arr_open.png") no-repeat 28px 9px;
+    border-radius: 2px;
+    border: 1px solid #d4d7d9;
+    box-shadow: 0 1px 0 #eff2f6;
+    padding: 0px 14px 0px 4px;
+    display: inline-block;
+    margin: 4px 0;
+    cursor: pointer;
+    float: left;
+    margin-right: 7px;
+}
+
+#course-view-new-user.test-admin a.btn-settings {
+    float: left;
+    padding: 0 1px;
+    border-radius: 2px;
+
+}
+
+#course-view-new-user.test-admin h1 {
+    width: auto;
+    max-width: 740px;
+}
+
+#course-view-new-user.test-admin .info {
+    padding-left: 90px;
+}
+
+#course-view-new-user.test-admin .navi-box-cont img {
+    margin-left: 3px;
+    margin-top: 5px;
+
+}
+
+#course-view-new-user.test-admin .panel .head {
+    padding-top: 3px;
+}
+
+#course-view-new-user.test-admin .author {
+    margin-bottom: 13px;
+}
+
+
+#course-view-new-user.test-admin .account .notify{
+    width: 400px;
+
+}
+
+#course-view-new-user.test-admin .account .notify .gray {
+    border-radius: 5px 0 5px 5px;
+    -webkit-border-radius: 5px 0 5px 5px;
+    height: 332px;
+
+
+}
+
+
+#course-view-new-user.test-admin .account .notify .scroll .inner{
+    padding: 0 24px;
+}
+
+#course-view-new-user.test-admin .account .notify .parameters li{
+    background: url("../images/bg/dashed.png") repeat-x bottom;
+    padding-left: 0;
+    padding-bottom: 7px;
+    margin-bottom: 7px;
+    font-size: 14px;
+    color: #000;
+}
+
+#course-view-new-user.test-admin .account .notify .parameters li.last{
+    margin-bottom: 0;
+}
+
+#course-view-new-user.test-admin .account .notify .name{
+    font-size: 16px;
+    color: #676767;
+    padding-bottom: 15px;
+    display: block;
+    margin: 20px 24px 7px;
+    padding-bottom: 15px;
+    background: url("../images/bg/dashed.png") repeat-x bottom;
+}
+
+
+#course-view-new-user.test-admin .text{
+    width: 460px;
+}
+
+#course-view-new-user.test-admin .text p{
+    margin-bottom: 10px;
+}
+
+
+#course-view-new-user.test-admin .text a{
+    color: #006fe1;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+#course-view-new-user.test-admin .text a:hover{
+    text-decoration: none;
+}
+
+
+
 
 
 
