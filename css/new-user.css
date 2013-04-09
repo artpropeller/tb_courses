@@ -1852,6 +1852,7 @@ body, html, #main {
     margin-bottom: 7px;
     font-size: 14px;
     color: #000;
+    position: relative;
 }
 
 #course-view-new-user.test-admin .account .notify .parameters li.last{
@@ -1875,6 +1876,10 @@ body, html, #main {
 
 #course-view-new-user.test-admin .text p{
     margin-bottom: 10px;
+}
+
+#course-view-new-user.test-admin.test-user .text p{
+    margin-bottom: 30px;
 }
 
 
@@ -1919,11 +1924,83 @@ a.btn-settings.delete-link:hover {
     box-shadow: 0px 0px 1px 0px #c3c9d2;
 }
 
+#course-view-new-user.test-admin .parameters .faq {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    right: 0;
+    top:3px;
+    cursor: pointer;
+    background: url("../images/faq-sprite.jpg") no-repeat left;
+}
 
+#course-view-new-user.test-admin .parameters .faq:hover {
+    background-position: 100% 0;
+}
 
+#course-view-new-user.test-admin .parameters {
+    margin-left: 24px;
+    margin-right: 24px;
+}
 
+#course-view-new-user.test-admin .parameters .faq .popup-info {
+    position: absolute;
+    right: -20px;
+    top: 22px;
+    background: #f6f5e3;
+    border:1px solid #d7d4aa;
+    border-radius: 4px;
+    box-shadow: 1px 2px 5px rgba(0,0,0,0.4);
+    padding: 17px;
+    z-index: 10000;
+    font-size: 12px;
+    width: 340px;
+    display: none;
+    cursor: default;
+    line-height: 18px;
+}
 
+#course-view-new-user.test-admin .parameters .faq .popup-info strong {
+    font-weight: bold;
+    color: #b50000;
+}
 
+#course-view-new-user.test-admin .parameters .faq .popup-info p {
+    margin: 0;
+    padding: 0;
+    color: #64634d;
+    padding-top: 8px;
+}
 
+#course-view-new-user.test-admin .parameters .faq .popup-info p strong  {
+    color: #64634d;
+}
 
+#course-view-new-user.test-admin .parameters .faq .popup-info i {
+    position: absolute;
+    background: url("../images/arr-popup-info.png") no-repeat;
+    width: 15px;
+    height: 10px;
+    display: block;
+    top:-10px;
+    right: 20px;
+}
 
+#course-view-new-user.test-admin .parameters .faq .popup-info .close {
+    position: absolute;
+    background: url("../images/close_elements.jpg") no-repeat;
+    width: 10px;
+    height: 10px;
+    display: block;
+    top:10px;
+    right: 10px;
+}
+
+.info-cover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    top: 0;
+    right: 0;
+}
