@@ -106,9 +106,29 @@ body, html, #main {
     text-align: center;
 }
 
+
+#course-view-new-user a.button-gray {
+    background: url("../images/gray-button.jpg") repeat-x top;
+    height: 14px;
+    border-radius: 3px;
+    border: 1px solid #a5a5a9;
+    box-shadow: 0 0 3px #aaa;
+    display: inline-block;
+    padding: 6px 0 10px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    text-shadow: 0 1px 0 #717171;
+    margin-right: 5px;
+    width: 153px;
+    text-align: center;
+}
+
+
 #course-view-new-user a.button-green:hover {
     background-position: bottom;
 }
+
 
 #course-view-new-user .head .menu {
     border-radius: 3px;
@@ -117,6 +137,7 @@ body, html, #main {
     float: left;
     margin: 0;
 }
+
 
 #course-view-new-user .head .menu li {
     float: left;
@@ -2003,4 +2024,30 @@ a.btn-settings.delete-link:hover {
     z-index: 9999;
     top: 0;
     right: 0;
+}
+
+#course-view-new-user.test-admin.test-user .parameters {
+    margin-bottom: 30px;
+}
+
+#course-view-new-user.test-admin.test-user .wide .parameters li {
+    padding-bottom: 6px;
+    margin-bottom: 6px;
+}
+
+#course-view-new-user .text.stat .top {
+    margin-bottom: 25px;
+}
+
+#course-view-new-user.test-admin.test-user .text.stat p {
+    margin-bottom: 25px;
+}
+
+#course-view-new-user.test-admin .text .bot .item {
+    width: 300px;
+}
+
+#course-view-new-user .text .bot .item strong em {
+    font-style: normal;
+    color: #909090;
 }
