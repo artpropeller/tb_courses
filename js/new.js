@@ -136,7 +136,7 @@ $(function () {
         $('#course-view-new-user #audience .rightContainer.resize-1 .scroll').height($(window).height() - 300);
         $('#course-view-new-user #audience .rightContainer.resize-2 .scroll').height($(window).height() - 350);
         $('#course-view-new-user #audience .rightContainer.resize-3 .scroll').height($(window).height() - 450);
-            resizeTableStat(340, $('.resize-6 .scroll'));
+            resizeTableStat(366, $('.resize-6 .scroll'));
         resizeTableStat(434, $('.resize-5 .scroll'));
         resizeTableStat(340, $('.questions.resize-1 .scroll'));
         resizeTableStat(360, $('.questions.resize-2 .scroll'));
@@ -151,7 +151,7 @@ $(function () {
     resizeTableStat(340, $('.questions.resize-1 .scroll'));
     resizeTableStat(360, $('.questions.resize-2 .scroll'));
     resizeTableStat(428, $('.resize-4 .scroll'));
-        resizeTableStat(340, $('.resize-6 .scroll'));
+        resizeTableStat(366, $('.resize-6 .scroll'));
     resizeTableStat(434, $('.resize-5 .scroll'));
 
 
@@ -391,9 +391,9 @@ $(function () {
         var st = pop.find('.string').first();
         var wi = 20 + st.find('.hint').width() + st.find('.color').width() + st.find('.total').width();
 //        console.log(pop.offset(), pop.offsetTop);
-        newpop.css({'left': (pop.offset().left - wi + 15) + 'px', 'top': pop.offset().top + 'px', 'display': 'block', 'width': wi});
+        newpop.css({'left': (pop.offset().left - wi + 15) + 'px', 'top': (pop.offset().top-64) + 'px', 'display': 'block', 'width': wi});
         if (pop.offset().top + 104 > $(window).height()) {
-            newpop.css({'top': (pop.offset().top - 130) + 'px'});
+            newpop.css({'top': (pop.offset().top - 194) + 'px'});
             newpop.addClass('top');
         }
         $('.quest-statistic').append(newpop);
@@ -459,7 +459,7 @@ $(function () {
         $($(this).attr('rel')).show(0);
 //        resizeTableStat(340, $('.questions.resize-1 .scroll'));
         setTimeout(function(){
-            resizeTableStat(340, $('.resize-6 .scroll'));
+            resizeTableStat(366, $('.resize-6 .scroll'));
             resizeTableStat(434, $('.resize-5 .scroll'));}, 1);
 
         resizeTableStat(360, $('.questions.resize-2 .scroll'));
