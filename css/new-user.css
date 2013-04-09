@@ -1763,6 +1763,12 @@ body, html, #main {
 }
 
 
+#course-view-new-user .questions #tab-passage .head input[type=text]{
+    width: 170px;
+
+}
+
+
 
 
 
