@@ -106,7 +106,7 @@ $(function () {
         return false;
     });
 
-    $('#course-view-new-user .gray .scroll, #course-view-new-user #course-results .users .scroll, #course-view-new-user #audience .scroll').jScrollPane({
+    $('#course-view-new-user .gray .scroll, .questions .scroll, #course-view-new-user #audience .scroll').jScrollPane({
         autoReinitialise: true,
         autoReinitialiseDelay: 10
     });
@@ -133,17 +133,17 @@ $(function () {
     });
 
     $(window).resize(function () {
-//        $('#course-view-new-user #course-results .users .scroll').height($(window).height()-400);
         $('#course-view-new-user #audience .rightContainer.resize-1 .scroll').height($(window).height() - 300);
         $('#course-view-new-user #audience .rightContainer.resize-2 .scroll').height($(window).height() - 350);
         $('#course-view-new-user #audience .rightContainer.resize-3 .scroll').height($(window).height() - 450);
+            resizeTableStat(340, $('.resize-6 .scroll'));
+        resizeTableStat(434, $('.resize-5 .scroll'));
         resizeTableStat(340, $('.questions.resize-1 .scroll'));
         resizeTableStat(360, $('.questions.resize-2 .scroll'));
         resizeTableStat(428, $('.resize-4 .scroll'));
     });
 
 
-//    $('#course-view-new-user #course-results .users .scroll').height($(window).height()-400);
     $('#course-view-new-user #audience .rightContainer.resize-1 .scroll').height($(window).height() - 300);
     $('#course-view-new-user #audience .rightContainer.resize-2 .scroll').height($(window).height() - 350);
     $('#course-view-new-user #audience .rightContainer.resize-3 .scroll').height($(window).height() - 450);
@@ -151,6 +151,8 @@ $(function () {
     resizeTableStat(340, $('.questions.resize-1 .scroll'));
     resizeTableStat(360, $('.questions.resize-2 .scroll'));
     resizeTableStat(428, $('.resize-4 .scroll'));
+        resizeTableStat(340, $('.resize-6 .scroll'));
+    resizeTableStat(434, $('.resize-5 .scroll'));
 
 
     $('#course-view-new-user #course-results .notify li a').click(function () {
@@ -456,6 +458,10 @@ $(function () {
         $(this).parent().addClass('active');
         $($(this).attr('rel')).show(0);
 //        resizeTableStat(340, $('.questions.resize-1 .scroll'));
+        setTimeout(function(){
+            resizeTableStat(340, $('.resize-6 .scroll'));
+            resizeTableStat(434, $('.resize-5 .scroll'));}, 1);
+
         resizeTableStat(360, $('.questions.resize-2 .scroll'));
         resizeTableStat(428, $('.resize-4 .scroll'));
         return false
