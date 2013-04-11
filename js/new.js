@@ -472,14 +472,3 @@ $(function () {
 });
 
 
-$(function(){
-    $('#course-view-new-user.test-admin .parameters .faq').click(function(){
-        $(this).find('.popup-info').show(0);
-        $('#course-view-new-user.test-admin').after('<div class="info-cover"></div>');
-    });
-    $('.info-cover, #course-view-new-user.test-admin .parameters .faq .popup-info .close').live('click', function(){
-        $('.info-cover').remove();
-        $('.popup-info').hide(0);
-        return false;
-    });
-});
