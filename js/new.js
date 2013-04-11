@@ -5,6 +5,7 @@ $(function () {
     addTooltipClass('#course-view-new-user .questions.s70 .name span', 58);
     addTooltipClass('#course-view-new-user .questions.s80 .name span', 60);
     addTooltipClass('#course-view-new-user h1', 40);
+    addTooltipClass('#course-view-new-user.test-admin h1', 36);
     addTooltipClass('#course-view-new-user h1.s65', 65);
 
     tooltip();

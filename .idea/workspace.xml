@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/new-user.css" afterPath="$PROJECT_DIR$/css/new-user.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/new.js" afterPath="$PROJECT_DIR$/js/new.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-user2.html" afterPath="$PROJECT_DIR$/test-user2.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tb_courses.iws" />
@@ -17,11 +19,11 @@
     <file path="/course-edit-fn.js" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365064450799" ignored="false" />
     <file path="W:/repository/teachbase_editor/js/course-edit-fn.js" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365064962800" ignored="false" />
     <file path="/course-view-new-messages-4.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365061358430" ignored="false" />
-    <file path="/Dummy.txt" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365683130771" ignored="false" />
+    <file path="/Dummy.txt" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365684135119" ignored="false" />
     <file path="/course-view-new-statistic.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365490683502" ignored="false" />
     <file path="/new-user.css" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365683066584" ignored="false" />
     <file path="/dummy.xml" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365515796355" ignored="false" />
-    <file path="/new.js" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365429759810" ignored="false" />
+    <file path="/new.js" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365685238698" ignored="false" />
     <file path="/course-view-new-messages-1.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1363267577188" ignored="false" />
     <file path="/new-course-messages.css" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365061237052" ignored="false" />
     <file path="/course-view-new-messages-2.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1363528173248" ignored="false" />
@@ -65,7 +67,7 @@
       <file leaf-file-name="test-user2.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test-user2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="102" column="88" selection-start="4831" selection-end="4831" vertical-scroll-proportion="-34.0">
+            <state line="177" column="58" selection-start="9104" selection-end="9104" vertical-scroll-proportion="-9.176471">
               <folding />
             </state>
           </provider>
@@ -80,10 +82,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new-user.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="new-user.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/new-user.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1860" column="15" selection-start="36842" selection-end="36842" vertical-scroll-proportion="0.41104296">
+            <state line="1825" column="18" selection-start="36215" selection-end="36215" vertical-scroll-proportion="-10.04">
               <folding />
             </state>
           </provider>
@@ -92,16 +94,16 @@
       <file leaf-file-name="test-admin.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test-admin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="123" column="86" selection-start="5462" selection-end="5462" vertical-scroll-proportion="-4.6153846">
+            <state line="85" column="134" selection-start="4047" selection-end="4047" vertical-scroll-proportion="-13.115385">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test-admin2.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="test-admin2.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test-admin2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1050" column="62" selection-start="41499" selection-end="41499" vertical-scroll-proportion="-6.9342103">
+            <state line="995" column="46" selection-start="39118" selection-end="39118" vertical-scroll-proportion="0.24918567">
               <folding />
             </state>
           </provider>
@@ -110,7 +112,7 @@
       <file leaf-file-name="new.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/new.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="474" column="0" selection-start="16336" selection-end="16336" vertical-scroll-proportion="-23.0">
+            <state line="7" column="61" selection-start="428" selection-end="428" vertical-scroll-proportion="-4.76">
               <folding />
             </state>
           </provider>
@@ -145,12 +147,12 @@
         <option value="$PROJECT_DIR$/css/otchet.css" />
         <option value="$PROJECT_DIR$/course-view-new-statistic.html" />
         <option value="$PROJECT_DIR$/course-view-new-user-statistic.html" />
-        <option value="$PROJECT_DIR$/js/new.js" />
         <option value="$PROJECT_DIR$/test-user.html" />
-        <option value="$PROJECT_DIR$/test-user2.html" />
         <option value="$PROJECT_DIR$/test-admin.html" />
         <option value="$PROJECT_DIR$/test-admin2.html" />
+        <option value="$PROJECT_DIR$/test-user2.html" />
         <option value="$PROJECT_DIR$/css/new-user.css" />
+        <option value="$PROJECT_DIR$/js/new.js" />
       </list>
     </option>
   </component>
@@ -270,20 +272,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="tb_courses" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tb_courses" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tb_courses" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -765,7 +753,11 @@
       <created>1365683136343</created>
       <updated>1365683136343</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="test-user-1&#10;">
+      <created>1365684138887</created>
+      <updated>1365684138887</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -930,27 +922,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/new.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="474" column="0" selection-start="16336" selection-end="16336" vertical-scroll-proportion="-23.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-admin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="86" selection-start="5462" selection-end="5462" vertical-scroll-proportion="-4.6153846">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-admin2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1050" column="62" selection-start="41499" selection-end="41499" vertical-scroll-proportion="-6.9342103">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test-user.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="92" column="89" selection-start="4510" selection-end="4510" vertical-scroll-proportion="-3.8431373">
@@ -960,14 +931,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test-user2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="88" selection-start="4831" selection-end="4831" vertical-scroll-proportion="-34.0">
+        <state line="177" column="58" selection-start="9104" selection-end="9104" vertical-scroll-proportion="-9.176471">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-admin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="134" selection-start="4047" selection-end="4047" vertical-scroll-proportion="-13.115385">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/new-user.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1860" column="15" selection-start="36842" selection-end="36842" vertical-scroll-proportion="0.41104296">
+        <state line="1825" column="18" selection-start="36215" selection-end="36215" vertical-scroll-proportion="-10.04">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/new.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="61" selection-start="428" selection-end="428" vertical-scroll-proportion="-4.76">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-admin2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="995" column="46" selection-start="39118" selection-end="39118" vertical-scroll-proportion="0.24918567">
           <folding />
         </state>
       </provider>
