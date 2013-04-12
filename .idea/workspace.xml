@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/new-user.css" afterPath="$PROJECT_DIR$/css/new-user.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/new.js" afterPath="$PROJECT_DIR$/js/new.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-user2.html" afterPath="$PROJECT_DIR$/test-user2.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -19,7 +17,7 @@
     <file path="/course-edit-fn.js" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365064450799" ignored="false" />
     <file path="W:/repository/teachbase_editor/js/course-edit-fn.js" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365064962800" ignored="false" />
     <file path="/course-view-new-messages-4.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365061358430" ignored="false" />
-    <file path="/Dummy.txt" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365684135119" ignored="false" />
+    <file path="/Dummy.txt" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365685369820" ignored="false" />
     <file path="/course-view-new-statistic.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365490683502" ignored="false" />
     <file path="/new-user.css" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365683066584" ignored="false" />
     <file path="/dummy.xml" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365515796355" ignored="false" />
@@ -64,10 +62,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="test-user2.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="test-user2.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test-user2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="177" column="58" selection-start="9104" selection-end="9104" vertical-scroll-proportion="-9.176471">
+            <state line="114" column="0" selection-start="5311" selection-end="5311" vertical-scroll-proportion="0.33333334">
               <folding />
             </state>
           </provider>
@@ -100,10 +98,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test-admin2.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="test-admin2.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test-admin2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="995" column="46" selection-start="39118" selection-end="39118" vertical-scroll-proportion="0.24918567">
+            <state line="995" column="46" selection-start="39118" selection-end="39118" vertical-scroll-proportion="12.947369">
               <folding />
             </state>
           </provider>
@@ -150,9 +148,9 @@
         <option value="$PROJECT_DIR$/test-user.html" />
         <option value="$PROJECT_DIR$/test-admin.html" />
         <option value="$PROJECT_DIR$/test-admin2.html" />
-        <option value="$PROJECT_DIR$/test-user2.html" />
         <option value="$PROJECT_DIR$/css/new-user.css" />
         <option value="$PROJECT_DIR$/js/new.js" />
+        <option value="$PROJECT_DIR$/test-user2.html" />
       </list>
     </option>
   </component>
@@ -757,7 +755,11 @@
       <created>1365684138887</created>
       <updated>1365684138887</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="test-user-1&#10;">
+      <created>1365685377981</created>
+      <updated>1365685377981</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -929,13 +931,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-user2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="177" column="58" selection-start="9104" selection-end="9104" vertical-scroll-proportion="-9.176471">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test-admin.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="85" column="134" selection-start="4047" selection-end="4047" vertical-scroll-proportion="-13.115385">
@@ -959,7 +954,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test-admin2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="995" column="46" selection-start="39118" selection-end="39118" vertical-scroll-proportion="0.24918567">
+        <state line="995" column="46" selection-start="39118" selection-end="39118" vertical-scroll-proportion="12.947369">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-user2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="114" column="0" selection-start="5311" selection-end="5311" vertical-scroll-proportion="0.33333334">
           <folding />
         </state>
       </provider>
