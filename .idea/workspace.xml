@@ -5,44 +5,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test-user2.html" afterPath="$PROJECT_DIR$/test-user2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/print-stat.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-view-new-vopros-statistic.html" afterPath="$PROJECT_DIR$/course-view-new-vopros-statistic.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tb_courses.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="W:/repository/teachbase_editor/css/course-editor.css" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365064822614" ignored="false" />
-    <file path="/course-editor.css" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365064820962" ignored="false" />
-    <file path="/course-editor-full-mic.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365064697597" ignored="false" />
-    <file path="W:/repository/teachbase_editor/course-editor-full-mic.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365064698728" ignored="false" />
-    <file path="/course-edit-fn.js" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365064450799" ignored="false" />
-    <file path="W:/repository/teachbase_editor/js/course-edit-fn.js" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365064962800" ignored="false" />
-    <file path="/course-view-new-messages-4.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365061358430" ignored="false" />
-    <file path="/Dummy.txt" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365685369820" ignored="false" />
-    <file path="/course-view-new-statistic.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365490683502" ignored="false" />
-    <file path="/new-user.css" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365683066584" ignored="false" />
-    <file path="/dummy.xml" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365515796355" ignored="false" />
-    <file path="/new.js" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365685238698" ignored="false" />
-    <file path="/course-view-new-messages-1.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1363267577188" ignored="false" />
-    <file path="/new-course-messages.css" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365061237052" ignored="false" />
-    <file path="/course-view-new-messages-2.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1363528173248" ignored="false" />
-    <file path="/course-view-new-settings.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1363528565609" ignored="false" />
-    <file path="/view-quesfull.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365404677112" ignored="false" />
-    <file path="/test-view.js" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365413200882" ignored="false" />
-    <file path="/test-questions-view.css" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365423190181" ignored="false" />
-    <file path="/view-quesfull-user.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1364981480607" ignored="false" />
-    <file path="/test-questions-view-ie.css" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365405173593" ignored="false" />
-    <file path="/a.dummy" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1364310882296" ignored="false" />
-    <file path="/course-view-new-user-statistic.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365496753526" ignored="false" />
-    <file path="/course-view-new-vopros-statistic2.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365410244716" ignored="false" />
-    <file path="/course-view-new-vopros-statistic.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365421790635" ignored="false" />
-    <file path="/view-quesfull-2.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365405504147" ignored="false" />
-    <file path="/otchet_new.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365417232489" ignored="false" />
-    <file path="/otchet.css" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365425379787" ignored="false" />
-    <file path="/base.dialog.assign.css" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365422919024" ignored="false" />
-    <file path="$PROJECT_DIR$/../tb_start/css/box-messages.css" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365427098930" ignored="false" />
+    <file path="/test-admin2.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365517820942" ignored="false" />
+    <file path="/test-admin.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365516346475" ignored="false" />
     <file path="/box-messages.css" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365427097736" ignored="false" />
-    <file path="/test-admin.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365682314205" ignored="false" />
-    <file path="/test-admin2.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365682393600" ignored="false" />
+    <file path="$PROJECT_DIR$/../tb_start/css/box-messages.css" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365427098930" ignored="false" />
+    <file path="/base.dialog.assign.css" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365422919024" ignored="false" />
+    <file path="/otchet.css" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365425379787" ignored="false" />
+    <file path="/otchet_new.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365417232489" ignored="false" />
+    <file path="/view-quesfull-2.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365405504147" ignored="false" />
+    <file path="/course-view-new-vopros-statistic.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1372949126812" ignored="false" />
+    <file path="/course-view-new-vopros-statistic2.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365410244716" ignored="false" />
+    <file path="/course-view-new-user-statistic.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365496753526" ignored="false" />
+    <file path="/a.dummy" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1364310882296" ignored="false" />
+    <file path="/test-questions-view-ie.css" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365405173593" ignored="false" />
+    <file path="/view-quesfull-user.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1364981480607" ignored="false" />
+    <file path="/test-questions-view.css" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365423190181" ignored="false" />
+    <file path="/test-view.js" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365413200882" ignored="false" />
+    <file path="/view-quesfull.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365404677112" ignored="false" />
+    <file path="/course-view-new-settings.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1363528565609" ignored="false" />
+    <file path="/course-view-new-messages-2.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1363528173248" ignored="false" />
+    <file path="/new-course-messages.css" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365061237052" ignored="false" />
+    <file path="/course-view-new-messages-1.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1363267577188" ignored="false" />
+    <file path="/new.js" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365429759810" ignored="false" />
+    <file path="/dummy.xml" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1366700172347" ignored="false" />
+    <file path="/new-user.css" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365518119214" ignored="false" />
+    <file path="/course-view-new-statistic.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365490683502" ignored="false" />
+    <file path="/Dummy.txt" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1372940730775" ignored="false" />
+    <file path="/course-view-new-messages-4.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365061358430" ignored="false" />
+    <file path="W:/repository/teachbase_editor/js/course-edit-fn.js" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365064962800" ignored="false" />
+    <file path="/course-edit-fn.js" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365064450799" ignored="false" />
+    <file path="W:/repository/teachbase_editor/course-editor-full-mic.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365064698728" ignored="false" />
+    <file path="/course-editor-full-mic.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365064697597" ignored="false" />
+    <file path="/course-editor.css" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1366700273319" ignored="false" />
+    <file path="W:/repository/teachbase_editor/css/course-editor.css" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365064822614" ignored="false" />
+    <file path="$PROJECT_DIR$/../../repository/teachbase_editor/css/course-editor.css" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1366700273319" ignored="false" />
+    <file path="$PROJECT_DIR$/../../repository/teachbase_editor/course-excel.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1366700181350" ignored="false" />
+    <file path="/course-excel.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1366700173518" ignored="false" />
+    <file path="/print-stat.css" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1372948992755" ignored="false" />
+    <file path="$PROJECT_DIR$/../tb_landing/css/style.css" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1372941109149" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,46 +68,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="test-user2.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test-user2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="114" column="0" selection-start="5311" selection-end="5311" vertical-scroll-proportion="0.33333334">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test-user.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test-user.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="92" column="89" selection-start="4510" selection-end="4510" vertical-scroll-proportion="-3.8431373">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="new-user.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/new-user.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1825" column="18" selection-start="36215" selection-end="36215" vertical-scroll-proportion="-10.04">
+            <state line="116" column="24" selection-start="2435" selection-end="2435" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test-admin.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test-admin.html">
+      <file leaf-file-name="course-view-new-user2.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/course-view-new-user2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="134" selection-start="4047" selection-end="4047" vertical-scroll-proportion="-13.115385">
+            <state line="5" column="54" selection-start="332" selection-end="332" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test-admin2.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test-admin2.html">
+      <file leaf-file-name="course-view-new-user3.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/course-view-new-user3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="995" column="46" selection-start="39118" selection-end="39118" vertical-scroll-proportion="12.947369">
+            <state line="4" column="72" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="course-view-new-user4.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/course-view-new-user4.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="67" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="course-view-new-user-statistic.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/course-view-new-user-statistic.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="428" column="21" selection-start="18025" selection-end="18025" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="course-view-new-vopros-statistic.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/course-view-new-vopros-statistic.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="956" column="62" selection-start="37899" selection-end="37899" vertical-scroll-proportion="0.33333334">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="print-stat.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/print-stat.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="136" column="1" selection-start="2692" selection-end="2692" vertical-scroll-proportion="-3.68">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="course-view-new-user-progress1.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/course-view-new-user-progress1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="27" selection-start="1085" selection-end="1085" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -110,7 +143,7 @@
       <file leaf-file-name="new.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/new.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="61" selection-start="428" selection-end="428" vertical-scroll-proportion="-4.76">
+            <state line="475" column="0" selection-start="16400" selection-end="16400" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -135,22 +168,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/view-quesfull-2.html" />
         <option value="$PROJECT_DIR$/course-view-new-vopros-statistic2.html" />
         <option value="$PROJECT_DIR$/js/test-view.js" />
         <option value="$PROJECT_DIR$/otchet_new.html" />
-        <option value="$PROJECT_DIR$/course-view-new-vopros-statistic.html" />
         <option value="$PROJECT_DIR$/css/base.dialog.assign.css" />
         <option value="$PROJECT_DIR$/css/test-questions-view.css" />
         <option value="$PROJECT_DIR$/css/otchet.css" />
         <option value="$PROJECT_DIR$/course-view-new-statistic.html" />
-        <option value="$PROJECT_DIR$/course-view-new-user-statistic.html" />
-        <option value="$PROJECT_DIR$/test-user.html" />
         <option value="$PROJECT_DIR$/test-admin.html" />
         <option value="$PROJECT_DIR$/test-admin2.html" />
+        <option value="$PROJECT_DIR$/course-view-new-user-statistic.html" />
+        <option value="$PROJECT_DIR$/test-user.html" />
         <option value="$PROJECT_DIR$/css/new-user.css" />
-        <option value="$PROJECT_DIR$/js/new.js" />
         <option value="$PROJECT_DIR$/test-user2.html" />
+        <option value="$PROJECT_DIR$/js/new.js" />
+        <option value="$PROJECT_DIR$/css/print-stat.css" />
+        <option value="$PROJECT_DIR$/course-view-new-vopros-statistic.html" />
       </list>
     </option>
   </component>
@@ -158,8 +191,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="876" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -270,6 +303,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="tb_courses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tb_courses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tb_courses" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -748,43 +795,35 @@
       <updated>1365532082854</updated>
     </task>
     <task id="LOCAL-00102" summary="test-user-1&#10;">
-      <created>1365683136343</created>
-      <updated>1365683136343</updated>
+      <created>1365532101352</created>
+      <updated>1365532101352</updated>
     </task>
-    <task id="LOCAL-00103" summary="test-user-1&#10;">
-      <created>1365684138887</created>
-      <updated>1365684138887</updated>
-    </task>
-    <task id="LOCAL-00104" summary="test-user-1&#10;">
-      <created>1365685377981</created>
-      <updated>1365685377981</updated>
-    </task>
-    <option name="localTasksCounter" value="105" />
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26632848" sideWeight="0.3603352" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.271035" sideWeight="0.35958904" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282123" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6396648" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32820514" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.64041096" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -862,9 +901,25 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/old_pages/course-view.html">
+    <entry file="file://$PROJECT_DIR$/course-view-new-vopros-statistic.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="1008" column="26" selection-start="38966" selection-end="38966" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course-view-new-user-progress1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="27" selection-start="1085" selection-end="1085" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/new.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="467" column="0" selection-start="16134" selection-end="16134" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/course-view-new-user-admin.html">
@@ -903,65 +958,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/course-view-new-user-progress1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="27" selection-start="1085" selection-end="1085" vertical-scroll-proportion="0.026898734">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/course-view-new-vopros-statistic.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1008" column="26" selection-start="38966" selection-end="38966" vertical-scroll-proportion="0.026898734">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/course-view-new-user-statistic.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="352" column="21" selection-start="16011" selection-end="16011" vertical-scroll-proportion="-0.65384614">
+        <state line="428" column="21" selection-start="18025" selection-end="18025" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-user.html">
+    <entry file="file://$PROJECT_DIR$/course-view-new-user-progress1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="89" selection-start="4510" selection-end="4510" vertical-scroll-proportion="-3.8431373">
+        <state line="18" column="27" selection-start="1085" selection-end="1085" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-admin.html">
+    <entry file="file://$PROJECT_DIR$/images/green_bg_button.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/new.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="134" selection-start="4047" selection-end="4047" vertical-scroll-proportion="-13.115385">
+        <state line="475" column="0" selection-start="16400" selection-end="16400" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/new-user.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1825" column="18" selection-start="36215" selection-end="36215" vertical-scroll-proportion="-10.04">
+        <state line="116" column="24" selection-start="2435" selection-end="2435" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/new.js">
+    <entry file="file://$PROJECT_DIR$/css/print-stat.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="61" selection-start="428" selection-end="428" vertical-scroll-proportion="-4.76">
+        <state line="136" column="1" selection-start="2692" selection-end="2692" vertical-scroll-proportion="-3.68">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-admin2.html">
+    <entry file="file://$PROJECT_DIR$/course-view-new-vopros-statistic.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="995" column="46" selection-start="39118" selection-end="39118" vertical-scroll-proportion="12.947369">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test-user2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="0" selection-start="5311" selection-end="5311" vertical-scroll-proportion="0.33333334">
+        <state line="956" column="62" selection-start="37899" selection-end="37899" vertical-scroll-proportion="0.33333334">
           <folding />
         </state>
       </provider>

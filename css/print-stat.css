@@ -1,0 +1,160 @@
+#header, .central-block, #questSearch, .action-list, #all-answers .table-quests .answer-quest .name-answer span, .dialog-assign a.btn-blue-assign,
+.set-ball, .type-quest .connect  {
+    display: none;
+}
+
+/*.central-block {*/
+/*display: none;*/
+/*}*/
+
+.fiter-quest, .show-all-quest, .search-quest {
+    visibility: hidden;
+}
+
+.dialog-assign.test-dialog h2.open-quest {
+    padding-left: 0 !important;
+    margin: 0 0 20px;
+    background: none;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.dialog-assign {
+    padding: 0 !important;
+    border: 0;
+    height: auto !important;
+    background: transparent;
+}
+
+#all-answers .quest-info a.quest-name {
+    padding-left: 30px;
+}
+
+#all-answers .quest-info a.quest-name  i {
+    left: 0;
+}
+
+.jspContainer {
+    height: auto !important;
+}
+
+.dialog-assign .table-quests .scroll {
+    overflow: visible;
+    height: auto !important;
+}
+
+.jspPane {
+    padding: 0px !important;
+    top: 0px !important;
+    position: relative !important;
+    height: auto !important;
+}
+
+#all-answers .table-quests .answer-quest .name-answer {
+    font-weight: normal;
+}
+
+#all-answers .table-quests .answer-quest .name-answer strong {
+    display: block;
+}
+
+.dialog-assign.test-dialog .attention:after {
+    content: '!';
+}
+
+#all-answers .table-quests .answer-info {
+    display: block !important;
+}
+
+.dialog-assign .table-quests .answer-quest.active .user-quest, .dialog-assign .table-quests .answer-quest.active .answer-info {
+    background: transparent;
+}
+
+.dialog-assign .table-quests .answer-quest.active .answer-info {
+    display: block !important;
+    border-bottom: 1px solid #000;
+}
+
+.dialog-assign .table-quests .answer-info {
+    display: block !important;
+    border-bottom: 1px solid #000;
+}
+
+.dialog-assign.test-dialog .quest-info .time {
+    padding-left: 0;
+}
+
+.dialog-assign .table-quests .answer-info .user-answer {
+    border: 0;
+    padding: 4px 0;
+    box-shadow: none;
+
+}
+
+.type-quest .panel {
+    padding-left: 0 !important;
+    border: 0 !important;
+    box-shadow: none !important;
+    background: none;
+}
+
+.type-quest.onechoice .panel i {
+    display: none !important;
+    background: transparent;
+}
+
+.type-quest .panel.green {
+    text-decoration: underline;
+}
+
+.type-quest .panel.active {
+    font-weight: bold;
+}
+
+.type-quest .panel.red {
+    text-decoration: line-through;
+}
+
+.type-quest.multichoice .panel {
+    padding-left: 45px !important;
+    margin-left: -45px;
+}
+
+.dialog-assign .table-quests .answer-quest {
+
+}
+
+#all-answers .table-quests .answer-info {
+    border-bottom: 1px dashed #000;
+}
+
+.dialog-assign .table-quests .head-quests {
+    color: #000;
+}
+
+#all-answers .table-quests .answer-quest .num-quest {
+    color: #000;
+}
+
+.type-quest.imagefind .panel {
+    background: #fff;
+    padding-left: 7px !important;
+}
+
+.dialog-assign .table-quests .head-quests {
+    border-bottom: 1px solid #000 !important;
+}
+
+#all-answers .table-quests .answer-quest.active .name-answer strong {
+    font-weight: normal;
+}
+
+.dialog-assign .table-quests .head-quests {
+    height: 36px;
+    font-size: 11px;
+    color: #000;
+    line-height: 15px;
+    background: url("../images/bg/dashed.png") repeat-x bottom;
+    border-bottom: 1px solid #000 !important;
+    margin-bottom: 5px;
+}
