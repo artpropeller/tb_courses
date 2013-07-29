@@ -2031,3 +2031,13 @@ body, html, #main {
 #course-view-new-user.test-admin a.button-blue i.view{
     background: url("../images/ico-tv-play.png") no-repeat;
 }
+
+/*last change for print*/
+
+.h-print{
+    display: none;
+}
+
+
+
+

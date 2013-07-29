@@ -13,11 +13,12 @@
 
 .dialog-assign.test-dialog h2.open-quest {
     padding-left: 0 !important;
-    margin: 0 0 20px;
+    margin: 0;
     background: none;
     font-size: 20px;
     line-height: 40px;
 }
+
 
 .dialog-assign {
     padding: 0 !important;
@@ -58,9 +59,6 @@
     display: block;
 }
 
-.dialog-assign.test-dialog .attention:after {
-    content: '!';
-}
 
 #all-answers .table-quests .answer-info {
     display: block !important;
@@ -157,4 +155,53 @@
     background: url("../images/bg/dashed.png") repeat-x bottom;
     border-bottom: 1px solid #000 !important;
     margin-bottom: 5px;
+}
+
+
+.h-print{
+    display: inline;
+}
+
+
+.dialog-assign.test-dialog .quest-info .quest-parameters{
+    color: #000;
+}
+
+
+.dialog-assign.test-dialog .quest-name .attention{
+    display: none;
+}
+
+
+.h-print.data{
+    display: block;
+    background: #000;
+    margin-bottom: 20px;
+}
+
+.result-user .null:after{
+    content: 'X';
+    color: #000;
+    display: block;
+    font-weight: bold;
+    text-indent: 0;
+
+}
+
+
+.dialog-assign .table-quests{
+    position: relative;
+    top: -40px;
+
+}
+
+
+#all-answers .table-quests .head-quests{
+    width: 844px;
+    white-space: nowrap;
+}
+
+
+.dialog-assign.test-dialog .parameters-user{
+    color: #000;
 }
