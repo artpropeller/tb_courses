@@ -1,0 +1,264 @@
+.ico-buttons {
+    padding-bottom: 10px;
+}
+
+#report #course-assign{
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+.ico-buttons a {
+    display: block;
+    float: left;
+    padding: 5px 6px;
+    border: 1px solid transparent;
+    border-radius: 2px;
+
+}
+
+.ico-buttons span {
+    display: block;
+    overflow: hidden;
+    text-indent: 100px;
+}
+
+.ico-buttons .loads span {
+    background: url("../images/ico-load-new.png") no-repeat;
+    width: 14px;
+    height: 16px;
+
+}
+
+.ico-buttons .graf {
+    margin-right: 20px;
+}
+
+.ico-buttons .graf span {
+    background: url("../images/ico-graf-new.png") no-repeat;
+    width: 14px;
+    height: 16px;
+
+}
+
+.ico-buttons a:hover {
+    background: url("../images/new-grad-bg.png") repeat-x;
+    border: 1px solid #c7c7c7;
+}
+
+.dialog-assign .table-quests .head-quests .name {
+    padding-left: 35px;
+    width: 465px;
+}
+
+.dialog-assign .table-quests .head-quests .quest-number {
+    width: 215px;
+
+}
+
+.parameters {
+    padding: 0 0 30px 30px;
+}
+
+.parameters .amount {
+    font-size: 14px;
+    color: #6b6b6b;
+    padding: 2px 20px 3px 0;
+    margin-right: 20px;
+    border-right: 1px solid #c7c7c7;
+}
+
+.parameters .percent {
+    font-size: 14px;
+    color: #6b6b6b;
+    padding: 2px 5px 3px 0;
+
+}
+
+.parameters .inparr {
+    width: 72px;
+    height: 27px;
+    background: url("../images/bg_arr_input.jpg") repeat-x top;
+    float: left;
+    border-radius: 2px;
+    border: 1px solid #bcbcbc;
+    box-shadow: 0 0 3px #ccc;
+    position: relative;
+    margin-top: -4px;
+    margin-bottom: -5px;
+    margin-left: 7px;
+
+}
+
+.parameters .inparr span {
+    display: block;
+    height: 24px;
+    border-right: 1px solid #bcbcbc;
+    width: 51px;
+    line-height: 16px;
+    text-align: center;
+    color: #313131;
+    font-size: 16px;
+    padding-top: 4px;
+}
+
+.parameters .inparr span input {
+    border: none;
+    background: none;
+    font-size: 14px;
+    line-height: 18px;
+    color: #555555;
+    width: 29px;
+    padding: 0;
+    text-align: center;
+    margin: 0 -1px 0 0;
+}
+
+.parameters .inparr.two {
+    margin-left: 0;
+}
+
+.parameters .inparr .up {
+    width: 20px;
+    height: 13px;
+    border-bottom: 1px solid #bcbcbc;
+    position: absolute;
+    box-shadow: 0 1px 0 #fff;
+    top: 0;
+    right: 0;
+    background: url("../images/arr_input.png") no-repeat top left;
+}
+
+.parameters .inparr .down {
+    width: 20px;
+    height: 13px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: url("../images/arr_input.png") no-repeat top right;
+}
+
+.parameters em {
+    display: block;
+    float: left;
+    padding: 0 4px 0 3px;
+}
+
+.parameters .inparr .up:hover, .parameters .inparr .down:hover {
+    background-color: #fff;
+}
+
+.dialog-assign .blocks {
+    background: url("../images/bg/dashed.png") repeat-x bottom;
+    overflow: auto;
+    padding: 5px 0 5px;
+}
+
+.dialog-assign .blocks .inner {
+    height: auto;
+    min-height: 40px;
+    overflow: auto;
+}
+
+.dialog-assign .blocks .inner .num {
+    font-size: 12px;
+    color: #9b9b9b;
+    font-weight: bold;
+    width: 20px;
+    float: left;
+    display: block;
+    padding-top: 12px;
+    padding-left: 5px;
+}
+.dialog-assign .blocks .field {
+    float: left;
+    padding-top: 4px;
+    width: 475px;
+}
+
+.dialog-assign .blocks .field input[type=text]{
+    width: 400px;
+    padding: 0 10px;
+    font-size: 13px;
+    color: #000;
+    border: 1px solid #d3d3d3;
+    height: 28px;
+}
+
+.dialog-assign .blocks .inc{
+    float: left;
+    width: 215px;
+}
+
+.dialog-assign .blocks .inc .parameters{
+    padding: 9px 0 0 0;
+}
+
+.dialog-assign .blocks .inc .parameters span input{
+    text-align: center;
+}
+
+.dialog-assign .blocks .inc .parameters .inparr{
+    margin-left: 0;
+    float: left;
+}
+
+.dialog-assign .blocks .inc .parameters strong{
+    display: block;
+    float: left;
+    margin:  0 5px;
+    color: #bbbbbb;
+}
+
+.dialog-assign .table-quests .head-quests.sol{
+    background: none;
+    border-bottom:  1px solid #dbdbdb;
+}
+
+.dialog-assign .blocks .inc.last{
+    width: auto;
+}
+
+
+#report.dialog-assign .buttons-assign{
+    margin: 20px 0 0 0;
+}
+
+
+#report.dialog-assign .table-quests .scroll{
+    height: 100px;
+}
+
+
+#report .smoke{
+    background: url("../images/smoke-bg.png") repeat-x bottom;
+    height: 58px;
+    position: absolute;
+    left: 1px;
+    bottom: 5px;
+    width: 854px;
+
+}
+
+#report .smoke button{
+    width: 422px;
+    padding: 0 10px;
+    background: #f2f2f2;
+    border:  1px solid #c7c7c7;
+    margin: 20px 0 0 32px;
+    display: block;
+    color: #a4a4a4;
+    font-size: 13px;
+    height: 28px;
+    text-align: left;
+    cursor: pointer;
+}
+
+#report .smoke button:hover{
+    background: #fefefe;
+}
+
+#report .table-quests.resscroll-2 {
+    padding-bottom: 48px;
+    position: relative;
+}
+
+
