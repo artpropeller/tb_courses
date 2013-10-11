@@ -116,11 +116,28 @@ $(function(){
         autoReinitialiseDelay:10
     });
     api = api.data('jsp');
+
+    if ($('#report .jspPane .blocks').size()*50 < $('#report .jspContainer').height()) {
+        $('#report .smoke').css({'top':(27+$('#report .jspPane .blocks').size()*50)+'px'});
+    }
+    else {
+        $('#report .smoke').css({'top':$('#report .jspContainer').height()+27+'px'});
+    }
+
     $('#new-group').click(function(){
         $('#template-group-questions').find('.num').text($('.jspPane .blocks').size()+1+'.');
         var ht = $('#template-group-questions').html();
         $('#report .jspPane').append(ht);
-        setTimeout(function(){api.scrollToPercentY(100,400)}, 200);
+        if ($('#report .jspPane .blocks').size()*50 < $('#report .jspContainer').height()) {
+            $('#report .smoke').css({'top':(27+$('#report .jspPane .blocks').size()*50)+'px'});
+        }
+        else {
+            $('#report .smoke').css({'top':$('#report .jspContainer').height()+27+'px'});
+        }
+        setTimeout(function(){
+            api.scrollToPercentY(100,400);
+
+        }, 200);
     });
 
     $('.remove-row').live('click', function(){
@@ -130,6 +147,12 @@ $(function(){
                 $(this).find('.num').text((i+1)+'.');
             });
         });
+        if (($('#report .jspPane .blocks').size()-1)*50 < $('#report .jspContainer').height()) {
+            $('#report .smoke').animate({'top':27+($('#report .jspPane .blocks').size()-1)*50},300);
+        }
+        else {
+            $('#report .smoke').css({'top':$('#report .jspContainer').height()+27+'px'});
+        }
 
         return false;
     });
