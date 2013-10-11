@@ -128,16 +128,16 @@ $(function(){
         $('#template-group-questions').find('.num').text($('.jspPane .blocks').size()+1+'.');
         var ht = $('#template-group-questions').html();
         $('#report .jspPane').append(ht);
+        $('#report .jspPane .blocks:last').slideDown(300, function(){
+                api.scrollToPercentY(100,400);
+        });
         if ($('#report .jspPane .blocks').size()*50 < $('#report .jspContainer').height()) {
-            $('#report .smoke').css({'top':(27+$('#report .jspPane .blocks').size()*50)+'px'});
+            $('#report .smoke').animate({'top':(27+$('#report .jspPane .blocks').size()*50)+'px'}, 300);
         }
         else {
-            $('#report .smoke').css({'top':$('#report .jspContainer').height()+27+'px'});
+            $('#report .smoke').animate({'top':$('#report .jspContainer').height()+27+'px'}, 300);
         }
-        setTimeout(function(){
-            api.scrollToPercentY(100,400);
 
-        }, 200);
     });
 
     $('.remove-row').live('click', function(){
