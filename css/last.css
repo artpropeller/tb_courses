@@ -2,6 +2,11 @@
     padding-bottom: 10px;
 }
 
+#tab-question .ico-buttons {
+    margin-top: -7px;
+    padding-bottom: 5px;
+}
+
 #report #course-assign{
     font-family: 'Helvetica Neue', sans-serif;
 }
