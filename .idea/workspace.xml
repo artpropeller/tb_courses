@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/course-view-new-vopros-statistic.html" afterPath="$PROJECT_DIR$/course-view-new-vopros-statistic.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/last.css" afterPath="$PROJECT_DIR$/css/last.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/last.js" afterPath="$PROJECT_DIR$/js/last.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tb_courses.iws" />
@@ -36,7 +35,7 @@
     <file path="/dummy.xml" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1381483479373" ignored="false" />
     <file path="/new-user.css" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365518119214" ignored="false" />
     <file path="/course-view-new-statistic.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365490683502" ignored="false" />
-    <file path="/Dummy.txt" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1381484323410" ignored="false" />
+    <file path="/Dummy.txt" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1381484615672" ignored="false" />
     <file path="/course-view-new-messages-4.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365061358430" ignored="false" />
     <file path="W:/repository/teachbase_editor/js/course-edit-fn.js" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365064962800" ignored="false" />
     <file path="/course-edit-fn.js" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1365064450799" ignored="false" />
@@ -50,7 +49,7 @@
     <file path="/print-stat.css" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1372948992755" ignored="false" />
     <file path="$PROJECT_DIR$/../tb_landing/css/style.css" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1372941109149" ignored="false" />
     <file path="/start-report.html" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1381483845583" ignored="false" />
-    <file path="/last.js" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1381484260462" ignored="false" />
+    <file path="/last.js" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1381485449997" ignored="false" />
     <file path="/last.css" changelist="aa7785b9-0adb-4eed-98ae-a9eb47bf3040" time="1381484585815" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,10 +79,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="start-report.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="start-report.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/start-report.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="640" column="32" selection-start="23011" selection-end="23021" vertical-scroll-proportion="-10.615385">
+            <state line="629" column="22" selection-start="22564" selection-end="22564" vertical-scroll-proportion="0.17382812">
               <folding />
             </state>
           </provider>
@@ -98,10 +97,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="last.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="last.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/last.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="18" selection-start="91" selection-end="91" vertical-scroll-proportion="0.165692">
+            <state line="24" column="19" selection-start="395" selection-end="395" vertical-scroll-proportion="-16.32">
               <folding />
             </state>
           </provider>
@@ -137,7 +136,7 @@
       <file leaf-file-name="last.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/last.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="117" column="26" selection-start="3579" selection-end="3579" vertical-scroll-proportion="0.0">
+            <state line="112" column="56" selection-start="3458" selection-end="3458" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -193,9 +192,9 @@
         <option value="$PROJECT_DIR$/js/new.js" />
         <option value="$PROJECT_DIR$/css/print-stat.css" />
         <option value="$PROJECT_DIR$/start-report.html" />
-        <option value="$PROJECT_DIR$/js/last.js" />
         <option value="$PROJECT_DIR$/course-view-new-vopros-statistic.html" />
         <option value="$PROJECT_DIR$/css/last.css" />
+        <option value="$PROJECT_DIR$/js/last.js" />
       </list>
     </option>
   </component>
@@ -822,7 +821,11 @@
       <created>1381484328732</created>
       <updated>1381484328732</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="add trash">
+      <created>1381484624202</created>
+      <updated>1381484624203</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -953,7 +956,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/old_pages/course-assign.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="6" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0" />
+        <state line="3" column="6" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/test-assign.css">
@@ -977,13 +982,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/new.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="356" column="25" selection-start="12409" selection-end="12416" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/test-view.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="210" column="43" selection-start="7654" selection-end="7654" vertical-scroll-proportion="0.0">
@@ -998,20 +996,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/start-report.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="640" column="32" selection-start="23011" selection-end="23021" vertical-scroll-proportion="-10.615385">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/last.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="26" selection-start="3579" selection-end="3579" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/course-view-new-vopros-statistic.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1047" column="6" selection-start="42176" selection-end="42176" vertical-scroll-proportion="-5.098039">
@@ -1021,7 +1005,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/last.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="18" selection-start="91" selection-end="91" vertical-scroll-proportion="0.165692">
+        <state line="24" column="19" selection-start="395" selection-end="395" vertical-scroll-proportion="-16.32">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/new.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="356" column="25" selection-start="12409" selection-end="12416" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/last.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="112" column="56" selection-start="3458" selection-end="3458" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start-report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="629" column="22" selection-start="22564" selection-end="22564" vertical-scroll-proportion="0.17382812">
           <folding />
         </state>
       </provider>

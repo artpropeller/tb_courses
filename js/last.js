@@ -124,10 +124,13 @@ $(function(){
     });
 
     $('.remove-row').live('click', function(){
-        $(this).parents('.blocks').remove();
-        $('.jspPane .blocks').each(function(i,e){
-            $(this).find('.num').text((i+1)+'.');
+        $(this).parents('.blocks').slideUp(300, function(){
+            $(this).remove();
+            $('.jspPane .blocks').each(function(i,e){
+                $(this).find('.num').text((i+1)+'.');
+            });
         });
+
         return false;
     });
 
