@@ -163,6 +163,29 @@
     overflow: auto;
 }
 
+.dialog-assign .blocks .remove-row {
+    display: block;
+    float: right;
+    width: 28px;
+    height: 28px;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    margin: 4px 10px 0 0 ;
+
+}
+
+.dialog-assign .blocks .remove-row span {
+    background: url("../images/ico-trash-report.png") no-repeat center center;
+    width: 28px;
+    height: 28px;
+    display: block;
+}
+
+.dialog-assign .blocks .remove-row:hover {
+    background: url("../images/new-grad-bg.png") repeat-x;
+    border: 1px solid #c7c7c7;
+}
+
 .dialog-assign .blocks .inner .num {
     font-size: 12px;
     color: #9b9b9b;

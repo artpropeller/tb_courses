@@ -117,10 +117,18 @@ $(function(){
     });
     api = api.data('jsp');
     $('#new-group').click(function(){
-        $('#template-group-questions').find('.num').text($('.jspPane .blocks').size()+1);
+        $('#template-group-questions').find('.num').text($('.jspPane .blocks').size()+1+'.');
         var ht = $('#template-group-questions').html();
         $('#report .jspPane').append(ht);
         setTimeout(function(){api.scrollToPercentY(100,400)}, 200);
+    });
+
+    $('.remove-row').live('click', function(){
+        $(this).parents('.blocks').remove();
+        $('.jspPane .blocks').each(function(i,e){
+            $(this).find('.num').text((i+1)+'.');
+        });
+        return false;
     });
 
 
